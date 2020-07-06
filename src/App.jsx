@@ -34,6 +34,8 @@ const messageMap = {
 
 function ScrollToTop() {
   const { pathname } = useLocation();
+  console.log('location');
+  console.log(useLocation());
 
   useEffect(
     () => {
@@ -50,6 +52,8 @@ export default function App() {
   const locale = 'en';
 
   const routerBasename = __DEV__ ? '/' : '/wildbook.org'; // for gh-pages prod
+
+  console.log('routerbasename', routerBasename);
 
   return (
     <ThemeProvider theme={theme}>
