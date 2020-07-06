@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Avenir Next'),
+    url('./AvenirNext-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Avenir Next'),
+    url('./AvenirNext-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Avenir Next Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Avenir Next Condensed'),
+    url('./AvenirNextCondensed-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Avenir Next Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Avenir Next Condensed'),
+    url('./AvenirNextCondensed-DemiBold.woff2') format('woff2');
+}
