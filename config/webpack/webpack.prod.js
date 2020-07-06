@@ -8,7 +8,7 @@ const common = require('./webpack.common.js');
 // const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const rootDir = resolve(__dirname, '../../');
-const dist = path.resolve(rootDir, 'dist');
+const outputPath = path.resolve(rootDir, 'docs'); // for gh-pages, should be restored to /dist later
 
 module.exports = merge(common, {
   mode: 'production',
@@ -17,7 +17,7 @@ module.exports = merge(common, {
     main: path.resolve(rootDir, 'src/index.jsx'),
   },
   output: {
-    path: dist,
+    path: outputPath,
     filename: '[name].js',
     chunkFilename: '[name].chunk.js',
     publicPath: '/',
