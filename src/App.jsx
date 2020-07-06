@@ -49,6 +49,8 @@ export default function App() {
   const theme = createMuiTheme(materialTheme);
   const locale = 'en';
 
+  const routerBasename = __DEV__ ? '/' : '/wildbook.org'; // for gh-pages prod
+
   return (
     <ThemeProvider theme={theme}>
       <IntlProvider
@@ -56,7 +58,7 @@ export default function App() {
         defaultLocale="en"
         messages={messageMap[locale]}
       >
-        <BrowserRouter basename="/">
+        <BrowserRouter basename={routerBasename}>
           <ScrollToTop />
           <main
             style={{
