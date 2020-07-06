@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 300;
   src: local('Avenir Next'),
-    url(/7e7d17f1836c6c8b242c01229b5e6ee7.woff2) format('woff2');
+    url(/docs/7e7d17f1836c6c8b242c01229b5e6ee7.woff2) format('woff2');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Avenir Next'),
-    url(/cc2ee424ac65c0a207f30d100a412801.woff2) format('woff2');
+    url(/docs/cc2ee424ac65c0a207f30d100a412801.woff2) format('woff2');
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 300;
   src: local('Avenir Next Condensed'),
-    url(/c269d6d43fa8329415f88ee728afc9f8.woff2) format('woff2');
+    url(/docs/c269d6d43fa8329415f88ee728afc9f8.woff2) format('woff2');
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Avenir Next Condensed'),
-    url(/b918b17c4162390458fa6b61f1d06659.woff2) format('woff2');
+    url(/docs/b918b17c4162390458fa6b61f1d06659.woff2) format('woff2');
 }
 
 

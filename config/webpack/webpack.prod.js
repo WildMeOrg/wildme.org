@@ -20,7 +20,7 @@ module.exports = merge(common, {
     path: outputPath,
     filename: '[name].js',
     chunkFilename: '[name].chunk.js',
-    publicPath: '/',
+    publicPath: '/docs/',
   },
   optimization: {
     minimizer: [
