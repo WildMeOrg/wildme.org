@@ -17,6 +17,7 @@ import AppHeader from './components/AppHeader';
 import Footer from './components/Footer';
 import FourOhFour from './pages/fourohfour/FourOhFour';
 import Splash from './pages/splash/Splash';
+import Press from './pages/press/Press';
 import materialTheme from './styles/materialTheme';
 import messagesEn from '../locale/en.json';
 import messagesEs from '../locale/es.json';
@@ -72,6 +73,9 @@ export default function App() {
           >
             <AppHeader />
             <Switch>
+              <Route path="/press">
+                <Press />
+              </Route>
               <Route path="/" exact>
                 <Splash />
               </Route>

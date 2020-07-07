@@ -1,5 +1,6 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import Divider from '@material-ui/core/Divider';
@@ -8,36 +9,106 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import Button from './Button';
 import Link from './Link';
 
-const dotSpacing = 8;
-
-const footerLinks = [
+const footerCategories = [
   {
-    labelId: 'HOME',
-    path: '/',
+    categoryId: 'about',
+    categoryLabelId: 'ABOUT',
+    entries: [
+      {
+        labelId: 'HOW_IT_WORKS',
+        path: '/how-it-works',
+      },
+      {
+        labelId: 'PRESS_&_TESTIMONIALS',
+        path: '/press',
+      },
+      {
+        labelId: 'PUBLICATIONS',
+        path: '/publications',
+      },
+      {
+        labelId: 'SPONSORS',
+        path: '/sponsors',
+      },
+      {
+        labelId: 'LEGAL',
+        path: '/legal',
+      },
+    ],
   },
   {
-    labelId: 'ABOUT',
-    path: '/about',
+    categoryId: 'projects',
+    categoryLabelId: 'PROJECTS',
+    entries: [
+      {
+        labelId: 'FLUKEBOOK',
+        path: '/flukebook',
+      },
+      {
+        labelId: 'WHALESHARK_DOT_ORG',
+        path: '/whaleshark.org',
+      },
+      {
+        labelId: 'MANTAMATCHER',
+        path: '/mantamatcher',
+      },
+      {
+        labelId: 'ALL_PROJECTS',
+        path: '/projects',
+      },
+    ],
   },
   {
-    labelId: 'PROJECTS',
-    path: '/projects',
+    categoryId: 'resources',
+    categoryLabelId: 'RESOURCES',
+    entries: [
+      {
+        labelId: 'START_A_WILDBOOK',
+        path: 'http://wiki.wildbook.org/en/researchers/overview',
+        external: true,
+      },
+      {
+        labelId: 'DOCUMENTATION',
+        path: 'http://wiki.wildbook.org/',
+        external: true,
+      },
+      {
+        labelId: 'WILD_ME_SERVICES',
+        path: '/http://www.wildme.org/services/',
+        external: true,
+      },
+    ],
   },
   {
-    labelId: 'RESOURCES',
-    path: '/resources',
-  },
-  {
-    labelId: 'SPONSORS',
-    path: '/sponsors',
-  },
-  {
-    labelId: 'LEGAL',
-    path: '/legal',
+    categoryId: 'connect',
+    categoryLabelId: 'CONNECT',
+    entries: [
+      {
+        labelId: 'CONTRIBUTE',
+        path: '/contribute',
+      },
+      {
+        labelId: 'SUPPORT_&_FEEDBACK',
+        path: 'https://community.wildbook.org/',
+        external: true,
+      },
+      {
+        labelId: 'TWITTER',
+        path: 'https://twitter.com/WildbookORG',
+        external: true,
+      },
+      {
+        labelId: 'FACEBOOK',
+        path: 'https://www.facebook.com/wildmeorg/',
+        external: true,
+      },
+    ],
   },
 ];
 
 export default function Footer() {
+  const smallScreen = useMediaQuery('(min-width:600px)');
+
   return (
     <div style={{ width: '100%', paddingBottom: 16 }}>
       <div
@@ -48,7 +119,7 @@ export default function Footer() {
           flexDirection: 'column',
           padding: '24px 12px',
           background: '#97ceff91',
-          textAlign: 'center'
+          textAlign: 'center',
         }}
       >
         <Typography>
@@ -57,34 +128,46 @@ export default function Footer() {
           <Link href="http://wildme.org/">Wild Me</Link>
           <FormattedMessage id="END_OF_SENTENCE" />
         </Typography>
-        <Button display="primary" style={{ marginTop: 20 }}><FormattedMessage id="CONTRIBUTE" /></Button>
+        <Button display="primary" style={{ marginTop: 20 }}>
+          <FormattedMessage id="CONTRIBUTE" />
+        </Button>
       </div>
       <div style={{ width: '80%', margin: '0 auto' }}>
         <div
           style={{
             display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexDirection: 'column',
-            padding: '24px 0',
+            flexDirection: smallScreen ? 'row' : 'column',
+            justifyContent: 'space-between',
+            margin: '0 4px 20px 4px',
           }}
         >
-          <Typography component="span" style={{ margin: '12px 0' }}>
-            {footerLinks.map((footerLink, i) => (
-              <React.Fragment key={footerLink.labelId}>
-                {i !== 0 && ' '}
-                <Link
-                  style={{
-                    marginRight: dotSpacing,
-                    marginLeft: dotSpacing,
-                  }}
-                  href={footerLink.path}
-                >
-                  <FormattedMessage id={footerLink.labelId} />
-                </Link>
-              </React.Fragment>
-            ))}
-          </Typography>
+          {footerCategories.map(category => {
+            return (
+              <div
+                key={category.categoryId}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  marginTop: 20,
+                }}
+              >
+                <Typography variant="subtitle1">
+                  {category.categoryLabelId}
+                </Typography>
+                {category.entries.map(entry => (
+                  <Typography key={entry.labelId}>
+                    <Link
+                      noUnderline
+                      href={entry.path}
+                      external={Boolean(entry.external)}
+                    >
+                      <FormattedMessage id={entry.labelId} />
+                    </Link>
+                  </Typography>
+                ))}
+              </div>
+            );
+          })}
         </div>
         <Divider />
         <div
