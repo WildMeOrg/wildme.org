@@ -10,9 +10,7 @@ import App from './App';
 
 const root = document.getElementById('root');
 
-const Main = hot(() => (
-  <App />
-));
+const Main = hot(() => <App />);
 
 const load = () => render(<Main />, root);
 

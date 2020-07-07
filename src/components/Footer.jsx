@@ -10,10 +10,36 @@ import Link from './Link';
 
 const dotSpacing = 8;
 
+const footerLinks = [
+  {
+    labelId: 'HOME',
+    path: '/',
+  },
+  {
+    labelId: 'ABOUT',
+    path: '/about',
+  },
+  {
+    labelId: 'PROJECTS',
+    path: '/projects',
+  },
+  {
+    labelId: 'RESOURCES',
+    path: '/resources',
+  },
+  {
+    labelId: 'SPONSORS',
+    path: '/sponsors',
+  },
+  {
+    labelId: 'LEGAL',
+    path: '/legal',
+  },
+];
+
 export default function Footer() {
   return (
     <div style={{ width: '100%', paddingBottom: 16 }}>
-      <Divider />
       <div
         style={{
           display: 'flex',
@@ -21,56 +47,45 @@ export default function Footer() {
           justifyContent: 'center',
           flexDirection: 'column',
           padding: '24px 12px',
+          background: '#97ceff91',
+          textAlign: 'center'
         }}
       >
         <Typography>
-          <FormattedMessage id="FLUKEBOOK_IS_AN_INSTANCE_OF" />
-          <Link href="http://wildbook.org/">Wildbook</Link>
-          <FormattedMessage id="CREATED_BY_THE_FOLKS_AT" />
+          Wildbook
+          <FormattedMessage id="OPEN_SOURCE_SOFTWARE_CREATED_BY" />
           <Link href="http://wildme.org/">Wild Me</Link>
           <FormattedMessage id="END_OF_SENTENCE" />
         </Typography>
-        <Typography style={{ marginTop: 16 }}>
-          <Link
-            style={{ marginRight: dotSpacing }}
-            href="http://wiki.wildbook.org/contact-us"
-            external
-          >
-            <FormattedMessage id="CONTACT" />
-          </Link>
-          {' • '}
-          <Link
-            href="http://wiki.wildbook.org/legal"
-            external
-            style={{
-              marginRight: dotSpacing,
-              marginLeft: dotSpacing,
-            }}
-          >
-            <FormattedMessage id="LEGAL" />
-          </Link>
-          {' • '}
-          <Link
-            href="http://wiki.wildbook.org/"
-            external
-            style={{
-              marginRight: dotSpacing,
-              marginLeft: dotSpacing,
-            }}
-          >
-            <FormattedMessage id="DOCS" />
-          </Link>
-          {' • '}
-          <Link
-            href="https://community.wildbook.org/"
-            external
-            style={{ marginLeft: dotSpacing }}
-          >
-            <FormattedMessage id="COMMUNITY" />
-          </Link>
-        </Typography>
+        <Button display="primary" style={{ marginTop: 20 }}><FormattedMessage id="CONTRIBUTE" /></Button>
       </div>
       <div style={{ width: '80%', margin: '0 auto' }}>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            padding: '24px 0',
+          }}
+        >
+          <Typography component="span" style={{ margin: '12px 0' }}>
+            {footerLinks.map((footerLink, i) => (
+              <React.Fragment key={footerLink.labelId}>
+                {i !== 0 && ' '}
+                <Link
+                  style={{
+                    marginRight: dotSpacing,
+                    marginLeft: dotSpacing,
+                  }}
+                  href={footerLink.path}
+                >
+                  <FormattedMessage id={footerLink.labelId} />
+                </Link>
+              </React.Fragment>
+            ))}
+          </Typography>
+        </div>
         <Divider />
         <div
           style={{
