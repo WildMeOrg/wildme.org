@@ -18,15 +18,6 @@ const press = [
     'wildbook, ai ',
   ],
   [
-    'The battle against wildlife poachers is increasingly high-tech',
-    'Al Jazeera',
-    '2019-09-11',
-    'Lucy Sheriff',
-    'article',
-    'https://www.aljazeera.com/ajimpact/battle-wildlife-poachers-increasingly-high-tech-190911144002627.html',
-    ' ',
-  ],
-  [
     'Artificial intelligence adds value in the Wild',
     'ITWeb (South Africa)',
     '2019-07-09',

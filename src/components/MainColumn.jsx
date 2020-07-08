@@ -7,7 +7,7 @@ export default function({ children, style, ...rest }) {
         margin: '64px auto 200px auto',
         width: '100%',
         position: 'relative',
-        maxWidth: 851,
+        maxWidth: 1000,
         ...style,
       }}
       {...rest}

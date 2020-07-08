@@ -42,15 +42,15 @@ const footerCategories = [
     entries: [
       {
         labelId: 'FLUKEBOOK',
-        path: '/flukebook',
+        path: '/projects/flukebook',
       },
       {
         labelId: 'WHALESHARK_DOT_ORG',
-        path: '/whaleshark.org',
+        path: '/projects/whaleshark.org',
       },
       {
         labelId: 'MANTAMATCHER',
-        path: '/mantamatcher',
+        path: '/projects/mantamatcher',
       },
       {
         labelId: 'ALL_PROJECTS',

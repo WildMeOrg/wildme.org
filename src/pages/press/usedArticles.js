@@ -12,7 +12,8 @@ const articles = [
     organization: 'The Seattle Times',
     date: 'February 29, 2020',
     logo: seattleTimesLogo,
-    excerpt: 'The Wildbook for whales, called Flukebook, encourages collaboration, which is particularly useful for whales that travel long distances because it can be difficult for one research group to effectively monitor one area.    ',
+    excerpt:
+      'The Wildbook for whales, called Flukebook, encourages collaboration, which is particularly useful for whales that travel long distances because it can be difficult for one research group to effectively monitor one area.    ',
   },
   {
     name: 'AI could be a critical tool to saving the planet',
@@ -21,7 +22,8 @@ const articles = [
     organization: 'The Guardian',
     date: 'April 30, 2019',
     logo: guardianLogo,
-    excerpt: 'Using AI to collect and curate data will also free up valuable time needed by researchers to develop and revise conservation plans to combat extinction.',
+    excerpt:
+      'Using AI to collect and curate data will also free up valuable time needed by researchers to develop and revise conservation plans to combat extinction.',
   },
   {
     name: 'AI empowers conservation biology',
@@ -30,15 +32,18 @@ const articles = [
     organization: 'Nature',
     date: 'March 4, 2019',
     logo: natureLogo,
-    excerpt: 'Wildbook uses neural networks and computer-vision algorithms to detect and count animals in images, and to identify individual animals within a species. This information enables more precise estimates of wildlife population sizes.',
+    excerpt:
+      'Wildbook uses neural networks and computer-vision algorithms to detect and count animals in images, and to identify individual animals within a species. This information enables more precise estimates of wildlife population sizes.',
   },
   {
     name: 'Tracking the Elusive Whale Shark',
-    href: 'https://www.nytimes.com/2017/11/29/science/whale-sharks.html',
+    href:
+      'https://www.nytimes.com/2017/11/29/science/whale-sharks.html',
     organization: 'The New York Times',
     date: 'November 11, 2017',
     logo: newYorkTimesLogo,
-    excerpt: 'The ability to photo-identify species — and indeed the whale shark was the first shark we could do this for — has transformed our ability to understand how many individuals are out there, who is moving where, how far do they go, and how many are staying around.',
+    excerpt:
+      'The ability to photo-identify species — and indeed the whale shark was the first shark we could do this for — has transformed our ability to understand how many individuals are out there, who is moving where, how far do they go, and how many are staying around.',
   },
 ];
 

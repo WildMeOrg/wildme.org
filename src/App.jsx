@@ -18,6 +18,10 @@ import Footer from './components/Footer';
 import FourOhFour from './pages/fourohfour/FourOhFour';
 import Splash from './pages/splash/Splash';
 import Press from './pages/press/Press';
+import Legal from './pages/legal/Legal';
+import Projects from './pages/projects/Projects';
+import ProjectPage from './pages/projects/ProjectPage';
+import projectData from './pages/projects/projectData';
 import materialTheme from './styles/materialTheme';
 import messagesEn from '../locale/en.json';
 import messagesEs from '../locale/es.json';
@@ -73,8 +77,22 @@ export default function App() {
           >
             <AppHeader />
             <Switch>
+              {projectData.map(project => (
+                <Route
+                  key={project.path}
+                  path={`/projects${project.path}`}
+                >
+                  <ProjectPage data={project} />
+                </Route>
+              ))}
+              <Route path="/projects">
+                <Projects />
+              </Route>
               <Route path="/press">
                 <Press />
+              </Route>
+              <Route path="/legal">
+                <Legal />
               </Route>
               <Route path="/" exact>
                 <Splash />

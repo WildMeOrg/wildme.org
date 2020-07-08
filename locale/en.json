@@ -22,5 +22,10 @@
     "SPONSORS": "Sponsors",
     "RESOURCES": "Resources",
     "LEGAL": "Legal",
+    "INVITE_ONLY": "Invite only",
+    "PUBLIC": "Public",
+    "WHALESHARK_DESCRIPTION": "The whaleshark.org photo-identification library is an award-winning visual database of whale shark encounters and of individually catalogued whale sharks. The library is maintained and used by marine biologists to collect and analyze whale shark sighting data to learn more about these amazing creatures.",
+    "MANTAMATCHER_DESCRIPTION": "Manta Matcher is the first global online manta ray database, managing manta ray sightings and identifications worldwide. Researchers and citizen scientists all collaborate through our Wildbook software.",
+    "FLUKEBOOK_DESCRIPTION": "Flukebook is a free, online research platform that assists the conservation of whales and dolphins by automating individual identification and providing a common data model for collaboration, saving significant time and money in the research process. Flukebook uses artificial intelligence and computer vision to help researchers rapidly curate cetacean sightings and photo-identification data across their catalogs, and it provides a portal for citizen scientists to contribute to marine conservation and follow individual animals they have met. One platform. Many species. Many researchers.",
     "LOADING": "Loading"
 }
