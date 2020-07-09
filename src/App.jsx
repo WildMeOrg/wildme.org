@@ -19,6 +19,7 @@ import FourOhFour from './pages/fourohfour/FourOhFour';
 import Splash from './pages/splash/Splash';
 import Press from './pages/press/Press';
 import Legal from './pages/legal/Legal';
+import Publications from './pages/publications/Publications';
 import Projects from './pages/projects/Projects';
 import ProjectPage from './pages/projects/ProjectPage';
 import projectData from './pages/projects/projectData';
@@ -90,6 +91,9 @@ export default function App() {
               </Route>
               <Route path="/press">
                 <Press />
+              </Route>
+              <Route path="/publications">
+                <Publications />
               </Route>
               <Route path="/legal">
                 <Legal />

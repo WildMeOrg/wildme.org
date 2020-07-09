@@ -9,7 +9,7 @@ import MainColumn from '../../components/MainColumn';
 import Link from '../../components/Link';
 import projectData from './projectData';
 
-export default function Legal() {
+export default function Projects() {
   return (
     <MainColumn>
       <Typography
@@ -24,17 +24,19 @@ export default function Legal() {
             <Card style={{ width: 300 }}>
               <CardActionArea>
                 <Link noUnderline href={`projects${project.path}`}>
-                <CardMedia
-                  style={{ height: 200 }}
-                  image={project.bannerSmall}
-                  title={project.name}
-                />
-                <CardContent>
-                  <Typography variant="h5">{project.name}</Typography>
-                  <Typography>{`${
-                    project.sightings
-                  } sightings`}</Typography>
-                </CardContent>
+                  <CardMedia
+                    style={{ height: 200 }}
+                    image={project.bannerSmall}
+                    title={project.name}
+                  />
+                  <CardContent>
+                    <Typography variant="h5">
+                      {project.name}
+                    </Typography>
+                    <Typography>{`${
+                      project.sightings
+                    } sightings`}</Typography>
+                  </CardContent>
                 </Link>
               </CardActionArea>
             </Card>
