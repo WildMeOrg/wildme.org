@@ -48,7 +48,7 @@ export default function Publications() {
             <Select
               native
               value={selectedTag}
-              onChange={(e) => {
+              onChange={e => {
                 setSelectedTag(e.target.value);
               }}
               inputProps={{
@@ -57,7 +57,11 @@ export default function Publications() {
               }}
             >
               <option aria-label="None" value="" />
-              {Object.values(tags).map(tag => <option key={tag.id} value={tag.id}>{intl.formatMessage({ id: tag.labelId })}</option>)}
+              {Object.values(tags).map(tag => (
+                <option key={tag.id} value={tag.id}>
+                  {intl.formatMessage({ id: tag.labelId })}
+                </option>
+              ))}
             </Select>
           </FormControl>
         </Grid>

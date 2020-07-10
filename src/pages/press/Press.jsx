@@ -21,7 +21,7 @@ export default function Press() {
         style={{ padding: '30px 0' }}
       >
         {articles.map((article, i) => (
-          <Grid item>
+          <Grid item key={article.name}>
             {i !== 0 && (
               <Divider
                 style={{ width: '75%', margin: '40px auto' }}

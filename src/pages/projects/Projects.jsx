@@ -20,7 +20,7 @@ export default function Projects() {
       </Typography>
       <Grid container spacing={4} style={{ padding: '30px 0' }}>
         {projectData.map(project => (
-          <Grid item>
+          <Grid key={project.name} item>
             <Card style={{ width: 300 }}>
               <CardActionArea>
                 <Link noUnderline href={`projects${project.path}`}>

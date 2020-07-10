@@ -4,6 +4,16 @@ import whalesharkBannerLarge from '../../assets/whaleshark-banner-large.jpg';
 import whalesharkBannerSmall from '../../assets/whaleshark-banner-small.jpg';
 import mantaBannerLarge from '../../assets/mantamatcher-banner-large.jpg';
 import mantaBannerSmall from '../../assets/mantamatcher-banner-small.jpg';
+import giraffeBannerLarge from '../../assets/giraffespotter-banner-large.jpg';
+import giraffeBannerSmall from '../../assets/giraffespotter-banner-small.jpg';
+import iotBannerLarge from '../../assets/turtle-banner-large.jpg';
+import iotBannerSmall from '../../assets/turtle-banner-small.jpg';
+import zebraBannerLarge from '../../assets/zebra-banner-large.jpg';
+import zebraBannerSmall from '../../assets/zebra-banner-small.jpg';
+import lynxBannerLarge from '../../assets/lynx-banner-large.jpg';
+import lynxBannerSmall from '../../assets/lynx-banner-small.jpg';
+import jaguarBannerLarge from '../../assets/jaguar-banner-large.jpg';
+import jaguarBannerSmall from '../../assets/jaguar-banner-small.jpg';
 import noaaLogo from '../../assets/noaa-logo.png';
 import dwspLogo from '../../assets/dswp-logo.png';
 import neaqLogo from '../../assets/neaq-logo.jpg';
@@ -17,7 +27,8 @@ const projectData = [
     path: '/flukebook',
     href: 'https://flukebook.org/',
     inviteOnly: true,
-    inviteContact: 'drew@wildme.org',
+    adminName: 'Drew Blount',
+    adminContact: 'drew@wildme.org',
     bannerLarge: flukebookBannerLarge,
     bannerSmall: flukebookBannerSmall,
     descriptionId: 'FLUKEBOOK_DESCRIPTION',
@@ -186,7 +197,8 @@ const projectData = [
     path: '/whaleshark',
     href: 'https://whaleshark.org/',
     inviteOnly: true,
-    inviteContact: 'jason@wildme.org',
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
     bannerLarge: whalesharkBannerLarge,
     bannerSmall: whalesharkBannerSmall,
     descriptionId: 'WHALESHARK_DESCRIPTION',
@@ -214,7 +226,8 @@ const projectData = [
     path: '/mantamatcher',
     href: 'https://mantamatcher.org/',
     inviteOnly: true,
-    inviteContact: 'jason@wildme.org',
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
     bannerLarge: mantaBannerLarge,
     bannerSmall: mantaBannerSmall,
     descriptionId: 'MANTAMATCHER_DESCRIPTION',
@@ -246,6 +259,231 @@ const projectData = [
       {
         name: 'Himantura uarnak',
         alias: 'Honeycomb whipray',
+      },
+    ],
+  },
+  {
+    name: 'GiraffeSpotter',
+    path: '/giraffespotter',
+    href: 'https://giraffespotter.org/',
+    inviteOnly: true,
+    adminName: 'Jon Van Oast',
+    adminContact: 'jon@wildme.org',
+    bannerLarge: giraffeBannerLarge,
+    bannerSmall: giraffeBannerSmall,
+    descriptionId: 'GIRAFFESPOTTER_DESCRIPTION',
+    sightings: 20379,
+    individuals: 6801,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Giraffa reticulata',
+        alias: 'Reticulated giraffe',
+      },
+      {
+        name: 'Giraffa camelopardalis peralta',
+        alias: 'West African giraffe',
+      },
+      {
+        name: 'Giraffa giraffa angolensis',
+        alias: 'Angolan giraffe',
+      },
+      {
+        name: 'Giraffa tippelskirchi',
+        alias: 'Masai giraffe',
+      },
+      {
+        name: 'Giraffa camelopardalis',
+        alias: 'Northern giraffe',
+      },
+    ],
+  },
+  {
+    name: 'Internet of Turtles',
+    path: '/iot',
+    href: 'https://iot.wildbook.org/',
+    inviteOnly: true,
+    adminName: 'Colin Kingen',
+    adminContact: 'colin@wildme.org',
+    bannerLarge: iotBannerLarge,
+    bannerSmall: iotBannerSmall,
+    descriptionId: 'IOT_DESCRIPTION',
+    sightings: 37149,
+    individuals: 6775,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Chelonia mydas',
+        alias: 'Green turtle',
+      },
+      {
+        name: 'Eretmochelys imbricata',
+        alias: 'Hawksbill turtle',
+      },
+      {
+        name: 'Caretta caretta',
+        alias: 'Loggerhead turtle',
+      },
+      {
+        name: 'Lepidochelys olivacea',
+        alias: 'Olive Ridley turtle',
+      },
+      {
+        name: 'Giraffa camelopardalis',
+        alias: 'Leatherback turtle',
+      },
+    ],
+  },
+  {
+    name: 'Wildbook for Zebras',
+    path: '/zebra',
+    href: 'https://zebra.wildbook.org/',
+    inviteOnly: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: zebraBannerLarge,
+    bannerSmall: zebraBannerSmall,
+    descriptionId: 'ZEBRA_DESCRIPTION',
+    sightings: 28520,
+    individuals: 8280,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Equus quagga',
+        alias: 'Plains zebra',
+      },
+      {
+        name: 'Equus grevyi',
+        alias: "Grevyi's zebra",
+      },
+    ],
+  },
+  {
+    name: 'Wildbook for Lynx',
+    path: '/lynx',
+    href: 'https://lynx.wildbook.org/',
+    inviteOnly: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: lynxBannerLarge,
+    bannerSmall: lynxBannerSmall,
+    descriptionId: 'LYNX_DESCRIPTION',
+    sightings: 22479,
+    individuals: 558,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Lynx pardinus',
+        alias: 'Iberian lynx',
+      },
+    ],
+  },
+  {
+    name: 'Spotting Giant Sea Bass',
+    path: '/bass',
+    href: 'https://spottinggiantseabass.msi.ucsb.edu/',
+    inviteOnly: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: lynxBannerLarge,
+    bannerSmall: lynxBannerSmall,
+    descriptionId: 'BASS_DESCRIPTION',
+    sightings: 607,
+    individuals: null,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Stereolepis gigas',
+        alias: 'Giant sea bass',
+      },
+    ],
+  },
+  {
+    name: 'Spot a Shark',
+    path: '/spotashark',
+    href: 'https://spotashark.com/',
+    inviteOnly: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: lynxBannerLarge,
+    bannerSmall: lynxBannerSmall,
+    descriptionId: 'SPOT_A_SHARK_DESCRIPTION',
+    sightings: null,
+    individuals: null,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Carcharias taurus',
+        alias: 'Sand tiger shark',
+      },
+    ],
+  },
+  {
+    name: 'Spot a Shark USA',
+    path: '/spotasharkusa',
+    href: 'https://spotasharkusa.com/',
+    inviteOnly: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: lynxBannerLarge,
+    bannerSmall: lynxBannerSmall,
+    descriptionId: 'SPOT_A_SHARK_USA_DESCRIPTION',
+    sightings: null,
+    individuals: null,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Carcharias taurus',
+        alias: 'Sand tiger shark',
+      },
+    ],
+  },
+  {
+    name: 'Wildbook for Jaguars',
+    path: '/jaguar',
+    href: 'https://jaguar.wildbook.com/',
+    inviteOnly: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: jaguarBannerLarge,
+    bannerSmall: jaguarBannerSmall,
+    descriptionId: 'JAGUAR_DESCRIPTION',
+    sightings: 925,
+    individuals: 129,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Panthera onca',
+        alias: 'Jaguar',
+      },
+    ],
+  },
+  {
+    name: 'Saimaa Seal',
+    path: '/saimaaseal',
+    href: 'https://norppagalleria.wwf.fi/',
+    inviteOnly: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: jaguarBannerLarge,
+    bannerSmall: jaguarBannerSmall,
+    descriptionId: 'SAIMAA_SEAL_DESCRIPTION',
+    sightings: 4559,
+    individuals: 446,
+    partners: [
+    ],
+    species: [
+      {
+        name: 'Pusa hispida saimensis',
+        alias: 'Saimaa ringed seal',
       },
     ],
   },

@@ -46,7 +46,7 @@ const footerCategories = [
       },
       {
         labelId: 'WHALESHARK_DOT_ORG',
-        path: '/projects/whaleshark.org',
+        path: '/projects/whaleshark',
       },
       {
         labelId: 'MANTAMATCHER',
@@ -74,7 +74,7 @@ const footerCategories = [
       },
       {
         labelId: 'WILD_ME_SERVICES',
-        path: '/http://www.wildme.org/services/',
+        path: 'http://www.wildme.org/services/',
         external: true,
       },
     ],

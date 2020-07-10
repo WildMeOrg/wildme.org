@@ -281,65 +281,86 @@ const publications = [
   },
   {
     tags: [],
-    href: 'https://wildlife.onlinelibrary.wiley.com/doi/abs/10.1002/wsb.1086',
-    citation: 'Nipko R., Holcombe B., and Kelly M. (2020) Identifying Individual Jaguars and Ocelots via Pattern‐Recognition Software: Comparing HotSpotter and Wild‐ID. The Wildlife Society Bulletin. https://doi.org/10.1002/wsb.1086',
+    href:
+      'https://wildlife.onlinelibrary.wiley.com/doi/abs/10.1002/wsb.1086',
+    citation:
+      'Nipko R., Holcombe B., and Kelly M. (2020) Identifying Individual Jaguars and Ocelots via Pattern‐Recognition Software: Comparing HotSpotter and Wild‐ID. The Wildlife Society Bulletin. https://doi.org/10.1002/wsb.1086',
   },
   {
     tags: [],
-    href: 'https://journals.plos.org/plosone/article/citation?id=10.1371/journal.pone.0214269',
-    citation: 'Koivuniemi M, Kurkilahti M, Niemi M, Auttila M, Kunnasranta M (2019) A mark–recapture approach for estimating population size of the endangered ringed seal (Phoca hispida saimensis). PLOS ONE 14(3): e0214269. https://doi.org/10.1371/journal.pone.0214269',
+    href:
+      'https://journals.plos.org/plosone/article/citation?id=10.1371/journal.pone.0214269',
+    citation:
+      'Koivuniemi M, Kurkilahti M, Niemi M, Auttila M, Kunnasranta M (2019) A mark–recapture approach for estimating population size of the endangered ringed seal (Phoca hispida saimensis). PLOS ONE 14(3): e0214269. https://doi.org/10.1371/journal.pone.0214269',
   },
   {
     tags: [],
-    href: 'https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.2687',
-    citation: 'Paxton, A. B., Blair, E., Blawas, C., Fatzinger, M. H., Marens, M., Holmberg, J., Kingen, C., Houppermans, T., Keusenkothen, M., McCord, J., Silliman, B. R., and Penfold, L. M.. 2019. Citizen science reveals female sand tiger sharks (Carcharias taurus) exhibit signs of site fidelity on shipwrecks. Ecology 00( 00):e02687. 10.1002/ecy.2687',
+    href:
+      'https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.2687',
+    citation:
+      'Paxton, A. B., Blair, E., Blawas, C., Fatzinger, M. H., Marens, M., Holmberg, J., Kingen, C., Houppermans, T., Keusenkothen, M., McCord, J., Silliman, B. R., and Penfold, L. M.. 2019. Citizen science reveals female sand tiger sharks (Carcharias taurus) exhibit signs of site fidelity on shipwrecks. Ecology 00( 00):e02687. 10.1002/ecy.2687',
   },
   {
     tags: [tags.mantamatcher],
-    href: 'https://mbr.biomedcentral.com/articles/10.1186/s41200-019-0162-9',
-    citation: 'Arauz R , Chávez E, Hoyos-Padilla EM, and Marshall AD. First record of the reef manta ray, Mobula alfredi, from the eastern Pacific. Marine Biodiversity Records 2019 12:3 https://doi.org/10.1186/s41200-019-0162-9',
+    href:
+      'https://mbr.biomedcentral.com/articles/10.1186/s41200-019-0162-9',
+    citation:
+      'Arauz R , Chávez E, Hoyos-Padilla EM, and Marshall AD. First record of the reef manta ray, Mobula alfredi, from the eastern Pacific. Marine Biodiversity Records 2019 12:3 https://doi.org/10.1186/s41200-019-0162-9',
   },
   {
     tags: [tags.staff],
-    href: 'https://cthulhu.dyn.wildme.io/public/posters/parham_wacv_2018.pdf',
-    citation: 'Parham, Jason & Stewart, Charles & Crall, J.P. & Rubenstein, Daniel & Holmberg, Jason & Berger-Wolf, Tanya. (2018). An Animal Detection Pipeline for Identification. 1075-1083. 10.1109/WACV.2018.00123.',
+    href:
+      'https://cthulhu.dyn.wildme.io/public/posters/parham_wacv_2018.pdf',
+    citation:
+      'Parham, Jason & Stewart, Charles & Crall, J.P. & Rubenstein, Daniel & Holmberg, Jason & Berger-Wolf, Tanya. (2018). An Animal Detection Pipeline for Identification. 1075-1083. 10.1109/WACV.2018.00123.',
   },
   {
     tags: [tags.flukebook, tags.staff],
-    citation: 'Blount D, Holmberg J, and Minton G. (2018) Flukebook – A tool for cetacean photo identification, data archiving and automated fluke matching. International Whaling Commission report SC/67B/PH/03.',
+    citation:
+      'Blount D, Holmberg J, and Minton G. (2018) Flukebook – A tool for cetacean photo identification, data archiving and automated fluke matching. International Whaling Commission report SC/67B/PH/03.',
   },
   {
     tags: [tags.staff],
-    href: 'https://www.aaai.org/ocs/index.php/SSS/SSS17/paper/download/15245/14512',
-    citation: 'J. Parham, J. Crall, C. Stewart, T. Berger-Wolf and D. Rubenstein, "Animal Population Censusing at Scale with Citizen Science and Photographic Identification", AAAI 2017 Spring Symposium.',
+    href:
+      'https://www.aaai.org/ocs/index.php/SSS/SSS17/paper/download/15245/14512',
+    citation:
+      'J. Parham, J. Crall, C. Stewart, T. Berger-Wolf and D. Rubenstein, "Animal Population Censusing at Scale with Citizen Science and Photographic Identification", AAAI 2017 Spring Symposium.',
   },
   {
     tags: [tags.flukebook, tags.staff],
     href: 'https://arxiv.org/abs/1708.07785',
-    citation: 'Weideman, H.J, Z.M. Jablons, J. Holmberg, K. Flynn, J. Calambokidis, R. B. Tyson, J.B. Allen, R.S. Wells, K. Hupman, K. Urian, C.V. Stewart. 2017. Integral Curvature Representation and Matching Algorithms for Identification of Dolphins and Whales. doi: 10.1002/ar.23650',
+    citation:
+      'Weideman, H.J, Z.M. Jablons, J. Holmberg, K. Flynn, J. Calambokidis, R. B. Tyson, J.B. Allen, R.S. Wells, K. Hupman, K. Urian, C.V. Stewart. 2017. Integral Curvature Representation and Matching Algorithms for Identification of Dolphins and Whales. doi: 10.1002/ar.23650',
   },
   {
     tags: [tags.staff],
-    citation: 'S. Menon, T. Y. Berger-Wolf , E. Kiciman, L. Joppa, C. V. Stewart, J. Parham, J. Crall, J. Holmberg, J. Van Oast, “Animal Population Estimation Using Flickr Images”, 2nd International Workshop on the Social Web for Environmental and Ecological Monitoring (SWEEM 2017).',
+    citation:
+      'S. Menon, T. Y. Berger-Wolf , E. Kiciman, L. Joppa, C. V. Stewart, J. Parham, J. Crall, J. Holmberg, J. Van Oast, “Animal Population Estimation Using Flickr Images”, 2nd International Workshop on the Social Web for Environmental and Ecological Monitoring (SWEEM 2017).',
   },
   {
     tags: [tags.whaleshark],
     href: 'https://www.iucnredlist.org/species/19488/2365291',
-    citation: '2016 IUCN Red List Assessment (Endangered) for Rhincodon typus (whale shark).',
+    citation:
+      '2016 IUCN Red List Assessment (Endangered) for Rhincodon typus (whale shark).',
   },
   {
     tags: [tags.flukebook],
-    citation: 'Z. Jablons. Identifying humpback whale flukes by sequence matching of trailing edge curvature. Master’s thesis, Rensselaer Polytechnic Institute, 2016.',
+    citation:
+      'Z. Jablons. Identifying humpback whale flukes by sequence matching of trailing edge curvature. Master’s thesis, Rensselaer Polytechnic Institute, 2016.',
   },
   {
     tags: [],
-    href: 'https://ieeexplore.ieee.org/document/6475023/;jsessionid=wlg1Gjvv81Cw0HGxSQH8UU9djClvSs3UY_N3So-RXF_A1DOP8F13!1734095487',
-    citation: 'J. P. Crall, C. V. Stewart, T. Y. Berger-Wolf, D. I. Rubenstein and S. R. Sundaresan, "HotSpotter — Patterned species instance recognition," 2013 IEEE Workshop on Applications of Computer Vision (WACV 2013), pp. 230-237.',
+    href:
+      'https://ieeexplore.ieee.org/document/6475023/;jsessionid=wlg1Gjvv81Cw0HGxSQH8UU9djClvSs3UY_N3So-RXF_A1DOP8F13!1734095487',
+    citation:
+      'J. P. Crall, C. V. Stewart, T. Y. Berger-Wolf, D. I. Rubenstein and S. R. Sundaresan, "HotSpotter — Patterned species instance recognition," 2013 IEEE Workshop on Applications of Computer Vision (WACV 2013), pp. 230-237.',
   },
   {
     tags: [],
-    href: 'https://gisandscience.com/2014/06/16/genegis-geoanalytical-tools-and-arc-marine-customization-for-individual-based-genetic-records/',
-    citation: 'Dick, D et al. (2014) geneGIS: Geoanalytical Tools and Arc Marine Customization for Individual-Based Genetic Records. Transactions in GIS, Volume 18, Issue 3, pages 324–350, June 2014.',
+    href:
+      'https://gisandscience.com/2014/06/16/genegis-geoanalytical-tools-and-arc-marine-customization-for-individual-based-genetic-records/',
+    citation:
+      'Dick, D et al. (2014) geneGIS: Geoanalytical Tools and Arc Marine Customization for Individual-Based Genetic Records. Transactions in GIS, Volume 18, Issue 3, pages 324–350, June 2014.',
   },
 ];
 
