@@ -11,6 +11,7 @@ const articles = [
       'https://www.seattletimes.com/seattle-news/environment/how-a-portland-nonprofit-is-using-artificial-intelligence-to-help-save-whales-giraffes-zebras/',
     organization: 'The Seattle Times',
     date: 'February 29, 2020',
+    citation: 'Aimee Rawlins, The Seattle Times',
     logo: seattleTimesLogo,
     excerpt:
       'The Wildbook for whales, called Flukebook, encourages collaboration, which is particularly useful for whales that travel long distances because it can be difficult for one research group to effectively monitor one area.    ',
@@ -20,6 +21,7 @@ const articles = [
     href:
       'https://www.theguardian.com/ai-for-earth/2019/apr/30/ai-tech-sustainable-planet',
     organization: 'The Guardian',
+    citation: 'The Guardian Labs',
     date: 'April 30, 2019',
     logo: guardianLogo,
     excerpt:
@@ -30,6 +32,7 @@ const articles = [
     href:
       'https://www.nature.com/articles/d41586-019-00746-1?fbclid=IwAR2FZZkMqX4iGmH5vgRcdcIWtD0tQjJ6y46O0C3dos2aMG8jAY317nMZeQo',
     organization: 'Nature',
+    citation: 'Roberta Kwok, Nature',
     date: 'March 4, 2019',
     logo: natureLogo,
     excerpt:
@@ -40,6 +43,7 @@ const articles = [
     href:
       'https://www.nytimes.com/2017/11/29/science/whale-sharks.html',
     organization: 'The New York Times',
+    citation: 'Karen Weintraub, The New York Times',
     date: 'November 11, 2017',
     logo: newYorkTimesLogo,
     excerpt:

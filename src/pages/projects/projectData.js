@@ -14,6 +14,14 @@ import lynxBannerLarge from '../../assets/lynx-banner-large.jpg';
 import lynxBannerSmall from '../../assets/lynx-banner-small.jpg';
 import jaguarBannerLarge from '../../assets/jaguar-banner-large.jpg';
 import jaguarBannerSmall from '../../assets/jaguar-banner-small.jpg';
+import dragonsearchBannerLarge from '../../assets/dragon-banner-large.jpg';
+import dragonsearchBannerSmall from '../../assets/dragon-banner-small.jpg';
+import saimaaBannerLarge from '../../assets/saimaa-banner-large.jpg';
+import saimaaBannerSmall from '../../assets/saimaa-banner-small.jpg';
+import sandtigerBannerLarge from '../../assets/sandtiger-banner-large.jpg';
+import sandtigerBannerSmall from '../../assets/sandtiger-banner-small.jpg';
+import bassBannerLarge from '../../assets/bass-banner-large.jpg';
+import bassBannerSmall from '../../assets/bass-banner-small.jpg';
 import noaaLogo from '../../assets/noaa-logo.png';
 import dwspLogo from '../../assets/dswp-logo.png';
 import neaqLogo from '../../assets/neaq-logo.jpg';
@@ -27,6 +35,7 @@ const projectData = [
     path: '/flukebook',
     href: 'https://flukebook.org/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Drew Blount',
     adminContact: 'drew@wildme.org',
     bannerLarge: flukebookBannerLarge,
@@ -197,6 +206,7 @@ const projectData = [
     path: '/whaleshark',
     href: 'https://whaleshark.org/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
     bannerLarge: whalesharkBannerLarge,
@@ -226,6 +236,7 @@ const projectData = [
     path: '/mantamatcher',
     href: 'https://mantamatcher.org/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
     bannerLarge: mantaBannerLarge,
@@ -267,6 +278,7 @@ const projectData = [
     path: '/giraffespotter',
     href: 'https://giraffespotter.org/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Jon Van Oast',
     adminContact: 'jon@wildme.org',
     bannerLarge: giraffeBannerLarge,
@@ -274,8 +286,7 @@ const projectData = [
     descriptionId: 'GIRAFFESPOTTER_DESCRIPTION',
     sightings: 20379,
     individuals: 6801,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Giraffa reticulata',
@@ -304,6 +315,7 @@ const projectData = [
     path: '/iot',
     href: 'https://iot.wildbook.org/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Colin Kingen',
     adminContact: 'colin@wildme.org',
     bannerLarge: iotBannerLarge,
@@ -311,8 +323,7 @@ const projectData = [
     descriptionId: 'IOT_DESCRIPTION',
     sightings: 37149,
     individuals: 6775,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Chelonia mydas',
@@ -341,6 +352,7 @@ const projectData = [
     path: '/zebra',
     href: 'https://zebra.wildbook.org/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
     bannerLarge: zebraBannerLarge,
@@ -348,8 +360,7 @@ const projectData = [
     descriptionId: 'ZEBRA_DESCRIPTION',
     sightings: 28520,
     individuals: 8280,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Equus quagga',
@@ -366,6 +377,7 @@ const projectData = [
     path: '/lynx',
     href: 'https://lynx.wildbook.org/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
     bannerLarge: lynxBannerLarge,
@@ -373,8 +385,7 @@ const projectData = [
     descriptionId: 'LYNX_DESCRIPTION',
     sightings: 22479,
     individuals: 558,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Lynx pardinus',
@@ -389,13 +400,12 @@ const projectData = [
     inviteOnly: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
-    bannerLarge: lynxBannerLarge,
-    bannerSmall: lynxBannerSmall,
+    bannerLarge: bassBannerLarge,
+    bannerSmall: bassBannerSmall,
     descriptionId: 'BASS_DESCRIPTION',
     sightings: 607,
     individuals: null,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Stereolepis gigas',
@@ -408,15 +418,15 @@ const projectData = [
     path: '/spotashark',
     href: 'https://spotashark.com/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
-    bannerLarge: lynxBannerLarge,
-    bannerSmall: lynxBannerSmall,
+    bannerLarge: sandtigerBannerLarge,
+    bannerSmall: sandtigerBannerSmall,
     descriptionId: 'SPOT_A_SHARK_DESCRIPTION',
     sightings: null,
     individuals: null,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Carcharias taurus',
@@ -429,15 +439,15 @@ const projectData = [
     path: '/spotasharkusa',
     href: 'https://spotasharkusa.com/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
-    bannerLarge: lynxBannerLarge,
-    bannerSmall: lynxBannerSmall,
+    bannerLarge: sandtigerBannerLarge,
+    bannerSmall: sandtigerBannerSmall,
     descriptionId: 'SPOT_A_SHARK_USA_DESCRIPTION',
     sightings: null,
     individuals: null,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Carcharias taurus',
@@ -450,6 +460,7 @@ const projectData = [
     path: '/jaguar',
     href: 'https://jaguar.wildbook.com/',
     inviteOnly: true,
+    hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
     bannerLarge: jaguarBannerLarge,
@@ -457,8 +468,7 @@ const projectData = [
     descriptionId: 'JAGUAR_DESCRIPTION',
     sightings: 925,
     individuals: 129,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Panthera onca',
@@ -471,19 +481,48 @@ const projectData = [
     path: '/saimaaseal',
     href: 'https://norppagalleria.wwf.fi/',
     inviteOnly: true,
+    hosted: false,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
-    bannerLarge: jaguarBannerLarge,
-    bannerSmall: jaguarBannerSmall,
+    bannerLarge: saimaaBannerLarge,
+    bannerSmall: saimaaBannerSmall,
     descriptionId: 'SAIMAA_SEAL_DESCRIPTION',
     sightings: 4559,
     individuals: 446,
-    partners: [
-    ],
+    partners: [],
     species: [
       {
         name: 'Pusa hispida saimensis',
         alias: 'Saimaa ringed seal',
+      },
+    ],
+  },
+  {
+    name: 'Dragonsearch',
+    path: '/dragonsearch',
+    href: 'https://dragonsearch.org/',
+    inviteOnly: true,
+    hosted: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: dragonsearchBannerLarge,
+    bannerSmall: dragonsearchBannerSmall,
+    descriptionId: 'DRAGONSEARCH_DESCRIPTION',
+    sightings: null,
+    individuals: null,
+    partners: [],
+    species: [
+      {
+        name: 'Phycodurus eques',
+        alias: 'Leafy seadragon',
+      },
+      {
+        name: 'Phyllopteryx taeniolatus',
+        alias: 'Common seadragon',
+      },
+      {
+        name: 'Phyllopteryx dewysea',
+        alias: 'Ruby seadragon',
       },
     ],
   },

@@ -37,10 +37,16 @@ export default function ProjectPage({ data }) {
         </DialogTitle>
         <DialogContent>
           <DialogContentText>
-            <FormattedMessage id="REQUEST_INVITE_DESCRIPTION" values={{ siteName: name }} />
+            <FormattedMessage
+              id="REQUEST_INVITE_DESCRIPTION"
+              values={{ siteName: name }}
+            />
           </DialogContentText>
           <DialogContentText>
-            <FormattedMessage id="REQUEST_INVITE_INSTRUCTIONS" values={{ name: adminName, email: adminContact }} />
+            <FormattedMessage
+              id="REQUEST_INVITE_INSTRUCTIONS"
+              values={{ name: adminName, email: adminContact }}
+            />
           </DialogContentText>
         </DialogContent>
       </Dialog>
@@ -48,7 +54,9 @@ export default function ProjectPage({ data }) {
         {name}
       </Typography>
       <div>
-        <ButtonLink display="primary" href={href} external><FormattedMessage id="VISIT_SITE" /></ButtonLink>
+        <ButtonLink display="primary" href={href} external>
+          <FormattedMessage id="VISIT_SITE" />
+        </ButtonLink>
       </div>
       <img src={bannerLarge} width="70%" alt={`Banner for ${name}`} />
       <Typography>
