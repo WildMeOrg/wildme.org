@@ -9,6 +9,8 @@ import Chip from '@material-ui/core/Chip';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import InvitationIcon from '@material-ui/icons/EmailOutlined';
+import AdoptionIcon from '@material-ui/icons/CardGiftcard';
+import HostedIcon from '@material-ui/icons/CloudQueue';
 import PublicIcon from '@material-ui/icons/Public';
 import MainColumn from '../../components/MainColumn';
 import ButtonLink from '../../components/ButtonLink';
@@ -25,6 +27,8 @@ export default function ProjectPage({ data }) {
     sightings,
     individuals,
     partners,
+    adoption,
+    hosted,
   } = data;
 
   const [modalOpen, setModalOpen] = useState(false);
@@ -72,6 +76,22 @@ export default function ProjectPage({ data }) {
           />
         }
       />
+      {adoption && (
+        <Chip
+          icon={<AdoptionIcon />}
+          variant="outlined"
+          onClick={inviteOnly ? () => setModalOpen(true) : undefined}
+          label={<FormattedMessage id="ADOPTIONS_WELCOME" />}
+        />
+      )}
+      {hosted && (
+        <Chip
+          icon={<HostedIcon />}
+          variant="outlined"
+          onClick={inviteOnly ? () => setModalOpen(true) : undefined}
+          label={<FormattedMessage id="HOSTED_BY_WILDBOOK" />}
+        />
+      )}
       <Typography>{`${sightings} sightings`}</Typography>
       <Typography>{`${individuals} individuals`}</Typography>
       {partners && (

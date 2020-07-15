@@ -9,6 +9,7 @@ import {
   createMuiTheme,
   ThemeProvider,
 } from '@material-ui/core/styles';
+import { Helmet } from 'react-helmet';
 import { IntlProvider } from 'react-intl';
 import '@formatjs/intl-numberformat/polyfill';
 import enPolyfill from '@formatjs/intl-numberformat/dist/locale-data/en.json';
@@ -60,6 +61,12 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <Helmet>
+        <script
+          type="text/javascript"
+          src="https://app.mailjet.com/statics/js/widget.modal.js"
+        />
+      </Helmet>
       <IntlProvider
         locale={locale}
         defaultLocale="en"

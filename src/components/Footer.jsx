@@ -8,6 +8,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import Button from './Button';
 import Link from './Link';
+import SubscribeButton from './SubscribeButton';
 
 const footerCategories = [
   {
@@ -15,11 +16,7 @@ const footerCategories = [
     categoryLabelId: 'ABOUT',
     entries: [
       {
-        labelId: 'HOW_IT_WORKS',
-        path: '/how-it-works',
-      },
-      {
-        labelId: 'PRESS_&_TESTIMONIALS',
+        labelId: 'PRESS',
         path: '/press',
       },
       {
@@ -118,7 +115,7 @@ export default function Footer() {
           justifyContent: 'center',
           flexDirection: 'column',
           padding: '24px 12px',
-          background: '#97ceff91',
+          background: 'rgb(229, 224, 255)',
           textAlign: 'center',
         }}
       >
@@ -131,6 +128,7 @@ export default function Footer() {
         <Button display="primary" style={{ marginTop: 20 }}>
           <FormattedMessage id="CONTRIBUTE" />
         </Button>
+        <SubscribeButton />
       </div>
       <div style={{ width: '80%', margin: '0 auto' }}>
         <div
