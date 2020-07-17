@@ -31,7 +31,7 @@ export default function Splash() {
       </Typography>
       <div style={{ width: '100%', backgroundColor: '#e5e0ff' }}>
         <Typography
-          style={{ marginTop: 80, padding: 80 }}
+          style={{ marginTop: 80, marginBottom: 80, padding: 80 }}
           variant="h6"
         >
           Wildbook is an open source web app that accelerates research

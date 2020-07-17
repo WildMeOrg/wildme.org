@@ -29,6 +29,49 @@ import dmcrLogo from '../../assets/dmcr-logo.png';
 import mmfLogo from '../../assets/mmf-logo.png';
 import wsorcLogo from '../../assets/wsorc-logo.png';
 
+const algorithms = {
+  hotspotter: {
+    name: 'Hotspotter',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  curvrank: {
+    name: 'Curvrank',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  dtw: {
+    name: 'DTW',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  deepsense: {
+    name: 'Deepsense',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  finfindr: {
+    name: 'finFindR',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  kaggle: {
+    name: 'Kaggle7',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  mantamatcher: {
+    name: 'MantaMatcher',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  groth: {
+    name: 'Modified Groth',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  i3s: {
+    name: 'I3S',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+  pie: {
+    name: 'PIE',
+    url: 'http://wiki.wildbook.org/en/researchers/overview',
+  },
+};
+
 const projectData = [
   {
     name: 'Flukebook',
@@ -44,6 +87,13 @@ const projectData = [
     sightings: 203772,
     individuals: 42505,
     photos: 1200000,
+    algorithms: [
+      algorithms.hotspotter,
+      algorithms.curvrank,
+      algorithms.deepsense,
+      algorithms.dtw,
+      algorithms.kaggle,
+    ],
     partners: [
       {
         name: 'NOAA',
@@ -215,6 +265,7 @@ const projectData = [
     descriptionId: 'WHALESHARK_DESCRIPTION',
     sightings: 75191,
     individuals: 12060,
+    algorithms: [algorithms.groth, algorithms.i3s],
     partners: [
       {
         name: 'Whale Shark and Oceanic Research Centre',
@@ -246,6 +297,11 @@ const projectData = [
     descriptionId: 'MANTAMATCHER_DESCRIPTION',
     sightings: 36287,
     individuals: 11105,
+    algorithms: [
+      algorithms.mantamatcher,
+      algorithms.pie,
+      algorithms.hotspotter,
+    ],
     partners: [
       {
         name: 'Marine Megafauna Foundation',
@@ -288,6 +344,7 @@ const projectData = [
     descriptionId: 'GIRAFFESPOTTER_DESCRIPTION',
     sightings: 20379,
     individuals: 6801,
+    algorithms: [algorithms.hotspotter],
     partners: [],
     species: [
       {
@@ -325,6 +382,7 @@ const projectData = [
     descriptionId: 'IOT_DESCRIPTION',
     sightings: 37149,
     individuals: 6775,
+    algorithms: [algorithms.hotspotter],
     partners: [],
     species: [
       {
@@ -362,6 +420,7 @@ const projectData = [
     descriptionId: 'ZEBRA_DESCRIPTION',
     sightings: 28520,
     individuals: 8280,
+    algorithms: [algorithms.hotspotter],
     partners: [],
     species: [
       {
@@ -387,6 +446,7 @@ const projectData = [
     descriptionId: 'LYNX_DESCRIPTION',
     sightings: 22479,
     individuals: 558,
+    algorithms: [algorithms.hotspotter],
     partners: [],
     species: [
       {
@@ -407,6 +467,7 @@ const projectData = [
     descriptionId: 'BASS_DESCRIPTION',
     sightings: 607,
     individuals: null,
+    algorithms: [algorithms.groth, algorithms.i3s],
     partners: [],
     species: [
       {
@@ -430,6 +491,7 @@ const projectData = [
     sightings: null,
     individuals: null,
     partners: [],
+    algorithms: [algorithms.groth, algorithms.i3s],
     species: [
       {
         name: 'Carcharias taurus',
@@ -451,6 +513,7 @@ const projectData = [
     sightings: null,
     individuals: null,
     partners: [],
+    algorithms: [algorithms.groth, algorithms.i3s],
     species: [
       {
         name: 'Carcharias taurus',
@@ -471,6 +534,7 @@ const projectData = [
     descriptionId: 'JAGUAR_DESCRIPTION',
     sightings: 925,
     individuals: 129,
+    algorithms: [algorithms.hotspotter],
     partners: [],
     species: [
       {
@@ -492,6 +556,7 @@ const projectData = [
     descriptionId: 'SAIMAA_SEAL_DESCRIPTION',
     sightings: 4559,
     individuals: 446,
+    algorithms: [algorithms.hotspotter],
     partners: [],
     species: [
       {
@@ -513,6 +578,7 @@ const projectData = [
     descriptionId: 'DRAGONSEARCH_DESCRIPTION',
     sightings: null,
     individuals: null,
+    algorithms: [algorithms.hotspotter],
     partners: [],
     species: [
       {

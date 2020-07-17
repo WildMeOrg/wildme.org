@@ -4,6 +4,7 @@ import { useTheme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import Link from './Link';
 
 export default function AppHeader() {
   const theme = useTheme();
@@ -26,15 +27,17 @@ export default function AppHeader() {
           margin: '0 auto',
         }}
       >
-        <Typography
-          component="h1"
-          variant="h6"
-          color="inherit"
-          noWrap
-          style={{ fontSize: 20, flexGrow: 1 }}
-        >
-          Wildbook
-        </Typography>
+        <Link noUnderline href="/">
+          <Typography
+            component="h1"
+            variant="h6"
+            color="inherit"
+            noWrap
+            style={{ fontSize: 20, flexGrow: 1 }}
+          >
+            Wildbook
+          </Typography>
+        </Link>
       </Toolbar>
     </AppBar>
   );

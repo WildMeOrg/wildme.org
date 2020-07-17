@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import {
   BrowserRouter,
+  HashRouter,
   Switch,
   Route,
   useLocation,
@@ -73,7 +74,7 @@ export default function App() {
         defaultLocale="en"
         messages={messageMap[locale]}
       >
-        <BrowserRouter basename={routerBasename}>
+        <HashRouter basename={routerBasename}>
           <ScrollToTop />
           <main
             style={{
@@ -122,7 +123,7 @@ export default function App() {
             </Switch>
           </main>
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
       </IntlProvider>
     </ThemeProvider>
   );

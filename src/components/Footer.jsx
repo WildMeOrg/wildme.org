@@ -8,7 +8,8 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import Button from './Button';
 import Link from './Link';
-import SubscribeButton from './SubscribeButton';
+import ButtonLink from './ButtonLink';
+// import SubscribeButton from './SubscribeButton';
 
 const footerCategories = [
   {
@@ -125,10 +126,10 @@ export default function Footer() {
           <Link href="http://wildme.org/">Wild Me</Link>
           <FormattedMessage id="END_OF_SENTENCE" />
         </Typography>
-        <Button display="primary" style={{ marginTop: 20 }}>
+        <ButtonLink href="/contribute" display="primary" style={{ marginTop: 20 }}>
           <FormattedMessage id="CONTRIBUTE" />
-        </Button>
-        <SubscribeButton />
+        </ButtonLink>
+        {/* <SubscribeButton /> */}
       </div>
       <div style={{ width: '80%', margin: '0 auto' }}>
         <div

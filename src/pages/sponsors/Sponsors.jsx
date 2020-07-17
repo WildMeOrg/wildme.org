@@ -75,7 +75,7 @@ const logos = [
     url: 'https://www.waittfoundation.org/',
     alt: 'The Waitt Foundation',
   },
-]
+];
 
 export default function Sponsors() {
   const intl = useIntl();
@@ -90,11 +90,25 @@ export default function Sponsors() {
           </Typography>
         </Grid>
         {majorSponsors.map(sponsor => (
-          <Grid item style={{ marginTop: 20 }}>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-              <img height="60" width="auto" src={sponsor.logo} />
-              {sponsor.youtubeUrl && <ReactPlayer style={{ maxWidth: '100vw'}} height="auto" url={sponsor.youtubeUrl} />}
-              {sponsor.photoSrc && <img src={sponsor.photoSrc} width={640} />}
+          <Grid item key={sponsor.name} style={{ marginTop: 20 }}>
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'flex-start',
+              }}
+            >
+              <img alt={`${sponsor.name} logo`} height="60" width="auto" src={sponsor.logo} />
+              {sponsor.youtubeUrl && (
+                <ReactPlayer
+                  // style={{ maxWidth: '100vw' }}
+                  // height="auto"
+                  url={sponsor.youtubeUrl}
+                />
+              )}
+              {sponsor.photoSrc && (
+                <img alt={`${sponsor.name} banner`} src={sponsor.photoSrc} width={640} />
+              )}
               <Typography>{sponsor.description}</Typography>
             </div>
           </Grid>

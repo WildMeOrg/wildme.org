@@ -5,7 +5,11 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
 import Chip from '@material-ui/core/Chip';
+import Grid from '@material-ui/core/Grid';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
@@ -31,6 +35,8 @@ export default function ProjectPage({ data }) {
     partners,
     adoption,
     hosted,
+    algorithms,
+    species,
   } = data;
 
   const [modalOpen, setModalOpen] = useState(false);
@@ -99,22 +105,21 @@ export default function ProjectPage({ data }) {
         <Chip
           icon={<HostedIcon />}
           variant="outlined"
-          onClick={inviteOnly ? () => setModalOpen(true) : undefined}
-          label={<FormattedMessage id="HOSTED_BY_WILDBOOK" />}
+          label={<FormattedMessage id="HOSTED_BY_WILD_ME" />}
         />
       )}
       <Typography>{`${sightings} sightings`}</Typography>
       <Typography>{`${individuals} individuals`}</Typography>
-      {partners && (
+      {(partners && partners.length > 0) && (
         <div>
-          <Typography variant="h5">Partners</Typography>
+          <Typography variant="h5"><FormattedMessage id="OFFICIAL_PARTNERS" /></Typography>
           <GridList
             cellHeight={100}
             cols={3}
             style={{ background: 'grey' }}
           >
             {partners.map(partner => (
-              <GridListTile>
+              <GridListTile key={partner.name}>
                 <img
                   style={{ height: 100, width: 'auto' }}
                   src={partner.logo}
@@ -125,6 +130,46 @@ export default function ProjectPage({ data }) {
           </GridList>
         </div>
       )}
+      <div>
+        <Typography variant="h5" style={{ margin: '20px 0' }}><FormattedMessage id="ALGORITHMS" /></Typography>
+        <Grid container spacing={2}>
+          {algorithms.map(algorithm => (
+            <Grid item>
+              <Card style={{ maxWidth: 220, backgroundColor: 'rgb(210, 176, 255)' }}>
+                <CardContent>
+                  <Typography variant="subtitle2">{algorithm.name}</Typography>
+                  <Typography>Here is a brief description of the algorithm.</Typography>
+                </CardContent>
+                <CardActions>
+                  <ButtonLink
+                    size="small"
+                    display="form"
+                    external
+                    href={algorithm.url}
+                  >
+                    <FormattedMessage id="LEARN_MORE" />
+                  </ButtonLink>
+                </CardActions>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </div>
+      <div>
+        <Typography variant="h5" style={{ margin: '20px 0' }}><FormattedMessage id="SPECIES" /></Typography>
+        <Grid container spacing={2}>
+          {species.map(currentSpecies => (
+            <Grid item>
+              <Card style={{ maxWidth: 220, backgroundColor: '#b0c5ff' }}>
+                <CardContent>
+                  <Typography variant="subtitle2">{currentSpecies.name}</Typography>
+                  <Typography>{currentSpecies.alias}</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </div>
     </MainColumn>
   );
 }

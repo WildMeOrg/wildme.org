@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Divider from '@material-ui/core/Divider';
 
-export default function LogoSoup({ logos, height=30 }) {
+export default function LogoSoup({ logos, height = 30 }) {
   return (
     <div>
       <Divider style={{ width: '100%', marginTop: 40 }} />
@@ -25,5 +25,5 @@ export default function LogoSoup({ logos, height=30 }) {
       </div>
       <Divider style={{ width: '100%', marginBottom: 40 }} />
     </div>
-  )
+  );
 }
