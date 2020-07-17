@@ -52,7 +52,7 @@ const articles = [
       'https://www.theguardian.com/ai-for-earth/2019/apr/30/ai-tech-sustainable-planet',
     organization: 'The Guardian',
     citation: 'The Guardian Labs',
-    date: 'April 30, 2019',
+    date: '2019-04-30',
     logo: guardianLogo,
     excerpt:
       'Using AI to collect and curate data will also free up valuable time needed by researchers to develop and revise conservation plans to combat extinction.',
@@ -245,16 +245,6 @@ const articles = [
       'Wildbook blends a diversity of functions and disciplines into a cloud-based common platform with tools for data collection, storage, analysis, and collaboration that help researchers operate on a larger stage.',
   },
   {
-    name: 'WACV18: An Animal Detection Pipeline for Identification',
-    href:
-      'https://blogs.microsoft.com/green/2018/06/14/standing-out-from-the-pack-wild-me-uses-ai-to-revolutionize-animal-identification/',
-    organization: 'Microsoft Blog',
-    date: '2018-06-14',
-    citation: 'Michelle Lancaster, Microsoft Blog',
-    excerpt:
-      'Wildbook blends a diversity of functions and disciplines into a cloud-based common platform with tools for data collection, storage, analysis, and collaboration that help researchers operate on a larger stage.',
-  },
-  {
     name:
       'Call of the Wild(book): How GPUs Help Track Threatened Animal Species',
     href:
@@ -264,15 +254,6 @@ const articles = [
     citation: 'Tony Kontzer, NVIDIA Blog',
     excerpt:
       'To date, the team has created 15 Wildbooks for animals ranging from giraffes and polar bears to whale sharks and manta rays. It has a backlog of more than 200 requests from conservationists for more Wildbooks.',
-  },
-  {
-    name: 'The case for technology investments in the environment',
-    href: 'https://www.nature.com/articles/d41586-017-08675-7',
-    organization: 'Nature',
-    date: '2017-12-19',
-    citation: 'Lucas Joppa, Nature',
-    excerpt:
-      'By identifying each individual animal, together with where and how often it’s photographed, these algorithms are providing new ways of producing global population estimates for endangered species.',
   },
   {
     name: 'The case for technology investments in the environment',

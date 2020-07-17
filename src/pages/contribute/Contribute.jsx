@@ -10,7 +10,7 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 import MainColumn from '../../components/MainColumn';
-import Button from '../../components/Button';
+import Link from '../../components/Link';
 import InlineButton from '../../components/InlineButton';
 
 const tabDefinitions = {
@@ -24,7 +24,7 @@ const tabDefinitions = {
   },
   report: {
     id: 'report',
-    labelId: 'REPORT_SIGHTING',
+    labelId: 'REPORT_A_SIGHTING',
   },
 };
 
@@ -69,7 +69,12 @@ export default function Contribute() {
           </DialogContentText>
         </DialogContent>
       </Dialog>
-      <Grid style={{ width: '70%' }} container spacing={3} direction="column">
+      <Grid
+        style={{ width: '70%' }}
+        container
+        spacing={3}
+        direction="column"
+      >
         <Grid item>
           <Typography
             variant="h2"
@@ -85,61 +90,102 @@ export default function Contribute() {
         >
           {Object.values(tabDefinitions).map(t => (
             <Tab
+              key={t.id}
               label={<FormattedMessage id={t.labelId} />}
               value={t.id}
             />
           ))}
         </Tabs>
-        <Grid item>
-          <Typography>
-            <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_1" />
-            <InlineButton onClick={() => setCryptoDialogOpen(true)}>
-              <FormattedMessage id="CRYPTOCURRENCY" />
-            </InlineButton>
-            <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_2" />
-            <InlineButton onClick={() => setOrgDialogOpen(true)}>
-              <FormattedMessage id="LARGE_DONATIONS_LINK" />
-            </InlineButton>
-            <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_3" />
-          </Typography>
-        </Grid>
-        <Grid item>
-          <form
-            action="https://www.paypal.com/cgi-bin/webscr"
-            method="post"
-            target="_top"
-          >
-            <input type="hidden" name="cmd" value="_s-xclick" />
-            <input
-              type="hidden"
-              name="hosted_button_id"
-              value="6M475H9KWPSBW"
-            />
-            <input
-              type="image"
-              src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-              border="0"
-              name="submit"
-              title="PayPal - The safer, easier way to pay online!"
-              alt="Donate with PayPal button"
-            />
-            <img
-              alt=""
-              border="0"
-              src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-              width="1"
-              height="1"
-            />
-          </form>
-        </Grid>
-        <Grid item>
-          <Typography variant="body2">
-            <FormattedMessage id="DONATION_LEGAL_1" />
-          </Typography>
-          <Typography variant="body2">
-            <FormattedMessage id="DONATION_LEGAL_2" />
-          </Typography>
-        </Grid>
+        {tab === tabDefinitions.donate.id && (
+          <>
+            <Grid item>
+              <Typography>
+                <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_1" />
+              </Typography>
+              <Typography style={{ marginTop: 16 }}>
+                <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_2" />
+                <InlineButton
+                  onClick={() => setCryptoDialogOpen(true)}
+                >
+                  <FormattedMessage id="CRYPTOCURRENCY" />
+                </InlineButton>
+                <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_3" />
+                <InlineButton onClick={() => setOrgDialogOpen(true)}>
+                  <FormattedMessage id="LARGE_DONATIONS_LINK" />
+                </InlineButton>
+                <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_4" />
+              </Typography>
+            </Grid>
+            <Grid item>
+              <form
+                action="https://www.paypal.com/cgi-bin/webscr"
+                method="post"
+                target="_top"
+              >
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="6M475H9KWPSBW"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                  border="0"
+                  name="submit"
+                  title="PayPal - The safer, easier way to pay online!"
+                  alt="Donate with PayPal button"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </form>
+            </Grid>
+            <Grid item>
+              <Typography variant="body2">
+                <FormattedMessage id="DONATION_LEGAL_1" />
+              </Typography>
+              <Typography variant="body2" style={{ marginTop: 16 }}>
+                <FormattedMessage id="DONATION_LEGAL_2" />
+              </Typography>
+            </Grid>
+          </>
+        )}
+        {tab === tabDefinitions.volunteer.id && (
+          <>
+            <Grid item>
+              <Typography>
+                <FormattedMessage id="VOLUNTEER_ASK_1" />
+              </Typography>
+              <Typography style={{ marginTop: 16 }}>
+                <FormattedMessage id="VOLUNTEER_ASK_2" />
+              </Typography>
+              <Typography style={{ marginTop: 16 }}>
+                <FormattedMessage id="VOLUNTEER_ASK_3" />
+              </Typography>
+              <Typography style={{ marginTop: 16 }}>
+                <FormattedMessage id="VOLUNTEER_ASK_4" />
+              </Typography>
+            </Grid>
+          </>
+        )}
+        {tab === tabDefinitions.report.id && (
+          <>
+            <Grid item>
+              <Typography>
+                <FormattedMessage id="REPORT_SIGHTING_DESCRIPTION_1" />
+                <Link href="/projects">
+                  <FormattedMessage id="PROJECTS_PAGE" />
+                </Link>
+                <FormattedMessage id="REPORT_SIGHTING_DESCRIPTION_2" />
+              </Typography>
+            </Grid>
+          </>
+        )}
       </Grid>
     </MainColumn>
   );

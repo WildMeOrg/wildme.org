@@ -6,6 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Chip from '@material-ui/core/Chip';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import InvitationIcon from '@material-ui/icons/EmailOutlined';
@@ -14,6 +15,7 @@ import HostedIcon from '@material-ui/icons/CloudQueue';
 import PublicIcon from '@material-ui/icons/Public';
 import MainColumn from '../../components/MainColumn';
 import ButtonLink from '../../components/ButtonLink';
+import Link from '../../components/Link';
 
 export default function ProjectPage({ data }) {
   const {
@@ -57,6 +59,15 @@ export default function ProjectPage({ data }) {
       <Typography variant="h2" style={{ paddingTop: 30 }}>
         {name}
       </Typography>
+      <Breadcrumbs>
+        <Link href="/">
+          <FormattedMessage id="HOME" />
+        </Link>
+        <Link href="/projects">
+          <FormattedMessage id="PROJECTS" />
+        </Link>
+        <Typography>{name}</Typography>
+      </Breadcrumbs>
       <div>
         <ButtonLink display="primary" href={href} external>
           <FormattedMessage id="VISIT_SITE" />

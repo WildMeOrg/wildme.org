@@ -20,6 +20,7 @@ import FourOhFour from './pages/fourohfour/FourOhFour';
 import Splash from './pages/splash/Splash';
 import Press from './pages/press/Press';
 import Legal from './pages/legal/Legal';
+import Sponsors from './pages/sponsors/Sponsors';
 import Contribute from './pages/contribute/Contribute';
 import Publications from './pages/publications/Publications';
 import Projects from './pages/projects/Projects';
@@ -105,6 +106,9 @@ export default function App() {
               </Route>
               <Route path="/legal">
                 <Legal />
+              </Route>
+              <Route path="/sponsors">
+                <Sponsors />
               </Route>
               <Route path="/contribute">
                 <Contribute />

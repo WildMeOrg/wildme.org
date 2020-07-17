@@ -1,14 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { uniq } from 'lodash-es';
+import { format, parse } from 'date-fns';
+import { useIntl, FormattedMessage } from 'react-intl';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
+import Select from '@material-ui/core/Select';
 import MainColumn from '../../components/MainColumn';
 import Link from '../../components/Link';
-import articles from './usedArticles';
+import FilterBar, { searchMatch } from '../../components/FilterBar';
+import LogoSoup from '../../components/LogoSoup';
+import useDocumentTitle from '../../hooks/useDocumentTitle';
 import seattleTimesLogo from '../../assets/seattle-times-logo.svg';
 import guardianLogo from '../../assets/guardian-logo.svg';
 import natureLogo from '../../assets/nature-logo.svg';
 import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
+import articles from './usedArticles';
+
+const articlesWithDates = articles.map(article => {
+  const parsedDate = parse(article.date, 'yyyy-MM-dd', new Date());
+  const formattedDate = format(parsedDate, 'MMMM d, yyyy');
+  const year = format(parsedDate, 'yyyy');
+  return {
+    ...article,
+    parsedDate,
+    formattedDate,
+    year,
+  };
+});
+
+const articleYears = uniq(articlesWithDates.map(a => a.year));
 
 const logos = [
   seattleTimesLogo,
@@ -18,45 +41,71 @@ const logos = [
 ];
 
 export default function Press() {
+  const intl = useIntl();
+  useDocumentTitle(intl.formatMessage({ id: 'PRESS' }));
+
+  const [selectedYear, setSelectedYear] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const searchFilteredArticles = articlesWithDates.filter(article =>
+    searchMatch(
+      article,
+      ['formattedDate', 'excerpt', 'citation', 'name'],
+      searchTerm,
+    ),
+  );
+
+  const filteredArticles = searchFilteredArticles.filter(article => {
+    if (article.year.includes(selectedYear)) return true;
+    return false;
+  });
+
   return (
     <MainColumn>
       <Typography
         variant="h2"
         style={{ paddingTop: 30, textAlign: 'center' }}
       >
-        Press
+        <FormattedMessage id="PRESS" />
       </Typography>
-      <Typography
-        variant="subtitle1"
-        style={{ paddingTop: 0, textAlign: 'center' }}
-      >
-        Wildbook in the news
-      </Typography>
-      <Divider style={{ width: '100%', marginTop: 40 }} />
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'space-evenly',
-          flexWrap: 'wrap',
-        }}
-      >
-        {logos.map(logo => (
-          <img
-            style={{ margin: 20 }}
-            src={logo}
-            height="30"
-            width="auto"
-            alt="Press logo"
-          />
-        ))}
-      </div>
-      <Divider style={{ width: '100%', marginBottom: 40 }} />
+      <Grid container justify="space-between">
+        <Grid item>
+          <FilterBar value={searchTerm} onChange={setSearchTerm} />
+        </Grid>
+        <Grid item>
+          <FormControl>
+            <InputLabel htmlFor="filter-input">
+              <FormattedMessage id="YEAR" />
+            </InputLabel>
+            <Select
+              style={{ width: 100 }}
+              native
+              value={selectedYear}
+              onChange={e => {
+                setSelectedYear(e.target.value);
+              }}
+              inputProps={{
+                name: 'filter',
+                id: 'filter-input',
+              }}
+            >
+              <option aria-label="None" value="" />
+              {articleYears.map(year => (
+                <option key={year} value={year}>
+                  {year}
+                </option>
+              ))}
+            </Select>
+          </FormControl>
+        </Grid>
+      </Grid>
+      <LogoSoup logos={logos} />
       <Grid
         container
         direction="column"
         style={{ padding: '30px 0' }}
       >
-        {articles.map((article, i) => (
+        {filteredArticles.map((article, i) => (
           <Grid item key={article.name}>
             {i !== 0 && (
               <Divider style={{ width: '100%', margin: '40px 0' }} />
@@ -73,7 +122,7 @@ export default function Press() {
                 }}
               >
                 <Typography variant="subtitle2">
-                  {article.date}
+                  {article.formattedDate}
                 </Typography>
               </div>
               <div style={{ padding: '0 20px' }}>

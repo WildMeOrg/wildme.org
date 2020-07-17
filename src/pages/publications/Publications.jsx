@@ -9,6 +9,7 @@ import Select from '@material-ui/core/Select';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 import MainColumn from '../../components/MainColumn';
+import FilterBar, { searchMatch } from '../../components/FilterBar';
 import Link from '../../components/Link';
 import publicationList, { tags } from './publicationList';
 
@@ -17,14 +18,22 @@ export default function Publications() {
   useDocumentTitle(intl.formatMessage({ id: 'PUBLICATIONS' }));
 
   const [selectedTag, setSelectedTag] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredPublications = publicationList.filter(publication => {
-    let matched = false;
-    publication.tags.forEach(tag => {
-      if (tag.id.includes(selectedTag)) matched = true;
-    });
-    return matched;
-  });
+  const searchFilteredPublications = publicationList.filter(
+    publication =>
+      searchMatch(publication, ['citation', 'href'], searchTerm),
+  );
+
+  const filteredPublications = searchFilteredPublications.filter(
+    publication => {
+      let matched = false;
+      publication.tags.forEach(tag => {
+        if (tag.id.includes(selectedTag)) matched = true;
+      });
+      return matched;
+    },
+  );
 
   return (
     <MainColumn>
@@ -43,27 +52,37 @@ export default function Publications() {
           </Typography>
         </Grid>
         <Grid item>
-          <FormControl>
-            <InputLabel htmlFor="filter-input">Filter</InputLabel>
-            <Select
-              native
-              value={selectedTag}
-              onChange={e => {
-                setSelectedTag(e.target.value);
-              }}
-              inputProps={{
-                name: 'filter',
-                id: 'filter-input',
-              }}
-            >
-              <option aria-label="None" value="" />
-              {Object.values(tags).map(tag => (
-                <option key={tag.id} value={tag.id}>
-                  {intl.formatMessage({ id: tag.labelId })}
-                </option>
-              ))}
-            </Select>
-          </FormControl>
+          <Grid container justify="space-between">
+            <Grid item>
+              <FilterBar
+                value={searchTerm}
+                onChange={setSearchTerm}
+              />
+            </Grid>
+            <Grid item>
+              <FormControl>
+                <InputLabel htmlFor="filter-input">Filter</InputLabel>
+                <Select
+                  native
+                  value={selectedTag}
+                  onChange={e => {
+                    setSelectedTag(e.target.value);
+                  }}
+                  inputProps={{
+                    name: 'filter',
+                    id: 'filter-input',
+                  }}
+                >
+                  <option aria-label="None" value="" />
+                  {Object.values(tags).map(tag => (
+                    <option key={tag.id} value={tag.id}>
+                      {intl.formatMessage({ id: tag.labelId })}
+                    </option>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
+          </Grid>
         </Grid>
         {filteredPublications.map(publication => (
           <Grid item key={publication.citation}>
