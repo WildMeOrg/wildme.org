@@ -8,10 +8,7 @@ import pgnfLogo from '../../assets/pbnf_logo.png';
 import sirenFleetLogo from '../../assets/siren_fleet.svg';
 import georiaAquariumLogo from '../../assets/georgia-aquarium-logo.svg';
 import britishEcologicalSocietyLogo from '../../assets/british_ecological_society_logo.png';
-import royalCaribbeanLogo from '../../assets/royal-caribbean-logo.svg';
-import osuLogo from '../../assets/osu_logo.svg';
 import adobeLogo from '../../assets/adobe_foundation_logo.png';
-import crcLogo from '../../assets/cascadia_research_collective.png';
 import nsfLogo from '../../assets/nsf_logo.png';
 import waittLogo from '../../assets/waitt_logo.png';
 import useDocumentTitle from '../../hooks/useDocumentTitle';
@@ -41,19 +38,9 @@ const logos = [
     alt: 'The Adobe Foundation',
   },
   {
-    src: osuLogo,
-    url: 'https://mmi.oregonstate.edu/',
-    alt: 'Oregon State University Marine Mammal Institute',
-  },
-  {
     src: sirenFleetLogo,
     url: 'https://sirenfleet.com/',
     alt: 'Siren Fleet',
-  },
-  {
-    src: crcLogo,
-    url: 'https://www.cascadiaresearch.org/',
-    alt: 'Cascadia Research Collective',
   },
   {
     src: georiaAquariumLogo,
@@ -64,11 +51,6 @@ const logos = [
     src: britishEcologicalSocietyLogo,
     url: 'https://www.britishecologicalsociety.org/',
     alt: 'British Ecological Society',
-  },
-  {
-    src: royalCaribbeanLogo,
-    url: 'https://www.royalcaribbean.com/',
-    alt: 'Royal Caribbean',
   },
   {
     src: waittLogo,

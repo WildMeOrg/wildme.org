@@ -22,12 +22,16 @@ import sandtigerBannerLarge from '../../assets/sandtiger-banner-large.jpg';
 import sandtigerBannerSmall from '../../assets/sandtiger-banner-small.jpg';
 import bassBannerLarge from '../../assets/bass-banner-large.jpg';
 import bassBannerSmall from '../../assets/bass-banner-small.jpg';
+// import osuLogo from '../../assets/osu_logo.svg'; // for skunks
+import crcLogo from '../../assets/cascadia_research_collective.png';
 import noaaLogo from '../../assets/noaa-logo.png';
 import dwspLogo from '../../assets/dswp-logo.png';
 import neaqLogo from '../../assets/neaq-logo.jpg';
 import dmcrLogo from '../../assets/dmcr-logo.png';
 import mmfLogo from '../../assets/mmf-logo.png';
 import wsorcLogo from '../../assets/wsorc-logo.png';
+import gcfLogo from '../../assets/gcf_logo.png';
+import sdZooLogo from '../../assets/sdzoo_global.png';
 
 const algorithms = {
   hotspotter: {
@@ -107,147 +111,182 @@ const projectData = [
         name: 'New England Aquarium',
         logo: neaqLogo,
       },
+      {
+        name: 'Cascadia Research Collective',
+        logo: crcLogo,
+        url: 'https://www.cascadiaresearch.org/',
+      },
     ],
     species: [
       {
         name: 'Balaenoptera acutorostrata',
         alias: 'Minke whale',
+        url: 'https://en.wikipedia.org/wiki/Common_minke_whale',
       },
       {
         name: 'Balaenoptera borealis',
         alias: 'Sei whale',
+        url: 'https://en.wikipedia.org/wiki/Sei_whale',
       },
       {
         name: 'Balaenoptera brydei',
         alias: "Bryde's whale",
+        url: 'https://en.wikipedia.org/wiki/Bryde%27s_whale',
       },
       {
         name: 'Balaenoptera edeni',
         alias: "Bryde's/Eden's whale",
+        url: 'https://en.wikipedia.org/wiki/Bryde%27s_whale',
       },
       {
         name: 'Balaenoptera musculus',
         alias: 'Blue whale',
+        url: 'https://en.wikipedia.org/wiki/Blue_whale',
       },
       {
         name: 'Balaenoptera physalus',
         alias: 'Fin whale',
+        url: 'https://en.wikipedia.org/wiki/Fin_whale',
       },
       {
         name: 'Delphinus capensis',
         alias: 'Long-beaked common dolphin',
+        url: 'https://en.wikipedia.org/wiki/Long-beaked_common_dolphin',
       },
       {
         name: 'Delphinus delphis',
         alias: 'Short-beaked common dolphin',
+        url: 'https://en.wikipedia.org/wiki/Short-beaked_common_dolphin',
       },
       {
         name: 'Dugong dugon',
         alias: 'Dugong',
-      },
-      {
-        name: 'Delphinus capens',
-        alias: 'Long-beaked common dolphin',
+        url: 'https://en.wikipedia.org/wiki/Dugong',
       },
       {
         name: 'Eubalaena australis',
         alias: 'Southern right whale',
+        url: 'https://en.wikipedia.org/wiki/Southern_right_whale',
       },
       {
         name: 'Eubalaena glacialis',
         alias: 'North Atlantic right whale',
+        url: 'https://en.wikipedia.org/wiki/North_Atlantic_right_whale',
       },
       {
         name: 'Feresa attenuata',
         alias: 'Pygmy killer whale',
+        url: 'https://en.wikipedia.org/wiki/Pygmy_killer_whale',
       },
       {
         name: 'Globicephala macrorhynchus',
         alias: 'Short-finned pilot whale',
+        url: 'https://en.wikipedia.org/wiki/Short-finned_pilot_whale',
       },
       {
         name: 'Grampus griseus',
         alias: "Risso's dolphin",
+        url: 'https://en.wikipedia.org/wiki/Risso%27s_dolphin',
       },
       {
         name: 'Kogia breviceps',
         alias: 'Pygmy sperm whale',
+        url: 'https://en.wikipedia.org/wiki/Pygmy_sperm_whale',
       },
       {
         name: 'Kogia sima',
         alias: 'Dwarf sperm whale',
+        url: 'https://en.wikipedia.org/wiki/Dwarf_sperm_whale',
       },
       {
         name: 'Lagenorhynchus albirostris',
         alias: 'White-beaked dolphin',
+        url: 'https://en.wikipedia.org/wiki/White-beaked_dolphin',
       },
       {
         name: 'Megaptera novaeangliae',
         alias: 'Humpback whale',
+        url: 'https://en.wikipedia.org/wiki/Humpback_whale',
       },
       {
         name: 'Neophocaena phocaenoides',
         alias: 'Finless porpoise',
+        url: 'https://en.wikipedia.org/wiki/Finless_porpoise',
       },
       {
         name: 'Orcaella brevirostris',
         alias: 'Irrawaddy dolphin',
+        url: 'https://en.wikipedia.org/wiki/Irrawaddy_dolphin',
       },
       {
         name: 'Orcinus orca',
-        alias: 'Killer whale',
+        alias: 'Orca whale',
+        url: 'https://en.wikipedia.org/wiki/Killer_whale',
       },
       {
         name: 'Physeter macrocephalus',
         alias: 'Sperm whale',
+        url: 'https://en.wikipedia.org/wiki/Sperm_whale',
       },
       {
         name: 'Pseudorca crassidens',
         alias: 'False killer whale',
+        url: 'https://en.wikipedia.org/wiki/False_killer_whale',
       },
       {
         name: 'Sousa chinensis',
         alias: 'Indo-Pacific humpback dolphin',
+        url: 'https://en.wikipedia.org/wiki/Indo-Pacific_humpback_dolphin',
       },
       {
         name: 'Sousa plumbea',
         alias: 'Indian Ocean humpback dolphin',
+        url: 'https://en.wikipedia.org/wiki/Indian_Ocean_humpback_dolphin',
       },
       {
         name: 'Stenella attenuata',
         alias: 'Pantropical spotted dolphin',
+        url: 'https://en.wikipedia.org/wiki/Pantropical_spotted_dolphin',
       },
       {
         name: 'Stenella coeruleoalba',
         alias: 'Striped dolphin',
+        url: 'https://en.wikipedia.org/wiki/Striped_dolphin',
       },
       {
         name: 'Stenella frontalis',
         alias: 'Atlantic spotted dolphin',
+        url: 'https://en.wikipedia.org/wiki/Atlantic_spotted_dolphin',
       },
       {
         name: 'Stenella longirostris',
         alias: 'Spinner dolphin',
+        url: 'https://en.wikipedia.org/wiki/Spinner_dolphin',
       },
       {
         name: 'Steno bredanensis',
         alias: 'Rough-toothed dolphin',
+        url: 'https://en.wikipedia.org/wiki/Rough-toothed_dolphin',
       },
       {
         name: 'Tursiops aduncus',
         alias: 'Indo-Pacific bottlenose dolphin',
+        url: 'https://en.wikipedia.org/wiki/Indo-Pacific_bottlenose_dolphin',
       },
       {
         name: 'Tursiops truncatus',
         alias: 'Bottlenose dolphin',
+        url: 'https://en.wikipedia.org/wiki/Common_bottlenose_dolphin',
       },
       {
         name: 'Ziphiidae',
         alias: 'Beaked whale',
+        url: 'https://en.wikipedia.org/wiki/Beaked_whale',
       },
       {
         name: 'Ziphius cavirostris',
         alias: "Cuvier's beaked whale",
+        url: 'https://en.wikipedia.org/wiki/Cuvier%27s_beaked_whale',
       },
     ],
   },
@@ -280,6 +319,7 @@ const projectData = [
       {
         name: 'Rhincodon typus',
         alias: 'Whale shark',
+        url: 'https://en.wikipedia.org/wiki/Whale_shark',
       },
     ],
   },
@@ -312,22 +352,22 @@ const projectData = [
       {
         name: 'Manta alfredi',
         alias: 'Reef manta ray',
+        url: 'https://en.wikipedia.org/wiki/Reef_manta_ray',
       },
       {
         name: 'Manta birostris',
         alias: 'Giant oceanic manta ray',
+        url: 'https://en.wikipedia.org/wiki/Manta_birostris',
       },
       {
         name: 'Aetomylaeus bovinus',
         alias: 'Bull ray',
-      },
-      {
-        name: 'Aetomylaeus bovinus',
-        alias: 'Bull ray',
+        url: 'https://en.wikipedia.org/wiki/Bull_ray',
       },
       {
         name: 'Himantura uarnak',
         alias: 'Honeycomb whipray',
+        url: 'https://en.wikipedia.org/wiki/Reticulate_whipray',
       },
     ],
   },
@@ -345,27 +385,41 @@ const projectData = [
     sightings: 20379,
     individuals: 6801,
     algorithms: [algorithms.hotspotter],
-    partners: [],
+    partners: [
+      {
+        name: 'Giraffe Conservation Foundation',
+        logo: gcfLogo,
+      },
+      {
+        name: 'San Diego Zoo Global',
+        logo: sdZooLogo,
+      },
+    ],
     species: [
       {
         name: 'Giraffa reticulata',
         alias: 'Reticulated giraffe',
+        url: 'https://en.wikipedia.org/wiki/Reticulated_giraffe',
       },
       {
         name: 'Giraffa camelopardalis peralta',
         alias: 'West African giraffe',
+        url: 'https://en.wikipedia.org/wiki/West_African_giraffe',
       },
       {
         name: 'Giraffa giraffa angolensis',
         alias: 'Angolan giraffe',
+        url: 'https://en.wikipedia.org/wiki/Angolan_giraffe',
       },
       {
         name: 'Giraffa tippelskirchi',
         alias: 'Masai giraffe',
+        url: 'https://en.wikipedia.org/wiki/Masai_giraffe',
       },
       {
         name: 'Giraffa camelopardalis',
         alias: 'Northern giraffe',
+        url: 'https://en.wikipedia.org/wiki/Northern_giraffe',
       },
     ],
   },
@@ -388,22 +442,22 @@ const projectData = [
       {
         name: 'Chelonia mydas',
         alias: 'Green turtle',
+        url: 'https://en.wikipedia.org/wiki/Green_sea_turtle',
       },
       {
         name: 'Eretmochelys imbricata',
         alias: 'Hawksbill turtle',
+        url: 'https://en.wikipedia.org/wiki/Hawksbill_sea_turtle',
       },
       {
         name: 'Caretta caretta',
         alias: 'Loggerhead turtle',
+        url: 'https://en.wikipedia.org/wiki/Loggerhead_sea_turtle',
       },
       {
         name: 'Lepidochelys olivacea',
         alias: 'Olive Ridley turtle',
-      },
-      {
-        name: 'Giraffa camelopardalis',
-        alias: 'Leatherback turtle',
+        url: 'https://en.wikipedia.org/wiki/Olive_ridley_sea_turtle',
       },
     ],
   },
@@ -426,10 +480,12 @@ const projectData = [
       {
         name: 'Equus quagga',
         alias: 'Plains zebra',
+        url: 'https://en.wikipedia.org/wiki/Plains_zebra',
       },
       {
         name: 'Equus grevyi',
         alias: "Grevyi's zebra",
+        url: 'https://en.wikipedia.org/wiki/Gr%C3%A9vy%27s_zebra',
       },
     ],
   },
@@ -452,6 +508,7 @@ const projectData = [
       {
         name: 'Lynx pardinus',
         alias: 'Iberian lynx',
+        url: 'https://en.wikipedia.org/wiki/Iberian_lynx',
       },
     ],
   },
@@ -473,6 +530,7 @@ const projectData = [
       {
         name: 'Stereolepis gigas',
         alias: 'Giant sea bass',
+        url: 'https://en.wikipedia.org/wiki/Giant_sea_bass',
       },
     ],
   },
@@ -496,6 +554,7 @@ const projectData = [
       {
         name: 'Carcharias taurus',
         alias: 'Sand tiger shark',
+        url: 'https://en.wikipedia.org/wiki/Sand_tiger_shark',
       },
     ],
   },
@@ -518,6 +577,7 @@ const projectData = [
       {
         name: 'Carcharias taurus',
         alias: 'Sand tiger shark',
+        url: 'https://en.wikipedia.org/wiki/Sand_tiger_shark',
       },
     ],
   },
@@ -540,6 +600,7 @@ const projectData = [
       {
         name: 'Panthera onca',
         alias: 'Jaguar',
+        url: 'https://en.wikipedia.org/wiki/Jaguar',
       },
     ],
   },
@@ -562,6 +623,7 @@ const projectData = [
       {
         name: 'Pusa hispida saimensis',
         alias: 'Saimaa ringed seal',
+        url: 'https://en.wikipedia.org/wiki/Saimaa_ringed_seal',
       },
     ],
   },
@@ -584,14 +646,17 @@ const projectData = [
       {
         name: 'Phycodurus eques',
         alias: 'Leafy seadragon',
+        url: 'https://en.wikipedia.org/wiki/Leafy_seadragon',
       },
       {
         name: 'Phyllopteryx taeniolatus',
         alias: 'Common seadragon',
+        url: 'https://en.wikipedia.org/wiki/Common_seadragon',
       },
       {
         name: 'Phyllopteryx dewysea',
         alias: 'Ruby seadragon',
+        url: 'https://en.wikipedia.org/wiki/Ruby_seadragon',
       },
     ],
   },

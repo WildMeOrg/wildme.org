@@ -97,7 +97,6 @@ export default function ProjectPage({ data }) {
         <Chip
           icon={<AdoptionIcon />}
           variant="outlined"
-          onClick={inviteOnly ? () => setModalOpen(true) : undefined}
           label={<FormattedMessage id="ADOPTIONS_WELCOME" />}
         />
       )}
@@ -137,19 +136,9 @@ export default function ProjectPage({ data }) {
             <Grid item>
               <Card style={{ maxWidth: 220, backgroundColor: 'rgb(210, 176, 255)' }}>
                 <CardContent>
-                  <Typography variant="subtitle2">{algorithm.name}</Typography>
+                  <Link href={algorithm.url} external><Typography variant="subtitle2">{algorithm.name}</Typography></Link>
                   <Typography>Here is a brief description of the algorithm.</Typography>
                 </CardContent>
-                <CardActions>
-                  <ButtonLink
-                    size="small"
-                    display="form"
-                    external
-                    href={algorithm.url}
-                  >
-                    <FormattedMessage id="LEARN_MORE" />
-                  </ButtonLink>
-                </CardActions>
               </Card>
             </Grid>
           ))}
@@ -162,7 +151,7 @@ export default function ProjectPage({ data }) {
             <Grid item>
               <Card style={{ maxWidth: 220, backgroundColor: '#b0c5ff' }}>
                 <CardContent>
-                  <Typography variant="subtitle2">{currentSpecies.name}</Typography>
+                  <Link external href={currentSpecies.url}><Typography variant="subtitle2">{currentSpecies.name}</Typography></Link>
                   <Typography>{currentSpecies.alias}</Typography>
                 </CardContent>
               </Card>
