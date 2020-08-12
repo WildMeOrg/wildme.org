@@ -6,6 +6,28 @@ import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
 const articles = [
   {
     name:
+      'Spots and Stripes',
+    href:
+      'https://www.oceanographicmagazine.com/features/leopard-sharks-sundive-byron-bay/',
+    organization: 'Oceanographic Magazine',
+    date: '2020-02-29',
+    citation: 'David Robinson, Oceanographic Magazine',
+    excerpt:
+      'The amazing team at Wildbook created a page for leopard sharks, which allows individuals to upload any encounters they have of leopard sharks, not only at Julian Rocks but anywhere in the world.',
+  },
+  {
+    name:
+      'What do sharks have to do with the Hubble Space Telescope?',
+    href:
+      'https://www.instagram.com/tv/CDwJDOfHlRE/',
+    organization: '@nasahubble',
+    date: '2020-08-11',
+    citation: '@nasahubble, Instagram',
+    excerpt:
+      "Using a modified version of Groth's algorithm, instead of measuring the triangles made by stars, conservationists were able to measure the distance between the Whale Shark's unique spots.",
+  },
+  {
+    name:
       'How a Portland nonprofit is using artificial intelligence to help save whales, giraffes, zebras',
     href:
       'https://www.seattletimes.com/seattle-news/environment/how-a-portland-nonprofit-is-using-artificial-intelligence-to-help-save-whales-giraffes-zebras/',
@@ -14,7 +36,7 @@ const articles = [
     citation: 'Aimee Rawlins, The Seattle Times',
     logo: seattleTimesLogo,
     excerpt:
-      'The Wildbook for whales, called Flukebook, encourages collaboration, which is particularly useful for whales that travel long distances because it can be difficult for one research group to effectively monitor one area.    ',
+      'The Wildbook for whales, called Flukebook, encourages collaboration, which is particularly useful for whales that travel long distances because it can be difficult for one research group to effectively monitor one area.',
   },
   {
     name: 'Artificial intelligence adds value in the Wild',
