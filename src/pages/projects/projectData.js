@@ -22,7 +22,7 @@ import sandtigerBannerLarge from '../../assets/sandtiger-banner-large.jpg';
 import sandtigerBannerSmall from '../../assets/sandtiger-banner-small.jpg';
 import bassBannerLarge from '../../assets/bass-banner-large.jpg';
 import bassBannerSmall from '../../assets/bass-banner-small.jpg';
-// import osuLogo from '../../assets/osu_logo.svg'; // for skunks
+import osuLogo from '../../assets/osu_logo.svg';
 import crcLogo from '../../assets/cascadia_research_collective.png';
 import noaaLogo from '../../assets/noaa-logo.png';
 import dwspLogo from '../../assets/dswp-logo.png';
@@ -624,6 +624,35 @@ const projectData = [
         name: 'Pusa hispida saimensis',
         alias: 'Saimaa ringed seal',
         url: 'https://en.wikipedia.org/wiki/Saimaa_ringed_seal',
+      },
+    ],
+  },
+  {
+    name: 'Skunk Wildbook',
+    path: '/skunks',
+    href: 'http://skunk.wildbook.org/',
+    inviteOnly: true,
+    hosted: true,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: saimaaBannerLarge,
+    bannerSmall: saimaaBannerSmall,
+    descriptionId: 'SKUNK_DESCRIPTION',
+    sightings: 657,
+    individuals: 11,
+    algorithms: [algorithms.hotspotter],
+    partners: [
+      {
+        name: 'Oregon State University',
+        logo: osuLogo,
+        url: 'https://mmi.oregonstate.edu/',
+      },
+    ],
+    species: [
+      {
+        name: 'Spilogale gracilis',
+        alias: 'Western spotted skunk',
+        url: 'https://en.wikipedia.org/wiki/Western_spotted_skunk',
       },
     ],
   },
