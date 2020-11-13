@@ -109,9 +109,11 @@ export default function ProjectPage({ data }) {
       )}
       <Typography>{`${sightings} sightings`}</Typography>
       <Typography>{`${individuals} individuals`}</Typography>
-      {(partners && partners.length > 0) && (
+      {partners && partners.length > 0 && (
         <div>
-          <Typography variant="h5"><FormattedMessage id="OFFICIAL_PARTNERS" /></Typography>
+          <Typography variant="h5">
+            <FormattedMessage id="OFFICIAL_PARTNERS" />
+          </Typography>
           <GridList
             cellHeight={100}
             cols={3}
@@ -130,14 +132,27 @@ export default function ProjectPage({ data }) {
         </div>
       )}
       <div>
-        <Typography variant="h5" style={{ margin: '20px 0' }}><FormattedMessage id="ALGORITHMS" /></Typography>
+        <Typography variant="h5" style={{ margin: '20px 0' }}>
+          <FormattedMessage id="ALGORITHMS" />
+        </Typography>
         <Grid container spacing={2}>
           {algorithms.map(algorithm => (
             <Grid item>
-              <Card style={{ maxWidth: 220, backgroundColor: 'rgb(210, 176, 255)' }}>
+              <Card
+                style={{
+                  maxWidth: 220,
+                  backgroundColor: 'rgb(210, 176, 255)',
+                }}
+              >
                 <CardContent>
-                  <Link href={algorithm.url} external><Typography variant="subtitle2">{algorithm.name}</Typography></Link>
-                  <Typography>Here is a brief description of the algorithm.</Typography>
+                  <Link href={algorithm.url} external>
+                    <Typography variant="subtitle2">
+                      {algorithm.name}
+                    </Typography>
+                  </Link>
+                  <Typography>
+                    Here is a brief description of the algorithm.
+                  </Typography>
                 </CardContent>
               </Card>
             </Grid>
@@ -145,13 +160,21 @@ export default function ProjectPage({ data }) {
         </Grid>
       </div>
       <div>
-        <Typography variant="h5" style={{ margin: '20px 0' }}><FormattedMessage id="SPECIES" /></Typography>
+        <Typography variant="h5" style={{ margin: '20px 0' }}>
+          <FormattedMessage id="SPECIES" />
+        </Typography>
         <Grid container spacing={2}>
           {species.map(currentSpecies => (
             <Grid item>
-              <Card style={{ maxWidth: 220, backgroundColor: '#b0c5ff' }}>
+              <Card
+                style={{ maxWidth: 220, backgroundColor: '#b0c5ff' }}
+              >
                 <CardContent>
-                  <Link external href={currentSpecies.url}><Typography variant="subtitle2">{currentSpecies.name}</Typography></Link>
+                  <Link external href={currentSpecies.url}>
+                    <Typography variant="subtitle2">
+                      {currentSpecies.name}
+                    </Typography>
+                  </Link>
                   <Typography>{currentSpecies.alias}</Typography>
                 </CardContent>
               </Card>

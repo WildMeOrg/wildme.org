@@ -151,12 +151,14 @@ const projectData = [
       {
         name: 'Delphinus capensis',
         alias: 'Long-beaked common dolphin',
-        url: 'https://en.wikipedia.org/wiki/Long-beaked_common_dolphin',
+        url:
+          'https://en.wikipedia.org/wiki/Long-beaked_common_dolphin',
       },
       {
         name: 'Delphinus delphis',
         alias: 'Short-beaked common dolphin',
-        url: 'https://en.wikipedia.org/wiki/Short-beaked_common_dolphin',
+        url:
+          'https://en.wikipedia.org/wiki/Short-beaked_common_dolphin',
       },
       {
         name: 'Dugong dugon',
@@ -171,7 +173,8 @@ const projectData = [
       {
         name: 'Eubalaena glacialis',
         alias: 'North Atlantic right whale',
-        url: 'https://en.wikipedia.org/wiki/North_Atlantic_right_whale',
+        url:
+          'https://en.wikipedia.org/wiki/North_Atlantic_right_whale',
       },
       {
         name: 'Feresa attenuata',
@@ -236,17 +239,20 @@ const projectData = [
       {
         name: 'Sousa chinensis',
         alias: 'Indo-Pacific humpback dolphin',
-        url: 'https://en.wikipedia.org/wiki/Indo-Pacific_humpback_dolphin',
+        url:
+          'https://en.wikipedia.org/wiki/Indo-Pacific_humpback_dolphin',
       },
       {
         name: 'Sousa plumbea',
         alias: 'Indian Ocean humpback dolphin',
-        url: 'https://en.wikipedia.org/wiki/Indian_Ocean_humpback_dolphin',
+        url:
+          'https://en.wikipedia.org/wiki/Indian_Ocean_humpback_dolphin',
       },
       {
         name: 'Stenella attenuata',
         alias: 'Pantropical spotted dolphin',
-        url: 'https://en.wikipedia.org/wiki/Pantropical_spotted_dolphin',
+        url:
+          'https://en.wikipedia.org/wiki/Pantropical_spotted_dolphin',
       },
       {
         name: 'Stenella coeruleoalba',
@@ -271,12 +277,14 @@ const projectData = [
       {
         name: 'Tursiops aduncus',
         alias: 'Indo-Pacific bottlenose dolphin',
-        url: 'https://en.wikipedia.org/wiki/Indo-Pacific_bottlenose_dolphin',
+        url:
+          'https://en.wikipedia.org/wiki/Indo-Pacific_bottlenose_dolphin',
       },
       {
         name: 'Tursiops truncatus',
         alias: 'Bottlenose dolphin',
-        url: 'https://en.wikipedia.org/wiki/Common_bottlenose_dolphin',
+        url:
+          'https://en.wikipedia.org/wiki/Common_bottlenose_dolphin',
       },
       {
         name: 'Ziphiidae',

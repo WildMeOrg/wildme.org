@@ -35,7 +35,7 @@ export default function AppHeader() {
             noWrap
             style={{ fontSize: 20, flexGrow: 1 }}
           >
-            Wildbook
+            Wild Me
           </Typography>
         </Link>
       </Toolbar>

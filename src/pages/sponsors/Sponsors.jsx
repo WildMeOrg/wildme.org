@@ -80,7 +80,12 @@ export default function Sponsors() {
                 alignItems: 'flex-start',
               }}
             >
-              <img alt={`${sponsor.name} logo`} height="60" width="auto" src={sponsor.logo} />
+              <img
+                alt={`${sponsor.name} logo`}
+                height="60"
+                width="auto"
+                src={sponsor.logo}
+              />
               {sponsor.youtubeUrl && (
                 <ReactPlayer
                   // style={{ maxWidth: '100vw' }}
@@ -89,7 +94,11 @@ export default function Sponsors() {
                 />
               )}
               {sponsor.photoSrc && (
-                <img alt={`${sponsor.name} banner`} src={sponsor.photoSrc} width={640} />
+                <img
+                  alt={`${sponsor.name} banner`}
+                  src={sponsor.photoSrc}
+                  width={640}
+                />
               )}
               <Typography>{sponsor.description}</Typography>
             </div>

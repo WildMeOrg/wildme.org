@@ -126,7 +126,11 @@ export default function Footer() {
           <Link href="http://wildme.org/">Wild Me</Link>
           <FormattedMessage id="END_OF_SENTENCE" />
         </Typography>
-        <ButtonLink href="/contribute" display="primary" style={{ marginTop: 20 }}>
+        <ButtonLink
+          href="/contribute"
+          display="primary"
+          style={{ marginTop: 20 }}
+        >
           <FormattedMessage id="CONTRIBUTE" />
         </ButtonLink>
         {/* <SubscribeButton /> */}

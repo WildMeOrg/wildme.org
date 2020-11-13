@@ -5,8 +5,7 @@ import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
 
 const articles = [
   {
-    name:
-      'Spots and Stripes',
+    name: 'Spots and Stripes',
     href:
       'https://www.oceanographicmagazine.com/features/leopard-sharks-sundive-byron-bay/',
     organization: 'Oceanographic Magazine',
@@ -18,8 +17,7 @@ const articles = [
   {
     name:
       'What do sharks have to do with the Hubble Space Telescope?',
-    href:
-      'https://www.instagram.com/tv/CDwJDOfHlRE/',
+    href: 'https://www.instagram.com/tv/CDwJDOfHlRE/',
     organization: '@nasahubble',
     date: '2020-08-11',
     citation: '@nasahubble, Instagram',
