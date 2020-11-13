@@ -1,4 +1,4 @@
-# wildbook.org
+# wildme.org
 
 The React frontend for [wildme.org](https://wildme.org/). This site is not in production yet, but it is under active development as of July 2020.
 
