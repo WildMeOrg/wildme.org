@@ -4,9 +4,10 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import BackIcon from '@material-ui/icons/KeyboardBackspace';
 
 const colorMap = {
-  primary: 'rgb(109, 41, 208)',
-  secondary: 'rgb(79, 84, 255)',
-  tertiary: 'rgb(232, 85, 0)',
+  primary: 'linear-gradient(90deg, #21BDC1, #41D06A)',
+  panel: 'linear-gradient(90deg, #21BDC1, #41D06A)',
+  secondary: 'grey',
+  tertiary: 'white',
 };
 
 export default function CustomButton({
@@ -20,6 +21,8 @@ export default function CustomButton({
   let variant = undefined; // eslint-disable-line
   let color = undefined; // eslint-disable-line
   const roleStyles = {};
+
+  console.log(display);
 
   if (display === 'back') {
     return (
@@ -42,7 +45,7 @@ export default function CustomButton({
     if (display === 'subtle') {
       color = 'default';
     } else {
-      roleStyles.backgroundColor = colorMap[display];
+      roleStyles.background = colorMap[display];
       roleStyles.color = 'white';
     }
   }
@@ -52,13 +55,14 @@ export default function CustomButton({
   }
 
   if (disabled) {
-    delete roleStyles.backgroundColor;
+    delete roleStyles.background;
     delete roleStyles.color;
   }
 
+  console.log(roleStyles);
+
   return (
     <Button
-      color={color}
       variant={variant}
       disabled={disabled}
       style={{ ...roleStyles, ...style }}

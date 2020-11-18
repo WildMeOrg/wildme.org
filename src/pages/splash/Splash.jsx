@@ -20,12 +20,32 @@ export default function Splash() {
           color: theme.palette.common.white,
           background: 'linear-gradient(90deg, #21BDC1, #41D06A)',
           backgroundSize: '400% 400%',
-          animation: 'gradient 10s ease infinite',
+          animation: 'gradient 8s ease infinite',
         }}
       >
         <img style={{ width: '40%' }} src={logo} alt="Wild Me logo" />
         <Typography variant="h6" style={{ fontSize: 16 }}>
           <FormattedMessage id="SPLASH_TAGLINE" />
+        </Typography>
+      </div>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          width: '100%',
+          height: '90vh',
+          justifyContent: 'center',
+          alignItems: 'center',
+          color: theme.palette.common.white,
+          background: 'black',
+        }}
+      >
+        <Typography variant="h3">
+          <span>Wild Me </span>
+          <span style={{ fontStyle: 'italic' }}>Sage</span>
+        </Typography>
+        <Typography variant="subtitle1">
+          Cataloguing and matching for the research community.
         </Typography>
       </div>
     </div>

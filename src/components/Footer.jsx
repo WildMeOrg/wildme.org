@@ -108,7 +108,7 @@ export default function Footer() {
   const smallScreen = useMediaQuery('(min-width:600px)');
 
   return (
-    <div style={{ width: '100%', paddingBottom: 16 }}>
+    <div style={{ width: '100%' }}>
       <div
         style={{
           display: 'flex',
@@ -116,15 +116,11 @@ export default function Footer() {
           justifyContent: 'center',
           flexDirection: 'column',
           padding: '24px 12px',
-          background: 'rgb(229, 224, 255)',
           textAlign: 'center',
         }}
       >
         <Typography>
-          Wildbook
-          <FormattedMessage id="OPEN_SOURCE_SOFTWARE_CREATED_BY" />
-          <Link href="http://wildme.org/">Wild Me</Link>
-          <FormattedMessage id="END_OF_SENTENCE" />
+          <FormattedMessage id="DONATION_ASK" />
         </Typography>
         <ButtonLink
           href="/contribute"
@@ -135,13 +131,25 @@ export default function Footer() {
         </ButtonLink>
         {/* <SubscribeButton /> */}
       </div>
-      <div style={{ width: '80%', margin: '0 auto' }}>
+      <div
+        style={{
+          width: '100%',
+          margin: '0 auto',
+          background: 'black',
+          color: 'white',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          paddingBottom: 40,
+        }}
+      >
         <div
           style={{
             display: 'flex',
             flexDirection: smallScreen ? 'row' : 'column',
             justifyContent: 'space-between',
             margin: '0 4px 20px 4px',
+            width: '80%',
           }}
         >
           {footerCategories.map(category => {
@@ -173,22 +181,23 @@ export default function Footer() {
           })}
         </div>
         <Divider />
-        <div
+        {/* <div
           style={{
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
+            width: '80%',
           }}
         >
           <div>
             <Button
-              style={{ textTransform: 'unset' }}
+              style={{ textTransform: 'unset', color: 'white' }}
               display="basic"
             >
               English
             </Button>
             <Button
-              style={{ textTransform: 'unset' }}
+              style={{ textTransform: 'unset', color: 'white' }}
               display="basic"
             >
               Español
@@ -202,7 +211,7 @@ export default function Footer() {
               <FacebookIcon />
             </IconButton>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
