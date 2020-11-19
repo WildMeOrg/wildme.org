@@ -1,27 +1,33 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { useIntl, FormattedMessage } from 'react-intl';
 import { useTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import NewsIcon from '@material-ui/icons/ChromeReaderMode';
-import CodeIcon from '@material-ui/icons/Code';
-import PetsIcon from '@material-ui/icons/Pets';
-import SearchIcon from '@material-ui/icons/Search';
 
+import useDocumentTitle from '../../hooks/useDocumentTitle';
 import {
   Row,
   Box,
   SpaceAroundCard,
 } from '../../components/Containers';
 import ButtonLink from '../../components/ButtonLink';
-import logo from '../../assets/WildMe-Logo-white.png';
+import ResponsiveText from '../../components/ResponsiveText';
+import logo from '../../assets/WildMe-Logo-Gradient.png';
 import zebraTexture from '../../assets/zebra-texture.jpeg';
 import multiFeature from '../../assets/multifeature.jpeg';
 import seadragons from '../../assets/seadragons.jpeg';
+import academiaIcon from '../../assets/academia-icon.svg';
+import codeIcon from '../../assets/code-icon.svg';
+import newsIcon from '../../assets/news-icon.svg';
+import speciesIcon from '../../assets/species-icon.svg';
 import ActionableMetric from './ActionableMetric';
 import ImageCard from './ImageCard';
 
 export default function Splash() {
+  const intl = useIntl();
   const theme = useTheme();
+
+  const pageNotFound = intl.formatMessage({ id: 'HOME' });
+  useDocumentTitle(pageNotFound);
 
   return (
     <div style={{ marginTop: 64, color: theme.palette.common.white }}>
@@ -33,16 +39,41 @@ export default function Splash() {
               flexDirection: 'column',
               justifyContent: 'center',
               alignItems: 'center',
+              textAlign: 'center',
             }}
           >
             <img
-              style={{ width: '40%' }}
+              style={{
+                width: '30%',
+                filter: 'brightness(0) invert(1)',
+              }}
               src={logo}
               alt="Wild Me logo"
             />
-            <Typography variant="h4">
+            <ResponsiveText style={{ marginTop: 20 }} variant="h2">
               <FormattedMessage id="SPLASH_TAGLINE" />
+            </ResponsiveText>
+            <Typography
+              style={{
+                marginTop: 30,
+                maxWidth: 880,
+                fontStyle: 'italic',
+              }}
+              variant="subtitle1"
+            >
+              <FormattedMessage id="SPLASH_SUBTITLE" />
             </Typography>
+            <ButtonLink
+              href="/projects"
+              display="primary"
+              style={{
+                marginTop: 40,
+                background: 'black',
+                marginBottom: '15vh',
+              }}
+            >
+              <FormattedMessage id="EXPLORE_PROJECTS" />
+            </ButtonLink>
           </div>
         </Box>
       </Row>
@@ -60,7 +91,7 @@ export default function Splash() {
         <ImageCard
           date="August 27, 2020"
           imgSrc={seadragons}
-          title="Seadragonsearch.org official launch"
+          title="Seadragon Wildbook official launch!"
         />
       </Row>
       <Row>
@@ -71,29 +102,29 @@ export default function Splash() {
               description="Including articles from respected institutions like the New York Times and Nature."
               ask="See press"
               href="/press"
-              logo={NewsIcon}
-            />
-            <ActionableMetric
-              title="190k lines of code"
-              description="We are programmers and data scientists who take pride in our work. Every line of code is open source."
-              ask="View repositories"
-              href="https://github.com/WildbookOrg"
-              external
-              logo={CodeIcon}
+              imgSrc={newsIcon}
             />
             <ActionableMetric
               title="53 species"
               description="Support automated identification, powered by state-of-the-art machine learning algorithms."
               ask="Explore projects"
               href="/projects"
-              logo={PetsIcon}
+              imgSrc={speciesIcon}
+            />
+            <ActionableMetric
+              title="190k lines of code"
+              description="We love sharing our work with the research community. Every line of code is open source."
+              ask="View repositories"
+              href="https://github.com/WildbookOrg"
+              external
+              imgSrc={codeIcon}
             />
             <ActionableMetric
               title="81 publications"
               description="In peer-reviewed journals, coauthored by Wild Me staff and powered by Wild Me technologies."
               ask="See publications"
               href="/publications"
-              logo={SearchIcon}
+              imgSrc={academiaIcon}
             />
           </SpaceAroundCard>
         </Box>

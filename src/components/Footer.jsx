@@ -106,7 +106,7 @@ export default function Footer() {
 
   return (
     <Row style={{ color: theme.palette.common.white }}>
-      <Box black>
+      <Box black style={{ marginBottom: 60 }}>
         <SpaceAroundCard>
           {footerCategories.map(category => {
             return (

@@ -7,6 +7,7 @@ export default function ActionableMetric({
   title,
   description,
   logo,
+  imgSrc,
   ask,
   href,
   external,
@@ -23,7 +24,15 @@ export default function ActionableMetric({
         margin: '32px 0',
       }}
     >
-      <Logo style={{ height: 88, width: 88 }} />
+      {imgSrc ? (
+        <img
+          src={imgSrc}
+          alt={title}
+          style={{ height: 120, width: 120 }}
+        />
+      ) : (
+        <Logo style={{ height: 88, width: 88 }} />
+      )}
       <Typography variant="h5" style={{ marginTop: 12 }}>
         {title}
       </Typography>

@@ -60,10 +60,11 @@ export default function AppHeader() {
               color: theme.palette.common.white,
             }}
           >
-            Wild Me
+            <span style={{ fontWeight: 500 }}>WILD</span>
+            <span style={{ fontWeight: 200 }}>ME</span>
           </Typography>
         </Link>
-        <div
+        {/* <div
           style={{ color: theme.palette.common.white, flexShrink: 0 }}
         >
           <InlineButton
@@ -111,7 +112,7 @@ export default function AppHeader() {
               ))}
             </MenuList>
           </Menu>
-        </div>
+        </div> */}
       </Toolbar>
     </AppBar>
   );
