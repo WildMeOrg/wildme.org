@@ -19,8 +19,7 @@ export default function ActionableMetric({
         flexDirection: 'column',
         alignItems: 'flex-start',
         textAlign: 'left',
-        width: 240,
-        flexShrink: '0',
+        width: 220,
         margin: '32px 0',
       }}
     >

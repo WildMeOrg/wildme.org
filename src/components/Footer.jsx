@@ -1,9 +1,9 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { useTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Link from './Link';
-import ButtonLink from './ButtonLink';
-import GridContainer from './GridContainer';
+import { Row, Box, SpaceAroundCard } from './Containers';
 
 const footerCategories = [
   {
@@ -102,63 +102,47 @@ const footerCategories = [
 ];
 
 export default function Footer() {
+  const theme = useTheme();
+
   return (
-    <div style={{ width: '100%' }}>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexDirection: 'column',
-          padding: '60px 12px',
-          textAlign: 'center',
-        }}
-      >
-        <Typography variant="h5" style={{ color: 'white' }}>
-          <FormattedMessage id="DONATION_ASK" />
-        </Typography>
-        <ButtonLink
-          href="/contribute"
-          display="primary"
-          style={{ marginTop: 40, background: 'black' }}
-        >
-          <FormattedMessage id="CONTRIBUTE" />
-        </ButtonLink>
-      </div>
-      <GridContainer>
-        {footerCategories.map(category => {
-          return (
-            <div
-              key={category.categoryId}
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                margin: '32px 0',
-                width: 240,
-              }}
-            >
-              <Typography
-                variant="subtitle1"
-                style={{ marginBottom: 20 }}
+    <Row style={{ color: theme.palette.common.white }}>
+      <Box black>
+        <SpaceAroundCard>
+          {footerCategories.map(category => {
+            return (
+              <div
+                key={category.categoryId}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  margin: '32px 0',
+                  width: 240,
+                }}
               >
-                {category.categoryLabelId}
-              </Typography>
-              {category.entries.map(entry => (
-                <Typography key={entry.labelId}>
-                  <Link
-                    noUnderline
-                    href={entry.path}
-                    external={Boolean(entry.external)}
-                  >
-                    <FormattedMessage id={entry.labelId} />
-                  </Link>
+                <Typography
+                  variant="subtitle1"
+                  style={{ marginBottom: 20 }}
+                >
+                  {category.categoryLabelId}
                 </Typography>
-              ))}
-            </div>
-          );
-        })}
-      </GridContainer>
-      {/* <div
+                {category.entries.map(entry => (
+                  <Typography key={entry.labelId}>
+                    <Link
+                      noUnderline
+                      href={entry.path}
+                      external={Boolean(entry.external)}
+                    >
+                      <FormattedMessage id={entry.labelId} />
+                    </Link>
+                  </Typography>
+                ))}
+              </div>
+            );
+          })}
+        </SpaceAroundCard>
+      </Box>
+    </Row>
+    /* <div
           style={{
             display: 'flex',
             justifyContent: 'space-between',
@@ -188,7 +172,6 @@ export default function Footer() {
               <FacebookIcon />
             </IconButton>
           </div>
-        </div> */}
-    </div>
+        </div> */
   );
 }
