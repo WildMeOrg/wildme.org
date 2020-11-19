@@ -1,21 +1,45 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import Divider from '@material-ui/core/Divider';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import Button from './Button';
 import Link from './Link';
 import ButtonLink from './ButtonLink';
-// import SubscribeButton from './SubscribeButton';
+import GridContainer from './GridContainer';
 
 const footerCategories = [
+  {
+    categoryId: 'work',
+    categoryLabelId: 'WORK',
+    entries: [
+      {
+        labelId: 'PROJECTS',
+        path: '/projects',
+      },
+      {
+        labelId: 'PRODUCTS',
+        path: '/products',
+      },
+      {
+        labelId: 'SERVICES',
+        path: '/services',
+      },
+      {
+        labelId: 'CODE',
+        path: '/code',
+      },
+    ],
+  },
   {
     categoryId: 'about',
     categoryLabelId: 'ABOUT',
     entries: [
+      {
+        labelId: 'SPONSORS',
+        path: '/sponsors',
+      },
+      {
+        labelId: 'OUR_TEAM',
+        path: '/people',
+      },
       {
         labelId: 'PRESS',
         path: '/press',
@@ -23,36 +47,6 @@ const footerCategories = [
       {
         labelId: 'PUBLICATIONS',
         path: '/publications',
-      },
-      {
-        labelId: 'SPONSORS',
-        path: '/sponsors',
-      },
-      {
-        labelId: 'LEGAL',
-        path: '/legal',
-      },
-    ],
-  },
-  {
-    categoryId: 'projects',
-    categoryLabelId: 'PROJECTS',
-    entries: [
-      {
-        labelId: 'FLUKEBOOK',
-        path: '/projects/flukebook',
-      },
-      {
-        labelId: 'WHALESHARK_DOT_ORG',
-        path: '/projects/whaleshark',
-      },
-      {
-        labelId: 'MANTAMATCHER',
-        path: '/projects/mantamatcher',
-      },
-      {
-        labelId: 'ALL_PROJECTS',
-        path: '/projects',
       },
     ],
   },
@@ -66,14 +60,18 @@ const footerCategories = [
         external: true,
       },
       {
+        labelId: 'SUPPORT_&_FEEDBACK',
+        path: 'https://community.wildbook.org/',
+        external: true,
+      },
+      {
         labelId: 'DOCUMENTATION',
         path: 'http://wiki.wildbook.org/',
         external: true,
       },
       {
-        labelId: 'WILD_ME_SERVICES',
-        path: 'http://www.wildme.org/services/',
-        external: true,
+        labelId: 'LEGAL',
+        path: '/legal',
       },
     ],
   },
@@ -86,11 +84,6 @@ const footerCategories = [
         path: '/contribute',
       },
       {
-        labelId: 'SUPPORT_&_FEEDBACK',
-        path: 'https://community.wildbook.org/',
-        external: true,
-      },
-      {
         labelId: 'TWITTER',
         path: 'https://twitter.com/WildbookORG',
         external: true,
@@ -100,13 +93,15 @@ const footerCategories = [
         path: 'https://www.facebook.com/wildmeorg/',
         external: true,
       },
+      {
+        labelId: 'WORK_WITH_US',
+        path: '/careers',
+      },
     ],
   },
 ];
 
 export default function Footer() {
-  const smallScreen = useMediaQuery('(min-width:600px)');
-
   return (
     <div style={{ width: '100%' }}>
       <div
@@ -115,73 +110,55 @@ export default function Footer() {
           alignItems: 'center',
           justifyContent: 'center',
           flexDirection: 'column',
-          padding: '24px 12px',
+          padding: '60px 12px',
           textAlign: 'center',
         }}
       >
-        <Typography>
+        <Typography variant="h5" style={{ color: 'white' }}>
           <FormattedMessage id="DONATION_ASK" />
         </Typography>
         <ButtonLink
           href="/contribute"
           display="primary"
-          style={{ marginTop: 20 }}
+          style={{ marginTop: 40, background: 'black' }}
         >
           <FormattedMessage id="CONTRIBUTE" />
         </ButtonLink>
-        {/* <SubscribeButton /> */}
       </div>
-      <div
-        style={{
-          width: '100%',
-          margin: '0 auto',
-          background: 'black',
-          color: 'white',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          paddingBottom: 40,
-        }}
-      >
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: smallScreen ? 'row' : 'column',
-            justifyContent: 'space-between',
-            margin: '0 4px 20px 4px',
-            width: '80%',
-          }}
-        >
-          {footerCategories.map(category => {
-            return (
-              <div
-                key={category.categoryId}
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  marginTop: 20,
-                }}
+      <GridContainer>
+        {footerCategories.map(category => {
+          return (
+            <div
+              key={category.categoryId}
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                margin: '32px 0',
+                width: 240,
+              }}
+            >
+              <Typography
+                variant="subtitle1"
+                style={{ marginBottom: 20 }}
               >
-                <Typography variant="subtitle1">
-                  {category.categoryLabelId}
+                {category.categoryLabelId}
+              </Typography>
+              {category.entries.map(entry => (
+                <Typography key={entry.labelId}>
+                  <Link
+                    noUnderline
+                    href={entry.path}
+                    external={Boolean(entry.external)}
+                  >
+                    <FormattedMessage id={entry.labelId} />
+                  </Link>
                 </Typography>
-                {category.entries.map(entry => (
-                  <Typography key={entry.labelId}>
-                    <Link
-                      noUnderline
-                      href={entry.path}
-                      external={Boolean(entry.external)}
-                    >
-                      <FormattedMessage id={entry.labelId} />
-                    </Link>
-                  </Typography>
-                ))}
-              </div>
-            );
-          })}
-        </div>
-        <Divider />
-        {/* <div
+              ))}
+            </div>
+          );
+        })}
+      </GridContainer>
+      {/* <div
           style={{
             display: 'flex',
             justifyContent: 'space-between',
@@ -212,7 +189,6 @@ export default function Footer() {
             </IconButton>
           </div>
         </div> */}
-      </div>
     </div>
   );
 }

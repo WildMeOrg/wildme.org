@@ -22,8 +22,6 @@ export default function CustomButton({
   let color = undefined; // eslint-disable-line
   const roleStyles = {};
 
-  console.log(display);
-
   if (display === 'back') {
     return (
       <Button
@@ -65,7 +63,7 @@ export default function CustomButton({
     <Button
       variant={variant}
       disabled={disabled}
-      style={{ ...roleStyles, ...style }}
+      style={{ padding: '20px 32px', ...roleStyles, ...style }}
       {...rest}
     >
       {loading ? (

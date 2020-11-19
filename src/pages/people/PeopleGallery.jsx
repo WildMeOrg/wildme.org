@@ -30,14 +30,16 @@ export default function PeopleGallery({ people, titleId }) {
           </IconButton>
         </DialogTitle>
         <DialogContent style={{ paddingBottom: 40 }}>
-          <Typography variant="subtitle1" style={{ marginBottom: 20 }}>{get(selectedPerson, 'role')}</Typography>
+          <Typography
+            variant="subtitle1"
+            style={{ marginBottom: 20 }}
+          >
+            {get(selectedPerson, 'role')}
+          </Typography>
           {selectedPerson && selectedPerson.renderDescription()}
         </DialogContent>
       </Dialog>
-      <Typography
-        variant="h4"
-        style={{ marginBottom: 40 }}
-      >
+      <Typography variant="h4" style={{ marginBottom: 40 }}>
         <FormattedMessage id={titleId} />
       </Typography>
       <Grid style={{ maxWidth: 1300 }} spacing={3} container>

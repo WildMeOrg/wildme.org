@@ -18,6 +18,7 @@ export default function Link({
     color: disabled ? theme.palette.text.disabled : 'unset',
     textDecoration: noUnderline ? 'unset' : 'underline',
     cursor: disabled ? 'default' : 'pointer',
+    fontFamily: 'Lato',
     ...style,
   };
 

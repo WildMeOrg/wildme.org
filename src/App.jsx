@@ -77,59 +77,67 @@ export default function App() {
         defaultLocale="en"
         messages={messageMap[locale]}
       >
-        <HashRouter basename={routerBasename}>
-          <ScrollToTop />
-          <main
-            style={{
-              height: '100%',
-              width: '100%',
-              justifyContent: 'center',
-              alignItems: 'center',
-              overflow: 'hidden',
-              minHeight: '100vh',
-            }}
-          >
-            <AppHeader />
-            <Switch>
-              {projectData.map(project => (
-                <Route
-                  key={project.path}
-                  path={`/projects${project.path}`}
-                >
-                  <ProjectPage data={project} />
+        <div
+          style={{
+            background: 'linear-gradient(90deg, #21BDC1, #41D06A)',
+            backgroundSize: '130% 900%',
+            animation: 'gradient 3s ease infinite',
+          }}
+        >
+          <HashRouter basename={routerBasename}>
+            <ScrollToTop />
+            <main
+              style={{
+                height: '100%',
+                width: '100%',
+                justifyContent: 'center',
+                alignItems: 'center',
+                overflow: 'hidden',
+                minHeight: '100vh',
+              }}
+            >
+              <AppHeader />
+              <Switch>
+                {projectData.map(project => (
+                  <Route
+                    key={project.path}
+                    path={`/projects${project.path}`}
+                  >
+                    <ProjectPage data={project} />
+                  </Route>
+                ))}
+                <Route path="/projects">
+                  <Projects />
                 </Route>
-              ))}
-              <Route path="/projects">
-                <Projects />
-              </Route>
-              <Route path="/press">
-                <Press />
-              </Route>
-              <Route path="/publications">
-                <Publications />
-              </Route>
-              <Route path="/legal">
-                <Legal />
-              </Route>
-              <Route path="/people">
-                <People />
-              </Route>
-              <Route path="/sponsors">
-                <Sponsors />
-              </Route>
-              <Route path="/contribute">
-                <Contribute />
-              </Route>
-              <Route path="/" exact>
-                <Splash />
-              </Route>
-              <Route>
-                <FourOhFour />
-              </Route>
-            </Switch>
-          </main>
-          <Footer />
-        </HashRouter>
+                <Route path="/press">
+                  <Press />
+                </Route>
+                <Route path="/publications">
+                  <Publications />
+                </Route>
+                <Route path="/legal">
+                  <Legal />
+                </Route>
+                <Route path="/people">
+                  <People />
+                </Route>
+                <Route path="/sponsors">
+                  <Sponsors />
+                </Route>
+                <Route path="/contribute">
+                  <Contribute />
+                </Route>
+                <Route path="/" exact>
+                  <Splash />
+                </Route>
+                <Route>
+                  <FourOhFour />
+                </Route>
+              </Switch>
+            </main>
+            <Footer />
+          </HashRouter>
+        </div>
       </IntlProvider>
     </ThemeProvider>
   );
