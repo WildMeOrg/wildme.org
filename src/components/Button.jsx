@@ -57,8 +57,6 @@ export default function CustomButton({
     delete roleStyles.color;
   }
 
-  console.log(roleStyles);
-
   return (
     <Button
       variant={variant}

@@ -58,6 +58,7 @@ export default function AppHeader() {
               fontSize: 20,
               flexGrow: 1,
               color: theme.palette.common.white,
+              width: 100, // safari fix
             }}
           >
             <span style={{ fontWeight: 500 }}>WILD</span>
