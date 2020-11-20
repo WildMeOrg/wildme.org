@@ -105,43 +105,41 @@ export default function Footer() {
   const theme = useTheme();
 
   return (
-    <Row style={{ color: theme.palette.common.white }}>
-      <Box black style={{ marginBottom: 60 }}>
-        <SpaceAroundCard>
-          {footerCategories.map(category => {
-            return (
-              <div
-                key={category.categoryId}
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  margin: '32px 0',
-                  width: 240,
-                }}
+    <Box variant="black" style={{ margin: 0 }}>
+      <SpaceAroundCard>
+        {footerCategories.map(category => {
+          return (
+            <div
+              key={category.categoryId}
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                margin: '32px 0',
+                width: 240,
+              }}
+            >
+              <Typography
+                variant="subtitle1"
+                style={{ marginBottom: 20 }}
               >
-                <Typography
-                  variant="subtitle1"
-                  style={{ marginBottom: 20 }}
-                >
-                  {category.categoryLabelId}
+                {category.categoryLabelId}
+              </Typography>
+              {category.entries.map(entry => (
+                <Typography key={entry.labelId}>
+                  <Link
+                    noUnderline
+                    href={entry.path}
+                    external={Boolean(entry.external)}
+                  >
+                    <FormattedMessage id={entry.labelId} />
+                  </Link>
                 </Typography>
-                {category.entries.map(entry => (
-                  <Typography key={entry.labelId}>
-                    <Link
-                      noUnderline
-                      href={entry.path}
-                      external={Boolean(entry.external)}
-                    >
-                      <FormattedMessage id={entry.labelId} />
-                    </Link>
-                  </Typography>
-                ))}
-              </div>
-            );
-          })}
-        </SpaceAroundCard>
-      </Box>
-    </Row>
+              ))}
+            </div>
+          );
+        })}
+      </SpaceAroundCard>
+    </Box>
     /* <div
           style={{
             display: 'flex',

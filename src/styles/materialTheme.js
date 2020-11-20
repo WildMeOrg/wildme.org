@@ -20,9 +20,9 @@ export const lato = [
 const blackColor = '#0E1014';
 const whiteColor = '#ffffff';
 const primaryColor = '#21BDC1';
+const secondaryColor = '#41D06A';
 
 const lightPrimaryColor = lighten(primaryColor, 0.7);
-const darkPrimaryColor = darken(primaryColor, 0.2);
 
 export default {
   palette: {
@@ -33,7 +33,7 @@ export default {
       main: primaryColor,
     },
     secondary: {
-      main: darkPrimaryColor,
+      main: secondaryColor,
     },
     paper: {
       main: '#eeeeee',
@@ -93,7 +93,7 @@ export default {
     },
     MuiButton: {
       label: {
-        letterSpacing: '0.02em',
+        letterSpacing: '0.04em',
         fontSize: 16,
         fontWeight: 500,
       },

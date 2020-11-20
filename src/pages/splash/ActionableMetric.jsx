@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import GoIcon from '@material-ui/icons/NavigateNext';
 import Link from '../../components/Link';
@@ -12,6 +13,7 @@ export default function ActionableMetric({
   href,
   external,
 }) {
+  const theme = useTheme();
   const Logo = logo;
   return (
     <div
@@ -47,6 +49,7 @@ export default function ActionableMetric({
           marginTop: 24,
           display: 'flex',
           alignItems: 'center',
+          color: theme.palette.primary.main,
         }}
       >
         {ask}

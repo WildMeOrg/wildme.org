@@ -1,4 +1,5 @@
 import React from 'react';
+import { get } from 'lodash-es';
 import { useTheme } from '@material-ui/core/styles';
 
 const smallestDeviceWidth = 320;
@@ -30,7 +31,7 @@ export function Row({ children, style = {}, ...rest }) {
 
 export function Box({
   children,
-  black = false,
+  variant,
   n = 1,
   style = {},
   ...rest
@@ -44,13 +45,26 @@ export function Box({
     4: '22%',
   };
 
+  const backgroundMap = {
+    blue: theme.palette.primary.main,
+    green: theme.palette.secondary.main,
+    black: theme.palette.common.black,
+  };
+
+  const colorMap = {
+    blue: theme.palette.common.white,
+    green: theme.palette.common.white,
+    black: theme.palette.common.white,
+  };
+
   return (
     <div
       style={{
         minWidth: minimumBoxWidth,
         width: widthMap[n],
         margin: `${0.5 * verticalSpace}px ${0.5 * horizontalSpace}px`,
-        background: black ? theme.palette.common.black : 'unset',
+        background: get(backgroundMap, variant, 'unset'),
+        color: get(colorMap, variant, 'unset'),
         flexGrow: 1,
         ...style,
       }}

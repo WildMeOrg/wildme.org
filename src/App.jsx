@@ -77,13 +77,7 @@ export default function App() {
         defaultLocale="en"
         messages={messageMap[locale]}
       >
-        <div
-          style={{
-            background: 'linear-gradient(90deg, #21BDC1, #41D06A)',
-            backgroundSize: '130% 900%',
-            animation: 'gradient 3s ease infinite',
-          }}
-        >
+        <div>
           <HashRouter basename={routerBasename}>
             <ScrollToTop />
             <main

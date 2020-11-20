@@ -1,7 +1,8 @@
 import React from 'react';
 import { useIntl, FormattedMessage } from 'react-intl';
-import { useTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 import useDocumentTitle from '../../hooks/useDocumentTitle';
 import {
@@ -11,7 +12,6 @@ import {
 } from '../../components/Containers';
 import ButtonLink from '../../components/ButtonLink';
 import ResponsiveText from '../../components/ResponsiveText';
-import logo from '../../assets/WildMe-Logo-Gradient.png';
 import zebraTexture from '../../assets/zebra-texture.jpeg';
 import multiFeature from '../../assets/multifeature.jpeg';
 import seadragons from '../../assets/seadragons.jpeg';
@@ -19,18 +19,37 @@ import academiaIcon from '../../assets/academia-icon.svg';
 import codeIcon from '../../assets/code-icon.svg';
 import newsIcon from '../../assets/news-icon.svg';
 import speciesIcon from '../../assets/species-icon.svg';
+import hero from '../../assets/hero2.jpg';
 import ActionableMetric from './ActionableMetric';
 import ImageCard from './ImageCard';
 
 export default function Splash() {
   const intl = useIntl();
   const theme = useTheme();
+  const isSm = useMediaQuery(theme.breakpoints.down('sm'));
 
   const pageNotFound = intl.formatMessage({ id: 'HOME' });
   useDocumentTitle(pageNotFound);
 
   return (
-    <div style={{ marginTop: 64, color: theme.palette.common.white }}>
+    <div style={{ marginTop: 64 }}>
+      <Row style={{ marginTop: 120, position: 'relative' }}>
+        <ResponsiveText
+          style={{
+            margin: '0 auto',
+            textAlign: 'center',
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            width: '80%',
+            top: isSm ? '15%' : '28%',
+          }}
+          variant="h1"
+        >
+          <FormattedMessage id="SPLASH_TAGLINE" />
+        </ResponsiveText>
+        <img src={hero} alt="hero" style={{ width: '100%' }} />
+      </Row>
       <Row>
         <Box>
           <div
@@ -42,20 +61,9 @@ export default function Splash() {
               textAlign: 'center',
             }}
           >
-            <img
-              style={{
-                width: '30%',
-                filter: 'brightness(0) invert(1)',
-              }}
-              src={logo}
-              alt="Wild Me logo"
-            />
-            <ResponsiveText style={{ marginTop: 20 }} variant="h2">
-              <FormattedMessage id="SPLASH_TAGLINE" />
-            </ResponsiveText>
             <Typography
               style={{
-                marginTop: 30,
+                marginTop: 60,
                 maxWidth: 880,
                 fontStyle: 'italic',
               }}
@@ -68,8 +76,7 @@ export default function Splash() {
               display="primary"
               style={{
                 marginTop: 40,
-                background: 'black',
-                marginBottom: '15vh',
+                marginBottom: 40,
               }}
             >
               <FormattedMessage id="EXPLORE_PROJECTS" />
@@ -79,23 +86,26 @@ export default function Splash() {
       </Row>
       <Row>
         <ImageCard
+          variant="black"
           date="November 8, 2020"
           imgSrc={multiFeature}
           title="Staff publishes research in the Journal of Cetacean Research and Management"
         />
         <ImageCard
+          variant="black"
           date="October 14, 2020"
           imgSrc={zebraTexture}
           title="Wild Me releases two zebra image datasets to spur research into Wildlife photo ID"
         />
         <ImageCard
+          variant="black"
           date="August 27, 2020"
           imgSrc={seadragons}
           title="Seadragon Wildbook official launch!"
         />
       </Row>
       <Row>
-        <Box black>
+        <Box variant="black">
           <SpaceAroundCard>
             <ActionableMetric
               title="62 editorials"
@@ -130,14 +140,14 @@ export default function Splash() {
         </Box>
       </Row>
       <Row>
-        <div style={{ margin: '40px auto', textAlign: 'center' }}>
-          <Typography variant="h5" style={{ color: 'white' }}>
+        <div style={{ margin: '60px auto', textAlign: 'center' }}>
+          <Typography variant="h5">
             <FormattedMessage id="DONATION_ASK" />
           </Typography>
           <ButtonLink
             href="/contribute"
             display="primary"
-            style={{ marginTop: 40, background: 'black' }}
+            style={{ marginTop: 40, marginBottom: 20 }}
           >
             <FormattedMessage id="CONTRIBUTE" />
           </ButtonLink>

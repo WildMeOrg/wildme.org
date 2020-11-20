@@ -2,16 +2,16 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { Box } from '../../components/Containers';
 
-export default function ImageCard({ title, date, imgSrc }) {
+export default function ImageCard({ title, date, imgSrc, variant }) {
   return (
     <Box
       n={3}
-      black
       style={{
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
       }}
+      variant={variant}
     >
       <div style={{ padding: 30 }}>
         <Typography variant="h5">{title}</Typography>
