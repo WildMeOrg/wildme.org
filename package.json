@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WildbookOrg/wildbook-frontend.git"
+    "url": "git+https://github.com/WildbookOrg/wildme.org.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WildbookOrg/wildbook-frontend/issues"
+    "url": "https://github.com/WildbookOrg/wildme.org/issues"
   },
-  "homepage": "https://github.com/WildbookOrg/wildbook-frontend#readme",
+  "homepage": "https://github.com/WildbookOrg/wildme.org/blob/master/README.md",
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/plugin-proposal-class-properties": "^7.1.0",

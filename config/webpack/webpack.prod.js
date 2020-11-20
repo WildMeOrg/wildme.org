@@ -20,7 +20,7 @@ module.exports = merge(common, {
     path: outputPath,
     filename: '[name].js',
     chunkFilename: '[name].chunk.js',
-    publicPath: 'https://wildbookorg.github.io/wildbook.org/',
+    publicPath: 'https://wildbookorg.github.io/wildme.org/',
   },
   optimization: {
     minimizer: [

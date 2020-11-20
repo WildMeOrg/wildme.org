@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 100;
   src: local('Lato'),
-    url(https://wildbookorg.github.io/wildbook.org/9a77fbaa85fa42b73e3b96399daf49c5.ttf) format('ttf');
+    url(https://wildbookorg.github.io/wildme.org/9a77fbaa85fa42b73e3b96399daf49c5.ttf) format('ttf');
 }
 
 @font-face {
@@ -11,7 +11,7 @@ font-family: 'Lato';
 font-style: normal;
 font-weight: 300;
 src: local('Lato'),
-  url(https://wildbookorg.github.io/wildbook.org/2fe27d9d10cdfccb1baef28a45d5ba90.ttf) format('ttf');
+  url(https://wildbookorg.github.io/wildme.org/2fe27d9d10cdfccb1baef28a45d5ba90.ttf) format('ttf');
 }
 
 @font-face {
@@ -19,7 +19,7 @@ font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
 src: local('Lato'),
-  url(https://wildbookorg.github.io/wildbook.org/2d36b1a925432bae7f3c53a340868c6e.ttf) format('ttf');
+  url(https://wildbookorg.github.io/wildme.org/2d36b1a925432bae7f3c53a340868c6e.ttf) format('ttf');
 }
 
 @font-face {
@@ -27,7 +27,7 @@ font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
 src: local('Lato'),
-  url(https://wildbookorg.github.io/wildbook.org/85d339d916479f729938d2911b85bf1f.ttf) format('ttf');
+  url(https://wildbookorg.github.io/wildme.org/85d339d916479f729938d2911b85bf1f.ttf) format('ttf');
 }
 
 @font-face {
@@ -35,7 +35,7 @@ font-family: 'Lato';
 font-style: normal;
 font-weight: 900;
 src: local('Lato'),
-  url(https://wildbookorg.github.io/wildbook.org/e631d2735799aa943d93d301abf423d2.ttf) format('ttf');
+  url(https://wildbookorg.github.io/wildme.org/e631d2735799aa943d93d301abf423d2.ttf) format('ttf');
 }
 @keyframes gradient {
   0% {
