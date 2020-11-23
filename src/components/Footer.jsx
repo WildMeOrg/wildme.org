@@ -3,7 +3,8 @@ import { FormattedMessage } from 'react-intl';
 import { useTheme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Link from './Link';
-import { Row, Box, SpaceAroundCard } from './Containers';
+import { Box, SpaceAroundCard } from './Containers';
+import logo from '../assets/WildMe-Logo-Gradient.png';
 
 const footerCategories = [
   {
@@ -33,12 +34,12 @@ const footerCategories = [
     categoryLabelId: 'ABOUT',
     entries: [
       {
-        labelId: 'SPONSORS',
-        path: '/sponsors',
-      },
-      {
         labelId: 'OUR_TEAM',
         path: '/people',
+      },
+      {
+        labelId: 'SUPPORTERS',
+        path: '/supporters',
       },
       {
         labelId: 'PRESS',
@@ -106,39 +107,83 @@ export default function Footer() {
 
   return (
     <Box variant="black" style={{ margin: 0 }}>
-      <SpaceAroundCard>
-        {footerCategories.map(category => {
-          return (
-            <div
-              key={category.categoryId}
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                margin: '32px 0',
-                width: 240,
-              }}
+      <SpaceAroundCard
+        reverse
+        style={{ padding: '30px 30px 20px 30px' }}
+      >
+        {footerCategories.map(category => (
+          <div
+            key={category.categoryId}
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              margin: '32px 0',
+              width: 240,
+            }}
+          >
+            <Typography
+              variant="subtitle1"
+              style={{ marginBottom: 20 }}
             >
+              {category.categoryLabelId}
+            </Typography>
+            {category.entries.map(entry => (
               <Typography
-                variant="subtitle1"
-                style={{ marginBottom: 20 }}
+                key={entry.labelId}
+                style={{ marginTop: 4 }}
               >
-                {category.categoryLabelId}
+                <Link
+                  // noUnderline
+                  href={entry.path}
+                  external={Boolean(entry.external)}
+                >
+                  <FormattedMessage id={entry.labelId} />
+                </Link>
               </Typography>
-              {category.entries.map(entry => (
-                <Typography key={entry.labelId}>
-                  <Link
-                    noUnderline
-                    href={entry.path}
-                    external={Boolean(entry.external)}
-                  >
-                    <FormattedMessage id={entry.labelId} />
-                  </Link>
-                </Typography>
-              ))}
-            </div>
-          );
-        })}
+            ))}
+          </div>
+        ))}
       </SpaceAroundCard>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          paddingBottom: 12,
+        }}
+      >
+        <img
+          style={{ height: 40 }}
+          src={logo}
+          alt="Wild Me gradient logo"
+        />
+        <Typography
+          component="h5"
+          variant="h5"
+          noWrap
+          style={{
+            marginLeft: 12,
+            fontSize: 20,
+            color: theme.palette.common.white,
+            width: 100, // safari fix
+          }}
+        >
+          <span style={{ fontWeight: 500 }}>WILD</span>
+          <span style={{ fontWeight: 200 }}>ME</span>
+        </Typography>
+      </div>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          paddingBottom: 32,
+        }}
+      >
+        <Typography variant="body2" style={{ marginRight: 12 }}>
+          Copyright © 2020 Wild Me. All rights reserved.
+        </Typography>
+      </div>
     </Box>
     /* <div
           style={{

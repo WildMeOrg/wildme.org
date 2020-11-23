@@ -8,6 +8,9 @@ import Divider from '@material-ui/core/Divider';
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
 import Select from '@material-ui/core/Select';
+import Alert from '@material-ui/lab/Alert';
+import AlertTitle from '@material-ui/lab/AlertTitle';
+
 import MainColumn from '../../components/MainColumn';
 import Link from '../../components/Link';
 import FilterBar, { searchMatch } from '../../components/FilterBar';
@@ -68,6 +71,14 @@ export default function Press() {
       >
         <FormattedMessage id="PRESS" />
       </Typography>
+      <Alert
+        style={{ marginTop: 32, marginBottom: 12 }}
+        severity="info"
+      >
+        <AlertTitle>Media Inquiries</AlertTitle>
+        Writing about Wild Me? Please email info@wildme.org with any
+        questions and we will support you as best we can.
+      </Alert>
       <Grid container justify="space-between">
         <Grid item>
           <FilterBar value={searchTerm} onChange={setSearchTerm} />

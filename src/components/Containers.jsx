@@ -75,15 +75,16 @@ export function Box({
   );
 }
 
-export function SpaceAroundCard({ children }) {
+export function SpaceAroundCard({ reverse, children, style = {} }) {
   return (
     <div
       style={{
         display: 'flex',
         justifyContent: 'space-around',
         alignItems: 'flex-start',
-        flexWrap: 'wrap',
+        flexWrap: reverse ? 'wrap-reverse' : 'wrap',
         padding: 30,
+        ...style,
       }}
     >
       {children}

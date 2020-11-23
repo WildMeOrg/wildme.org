@@ -30,7 +30,7 @@ export default function ActionableMetric({
         <img
           src={imgSrc}
           alt={title}
-          style={{ height: 120, width: 120 }}
+          style={{ height: 120, width: 120, marginLeft: 20 }}
         />
       ) : (
         <Logo style={{ height: 88, width: 88 }} />
@@ -38,17 +38,18 @@ export default function ActionableMetric({
       <Typography variant="h5" style={{ marginTop: 12 }}>
         {title}
       </Typography>
-      <Typography variant="subtitle2" style={{ marginTop: 24 }}>
+      <Typography variant="body1" style={{ marginTop: 24 }}>
         {description}
       </Typography>
       <Link
-        noUnderline
+        // noUnderline
         href={href}
         external={external}
         style={{
           marginTop: 24,
           display: 'flex',
           alignItems: 'center',
+          fontSize: 18,
           color: theme.palette.primary.main,
         }}
       >
