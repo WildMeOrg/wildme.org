@@ -81,21 +81,19 @@ const footerCategories = [
     categoryLabelId: 'CONNECT',
     entries: [
       {
-        labelId: 'CONTRIBUTE',
-        path: '/contribute',
+        labelId: 'CONTACT_US',
+        path: '/contact',
       },
       {
-        labelId: 'TWITTER',
-        path: 'https://twitter.com/WildbookORG',
-        external: true,
+        labelId: 'VOLUNTEER',
+        path: '/volunteer',
       },
       {
-        labelId: 'FACEBOOK',
-        path: 'https://www.facebook.com/wildmeorg/',
-        external: true,
+        labelId: 'DONATE',
+        path: '/donate',
       },
       {
-        labelId: 'WORK_WITH_US',
+        labelId: 'CAREERS',
         path: '/careers',
       },
     ],

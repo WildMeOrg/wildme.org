@@ -65,7 +65,6 @@ export default function Splash() {
               style={{
                 marginTop: 60,
                 maxWidth: 880,
-                fontStyle: 'italic',
               }}
               variant="subtitle1"
             >
@@ -108,8 +107,8 @@ export default function Splash() {
         <Box variant="black">
           <SpaceAroundCard>
             <ActionableMetric
-              title="62 editorials"
-              description="Including articles from respected institutions like the New York Times and Nature."
+              title="4 metrics"
+              description="Including this one."
               ask="See press"
               href="/press"
               imgSrc={newsIcon}

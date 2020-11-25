@@ -9,17 +9,16 @@ export default function ImageCard({ title, date, imgSrc, variant }) {
       style={{
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between',
       }}
       variant={variant}
     >
+      <img src={imgSrc} width="100%" alt={title} />
       <div style={{ padding: 30 }}>
         <Typography variant="h5">{title}</Typography>
         <Typography variant="subtitle2" style={{ marginTop: 12 }}>
           {date}
         </Typography>
       </div>
-      <img src={imgSrc} width="100%" alt={title} />
     </Box>
   );
 }
