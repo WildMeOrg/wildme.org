@@ -21,13 +21,11 @@ import FourOhFour from './pages/fourohfour/FourOhFour';
 import Splash from './pages/splash/Splash';
 import Press from './pages/press/Press';
 import Legal from './pages/legal/Legal';
-import Sponsors from './pages/sponsors/Sponsors';
 import Contribute from './pages/contribute/Contribute';
 import Publications from './pages/publications/Publications';
 import Projects from './pages/projects/Projects';
 import People from './pages/people/People';
-import staff from './pages/people/staff';
-import board from './pages/people/board';
+import Supporters from './pages/supporters/Supporters';
 import ProjectPage from './pages/projects/ProjectPage';
 import projectData from './pages/projects/projectData';
 import materialTheme from './styles/materialTheme';
@@ -115,8 +113,8 @@ export default function App() {
                 <Route path="/people">
                   <People />
                 </Route>
-                <Route path="/sponsors">
-                  <Sponsors />
+                <Route path="/supporters">
+                  <Supporters />
                 </Route>
                 <Route path="/contribute">
                   <Contribute />
