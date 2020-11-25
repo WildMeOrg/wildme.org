@@ -1,6 +1,7 @@
 import React from 'react';
 import { get } from 'lodash-es';
 import { useTheme } from '@material-ui/core/styles';
+import Divider from '@material-ui/core/Divider';
 
 const smallestDeviceWidth = 320;
 const minimumGutterWidth = 30;
@@ -9,6 +10,38 @@ const horizontalSpace = 24;
 const verticalSpace = 40;
 const minimumBoxWidth =
   smallestDeviceWidth - 2 * minimumGutterWidth - horizontalSpace;
+
+export function Showcase({ children, style = {}, ...rest }) {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        maxWidth: maxContentWidth,
+        margin: '0 auto',
+        padding: `0 ${0.5 * minimumGutterWidth}px`,
+        ...style,
+      }}
+      {...rest}
+    >
+      {children}
+    </div>
+  );
+}
+
+export function Line({ style = {}, ...rest }) {
+  return (
+    <Divider
+      style={{
+        width: '80%',
+        maxWidth: 1100,
+        margin: '30px auto',
+        ...style,
+      }}
+      {...rest}
+    />
+  );
+}
 
 export function Row({ children, style = {}, ...rest }) {
   return (
