@@ -1,24 +1,25 @@
 import React, { useState } from 'react';
 
 import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
-import MenuList from '@material-ui/core/MenuList';
-import DropDownIcon from '@material-ui/icons/ArrowDropDown';
+import MenuIcon from '@material-ui/icons/Menu';
+import IconButton from '@material-ui/core/IconButton';
 import Link from './Link';
-import InlineButton from './InlineButton';
+import ButtonLink from './ButtonLink';
+import HeaderDrawer from './HeaderDrawer';
 import logo from '../assets/WildMe-Logo-Gradient.png';
-
-const products = ['Catalog', 'Intelligent Agent', 'Wow'];
 
 export default function AppHeader() {
   const theme = useTheme();
-  const [productAnchorEl, setProductAnchorEl] = useState(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const closeProductMenu = () => setProductAnchorEl(null);
+  const isSm = useMediaQuery(theme.breakpoints.down('sm'));
+
+  const closeDrawer = () => setDrawerOpen(false);
 
   return (
     <AppBar
@@ -32,11 +33,20 @@ export default function AppHeader() {
         }),
       }}
     >
+      {drawerOpen && (
+        <HeaderDrawer
+          open={drawerOpen}
+          onClose={closeDrawer}
+          handleClick={closeDrawer}
+        />
+      )}
       <Toolbar
         style={{
           paddingRight: 24,
           width: '90%',
           margin: '0 auto',
+          display: 'flex',
+          justifyContent: 'space-between',
         }}
       >
         <Link
@@ -65,6 +75,36 @@ export default function AppHeader() {
             <span style={{ fontWeight: 200 }}>ME</span>
           </Typography>
         </Link>
+        {isSm && (
+          <IconButton
+            edge="start"
+            aria-label="menu"
+            onClick={() => setDrawerOpen(true)}
+            style={{ color: theme.palette.common.white }}
+          >
+            <MenuIcon />
+          </IconButton>
+        )}
+        {!isSm && (
+          <div style={{ color: theme.palette.common.white }}>
+            <Link href="/projects">Projects</Link>
+            <Link href="/products" style={{ marginLeft: 16 }}>
+              Products
+            </Link>
+            <Link href="/services" style={{ marginLeft: 16 }}>
+              Services
+            </Link>
+            <ButtonLink
+              href="/donate"
+              style={{ marginLeft: 16 }}
+              display="primary"
+              size="small"
+            >
+              Donate
+            </ButtonLink>
+          </div>
+        )}
+
         {/* <div
           style={{ color: theme.palette.common.white, flexShrink: 0 }}
         >
