@@ -16,6 +16,7 @@ export default function CustomButton({
   loading = false,
   style,
   disabled,
+  size,
   ...rest
 }) {
   let variant = undefined; // eslint-disable-line
@@ -61,7 +62,12 @@ export default function CustomButton({
     <Button
       variant={variant}
       disabled={disabled}
-      style={{ padding: '20px 32px', ...roleStyles, ...style }}
+      style={{
+        padding: size === 'small' ? '8px 20px' : '20px 32px',
+        ...roleStyles,
+        ...style,
+      }}
+      size={size}
       {...rest}
     >
       {loading ? (

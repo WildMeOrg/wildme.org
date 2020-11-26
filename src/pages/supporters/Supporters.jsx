@@ -11,7 +11,7 @@ import { majorSupporters, supporterLogos } from './supporterData';
 
 export default function Sponsors() {
   const intl = useIntl();
-  useDocumentTitle(intl.formatMessage({ id: 'SPONSORS' }));
+  useDocumentTitle(intl.formatMessage({ id: 'SUPPORTERS' }));
 
   return (
     <div style={{ marginTop: 64 }}>
