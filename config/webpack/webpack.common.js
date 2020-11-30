@@ -57,6 +57,10 @@ module.exports = {
         ],
       },
       {
+        test: /\.md$/,
+        use: 'raw-loader',
+      },
+      {
         test: /\.(gif|jpg|jpeg|png|webm)$/,
         include: [resolve(rootDir, 'src')],
         use: {
