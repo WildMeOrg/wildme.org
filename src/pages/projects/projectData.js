@@ -521,7 +521,7 @@ const projectData = [
     ],
   },
   {
-    name: 'Spotting Giant Sea Bass',
+    name: 'Giant Sea Bass',
     path: '/bass',
     href: 'https://spottinggiantseabass.msi.ucsb.edu/',
     inviteOnly: true,

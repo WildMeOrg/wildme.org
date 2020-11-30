@@ -21,6 +21,7 @@ import FourOhFour from './pages/fourohfour/FourOhFour';
 import Splash from './pages/splash/Splash';
 import Press from './pages/press/Press';
 import Legal from './pages/legal/Legal';
+import Services from './pages/services/Services';
 import Contribute from './pages/contribute/Contribute';
 import Publications from './pages/publications/Publications';
 import Projects from './pages/projects/Projects';
@@ -118,6 +119,9 @@ export default function App() {
                 </Route>
                 <Route path="/contribute">
                   <Contribute />
+                </Route>
+                <Route path="/services">
+                  <Services />
                 </Route>
                 <Route path="/" exact>
                   <Splash />
