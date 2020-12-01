@@ -48,7 +48,7 @@ export default function PeopleGallery({ people, titleId }) {
             <img
               src={person.img}
               alt={person.name}
-              style={{ height: 300, width: 300 }}
+              style={{ width: 300 }}
             />
             <div>
               <Typography
