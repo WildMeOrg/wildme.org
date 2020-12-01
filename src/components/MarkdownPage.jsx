@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import Typography from '@material-ui/core/Typography';
 import ResponsiveText from './ResponsiveText';
 import { Row } from './Containers';
+import useDocumentTitle from '../hooks/useDocumentTitle';
 
 const renderers = {
   root: Typography,
@@ -10,6 +11,7 @@ const renderers = {
 
 export default function MarkdownPage(props) {
   const { content, imgSrc, title, style = {}, ...rest } = props;
+  useDocumentTitle(title);
   return (
     <div style={{ margin: '80px 0', ...style }} {...rest}>
       <Row>

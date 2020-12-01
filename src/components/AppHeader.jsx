@@ -13,6 +13,8 @@ import ButtonLink from './ButtonLink';
 import HeaderDrawer from './HeaderDrawer';
 import logo from '../assets/WildMe-Logo-Gradient.png';
 
+const linkMargin = 32;
+
 export default function AppHeader() {
   const theme = useTheme();
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -88,15 +90,15 @@ export default function AppHeader() {
         {!isSm && (
           <div style={{ color: theme.palette.common.white }}>
             <Link href="/projects">Projects</Link>
-            <Link href="/products" style={{ marginLeft: 16 }}>
+            <Link href="/products" style={{ marginLeft: linkMargin }}>
               Products
             </Link>
-            <Link href="/services" style={{ marginLeft: 16 }}>
+            <Link href="/services" style={{ marginLeft: linkMargin }}>
               Services
             </Link>
             <ButtonLink
               href="/donate"
-              style={{ marginLeft: 16 }}
+              style={{ marginLeft: linkMargin }}
               display="primary"
               size="small"
             >

@@ -136,6 +136,11 @@ module.exports = {
       },
     }),
     new webpack.DefinePlugin(globals),
+    new CopyPlugin([
+      {
+        from: resolve(rootDir, 'src/copy_on_build'),
+      },
+    ]),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
