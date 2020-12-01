@@ -92,43 +92,43 @@
   (s.push = a), (s = s.slice());
   for (var c = 0; c < s.length; c++) a(s[c]);
   var d = l;
-  o.push([360, 1]), t();
+  o.push([359, 1]), t();
 })({
-  123: function(e, a, t) {
-    e.exports = t.p + '2062234bfdd5842e8cb87cceda03ae3b.jpg';
-  },
-  124: function(e, a, t) {
-    e.exports = t.p + '1a4d0607fec8398f3d408bb81e22949e.jpg';
+  103: function(e, a, t) {
+    e.exports = t.p + '2c3f1f1a0e843fdcd3dd7bd006cb95a9.jpg';
   },
   125: function(e, a, t) {
-    e.exports = t.p + 'c5c640fa2537c11fb76f1e5ddb9eb61f.jpg';
+    e.exports = t.p + '2062234bfdd5842e8cb87cceda03ae3b.jpg';
   },
   126: function(e, a, t) {
+    e.exports = t.p + '1a4d0607fec8398f3d408bb81e22949e.jpg';
+  },
+  127: function(e, a, t) {
+    e.exports = t.p + 'c5c640fa2537c11fb76f1e5ddb9eb61f.jpg';
+  },
+  128: function(e, a, t) {
     e.exports = t.p + 'e18e6bd02f07ca281d384e8e691b3b69.jpg';
   },
-  170: function(e, a, t) {
+  171: function(e, a, t) {
     e.exports = t.p + 'af8033328b9c0edb3151c2ae2f793a3c.jpeg';
   },
-  171: function(e, a, t) {
+  172: function(e, a, t) {
     e.exports = t.p + '921fa8a77fa8fc79e10ccda28033c7ab.jpeg';
   },
-  172: function(e, a, t) {
+  173: function(e, a, t) {
     e.exports = t.p + '0e679d0a507224dbdb4a25154e3efa16.jpeg';
   },
-  173: function(e, a, t) {
+  174: function(e, a, t) {
     e.exports = t.p + '78f9471f7de02d3fab86d59d43793dd3.jpeg';
   },
-  174: function(e, a, t) {
+  175: function(e, a, t) {
     e.exports = t.p + '4a71869a72dfaac1c7ed68bb965aec68.jpeg';
   },
-  175: function(e, a, t) {
+  176: function(e, a, t) {
     e.exports = t.p + '7c3a66dc20132052be13b8c5e442762a.jpg';
   },
-  179: function(e, a, t) {
-    e.exports = t.p + '3ef26b97df6239ca9601ca9a3eea74fc.jpg';
-  },
   180: function(e, a, t) {
-    e.exports = t.p + '2c3f1f1a0e843fdcd3dd7bd006cb95a9.jpg';
+    e.exports = t.p + '3ef26b97df6239ca9601ca9a3eea74fc.jpg';
   },
   182: function(e, a, t) {
     e.exports = t.p + '1f40b5acdec6d43a60c8f1add1469348.jpg';
@@ -227,28 +227,28 @@
     e.exports = t.p + 'daebb96a6d08da2fb077bde34e1addab.jpg';
   },
   215: function(e, a, t) {
-    e.exports = t.p + '89dd0187472f96bc498f5a3d21f15aed.jpeg';
+    e.exports = t.p + '2ca9f9aab6492648f300a583bd067d10.jpg';
   },
   216: function(e, a, t) {
-    e.exports = t.p + '6f9daff9ba4ef538990fc4e0c77755c3.jpeg';
+    e.exports = t.p + 'f49c62f9958186b7670d81cecf5b0e7a.jpg';
   },
   217: function(e, a, t) {
-    e.exports = t.p + '42530ed84e1650d059ef87777a8805f4.jpeg';
+    e.exports = t.p + '06bb7633a78ab460fca132bd3d18cf4d.jpg';
   },
   218: function(e, a, t) {
-    e.exports = t.p + '51669d2518277dc75f3887d2356fd22b.jpeg';
+    e.exports = t.p + '2de543183f6e7fbdf43874e16f5f4e7f.jpg';
   },
   219: function(e, a, t) {
-    e.exports = t.p + '139edf8c410c6a01b2829aa2e6f840c4.jpeg';
+    e.exports = t.p + '5f39d715f65b5c71eb7a22427808e2b1.jpg';
   },
   220: function(e, a, t) {
-    e.exports = t.p + '4d6b6c4a5884af1bc072e4f40c9d50a8.jpg';
+    e.exports = t.p + 'c0b2f507b23d6869b22552203e0d1ea5.jpg';
   },
   221: function(e, a, t) {
-    e.exports = t.p + 'f81c13f5c6de15e9f4283be47aae285d.jpeg';
+    e.exports = t.p + '268d33cf3c55733456bad3b09ee3ce1a.jpg';
   },
   222: function(e, a, t) {
-    e.exports = t.p + 'a1e0a534696371fc96a3ba3032a0d75f.jpeg';
+    e.exports = t.p + '4bae1ad46ab74916254d06197142af9b.jpg';
   },
   224: function(e, a, t) {
     e.exports = t.p + '9f14c20150a003d7ce4de57c298f0fba.png';
@@ -294,35 +294,35 @@
   241: function(e) {
     e.exports = JSON.parse('{"USERS":"Usuarios"}');
   },
+  261: function(e, a, t) {},
   262: function(e, a, t) {},
-  263: function(e, a, t) {},
-  360: function(e, a, t) {
+  359: function(e, a, t) {
     'use strict';
     t.r(a);
     var n = t(0),
       i = t.n(n),
       o = t(14),
       r = t(242),
-      s = (t(261), t(262), t(263), t(59)),
-      l = t(96),
+      s = (t(260), t(261), t(262), t(58)),
+      l = t(94),
       c = t(243),
-      d = t(438),
-      h = t(160),
-      p = t(443),
-      m = (t(270), t(161)),
-      u = t(162),
-      g = t(24),
-      f = t(27),
-      b = t(417),
-      w = t(418),
-      y = t(419),
-      E = t(60),
-      v = t(168),
-      k = t.n(v),
-      S = t(420),
-      I = t(19),
-      T = t(17);
-    function A(e) {
+      d = t(434),
+      h = t(161),
+      p = t(438),
+      m = (t(269), t(162)),
+      u = t(163),
+      g = t(26),
+      f = t(30),
+      b = t(414),
+      w = t(415),
+      y = t(416),
+      v = t(59),
+      E = t(169),
+      k = t.n(E),
+      S = t(417),
+      I = t(18),
+      A = t(16);
+    function O(e) {
       var a = e.children,
         t = e.href,
         n = e.style,
@@ -333,7 +333,7 @@
         d = e.external,
         h = void 0 !== d && d,
         p = e.onClick,
-        m = Object(T.a)(e, [
+        m = Object(A.a)(e, [
           'children',
           'href',
           'style',
@@ -366,17 +366,17 @@
             a,
           );
     }
-    var O = t(409),
-      C = t(411),
-      R = t(167),
+    var T = t(406),
+      C = t(408),
+      R = t(168),
       N = t.n(R),
-      _ = {
+      x = {
         primary: 'linear-gradient(90deg, #21BDC1, #41D06A)',
         panel: 'linear-gradient(90deg, #21BDC1, #41D06A)',
         secondary: 'grey',
         tertiary: 'white',
       };
-    function x(e) {
+    function _(e) {
       var a = e.children,
         t = e.display,
         n = void 0 === t ? 'panel' : t,
@@ -385,7 +385,7 @@
         s = e.style,
         l = e.disabled,
         c = e.size,
-        d = Object(T.a)(e, [
+        d = Object(A.a)(e, [
           'children',
           'display',
           'loading',
@@ -397,7 +397,7 @@
         p = {};
       return 'back' === n
         ? i.a.createElement(
-            O.a,
+            T.a,
             Object.assign(
               {
                 size: 'small',
@@ -414,11 +414,11 @@
             ((h = 'contained'),
             'subtle' === n
               ? 'default'
-              : ((p.background = _[n]), (p.color = 'white'))),
+              : ((p.background = x[n]), (p.color = 'white'))),
           'panel' === n && (h = 'outlined'),
           l && (delete p.background, delete p.color),
           i.a.createElement(
-            O.a,
+            T.a,
             Object.assign(
               {
                 variant: h,
@@ -449,40 +449,40 @@
         n = e.external,
         o = void 0 !== n && n,
         r = e.linkProps,
-        s = Object(T.a)(e, [
+        s = Object(A.a)(e, [
           'children',
           'href',
           'external',
           'linkProps',
         ]);
       return i.a.createElement(
-        x,
+        _,
         s,
         i.a.createElement(
-          A,
+          O,
           Object.assign({ noUnderline: !0, href: t, external: o }, r),
           a,
         ),
       );
     }
-    var j = t(414),
-      W = t(450),
-      D = t(416),
-      M = t(412),
-      L = t(413),
-      B = t(415),
-      z = t(67),
-      U = t.n(z);
-    function J(e) {
+    var j = t(411),
+      W = t(445),
+      D = t(413),
+      M = t(409),
+      L = t(410),
+      B = t(412),
+      z = t(65),
+      J = t.n(z);
+    function U(e) {
       var a = e.messageId,
         t = e.message,
         n = (e.Icon,
-        Object(T.a)(e, ['messageId', 'message', 'Icon']));
+        Object(A.a)(e, ['messageId', 'message', 'Icon']));
       return i.a.createElement(
         M.a,
         { style: { marginLeft: 8 } },
         i.a.createElement(
-          A,
+          O,
           Object.assign({ noUnderline: !0 }, n),
           i.a.createElement(
             'div',
@@ -491,7 +491,7 @@
               L.a,
               null,
               i.a.createElement(
-                E.a,
+                v.a,
                 { variant: 'h5' },
                 a ? i.a.createElement(j.a, { id: a }) : t,
               ),
@@ -522,7 +522,7 @@
             'div',
             null,
             i.a.createElement(
-              E.a,
+              v.a,
               {
                 component: 'h1',
                 variant: 'h6',
@@ -531,7 +531,7 @@
                 style: { margin: 20 },
               },
               i.a.createElement(
-                A,
+                O,
                 {
                   style: { display: 'flex', alignItems: 'center' },
                   noUnderline: !0,
@@ -539,11 +539,11 @@
                 },
                 i.a.createElement('img', {
                   style: { height: 60 },
-                  src: U.a,
+                  src: J.a,
                   alt: 'Wild Me gradient logo',
                 }),
                 i.a.createElement(
-                  E.a,
+                  v.a,
                   {
                     component: 'h5',
                     variant: 'h5',
@@ -579,37 +579,37 @@
           i.a.createElement(
             D.a,
             null,
-            i.a.createElement(J, {
+            i.a.createElement(U, {
               message: 'Projects',
               href: '/projects',
               onClick: n,
             }),
-            i.a.createElement(J, {
+            i.a.createElement(U, {
               message: 'Products',
               href: '/products',
               onClick: n,
             }),
-            i.a.createElement(J, {
+            i.a.createElement(U, {
               message: 'Services',
               href: '/services',
               onClick: n,
             }),
-            i.a.createElement(J, {
+            i.a.createElement(U, {
               message: 'Code',
               href: '/code',
               onClick: n,
             }),
-            i.a.createElement(J, {
+            i.a.createElement(U, {
               message: 'About Us',
               href: '/about',
               onClick: n,
             }),
-            i.a.createElement(J, {
+            i.a.createElement(U, {
               message: 'Resources',
               href: '/resources',
               onClick: n,
             }),
-            i.a.createElement(J, {
+            i.a.createElement(U, {
               message: 'Connect',
               href: '/connect',
               onClick: n,
@@ -673,7 +673,7 @@
             },
           },
           i.a.createElement(
-            A,
+            O,
             {
               style: { display: 'flex', alignItems: 'center' },
               noUnderline: !0,
@@ -681,11 +681,11 @@
             },
             i.a.createElement('img', {
               style: { height: 40 },
-              src: U.a,
+              src: J.a,
               alt: 'Wild Me gradient logo',
             }),
             i.a.createElement(
-              E.a,
+              v.a,
               {
                 component: 'h5',
                 variant: 'h5',
@@ -727,14 +727,14 @@
             i.a.createElement(
               'div',
               { style: { color: e.palette.common.white } },
-              i.a.createElement(A, { href: '/projects' }, 'Projects'),
+              i.a.createElement(O, { href: '/projects' }, 'Projects'),
               i.a.createElement(
-                A,
+                O,
                 { href: '/products', style: { marginLeft: 32 } },
                 'Products',
               ),
               i.a.createElement(
-                A,
+                O,
                 { href: '/services', style: { marginLeft: 32 } },
                 'Services',
               ),
@@ -752,12 +752,12 @@
         ),
       );
     }
-    var F = t(440);
+    var F = t(436);
     function K(e) {
       var a = e.children,
         t = e.style,
         n = void 0 === t ? {} : t,
-        o = Object(T.a)(e, ['children', 'style']);
+        o = Object(A.a)(e, ['children', 'style']);
       return i.a.createElement(
         'div',
         Object.assign(
@@ -781,7 +781,7 @@
     function V(e) {
       var a = e.style,
         t = void 0 === a ? {} : a,
-        n = Object(T.a)(e, ['style']);
+        n = Object(A.a)(e, ['style']);
       return i.a.createElement(
         B.a,
         Object.assign(
@@ -799,7 +799,7 @@
       var a = e.children,
         t = e.style,
         n = void 0 === t ? {} : t,
-        o = Object(T.a)(e, ['children', 'style']);
+        o = Object(A.a)(e, ['children', 'style']);
       return i.a.createElement(
         'div',
         Object.assign(
@@ -828,7 +828,7 @@
         o = void 0 === n ? 1 : n,
         r = e.style,
         s = void 0 === r ? {} : r,
-        l = Object(T.a)(e, ['children', 'variant', 'n', 'style']),
+        l = Object(A.a)(e, ['children', 'variant', 'n', 'style']),
         c = Object(f.a)(),
         d = {
           blue: c.palette.primary.main,
@@ -958,16 +958,16 @@
                 },
               },
               i.a.createElement(
-                E.a,
+                v.a,
                 { variant: 'subtitle1', style: { marginBottom: 20 } },
                 e.categoryLabelId,
               ),
               e.entries.map(function(e) {
                 return i.a.createElement(
-                  E.a,
+                  v.a,
                   { key: e.labelId, style: { marginTop: 4 } },
                   i.a.createElement(
-                    A,
+                    O,
                     { href: e.path, external: Boolean(e.external) },
                     i.a.createElement(j.a, { id: e.labelId }),
                   ),
@@ -988,11 +988,11 @@
           },
           i.a.createElement('img', {
             style: { height: 40 },
-            src: U.a,
+            src: J.a,
             alt: 'Wild Me gradient logo',
           }),
           i.a.createElement(
-            E.a,
+            v.a,
             {
               component: 'h5',
               variant: 'h5',
@@ -1027,17 +1027,17 @@
             },
           },
           i.a.createElement(
-            E.a,
+            v.a,
             { variant: 'body2', style: { marginRight: 12 } },
             'Copyright © 2020 Wild Me. All rights reserved.',
           ),
         ),
       );
     }
-    var $ = t(421),
-      ee = t(170),
+    var $ = t(418),
+      ee = t(171),
       ae = t.n(ee),
-      te = t(171),
+      te = t(172),
       ne = t.n(te);
     function ie(e) {
       var a = e.title,
@@ -1045,13 +1045,15 @@
         n = e.details,
         o = e.variant,
         r = void 0 === o ? 'ocean' : o,
-        s = 'ocean' === r ? ae.a : ne.a,
-        l = 'ocean' === r ? 'Pierre Leverrier' : 'David Clode',
-        c =
+        s = Object(f.a)(),
+        l = Object(b.a)(s.breakpoints.down('sm')),
+        c = 'ocean' === r ? ae.a : ne.a,
+        d = 'ocean' === r ? 'Pierre Leverrier' : 'David Clode',
+        h =
           'ocean' === r
             ? 'https://unsplash.com/@pierre_leverrier'
             : 'https://unsplash.com/@davidclode',
-        d =
+        p =
           'ocean' === r
             ? 'https://unsplash.com/photos/k0Ynnf2CbKw'
             : 'https://unsplash.com/photos/92MgFhlWD-8';
@@ -1062,7 +1064,7 @@
             width: '100vw',
             height: '100vh',
             color: 'white',
-            backgroundImage: 'url('.concat(s, ')'),
+            backgroundImage: 'url('.concat(c, ')'),
             backgroundSize: 'cover',
           },
         },
@@ -1070,7 +1072,7 @@
           'div',
           {
             style: {
-              marginTop: 64,
+              marginTop: l ? 56 : 64,
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
@@ -1078,16 +1080,16 @@
             },
           },
           i.a.createElement(
-            E.a,
+            v.a,
             {
               variant: 'h1',
               style: { fontSize: 120, marginTop: 40 },
             },
             a,
           ),
-          i.a.createElement(E.a, { variant: 'h4' }, t),
+          i.a.createElement(v.a, { variant: 'h4' }, t),
           i.a.createElement(
-            E.a,
+            v.a,
             { style: { maxWidth: 400, marginTop: 16 } },
             n,
           ),
@@ -1096,14 +1098,14 @@
           'div',
           { style: { position: 'absolute', bottom: 12, left: 12 } },
           i.a.createElement(
-            E.a,
+            v.a,
             null,
             i.a.createElement(j.a, { id: 'PHOTO_BY' }),
-            i.a.createElement(A, { external: !0, href: c }, l),
+            i.a.createElement(O, { external: !0, href: h }, d),
             i.a.createElement(j.a, { id: 'ON' }),
             i.a.createElement(
-              A,
-              { external: !0, href: d },
+              O,
+              { external: !0, href: p },
               'Unsplash',
             ),
           ),
@@ -1149,7 +1151,7 @@
         s = void 0 === r ? {} : r,
         l = e.style,
         c = void 0 === l ? {} : l,
-        d = Object(T.a)(e, [
+        d = Object(A.a)(e, [
           'variant',
           'children',
           'mobileStyle',
@@ -1165,7 +1167,7 @@
           ? Object(I.a)({ fontSize: m }, o)
           : Object(I.a)({ fontSize: u }, s);
       return i.a.createElement(
-        E.a,
+        v.a,
         Object.assign(
           {
             variant: a,
@@ -1177,20 +1179,20 @@
         t,
       );
     }
-    var ce = t(172),
+    var ce = t(173),
       de = t.n(ce),
-      he = t(173),
+      he = t(174),
       pe = t.n(he),
-      me = t(174),
+      me = t(175),
       ue = t.n(me);
     var ge = t.p + '20274b5272378c6758c58d001533fc55.svg';
     var fe = t.p + 'bd41a7a13b5eef314e40015c1e9f39c9.svg';
     var be = t.p + '52a784e161d35e28214fff8b543da010.svg';
     var we = t.p + '723db4f8699fab7f4f596aa548a25854.svg',
-      ye = t(175),
-      Ee = t.n(ye),
-      ve = t(176),
-      ke = t.n(ve);
+      ye = t(176),
+      ve = t.n(ye),
+      Ee = t(177),
+      ke = t.n(Ee);
     function Se(e) {
       var a = e.title,
         t = e.description,
@@ -1223,17 +1225,17 @@
               style: { height: 88, width: 88 },
             }),
         i.a.createElement(
-          E.a,
+          v.a,
           { variant: 'h5', style: { marginTop: 12 } },
           a,
         ),
         i.a.createElement(
-          E.a,
+          v.a,
           { variant: 'body1', style: { marginTop: 24 } },
           t,
         ),
         i.a.createElement(
-          A,
+          O,
           {
             href: s,
             external: l,
@@ -1266,16 +1268,16 @@
         i.a.createElement(
           'div',
           { style: { padding: 30 } },
-          i.a.createElement(E.a, { variant: 'h5' }, a),
+          i.a.createElement(v.a, { variant: 'h5' }, a),
           i.a.createElement(
-            E.a,
+            v.a,
             { variant: 'subtitle2', style: { marginTop: 12 } },
             t,
           ),
         ),
       );
     }
-    function Te() {
+    function Ae() {
       var e = Object($.a)(),
         a = Object(f.a)(),
         t = Object(b.a)(a.breakpoints.down('sm')),
@@ -1305,7 +1307,7 @@
               i.a.createElement(j.a, { id: 'SPLASH_TAGLINE' }),
             ),
             i.a.createElement('img', {
-              src: Ee.a,
+              src: ve.a,
               alt: 'hero',
               style: { width: '100%' },
             }),
@@ -1328,7 +1330,7 @@
                   },
                 },
                 i.a.createElement(
-                  E.a,
+                  v.a,
                   {
                     style: { marginTop: 60, maxWidth: 880 },
                     variant: 'subtitle1',
@@ -1422,7 +1424,7 @@
               'div',
               { style: { margin: '60px auto', textAlign: 'center' } },
               i.a.createElement(
-                E.a,
+                v.a,
                 { variant: 'h5' },
                 i.a.createElement(j.a, { id: 'DONATION_ASK' }),
               ),
@@ -1440,19 +1442,19 @@
         )
       );
     }
-    var Ae = t(439),
-      Oe = t(444),
-      Ce = t(445),
-      Re = t(425),
-      Ne = t(426),
-      _e = t(448),
-      xe = t(441),
-      Pe = t(446),
-      je = t(424),
+    var Oe = t(435),
+      Te = t(439),
+      Ce = t(440),
+      Re = t(422),
+      Ne = t(423),
+      xe = t(443),
+      _e = t(437),
+      Pe = t(441),
+      je = t(421),
       We = function(e) {
         var a = e.children,
           t = e.style,
-          n = Object(T.a)(e, ['children', 'style']);
+          n = Object(A.a)(e, ['children', 'style']);
         return i.a.createElement(
           'div',
           Object.assign(
@@ -1472,9 +1474,9 @@
           a,
         );
       },
-      De = t(422),
-      Me = t(423),
-      Le = t(177),
+      De = t(419),
+      Me = t(420),
+      Le = t(178),
       Be = t.n(Le);
     function ze(e, a, t) {
       var n = t.toLowerCase(),
@@ -1488,12 +1490,12 @@
         i
       );
     }
-    function Ue(e) {
+    function Je(e) {
       var a = e.onChange,
         t = e.value,
         n = e.width,
         o = void 0 === n ? 260 : n,
-        r = Object(T.a)(e, ['onChange', 'value', 'width']),
+        r = Object(A.a)(e, ['onChange', 'value', 'width']),
         s = Object($.a)().formatMessage({ id: 'SEARCH' });
       return i.a.createElement(
         De.a,
@@ -1515,11 +1517,11 @@
         ),
       );
     }
-    function Je(e) {
+    function Ue(e) {
       var a = e.logos,
         t = e.height,
         n = void 0 === t ? 30 : t,
-        o = Object(T.a)(e, ['logos', 'height']);
+        o = Object(A.a)(e, ['logos', 'height']);
       return i.a.createElement(
         'div',
         o,
@@ -1900,14 +1902,14 @@
             'Projects that contribute to the Internet of Turtles will be able to (a) digitally collect and share data among entities and across countries and languages; (b) extract and analyze relevant turtle data at different scales, such as population and subpopulation, from all life stages, and from turtles dead or alive; (c) contribute to the regional management unit delineation and assessment process of the International Union for Conservation of Nature’s Marine Turtle Specialist Group; and (d) provide up-to-the-moment clarity on the status of turtles wherever they are (in water or on land).',
         },
       ].map(function(e) {
-        var a = Object(Oe.a)(e.date, 'yyyy-MM-dd', new Date()),
+        var a = Object(Te.a)(e.date, 'yyyy-MM-dd', new Date()),
           t = Object(Ce.a)(a, 'MMMM d, yyyy'),
           n = Object(Ce.a)(a, 'yyyy');
         return Object(
           I.a,
         )({}, e, { parsedDate: a, formattedDate: t, year: n });
       }),
-      qe = Object(Ae.a)(
+      qe = Object(Oe.a)(
         Ve.map(function(e) {
           return e.year;
         }),
@@ -1937,7 +1939,7 @@
         We,
         null,
         i.a.createElement(
-          E.a,
+          v.a,
           {
             variant: 'h2',
             style: { paddingTop: 30, textAlign: 'center' },
@@ -1959,7 +1961,7 @@
           i.a.createElement(
             Re.a,
             { item: !0 },
-            i.a.createElement(Ue, { value: c, onChange: d }),
+            i.a.createElement(Je, { value: c, onChange: d }),
           ),
           i.a.createElement(
             Re.a,
@@ -1968,12 +1970,12 @@
               Ne.a,
               null,
               i.a.createElement(
-                _e.a,
+                xe.a,
                 { htmlFor: 'filter-input' },
                 i.a.createElement(j.a, { id: 'YEAR' }),
               ),
               i.a.createElement(
-                xe.a,
+                _e.a,
                 {
                   style: { width: 100 },
                   native: !0,
@@ -1998,7 +2000,7 @@
             ),
           ),
         ),
-        i.a.createElement(Je, { logos: Ye }),
+        i.a.createElement(Ue, { logos: Ye }),
         i.a.createElement(
           Re.a,
           {
@@ -2033,7 +2035,7 @@
                     },
                   },
                   i.a.createElement(
-                    E.a,
+                    v.a,
                     { variant: 'subtitle2' },
                     e.formattedDate,
                   ),
@@ -2042,17 +2044,17 @@
                   'div',
                   { style: { padding: '0 20px' } },
                   i.a.createElement(
-                    A,
+                    O,
                     { external: !0, href: e.href },
-                    i.a.createElement(E.a, null, e.name),
+                    i.a.createElement(v.a, null, e.name),
                   ),
                   i.a.createElement(
-                    E.a,
+                    v.a,
                     { variant: 'subtitle2' },
                     e.citation,
                   ),
                   i.a.createElement(
-                    E.a,
+                    v.a,
                     { style: { marginTop: 12 } },
                     '"'.concat(e.excerpt, '"'),
                   ),
@@ -2063,16 +2065,16 @@
         ),
       );
     }
-    var Qe = t(178),
+    var Qe = t(179),
       Xe = t.n(Qe),
-      $e = { root: E.a };
+      $e = { root: v.a };
     function ea(e) {
       var a = e.content,
         t = e.imgSrc,
         n = e.title,
         o = e.style,
         r = void 0 === o ? {} : o,
-        s = Object(T.a)(e, ['content', 'imgSrc', 'title', 'style']);
+        s = Object(A.a)(e, ['content', 'imgSrc', 'title', 'style']);
       return (
         oe(n),
         i.a.createElement(
@@ -2094,7 +2096,7 @@
             q,
             null,
             i.a.createElement('img', {
-              style: { maxWidth: '100%' },
+              style: { width: '100%', maxWidth: 1100 },
               src: t,
               alt: n,
             }),
@@ -2107,7 +2109,7 @@
         )
       );
     }
-    var aa = t(179),
+    var aa = t(180),
       ta = t.n(aa);
     function na() {
       return i.a.createElement(ea, {
@@ -2117,7 +2119,7 @@
           '## Trademarks\n\n - Wildbook is a registered trademark of Wild Me.\n\n## Licenses\n\n - Wildbook is distributed under the [GPL v2 open source license](https://opensource.org/licenses/gpl-2.0.php).\n - WBIA is distributed under the [GPL v2 open source license](https://opensource.org/licenses/gpl-2.0.php).\n\n## Copyrights\n\n - All content copyright Wild Me 2016 and may not be used without express permission.\n',
       });
     }
-    var ia = t(180),
+    var ia = t(103),
       oa = t.n(ia);
     function ra() {
       return i.a.createElement(ea, {
@@ -2127,18 +2129,16 @@
           '## Overview\n\nWild Me staff have over a decade of experience supporting the software behind citizen science projects. As a means of supporting our projects, we offer software consultation on citizen science and wildlife research, especially with [Wildbook](http://wildbook.org/doku.php).\n\nService examples include:\n\n - Professional [Wildbook](http://wildbook.org/doku.php) hosting in the Azure cloud\n - Custom [Wildbook](http://wildbook.org/doku.php) feature development and configuration\n - Custom citizen science software development\n - Bulk data upload services\n\n## Our Philosophy and Experience\n\nAt Wild Me, we realize that obtaining actual value from citizen science projects starts with two strong foundations:\n\nGood initial study design by the research community\nClear information architecture reinforced by usable software\nAs experienced software developers and information architects, we focus our projects on supporting four key “personas” of citizen science:\n\n - “The Scientist” – within an effective citizen science project, there is always a core of individuals (academic or just passionate and curious) focused on translating data and passion into useful scientific analyses and/or an educational experience. This core is an absolute must to obtain very real value from “CitSci”.\n - “The Evangelist” –  The Evangelist is a citizen science projects passionate outreach specialist. This individual motivates volunteers, builds local and online communities, and helps direct greater resources to a project to help improve its scientific or educational outcome.\n - “The Technologist” – The technologist is the newest role in citizen science. Almost any 21st Century CitSci project requires an experienced IT professional to help ensure that the infrastructure of the project (software, hardware, database, user experience, etc.) supports all of the other roles in the project in an effective means of interaction and data exchange and feedback.\n - “The Volunteer” – The public has never before had so many opportunities to participate in science. From active, project-specific data collection to passive data mining of social media, the public can provide new volumes of data to support more refined and previously unachievable scientific analyses. In return, CitSci projects have a responsibility to provide benefit to those contributing. This can be description of the scientific benefit the volunteer provided or “exchanging the gift of data for a gift of knowledge”. Sometimes, the education provided to volunteers in a CitSci project can be the primary benefit of the project as a whole!\n\nAt Wild Me, we building citizen science projects on good initial study designs and design our software to support the varied roles and “personas” of the people collaborating, maximizing the potential for project success and benefit.\n\n## Information Architecture + Computer Vision + Machine Learning\n\nIn the modern era of “Big Data”, managing larger volumes of citizen science data requires good study design backed by a great information architecture with strong security. At its core, our software is query-based, emphasizing that the goal of data management is to allow you to get answers to research questions faster. We also build software that integrates with other applications and servers, allowing you to operate a compatible “platform” of applications for collaborative research.\n\nWild Me has experience developing and supporting citizen science projects that integrate computer vision and machine learning to scale up processing speed and support new analyses, such as by integrating and customizing multiple pattern recognition algorithms to more accurately identify individual whales.\n\n## Can we help you?\n\n_Do you have questions about a new project or species with Wildbook or other Wild Me software?_\n\nContact us at [services@wildme.org](mailto:services@wildme.org).\n\n_Do you need technical support for Wildbook?_\n\nCreate a post on the [Wildbook Community Forums](https://community.wildbook.org/)! We will respond shortly, unless a member of the community gets there first 🙂\n\n',
       });
     }
-    var sa = t(442),
-      la = t(431),
+    var sa = t(424),
+      la = t(426),
       ca = t(427),
-      da = t(429),
-      ha = t(430),
-      pa = t(428);
-    function ma(e) {
+      da = t(425);
+    function ha(e) {
       var a = e.children,
         t = e.style,
         n = void 0 === t ? {} : t,
         o = e.noUnderline,
-        r = Object(T.a)(e, ['children', 'style', 'noUnderline']);
+        r = Object(A.a)(e, ['children', 'style', 'noUnderline']);
       return i.a.createElement(
         'button',
         Object.assign(
@@ -2162,55 +2162,46 @@
         a,
       );
     }
-    var ua = {
-      donate: { id: 'donate', labelId: 'DONATE' },
-      volunteer: { id: 'volunteer', labelId: 'VOLUNTEER' },
-      report: { id: 'report', labelId: 'REPORT_A_SIGHTING' },
-    };
-    function ga() {
+    function pa() {
       var e = Object($.a)();
-      oe(e.formatMessage({ id: 'CONTRIBUTE' }));
-      var a = Object(n.useState)(ua.donate.id),
+      oe(e.formatMessage({ id: 'DONATE' }));
+      var a = Object(n.useState)(!1),
         t = Object(g.a)(a, 2),
         o = t[0],
         r = t[1],
         s = Object(n.useState)(!1),
         l = Object(g.a)(s, 2),
         c = l[0],
-        d = l[1],
-        h = Object(n.useState)(!1),
-        p = Object(g.a)(h, 2),
-        m = p[0],
-        u = p[1];
+        d = l[1];
       return i.a.createElement(
         We,
         null,
         i.a.createElement(
-          ca.a,
+          sa.a,
           {
-            open: c,
+            open: o,
             onClose: function() {
-              return d(!1);
+              return r(!1);
             },
           },
           i.a.createElement(
-            pa.a,
+            da.a,
             null,
             i.a.createElement(j.a, {
               id: 'CRYPTOCURRENCY_DONATIONS',
             }),
           ),
           i.a.createElement(
-            da.a,
+            la.a,
             null,
             i.a.createElement(
-              ha.a,
+              ca.a,
               null,
               i.a.createElement(j.a, { id: 'ETHERIUM_WALLET_ID' }),
               '0x5d41f2e86FeCD1205717B099a8546c5cF6F97e57',
             ),
             i.a.createElement(
-              ha.a,
+              ca.a,
               null,
               i.a.createElement(j.a, { id: 'BITCOIN_WALLET_ID' }),
               '15KCE1xCGjhcDojjEpMhUA8L6JMdiNGTHy',
@@ -2218,23 +2209,23 @@
           ),
         ),
         i.a.createElement(
-          ca.a,
+          sa.a,
           {
-            open: m,
+            open: c,
             onClose: function() {
-              return u(!1);
+              return d(!1);
             },
           },
           i.a.createElement(
-            pa.a,
+            da.a,
             null,
             i.a.createElement(j.a, { id: 'CUSTOM_DONATIONS' }),
           ),
           i.a.createElement(
-            da.a,
+            la.a,
             null,
             i.a.createElement(
-              ha.a,
+              ca.a,
               null,
               i.a.createElement(j.a, {
                 id: 'CUSTOM_DONATIONS_INSTRUCTIONS',
@@ -2254,193 +2245,117 @@
             Re.a,
             { item: !0 },
             i.a.createElement(
-              E.a,
+              v.a,
               {
                 variant: 'h2',
                 style: { paddingTop: 30, textAlign: 'center' },
               },
-              i.a.createElement(j.a, { id: 'CONTRIBUTE' }),
+              i.a.createElement(j.a, { id: 'DONATE' }),
             ),
           ),
           i.a.createElement(
-            sa.a,
-            {
-              value: o,
-              onChange: function(e, a) {
-                return r(a);
-              },
-              'aria-label': 'Ways to contribute selector',
-            },
-            Object.values(ua).map(function(e) {
-              return i.a.createElement(la.a, {
-                key: e.id,
-                label: i.a.createElement(j.a, { id: e.labelId }),
-                value: e.id,
-              });
-            }),
-          ),
-          o === ua.donate.id &&
+            Re.a,
+            { item: !0 },
             i.a.createElement(
-              i.a.Fragment,
+              v.a,
               null,
+              i.a.createElement(j.a, {
+                id: 'DONATION_UMBRELLA_DESCRIPTION_1',
+              }),
+            ),
+            i.a.createElement(
+              v.a,
+              { style: { marginTop: 16 } },
+              i.a.createElement(j.a, {
+                id: 'DONATION_UMBRELLA_DESCRIPTION_2',
+              }),
               i.a.createElement(
-                Re.a,
-                { item: !0 },
-                i.a.createElement(
-                  E.a,
-                  null,
-                  i.a.createElement(j.a, {
-                    id: 'DONATION_UMBRELLA_DESCRIPTION_1',
-                  }),
-                ),
-                i.a.createElement(
-                  E.a,
-                  { style: { marginTop: 16 } },
-                  i.a.createElement(j.a, {
-                    id: 'DONATION_UMBRELLA_DESCRIPTION_2',
-                  }),
-                  i.a.createElement(
-                    ma,
-                    {
-                      onClick: function() {
-                        return d(!0);
-                      },
-                    },
-                    i.a.createElement(j.a, { id: 'CRYPTOCURRENCY' }),
-                  ),
-                  i.a.createElement(j.a, {
-                    id: 'DONATION_UMBRELLA_DESCRIPTION_3',
-                  }),
-                  i.a.createElement(
-                    ma,
-                    {
-                      onClick: function() {
-                        return u(!0);
-                      },
-                    },
-                    i.a.createElement(j.a, {
-                      id: 'LARGE_DONATIONS_LINK',
-                    }),
-                  ),
-                  i.a.createElement(j.a, {
-                    id: 'DONATION_UMBRELLA_DESCRIPTION_4',
-                  }),
-                ),
-              ),
-              i.a.createElement(
-                Re.a,
-                { item: !0 },
-                i.a.createElement(
-                  'form',
-                  {
-                    action: 'https://www.paypal.com/cgi-bin/webscr',
-                    method: 'post',
-                    target: '_top',
+                ha,
+                {
+                  onClick: function() {
+                    return r(!0);
                   },
-                  i.a.createElement('input', {
-                    type: 'hidden',
-                    name: 'cmd',
-                    value: '_s-xclick',
-                  }),
-                  i.a.createElement('input', {
-                    type: 'hidden',
-                    name: 'hosted_button_id',
-                    value: '6M475H9KWPSBW',
-                  }),
-                  i.a.createElement('input', {
-                    type: 'image',
-                    src:
-                      'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
-                    border: '0',
-                    name: 'submit',
-                    title:
-                      'PayPal - The safer, easier way to pay online!',
-                    alt: 'Donate with PayPal button',
-                  }),
-                  i.a.createElement('img', {
-                    alt: '',
-                    border: '0',
-                    src:
-                      'https://www.paypal.com/en_US/i/scr/pixel.gif',
-                    width: '1',
-                    height: '1',
-                  }),
-                ),
+                },
+                i.a.createElement(j.a, { id: 'CRYPTOCURRENCY' }),
               ),
+              i.a.createElement(j.a, {
+                id: 'DONATION_UMBRELLA_DESCRIPTION_3',
+              }),
               i.a.createElement(
-                Re.a,
-                { item: !0 },
-                i.a.createElement(
-                  E.a,
-                  { variant: 'body2' },
-                  i.a.createElement(j.a, { id: 'DONATION_LEGAL_1' }),
-                ),
-                i.a.createElement(
-                  E.a,
-                  { variant: 'body2', style: { marginTop: 16 } },
-                  i.a.createElement(j.a, { id: 'DONATION_LEGAL_2' }),
-                ),
+                ha,
+                {
+                  onClick: function() {
+                    return d(!0);
+                  },
+                },
+                i.a.createElement(j.a, {
+                  id: 'LARGE_DONATIONS_LINK',
+                }),
               ),
+              i.a.createElement(j.a, {
+                id: 'DONATION_UMBRELLA_DESCRIPTION_4',
+              }),
             ),
-          o === ua.volunteer.id &&
+          ),
+          i.a.createElement(
+            Re.a,
+            { item: !0 },
             i.a.createElement(
-              i.a.Fragment,
-              null,
-              i.a.createElement(
-                Re.a,
-                { item: !0 },
-                i.a.createElement(
-                  E.a,
-                  null,
-                  i.a.createElement(j.a, { id: 'VOLUNTEER_ASK_1' }),
-                ),
-                i.a.createElement(
-                  E.a,
-                  { style: { marginTop: 16 } },
-                  i.a.createElement(j.a, { id: 'VOLUNTEER_ASK_2' }),
-                ),
-                i.a.createElement(
-                  E.a,
-                  { style: { marginTop: 16 } },
-                  i.a.createElement(j.a, { id: 'VOLUNTEER_ASK_3' }),
-                ),
-                i.a.createElement(
-                  E.a,
-                  { style: { marginTop: 16 } },
-                  i.a.createElement(j.a, { id: 'VOLUNTEER_ASK_4' }),
-                ),
-              ),
+              'form',
+              {
+                action: 'https://www.paypal.com/cgi-bin/webscr',
+                method: 'post',
+                target: '_top',
+              },
+              i.a.createElement('input', {
+                type: 'hidden',
+                name: 'cmd',
+                value: '_s-xclick',
+              }),
+              i.a.createElement('input', {
+                type: 'hidden',
+                name: 'hosted_button_id',
+                value: '6M475H9KWPSBW',
+              }),
+              i.a.createElement('input', {
+                type: 'image',
+                src:
+                  'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+                border: '0',
+                name: 'submit',
+                title:
+                  'PayPal - The safer, easier way to pay online!',
+                alt: 'Donate with PayPal button',
+              }),
+              i.a.createElement('img', {
+                alt: '',
+                border: '0',
+                src: 'https://www.paypal.com/en_US/i/scr/pixel.gif',
+                width: '1',
+                height: '1',
+              }),
             ),
-          o === ua.report.id &&
+          ),
+          i.a.createElement(
+            Re.a,
+            { item: !0 },
             i.a.createElement(
-              i.a.Fragment,
-              null,
-              i.a.createElement(
-                Re.a,
-                { item: !0 },
-                i.a.createElement(
-                  E.a,
-                  null,
-                  i.a.createElement(j.a, {
-                    id: 'REPORT_SIGHTING_DESCRIPTION_1',
-                  }),
-                  i.a.createElement(
-                    A,
-                    { href: '/projects' },
-                    i.a.createElement(j.a, { id: 'PROJECTS_PAGE' }),
-                  ),
-                  i.a.createElement(j.a, {
-                    id: 'REPORT_SIGHTING_DESCRIPTION_2',
-                  }),
-                ),
-              ),
+              v.a,
+              { variant: 'body2' },
+              i.a.createElement(j.a, { id: 'DONATION_LEGAL_1' }),
             ),
+            i.a.createElement(
+              v.a,
+              { variant: 'body2', style: { marginTop: 16 } },
+              i.a.createElement(j.a, { id: 'DONATION_LEGAL_2' }),
+            ),
+          ),
         ),
       );
     }
-    var fa = t(181),
-      ba = t.n(fa),
-      wa = {
+    var ma = t(181),
+      ua = t.n(ma),
+      ga = {
         whaleshark: {
           id: 'whaleshark',
           labelId: 'WHALESHARK_DOT_ORG',
@@ -2449,156 +2364,156 @@
         flukebook: { id: 'flukebook', labelId: 'FLUKEBOOK' },
         staff: { id: 'staff', labelId: 'STAFF_PUBLICATIONS' },
       },
-      ya = [
+      fa = [
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14254',
           citation:
             'Araujo G, Ismail AR, McCann C, McCann D, Legaspi CG, Snow S, Labaja J, Manjaji-Matsumoto M, Ponzo A. (2020) Getting the most out of citizen science for endangered species such as Whale Shark. J Fish Biol. 2020 Jan 9. doi: 10.1111/jfb.14254.    ',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href: 'https://www.nature.com/articles/s41598-019-53718-w',
           citation:
             'Araujo, G., Agustines, A., Tracey, B. et al. (2019) Photo-ID and telemetry highlight a global whale shark hotspot in Palawan, Philippines. Sci Rep 9, 17209 (2019) doi:10.1038/s41598-019-53718-w    ',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://www.frontiersin.org/articles/10.3389/fmars.2018.00271/full',
           citation:
             'McCoy E, Burce R, David D, Aca EQ, Hardy J, Labaja J, Snow SJ, Ponzo A and Araujo G (2018) Long-Term Photo-Identification Reveals the Population Dynamics and Strong Site Fidelity of Adult Whale Sharks to the Coastal Waters of Donsol, Philippines. Front. Mar. Sci. 5:271. doi: 10.3389/fmars.2018.00271    ',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href: 'https://peerj.com/articles/5231/',
           citation:
             'Araujo G, Rohner CA, Labaja J, Conales SJ, Snow SJ, Murray R, Pierce SJ, Ponzo A. (2018) Satellite tracking of juvenile whale sharks in the Sulu and Bohol Seas, Philippines. PeerJ 6:e5231 https://doi.org/10.7717/peerj.5231',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://www.int-res.com/articles/esr2018/36/n036p049.pdf',
           citation:
             'Diamant S. et al (2018) Movements and habitat use of satellite-tagged whale sharks off western Madagascar.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href: 'https://peerj.com/articles/4161/',
           citation:
             'Rohner CA, Richardson AJ, Jaine FRA, Bennett MB, Weeks SJ, Cliff G, Robinson DP, Reeve-Arnold KE, Pierce SJ. (2018) Satellite tagging highlights the importance of productive Mozambican coastal waters to the ecology and conservation of whale sharks.',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           href: 'https://doi.org/10.1093/biosci/bix127',
           citation:
             'Bradley M. Norman, Jason A. Holmberg, Zaven Arzoumanian, Samantha D. Reynolds, Rory P. Wilson, Dani Rob, Simon J. Pierce, Adrian C. Gleiss, Rafael de la Parra, Beatriz Galvan, Deni Ramirez-Macias, David Robinson, Steve Fox, Rachel Graham, David Rowat, Matthew Potenski, Marie Levine, Jennifer A. Mckinney, Eric Hoffmayer, Alistair D. M. Dove, Robert Hueter, Alessandro Ponzo, Gonzalo Araujo, Elson Aca, David David, Richard Rees, Alan Duncan, Christoph A. Rohner, Clare E. M. Prebble, Alex Hearn, David Acuna, Michael L. Berumen, Abraham Vázquez, Jonathan Green, Steffen S. Bach, Jennifer V. Schmidt, Stephen J. Beatty, David L. Morgan; Undersea Constellations: The Global Biology of an Endangered Marine Megavertebrate Further Informed through Citizen Science, 2017/11/29, BioScience, bix127.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://royalsocietypublishing.org/doi/full/10.1098/rsos.170394',
           citation:
             "Thomson JA, Araujo G, Labaja J, McCoy E, Murray R, Ponzo A. Feeding the world's largest fish: highly variable whale shark residency patterns at a provisioning site in the Philippines. R. Soc. open sci. 2017 4 170394; DOI: 10.1098/rsos.170394. Published 27 September 2017",
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185360',
           citation:
             'Robinson DP, Jaidah MY, Bach SS, Rohner CA, Jabado RW, Ormond R, et al. (2017) Some like it hot: Repeat migration and residency of whale sharks within an extreme natural environment. PLoS ONE 12(9): e0185360. https://doi.org/10.1371/journal.pone.0185360',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12618',
           citation:
             'Reynolds SD, Norman BM, Beger M, Franklin CE, Dwyer RG. Movement, distribution and marine reserve use by an endangered migratory giant. Divers Distrib. 2017;00:1–12.',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           href:
             'https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0180495',
           citation:
             'McKinney JA, Hoffmayer ER, Holmberg J, Graham RT, Driggers WB III, de la Parra-Venegas R, et al. (2017) Long-term assessment of whale shark population demography and connectivity using photo-identification in the Western Atlantic Ocean. PLoS ONE 12(8): e0180495. https://doi.org/10.1371/journal.pone.0180495',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0164440',
           citation:
             'Macena BCL, Hazin FHV (2016) Whale Shark (Rhincodon typus) Seasonal Occurrence, Abundance and Demographic Structure in the Mid-Equatorial Atlantic Ocean. PLoSONE 11(10):e0164440.doi:10.1371/journal.pone.0164440',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/fee.1418',
           citation:
             'Norman B. and Morgan D. (2016) The return of “Stumpy” the whale shark: two decades and counting. Front Ecol Environ 2016; 14(8):449–450, doi:10.1002/fee.1418',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://onlinelibrary.wiley.com/doi/abs/10.1002/aqc.2636',
           citation:
             'Araujo, G., Snow, S., So, C. L., Labaja, J., Murray, R., Colucci, A., and Ponzo, A. (2016) Population structure, residency patterns and movements of whale sharks in Southern Leyte, Philippines: results from dedicated photo-ID and citizen science. Aquatic Conserv: Mar. Freshw. Ecosyst., doi: 10.1002/aqc.2636.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href: 'https://www.publish.csiro.au/pc/PC15045',
           citation:
             'Norman B, Reynolds S and Morgan D. (2016) Does the whale shark aggregate along the Western Australian coastline beyond Ningaloo Reef? Pacific Conservation Biology 22(1) 72-80 Submitted. 1 April 2016',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href: 'https://peerj.com/articles/543/',
           citation:
             'Araujo G, Lucey A, Labaja J, So CL, Snow S, Ponzo A. (2014) Population structure and residency patterns of whale sharks, Rhincodon typus, at a provisioning site in Cebu, Philippines. PeerJ 2:e543',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'http://www.int-res.com/articles/meps_oa/m482p153.pdf',
           citation:
             'Rohner CA, Pierce SJ, Marshall AD, Weeks SJ, Bennett MB, Richardson AJ (2013) Trends in sightings and environmental influences on a coastal aggregation of manta rays and whale sharks. Mar Ecol Prog Ser 482: 153–168, 2013.',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           href: 'http://dx.doi.org/10.7287/peerj.preprints.98v1',
           citation:
             'McKinney J, Hoffmayer ER, Holmberg J, Graham R, de la Parra R et al. (2013) Regional connectivity of whale sharks demonstrated using photo-identification - Western Atlantic, 1999 - 2013. PeerJ PrePrints 1:e98v1',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           href:
             'https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12045',
           citation:
             'Bonner SJ & Holmberg, J (2013), Mark-Recapture with Multiple, Non-Invasive Marks. Biometrics. doi: 10.1111/biom.12045',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071883',
           citation:
             'Hueter RE, Tyminski JP, de la Parra R (2013) Horizontal Movements, Migration Patterns, and Population Structure of Whale Sharks in the Gulf of Mexico and Northwestern Caribbean Sea. PLoS ONE 8(8): e71883. doi:10.1371/journal.pone.0071883',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           href:
             'https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.12195',
           citation:
             'Fox S, Foisy I, De La Parra Venegas R, Galvan Pastoriza BE, Graham RT, Hoffmayer ER, Holmberg J, Pierce SJ. (2013) Population structure and residency of whale sharks Rhincodon typus at Utila, Bay Islands, Honduras. Journal of Fish Biology Volume 83, Issue 3, pages 574-587, September 2013',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0058255',
           citation:
             'Robinson DP, Jaidah MY, Jabado RW, Lee-Brooks K, Nour El-Din NM, et al. (2013) Whale Sharks, Rhincodon typus, Aggregate around Offshore Platforms in Qatari Waters of the Arabian Gulf to Feed on Fish Spawn. PLoS ONE 8(3): e58255. doi:10.1371/journal.pone.0058255',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href: 'https://www.publish.csiro.au/wr/WR12092',
           citation:
             'Davies, Tim K., Stevens, Guy, Meekan, Mark G., Struve, Juliane, and Rowcliffe, J. Marcus (2012) Can citizen science monitor whale-shark aggregations? Investigating bias in mark-recapture modelling using identification photographs sourced from the public. Wildlife Research 39, 696-704.',
@@ -2609,112 +2524,112 @@
             'Marshall AD & SJ Pierce (2012) The use and abuse of photographic identification in sharks and rays. Journal of Fish Biology 80: 1361-1379',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Catlin J, Jones T, Norman B & Wood D. Consolidation in a wildlife tourism industry: the changing impact of whale shark tourist expenditure in the Ningaloo Coast region. International Journal of Tourism Research, Volume 12, Issue 2, pages 134-148, March/April 2010.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Catlin J, Jones R, Jones T, Norman B and Wood D (2010). Discovering Wildlife Tourism: A Whale Shark Tourism Case Study. Current Issues in Tourism, Volume 13, Issue 4.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Jones T, Wood D, Catlin J & Norman B (2009). Expenditure and ecotourism: predictors of expenditure for whale shark tour participants. Journal of Ecotourism Volume 8, Issue 1: 32-50.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Norman B (2009) ECOCEAN Best Practice Whale Shark Ecotourism UNEP MANUAL. Technical Report (United Nations Environment Program - Regional Seas) 7pp.',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           citation:
             'Holmberg J & Norman B (2009) ECOCEAN Whale Shark Photo-identification - UNEP MANUAL. Technical Report (United Nations Environment Program - Regional Seas) 69pp.',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           href:
             'http://www.int-res.com/articles/esr2009/7/n007p039.pdf',
           citation:
             'Holmberg J, Norman B & Arzoumanian Z (2009) Estimating population size, structure, and residency time for whale sharks Rhincodon typus through collaborative photo-identification. Endangered Species Research, (7) 39-53.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Jones T, Wood D, Catlin J & Norman, B (2009) Expenditure and ecotourism: predictors of expenditure for whale shark tour participants. Journal of Ecotourism, (8) 32-50.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Gleiss AC, Norman B, Liebsch N, Francis C & Wilson RP (2009) A new prospect for tagging large free-swimming sharks with motion-sensitive data-loggers. Fisheries Research 97: 11-16.',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           href:
             'http://www.esajournals.org/doi/abs/10.1890/07-0315.1',
           citation:
             'Holmberg J, Norman B & Arzoumanian Z (2008) Robust, comparable population metrics through collaborative photo-monitoring of whale sharks Rhincodon typus . Ecological Applications 18(1): 222-223.',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           href:
             'https://www.whaleshark.org/Norman_Holmberg_Earthwatch_2007.pdf',
           citation:
             'Norman B. & Holmberg J (2007) A Cooperative Approach for Generating Robust Population Metrics for Whale Sharks Rhincodon typus. In: Maldini D, Meck Maher D, Troppoli D, Studer M, and Goebel J, editors. Translating Scientific Results into Conservation Actions: New Roles, Challenges and Solutions for 21st Century Scientists. Boston : Earthwatch Institute; 2007.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Norman B & Stevens J (2007) Size and maturity status of the whale shark ( Rhincodon typus ) at Ningaloo Reef in Western Australia. Fisheries Research Vol. 84, Issue 1, 1-136. Whale Sharks: Science, Conservation and Management - Proceedings of the First International Whale Shark Conference, First International Whale Shark Conference Australia 09-12 May 2005. T. R. Irvine and J. K. Keesing (Eds).',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Norman B & Catlin J (2007) Economic importance of conserving whale sharks. Unpublished Report for the International Fund for Animal Welfare (IFAW), Sydney 18pp.',
         },
         {
-          tags: [wa.whaleshark, wa.staff],
+          tags: [ga.whaleshark, ga.staff],
           citation:
             'Arzoumanian Z, Holmberg J & Norman B (2005) An astronomical pattern-matching algorithm for computer-aided identification of whale sharks Rhincodon typus . Journal of Applied Ecology 42, 999-1011.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Norman BM (2005) Whale shark critical habitats and movement patterns within Australian waters. Technical Report (DEH Natural Heritage Trust Project) 46pp.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Norman BM (2004) Review of the current conservation concerns for the whale shark ( Rhincodon typus ): A regional perspective. Technical Report (NHT Coast & Clean Seas Project No. 2127) 74pp.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'http://www.environment.gov.au/marine/publications/cites-identification-manual-whale-shark-rhincodon-typus-smith-1829',
           citation:
             'Norman B (2002) CITES Identification Manual: Whale Shark ( Rhincodon typus Smith 1829). Commonwealth of Australia.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href:
             'https://www.ingentaconnect.com/content/tandf/tnah/2000/00000034/00000003/art00004?token=0044129e186720297d76253e7b2a4a467a24425e3b6b6d3f4e4b252493777d450b13',
           citation:
             'Norman BM, Newbound D & Knott B (2000) A new species of Pandaridae (Copepoda), from the whale shark Rhincodon typus (Smith) . Journal of Natural History 34:3, 355-366.',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Norman BM (2000) In: 2000 IUCN Red List of Threatened Species. IUCN, Gland, Switzerland and Cambridge, UK. Xviii+61 pp. (Book & CD).',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Norman BM (1999) Aspects of the biology and ecotourism industry of the whale shark Rhincodon typus in north-western Australia. MPhil. Thesis (Murdoch University, Western Australia).',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           citation:
             'Gunn JS, Stevens JD, Davis TLO & Norman BM (1999) Observations on the short-term movements and behaviour of whale sharks ( Rhincodon typus ) at Ningaloo Reef, Western Australia. Mar. Biol . 135: 553-559.',
         },
@@ -2740,50 +2655,50 @@
             'Paxton, A. B., Blair, E., Blawas, C., Fatzinger, M. H., Marens, M., Holmberg, J., Kingen, C., Houppermans, T., Keusenkothen, M., McCord, J., Silliman, B. R., and Penfold, L. M.. 2019. Citizen science reveals female sand tiger sharks (Carcharias taurus) exhibit signs of site fidelity on shipwrecks. Ecology 00( 00):e02687. 10.1002/ecy.2687',
         },
         {
-          tags: [wa.mantamatcher],
+          tags: [ga.mantamatcher],
           href:
             'https://mbr.biomedcentral.com/articles/10.1186/s41200-019-0162-9',
           citation:
             'Arauz R , Chávez E, Hoyos-Padilla EM, and Marshall AD. First record of the reef manta ray, Mobula alfredi, from the eastern Pacific. Marine Biodiversity Records 2019 12:3 https://doi.org/10.1186/s41200-019-0162-9',
         },
         {
-          tags: [wa.staff],
+          tags: [ga.staff],
           href:
             'https://cthulhu.dyn.wildme.io/public/posters/parham_wacv_2018.pdf',
           citation:
             'Parham, Jason & Stewart, Charles & Crall, J.P. & Rubenstein, Daniel & Holmberg, Jason & Berger-Wolf, Tanya. (2018). An Animal Detection Pipeline for Identification. 1075-1083. 10.1109/WACV.2018.00123.',
         },
         {
-          tags: [wa.flukebook, wa.staff],
+          tags: [ga.flukebook, ga.staff],
           citation:
             'Blount D, Holmberg J, and Minton G. (2018) Flukebook – A tool for cetacean photo identification, data archiving and automated fluke matching. International Whaling Commission report SC/67B/PH/03.',
         },
         {
-          tags: [wa.staff],
+          tags: [ga.staff],
           href:
             'https://www.aaai.org/ocs/index.php/SSS/SSS17/paper/download/15245/14512',
           citation:
             'J. Parham, J. Crall, C. Stewart, T. Berger-Wolf and D. Rubenstein, "Animal Population Censusing at Scale with Citizen Science and Photographic Identification", AAAI 2017 Spring Symposium.',
         },
         {
-          tags: [wa.flukebook, wa.staff],
+          tags: [ga.flukebook, ga.staff],
           href: 'https://arxiv.org/abs/1708.07785',
           citation:
             'Weideman, H.J, Z.M. Jablons, J. Holmberg, K. Flynn, J. Calambokidis, R. B. Tyson, J.B. Allen, R.S. Wells, K. Hupman, K. Urian, C.V. Stewart. 2017. Integral Curvature Representation and Matching Algorithms for Identification of Dolphins and Whales. doi: 10.1002/ar.23650',
         },
         {
-          tags: [wa.staff],
+          tags: [ga.staff],
           citation:
             'S. Menon, T. Y. Berger-Wolf , E. Kiciman, L. Joppa, C. V. Stewart, J. Parham, J. Crall, J. Holmberg, J. Van Oast, “Animal Population Estimation Using Flickr Images”, 2nd International Workshop on the Social Web for Environmental and Ecological Monitoring (SWEEM 2017).',
         },
         {
-          tags: [wa.whaleshark],
+          tags: [ga.whaleshark],
           href: 'https://www.iucnredlist.org/species/19488/2365291',
           citation:
             '2016 IUCN Red List Assessment (Endangered) for Rhincodon typus (whale shark).',
         },
         {
-          tags: [wa.flukebook],
+          tags: [ga.flukebook],
           citation:
             'Z. Jablons. Identifying humpback whale flukes by sequence matching of trailing edge curvature. Master’s thesis, Rensselaer Polytechnic Institute, 2016.',
         },
@@ -2802,7 +2717,7 @@
             'Dick, D et al. (2014) geneGIS: Geoanalytical Tools and Arc Marine Customization for Individual-Based Genetic Records. Transactions in GIS, Volume 18, Issue 3, pages 324–350, June 2014.',
         },
       ];
-    function Ea() {
+    function ba() {
       var e = Object($.a)();
       oe(e.formatMessage({ id: 'PUBLICATIONS' }));
       var a = Object(n.useState)(''),
@@ -2813,7 +2728,7 @@
         l = Object(g.a)(s, 2),
         c = l[0],
         d = l[1],
-        h = ya
+        h = fa
           .filter(function(e) {
             return ze(e, ['citation', 'href'], c);
           })
@@ -2836,7 +2751,7 @@
             Re.a,
             { item: !0 },
             i.a.createElement(
-              E.a,
+              v.a,
               {
                 variant: 'h2',
                 style: { paddingTop: 30, textAlign: 'center' },
@@ -2848,7 +2763,7 @@
             Re.a,
             { item: !0 },
             i.a.createElement(
-              E.a,
+              v.a,
               { variant: 'subtitle1', style: { paddingTop: 30 } },
               i.a.createElement(j.a, {
                 id: 'PUBLICATIONS_DESCRIPTION',
@@ -2864,7 +2779,7 @@
               i.a.createElement(
                 Re.a,
                 { item: !0 },
-                i.a.createElement(Ue, { value: c, onChange: d }),
+                i.a.createElement(Je, { value: c, onChange: d }),
               ),
               i.a.createElement(
                 Re.a,
@@ -2873,12 +2788,12 @@
                   Ne.a,
                   null,
                   i.a.createElement(
-                    _e.a,
+                    xe.a,
                     { htmlFor: 'filter-input' },
                     'Filter',
                   ),
                   i.a.createElement(
-                    xe.a,
+                    _e.a,
                     {
                       native: !0,
                       value: o,
@@ -2894,7 +2809,7 @@
                       'aria-label': 'None',
                       value: '',
                     }),
-                    Object.values(wa).map(function(a) {
+                    Object.values(ga).map(function(a) {
                       return i.a.createElement(
                         'option',
                         { key: a.id, value: a.id },
@@ -2911,17 +2826,17 @@
               Re.a,
               { item: !0, key: e.citation },
               i.a.createElement(
-                E.a,
+                v.a,
                 { style: { lineHeight: 2 } },
                 e.citation,
                 e.href &&
                   i.a.createElement(
-                    A,
+                    O,
                     { external: !0, href: e.href, target: '_blank' },
                     i.a.createElement(
                       S.a,
                       { style: { marginLeft: 4 }, size: 'small' },
-                      i.a.createElement(ba.a, null),
+                      i.a.createElement(ua.a, null),
                     ),
                   ),
               ),
@@ -2930,78 +2845,78 @@
         ),
       );
     }
-    var va = t(432),
-      ka = t(433),
-      Sa = t(435),
-      Ia = t(434),
-      Ta = t(182),
-      Aa = t.n(Ta),
-      Oa = t(183),
-      Ca = t.n(Oa),
-      Ra = t(184),
-      Na = t.n(Ra),
-      _a = t(185),
-      xa = t.n(_a),
-      Pa = t(186),
-      ja = t.n(Pa),
-      Wa = t(187),
-      Da = t.n(Wa),
-      Ma = t(188),
-      La = t.n(Ma),
-      Ba = t(189),
-      za = t.n(Ba),
-      Ua = t(190),
-      Ja = t.n(Ua),
-      Ha = t(191),
-      Ga = t.n(Ha),
-      Fa = t(192),
-      Ka = t.n(Fa),
-      Va = t(193),
-      qa = t.n(Va),
-      Ya = t(194),
-      Za = t.n(Ya),
-      Qa = t(195),
-      Xa = t.n(Qa),
-      $a = t(196),
-      et = t.n($a),
-      at = t(197),
-      tt = t.n(at),
-      nt = t(198),
-      it = t.n(nt),
-      ot = t(199),
-      rt = t.n(ot),
-      st = t(123),
-      lt = t.n(st),
-      ct = t(124),
-      dt = t.n(ct),
-      ht = t(125),
-      pt = t.n(ht),
-      mt = t(126),
-      ut = t.n(mt),
-      gt = t(200),
-      ft = t.n(gt),
-      bt = t(201),
-      wt = t.n(bt);
-    var yt = t.p + '9da4f5328441afaea6adc9542026a0a9.svg',
-      Et = t(202),
-      vt = t.n(Et),
-      kt = t(203),
-      St = t.n(kt),
-      It = t(204),
-      Tt = t.n(It),
-      At = t(205),
+    var wa = t(428),
+      ya = t(429),
+      va = t(431),
+      Ea = t(430),
+      ka = t(182),
+      Sa = t.n(ka),
+      Ia = t(183),
+      Aa = t.n(Ia),
+      Oa = t(184),
+      Ta = t.n(Oa),
+      Ca = t(185),
+      Ra = t.n(Ca),
+      Na = t(186),
+      xa = t.n(Na),
+      _a = t(187),
+      Pa = t.n(_a),
+      ja = t(188),
+      Wa = t.n(ja),
+      Da = t(189),
+      Ma = t.n(Da),
+      La = t(190),
+      Ba = t.n(La),
+      za = t(191),
+      Ja = t.n(za),
+      Ua = t(192),
+      Ha = t.n(Ua),
+      Ga = t(193),
+      Fa = t.n(Ga),
+      Ka = t(194),
+      Va = t.n(Ka),
+      qa = t(195),
+      Ya = t.n(qa),
+      Za = t(196),
+      Qa = t.n(Za),
+      Xa = t(197),
+      $a = t.n(Xa),
+      et = t(198),
+      at = t.n(et),
+      tt = t(199),
+      nt = t.n(tt),
+      it = t(125),
+      ot = t.n(it),
+      rt = t(126),
+      st = t.n(rt),
+      lt = t(127),
+      ct = t.n(lt),
+      dt = t(128),
+      ht = t.n(dt),
+      pt = t(200),
+      mt = t.n(pt),
+      ut = t(201),
+      gt = t.n(ut);
+    var ft = t.p + '9da4f5328441afaea6adc9542026a0a9.svg',
+      bt = t(202),
+      wt = t.n(bt),
+      yt = t(203),
+      vt = t.n(yt),
+      Et = t(204),
+      kt = t.n(Et),
+      St = t(205),
+      It = t.n(St),
+      At = t(206),
       Ot = t.n(At),
-      Ct = t(206),
-      Rt = t.n(Ct),
-      Nt = t(207),
-      _t = t.n(Nt),
-      xt = t(208),
-      Pt = t.n(xt),
-      jt = t(209),
-      Wt = t.n(jt),
-      Dt = t(210),
-      Mt = t.n(Dt),
-      Lt = {
+      Tt = t(207),
+      Ct = t.n(Tt),
+      Rt = t(208),
+      Nt = t.n(Rt),
+      xt = t(209),
+      _t = t.n(xt),
+      Pt = t(210),
+      jt = t.n(Pt),
+      Wt = {
         hotspotter: {
           name: 'Hotspotter',
           url: 'http://wiki.wildbook.org/en/researchers/overview',
@@ -3043,7 +2958,7 @@
           url: 'http://wiki.wildbook.org/en/researchers/overview',
         },
       },
-      Bt = [
+      Dt = [
         {
           name: 'Flukebook',
           path: '/flukebook',
@@ -3052,26 +2967,26 @@
           hosted: !0,
           adminName: 'Drew Blount',
           adminContact: 'drew@wildme.org',
-          bannerLarge: Aa.a,
-          bannerSmall: Ca.a,
+          bannerLarge: Sa.a,
+          bannerSmall: Aa.a,
           descriptionId: 'FLUKEBOOK_DESCRIPTION',
           sightings: 203772,
           individuals: 42505,
           photos: 12e5,
           algorithms: [
-            Lt.hotspotter,
-            Lt.curvrank,
-            Lt.deepsense,
-            Lt.dtw,
-            Lt.kaggle,
+            Wt.hotspotter,
+            Wt.curvrank,
+            Wt.deepsense,
+            Wt.dtw,
+            Wt.kaggle,
           ],
           partners: [
-            { name: 'NOAA', logo: St.a },
-            { name: 'Dominican Sperm Whale Project', logo: Tt.a },
-            { name: 'New England Aquarium', logo: Ot.a },
+            { name: 'NOAA', logo: vt.a },
+            { name: 'Dominican Sperm Whale Project', logo: kt.a },
+            { name: 'New England Aquarium', logo: It.a },
             {
               name: 'Cascadia Research Collective',
-              logo: vt.a,
+              logo: wt.a,
               url: 'https://www.cascadiaresearch.org/',
             },
           ],
@@ -3271,21 +3186,21 @@
           adoption: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: Na.a,
-          bannerSmall: xa.a,
+          bannerLarge: Ta.a,
+          bannerSmall: Ra.a,
           descriptionId: 'WHALESHARK_DESCRIPTION',
           sightings: 75191,
           individuals: 12060,
-          algorithms: [Lt.groth, Lt.i3s],
+          algorithms: [Wt.groth, Wt.i3s],
           partners: [
             {
               name: 'Whale Shark and Oceanic Research Centre',
-              logo: Pt.a,
+              logo: Nt.a,
             },
             {
               name:
                 'Department of Marine and Coastal Resources, Thailand',
-              logo: Rt.a,
+              logo: Ot.a,
             },
           ],
           species: [
@@ -3305,14 +3220,14 @@
           adoption: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: ja.a,
-          bannerSmall: Da.a,
+          bannerLarge: xa.a,
+          bannerSmall: Pa.a,
           descriptionId: 'MANTAMATCHER_DESCRIPTION',
           sightings: 36287,
           individuals: 11105,
-          algorithms: [Lt.mantamatcher, Lt.pie, Lt.hotspotter],
+          algorithms: [Wt.mantamatcher, Wt.pie, Wt.hotspotter],
           partners: [
-            { name: 'Marine Megafauna Foundation', logo: _t.a },
+            { name: 'Marine Megafauna Foundation', logo: Ct.a },
           ],
           species: [
             {
@@ -3345,15 +3260,15 @@
           hosted: !0,
           adminName: 'Jon Van Oast',
           adminContact: 'jon@wildme.org',
-          bannerLarge: La.a,
-          bannerSmall: za.a,
+          bannerLarge: Wa.a,
+          bannerSmall: Ma.a,
           descriptionId: 'GIRAFFESPOTTER_DESCRIPTION',
           sightings: 20379,
           individuals: 6801,
-          algorithms: [Lt.hotspotter],
+          algorithms: [Wt.hotspotter],
           partners: [
-            { name: 'Giraffe Conservation Foundation', logo: Wt.a },
-            { name: 'San Diego Zoo Global', logo: Mt.a },
+            { name: 'Giraffe Conservation Foundation', logo: _t.a },
+            { name: 'San Diego Zoo Global', logo: jt.a },
           ],
           species: [
             {
@@ -3393,12 +3308,12 @@
           hosted: !0,
           adminName: 'Colin Kingen',
           adminContact: 'colin@wildme.org',
-          bannerLarge: Ja.a,
-          bannerSmall: Ga.a,
+          bannerLarge: Ba.a,
+          bannerSmall: Ja.a,
           descriptionId: 'IOT_DESCRIPTION',
           sightings: 37149,
           individuals: 6775,
-          algorithms: [Lt.hotspotter],
+          algorithms: [Wt.hotspotter],
           partners: [],
           species: [
             {
@@ -3434,12 +3349,12 @@
           hosted: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: Ka.a,
-          bannerSmall: qa.a,
+          bannerLarge: Ha.a,
+          bannerSmall: Fa.a,
           descriptionId: 'ZEBRA_DESCRIPTION',
           sightings: 28520,
           individuals: 8280,
-          algorithms: [Lt.hotspotter],
+          algorithms: [Wt.hotspotter],
           partners: [],
           species: [
             {
@@ -3463,12 +3378,12 @@
           hosted: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: Za.a,
-          bannerSmall: Xa.a,
+          bannerLarge: Va.a,
+          bannerSmall: Ya.a,
           descriptionId: 'LYNX_DESCRIPTION',
           sightings: 22479,
           individuals: 558,
-          algorithms: [Lt.hotspotter],
+          algorithms: [Wt.hotspotter],
           partners: [],
           species: [
             {
@@ -3485,12 +3400,12 @@
           inviteOnly: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: ft.a,
-          bannerSmall: wt.a,
+          bannerLarge: mt.a,
+          bannerSmall: gt.a,
           descriptionId: 'BASS_DESCRIPTION',
           sightings: 607,
           individuals: null,
-          algorithms: [Lt.groth, Lt.i3s],
+          algorithms: [Wt.groth, Wt.i3s],
           partners: [],
           species: [
             {
@@ -3509,13 +3424,13 @@
           adoption: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: pt.a,
-          bannerSmall: ut.a,
+          bannerLarge: ct.a,
+          bannerSmall: ht.a,
           descriptionId: 'SPOT_A_SHARK_DESCRIPTION',
           sightings: null,
           individuals: null,
           partners: [],
-          algorithms: [Lt.groth, Lt.i3s],
+          algorithms: [Wt.groth, Wt.i3s],
           species: [
             {
               name: 'Carcharias taurus',
@@ -3532,13 +3447,13 @@
           hosted: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: pt.a,
-          bannerSmall: ut.a,
+          bannerLarge: ct.a,
+          bannerSmall: ht.a,
           descriptionId: 'SPOT_A_SHARK_USA_DESCRIPTION',
           sightings: null,
           individuals: null,
           partners: [],
-          algorithms: [Lt.groth, Lt.i3s],
+          algorithms: [Wt.groth, Wt.i3s],
           species: [
             {
               name: 'Carcharias taurus',
@@ -3555,12 +3470,12 @@
           hosted: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: et.a,
-          bannerSmall: tt.a,
+          bannerLarge: Qa.a,
+          bannerSmall: $a.a,
           descriptionId: 'JAGUAR_DESCRIPTION',
           sightings: 925,
           individuals: 129,
-          algorithms: [Lt.hotspotter],
+          algorithms: [Wt.hotspotter],
           partners: [],
           species: [
             {
@@ -3578,12 +3493,12 @@
           hosted: !1,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: lt.a,
-          bannerSmall: dt.a,
+          bannerLarge: ot.a,
+          bannerSmall: st.a,
           descriptionId: 'SAIMAA_SEAL_DESCRIPTION',
           sightings: 4559,
           individuals: 446,
-          algorithms: [Lt.hotspotter],
+          algorithms: [Wt.hotspotter],
           partners: [],
           species: [
             {
@@ -3601,16 +3516,16 @@
           hosted: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: lt.a,
-          bannerSmall: dt.a,
+          bannerLarge: ot.a,
+          bannerSmall: st.a,
           descriptionId: 'SKUNK_DESCRIPTION',
           sightings: 657,
           individuals: 11,
-          algorithms: [Lt.hotspotter],
+          algorithms: [Wt.hotspotter],
           partners: [
             {
               name: 'Oregon State University',
-              logo: yt,
+              logo: ft,
               url: 'https://mmi.oregonstate.edu/',
             },
           ],
@@ -3631,12 +3546,12 @@
           hosted: !0,
           adminName: 'Jason Holmberg',
           adminContact: 'jason@wildme.org',
-          bannerLarge: it.a,
-          bannerSmall: rt.a,
+          bannerLarge: at.a,
+          bannerSmall: nt.a,
           descriptionId: 'DRAGONSEARCH_DESCRIPTION',
           sightings: null,
           individuals: null,
-          algorithms: [Lt.hotspotter],
+          algorithms: [Wt.hotspotter],
           partners: [],
           species: [
             {
@@ -3657,7 +3572,7 @@
           ],
         },
       ];
-    function zt() {
+    function Mt() {
       var e = Object(f.a)(),
         a = Object($.a)();
       return (
@@ -3666,7 +3581,7 @@
           We,
           null,
           i.a.createElement(
-            E.a,
+            v.a,
             {
               variant: 'h2',
               style: { paddingTop: 30, textAlign: 'center' },
@@ -3680,12 +3595,12 @@
               spacing: 4,
               style: { padding: '30px 0' },
             },
-            Bt.map(function(a) {
+            Dt.map(function(a) {
               return i.a.createElement(
                 Re.a,
                 { key: a.name, item: !0 },
                 i.a.createElement(
-                  va.a,
+                  wa.a,
                   {
                     style: {
                       width: 300,
@@ -3695,29 +3610,29 @@
                     },
                   },
                   i.a.createElement(
-                    ka.a,
+                    ya.a,
                     null,
                     i.a.createElement(
-                      A,
+                      O,
                       {
                         noUnderline: !0,
                         href: 'projects'.concat(a.path),
                       },
-                      i.a.createElement(Ia.a, {
+                      i.a.createElement(Ea.a, {
                         style: { height: 200 },
                         image: a.bannerSmall,
                         title: a.name,
                       }),
                       i.a.createElement(
-                        Sa.a,
+                        va.a,
                         null,
                         i.a.createElement(
-                          E.a,
+                          v.a,
                           { variant: 'h5' },
                           a.name,
                         ),
                         i.a.createElement(
-                          E.a,
+                          v.a,
                           null,
                           ''.concat(a.sightings, ' sightings'),
                         ),
@@ -3731,9 +3646,9 @@
         )
       );
     }
-    var Ut = t(211),
-      Jt = t.n(Ut);
-    function Ht(e) {
+    var Lt = t(211),
+      Bt = t.n(Lt);
+    function zt(e) {
       var a = e.people,
         t = e.titleId,
         o = Object(n.useState)(null),
@@ -3747,10 +3662,10 @@
         'div',
         { style: { marginBottom: 80 } },
         i.a.createElement(
-          ca.a,
+          sa.a,
           { open: Boolean(s), onClose: c, maxWidth: 'sm' },
           i.a.createElement(
-            pa.a,
+            da.a,
             null,
             i.a.createElement('span', null, Object(F.a)(s, 'name')),
             i.a.createElement(
@@ -3760,14 +3675,14 @@
                 'aria-label': 'close',
                 onClick: c,
               },
-              i.a.createElement(Jt.a, null),
+              i.a.createElement(Bt.a, null),
             ),
           ),
           i.a.createElement(
-            da.a,
+            la.a,
             { style: { paddingBottom: 40 } },
             i.a.createElement(
-              E.a,
+              v.a,
               { variant: 'subtitle1', style: { marginBottom: 20 } },
               Object(F.a)(s, 'role'),
             ),
@@ -3775,7 +3690,7 @@
           ),
         ),
         i.a.createElement(
-          E.a,
+          v.a,
           { variant: 'h4', style: { marginBottom: 40 } },
           i.a.createElement(j.a, { id: t }),
         ),
@@ -3794,13 +3709,13 @@
               i.a.createElement('img', {
                 src: e.img,
                 alt: e.name,
-                style: { height: 300, width: 300 },
+                style: { width: 300 },
               }),
               i.a.createElement(
                 'div',
                 null,
                 i.a.createElement(
-                  E.a,
+                  v.a,
                   { style: { textAlign: 'center' }, variant: 'h5' },
                   e.name,
                 ),
@@ -3810,28 +3725,28 @@
         ),
       );
     }
-    var Gt = t(212),
-      Ft = t.n(Gt),
-      Kt = t(213),
-      Vt = t.n(Kt),
-      qt = t(214),
-      Yt = t.n(qt),
-      Zt = [
+    var Jt = t(212),
+      Ut = t.n(Jt),
+      Ht = t(213),
+      Gt = t.n(Ht),
+      Ft = t(214),
+      Kt = t.n(Ft),
+      Vt = [
         {
-          img: Ft.a,
-          name: 'Tanya Berger-Wolf',
+          img: Ut.a,
+          name: 'Dr. Tanya Berger-Wolf',
           role: 'Director',
           renderDescription: function() {
             return i.a.createElement(
               'div',
               null,
               i.a.createElement(
-                E.a,
+                v.a,
                 null,
                 'Dr. Tanya Berger-Wolf is a Computational Ecologist, designing computational methods to solve problems in ecology, from genetics to social interactions, focusing particularly on the algorithmic and data aspects of the questions. Dr. Berger-Wolf is the co-founder and lead of the Wildbook project. She is a Professor in the Department of Computer Science at the University of Illinois at Chicago, where she heads the Computational Population Biology Lab. As a legitimate part of her research (and Wildbook) she gets to fly in a super-light airplane over a nature preserve in Kenya, taking a hyper-stereo video of zebra populations and learning how to identify each one of them by the unique stripe pattern.',
               ),
               i.a.createElement(
-                E.a,
+                v.a,
                 { style: { marginTop: 16 } },
                 'Berger-Wolf holds a Ph.D. in Computer Science from the University of Illinois at Urbana-Champaign. She has received numerous awards for her research and mentoring, including the US National Science Foundation CAREER Award, Association for Women in Science Chicago Innovator Award, and the UIC Mentor of the Year Award.',
               ),
@@ -3839,54 +3754,54 @@
           },
         },
         {
-          img: Vt.a,
-          name: 'Zaven Arzoumanian',
+          img: Gt.a,
+          name: 'Dr. Zaven Arzoumanian',
           role: 'President',
           renderDescription: function() {
             return i.a.createElement(
-              E.a,
+              v.a,
               null,
               'Zaven Arzoumanian earned degrees in Physics at McGill University (B.Sc.) and Princeton University (M.A., Ph.D.). His research interests include the astrophysics of neutron stars and black holes, testing theories of gravitation and the nature of matter in extreme environments, and new technologies for instrumentation in radio and X-ray astronomy. Zaven is a scientist at NASA’s Goddard Space Flight Center in Greenbelt, MD, USA. Zaven’s interest in Whale Sharks and pattern-matching computations for biological applications culminated in the co-development of a technique for matching spot patterns adapted from astronomy, published in the Journal of Applied Ecology (May 2005).',
             );
           },
         },
         {
-          img: Yt.a,
+          img: Kt.a,
           name: 'Alex Dehgan',
           role: 'Director',
           renderDescription: function() {
             return i.a.createElement(
-              E.a,
+              v.a,
               null,
               'Dr. Alex Dehgan is the CEO and co-founder of Conservation X Labs, a startup for tech innovation for conservation and development. Dr. Alex Dehgan recently served as the Chief Scientist at USAID, with rank of Assistant Administrator, and founded the Global Development Lab. Prior to USAID, Alex worked in multiple positions within the Office of the Secretary, and the Bureau of Near Eastern Affairs, at the Dept. of State. At State, Alex developed political and science diplomacy strategies towards addressing our most challenging foreign policy issues in Iraq, Egypt, and the greater Islamic world, including engagement with Iran under the Obama Administration with Amb. Dennis Ross. As head of the Wildlife Conservation Society Afghanistan Program, Alex helped create Afghanistan’s first national park.',
             );
           },
         },
       ],
-      Qt = t(215),
-      Xt = t.n(Qt),
-      $t = t(216),
-      en = t.n($t),
-      an = t(217),
-      tn = t.n(an),
-      nn = t(218),
-      on = t.n(nn),
-      rn = t(219),
-      sn = t.n(rn),
-      ln = t(220),
-      cn = t.n(ln),
-      dn = t(221),
-      hn = t.n(dn),
-      pn = t(222),
-      mn = t.n(pn),
-      un = [
+      qt = t(215),
+      Yt = t.n(qt),
+      Zt = t(216),
+      Qt = t.n(Zt),
+      Xt = t(217),
+      $t = t.n(Xt),
+      en = t(218),
+      an = t.n(en),
+      tn = t(219),
+      nn = t.n(tn),
+      on = t(220),
+      rn = t.n(on),
+      sn = t(221),
+      ln = t.n(sn),
+      cn = t(222),
+      dn = t.n(cn),
+      hn = [
         {
-          img: en.a,
+          img: Qt.a,
           name: 'Colin Kingen',
           role: 'Software Engineer/Community Engagement',
           renderDescription: function() {
             return i.a.createElement(
-              E.a,
+              v.a,
               null,
               i.a.createElement(
                 'span',
@@ -3908,7 +3823,7 @@
           },
         },
         {
-          img: on.a,
+          img: an.a,
           name: 'Jason Holmberg',
           role: 'Executive Director',
           renderDescription: function() {
@@ -3916,17 +3831,17 @@
               'div',
               null,
               i.a.createElement(
-                E.a,
+                v.a,
                 null,
                 'Jason Holmberg has logged thousands of hours of development time on Wildbook and Wildbook for Whale Sharks. As Wild Me’s Information Architect, he has designed and implemented new tools to support digital pattern recognition for whale sharks and other species. Using Jason’s tools, our projects have been able to categorize and manage a large amount of wildlife data, promote collaboration across borders and data sets, and to identify individual animals from multiple photos taken by different researchers many years apart. Jason was lead author and population modeler for two widely lauded papers covering whale shark population trajectories at Ningaloo Marine Park in Western Australia, demonstrating that citizen science data can provide improved insight and population models through greater acquisition of high quality data.',
               ),
               i.a.createElement(
-                E.a,
+                v.a,
                 { style: { marginTop: 16 } },
                 'Building on 16 years of experience in wildlife software, Jason now provides organizational leadership as Executive Director and manages the professional software engineers and machine learning specialists at Wild Me as Director of Engineering.',
               ),
               i.a.createElement(
-                E.a,
+                v.a,
                 { style: { marginTop: 16 } },
                 'Jason’s current research focus is the development of Intelligent Agents that augment and interact with wildlife research communities. Jason’s agents are combining multiple forms of machine learning (DCNN, NLP, NMT, etc.) to data mine social media for usable wildlife information (photos/where/when) and autonomously curating the data and interacting with the public to asynchronously get more information as needed and educate, “returning the gift of data with the gift of knowledge”.',
               ),
@@ -3934,19 +3849,19 @@
           },
         },
         {
-          img: tn.a,
+          img: $t.a,
           name: 'Dr. Mark Fisher',
           role: 'Software Engineer',
           renderDescription: function() {
             return i.a.createElement(
-              E.a,
+              v.a,
               null,
               'Mark Fisher received his B.S. in Ecology and Evolution from Yale University in 2007 and his Ph.D. in Genetics from the University of Georgia in 2013, where he studied invasive fire ant population genetics. He also worked briefly as a computational biologist at Oregon Health and Science University. Afterwards, he decided to re-tool as a software developer, and he has been creating open-source educational and biology-themed tools ever since. He also teaches biology at various colleges in the Pacific Northwest, including General Biology, Genetics, Animal Behavior, Evolution, Entomology, and Environmental Biology. He is bringing his joint passions for biology, education, and software development to bear on Wild Me’s ongoing and future projects. He’s also really into Brazilian Jiu Jitsu.',
             );
           },
         },
         {
-          img: sn.a,
+          img: rn.a,
           name: 'Dr. Jason Parham',
           role: 'Senior Computer Vision Research Engineer',
           renderDescription: function() {
@@ -3954,7 +3869,7 @@
               'div',
               null,
               i.a.createElement(
-                E.a,
+                v.a,
                 null,
                 i.a.createElement(
                   'span',
@@ -3970,7 +3885,7 @@
                 i.a.createElement('span', null, '.'),
               ),
               i.a.createElement(
-                E.a,
+                v.a,
                 { style: { marginTop: 16 } },
                 'Jason’s Masters thesis was on the design and implementation of a citizen science-powered photographic censusing of the zebra and giraffe in the Nairobi National Park. His current doctoral research focuses on object detection and classification, using deep learning on wildlife imagery, to power photographic censusing. Jason is a co-developer of Wildbook‘s Image Analysis components, which are used to monitor animal populations in conservancies around Kenya and which integrate with the Wildbook data management platform. Previously, Jason worked three years for Kitware, Inc. in Clifton Park on detecting vehicles and military aircraft in overhead satellite imagery. His work at Kitware led to the development of KWCNN, a customized Python module that enables easy training of deep learning networks such as Fully-Convolutional Neural Networks (FCNNs) and Generative Autoencoder Networks (GANs).',
               ),
@@ -3978,12 +3893,12 @@
           },
         },
         {
-          img: Xt.a,
+          img: Yt.a,
           name: 'Drew Blount',
           role: 'Machine Learning Engineer',
           renderDescription: function() {
             return i.a.createElement(
-              E.a,
+              v.a,
               null,
               i.a.createElement(
                 'span',
@@ -4005,32 +3920,32 @@
           },
         },
         {
-          img: hn.a,
+          img: ln.a,
           name: 'Tanya Stere',
           role: 'Director of Product',
           renderDescription: function() {
             return i.a.createElement(
-              E.a,
+              v.a,
               null,
               'Tanya Stere is a product manager with strong project management undertones. With a varied background dealing with everything from production-grade soldering to technical writing, her goal has always been to drive customer value at scale. Combined with a love for conservation and sustainability, and she is a great fit here at Wild Me.',
             );
           },
         },
         {
-          img: cn.a,
+          img: nn.a,
           name: 'Ben Scheiner',
-          role: 'Frontend developer (h2o.ai liaison)',
+          role: 'Frontend developer, H2O.ai Liason',
           renderDescription: function() {
             return i.a.createElement(
               'div',
               null,
               i.a.createElement(
-                E.a,
+                v.a,
                 null,
                 'Ben is a frontend developer with a passion for building user-friendly interfaces that achieve complex tasks. He has extensive experience developing web apps at scale, creating interactive dashboards, and working with robotics. Ben’s goal is to turn Wildbook into a more intuitive and powerful tool for the conservation community by redesigning and rebuilding the UI. He values learning from user analytics, improving developer workflows, and listening carefully to feedback.',
               ),
               i.a.createElement(
-                E.a,
+                v.a,
                 { style: { marginTop: 16 } },
                 'In 2019 Ben fostered two squirrels from infancy to adolescence. His hobbies include Ultimate Frisbee, improv, and adventures in Pacific Northwest forests. Ben’s employment is made possible through Wild Me’s partnership with h2o.ai.',
               ),
@@ -4038,12 +3953,12 @@
           },
         },
         {
-          img: mn.a,
+          img: dn.a,
           name: 'Jon Van Oast',
           role: 'Senior Engineer',
           renderDescription: function() {
             return i.a.createElement(
-              E.a,
+              v.a,
               null,
               i.a.createElement(
                 'span',
@@ -4060,56 +3975,56 @@
           },
         },
       ];
-    function gn() {
+    function pn() {
       return i.a.createElement(
         'div',
         { style: { marginTop: 64, padding: 40 } },
-        i.a.createElement(Ht, {
-          people: Zt,
+        i.a.createElement(zt, {
+          people: Vt,
           titleId: 'PAGE_TITLE_BOARD',
         }),
-        i.a.createElement(Ht, {
-          people: un,
+        i.a.createElement(zt, {
+          people: hn,
           titleId: 'PAGE_TITLE_STAFF',
         }),
       );
     }
-    var fn = t(223),
-      bn = t.n(fn),
-      wn = t(224),
-      yn = t.n(wn);
-    var En = t.p + '55eeadabee8e0d95ab46a3071450cfd4.svg',
-      vn = t(225),
-      kn = t.n(vn),
-      Sn = t(226),
-      In = t.n(Sn),
-      Tn = t(227),
-      An = t.n(Tn),
-      On = t(228),
-      Cn = t.n(On),
-      Rn = t(229),
-      Nn = t.n(Rn);
-    var _n = t.p + 'b3a9d4797603d9e9f7cc4f4a39dfb81b.svg';
-    var xn = t.p + 'ecb31afcf38b3656f7c7e7e2792dff37.svg',
-      Pn = t(230),
-      jn = t.n(Pn),
-      Wn = t(231),
-      Dn = t.n(Wn),
-      Mn = t(232),
-      Ln = t.n(Mn),
-      Bn = t(233),
-      zn = t.n(Bn),
-      Un = t(234),
-      Jn = t.n(Un),
-      Hn = t(235),
-      Gn = t.n(Hn),
-      Fn = [
+    var mn = t(223),
+      un = t.n(mn),
+      gn = t(224),
+      fn = t.n(gn);
+    var bn = t.p + '55eeadabee8e0d95ab46a3071450cfd4.svg',
+      wn = t(225),
+      yn = t.n(wn),
+      vn = t(226),
+      En = t.n(vn),
+      kn = t(227),
+      Sn = t.n(kn),
+      In = t(228),
+      An = t.n(In),
+      On = t(229),
+      Tn = t.n(On);
+    var Cn = t.p + 'b3a9d4797603d9e9f7cc4f4a39dfb81b.svg';
+    var Rn = t.p + 'ecb31afcf38b3656f7c7e7e2792dff37.svg',
+      Nn = t(230),
+      xn = t.n(Nn),
+      _n = t(231),
+      Pn = t.n(_n),
+      jn = t(232),
+      Wn = t.n(jn),
+      Dn = t(233),
+      Mn = t.n(Dn),
+      Ln = t(234),
+      Bn = t.n(Ln),
+      zn = t(235),
+      Jn = t.n(zn),
+      Un = [
         {
           name: 'The Gordon and Betty Moore Foundation',
           role: 'Featured sponsor',
           youtubeUrl: null,
-          photoSrc: An.a,
-          logo: In.a,
+          photoSrc: Sn.a,
+          logo: En.a,
           description:
             'The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area. Visit Moore.org and follow @MooreFound.',
         },
@@ -4117,7 +4032,7 @@
           name: 'H2O.ai',
           role: 'Featured sponsor',
           youtubeUrl: 'https://www.youtube.com/watch?v=jQ_sM-ULJ8A',
-          logo: En,
+          logo: bn,
           description:
             "On August 13, 2018, H2O.ai became a sponsor of Wildbook in celebration of World Elephant Day. H2O.ai's continued investment helps Wildbook support its staff, accelerating the conservation of endangered species with AI.",
         },
@@ -4125,7 +4040,7 @@
           name: 'Microsoft',
           role: 'Featured sponsor',
           youtubeUrl: 'https://www.youtube.com/watch?v=rQqao37u1wU',
-          logo: yn.a,
+          logo: fn.a,
           description:
             "On June 14, 2018, Wild Me (the organization that develops Wildbook) became a featured partner of Microsoft's AI for Earth program. This deep level of investment and engagement has enabled Wildbook to more effectively and efficiently use AI to combat extinction.",
         },
@@ -4133,62 +4048,62 @@
           name: 'NVIDIA',
           role: 'Featured sponsor',
           youtubeUrl: 'https://www.youtube.com/watch?v=TLw_I1ghvLM',
-          logo: kn.a,
+          logo: yn.a,
           description:
             "Wild Me is a member of NVIDIA's Inception Incubator program and has received hardware donations from NVIDIA. The donated GPUs make it possible to run our machine learning algorithms faster and keep JP's basement from overheating and catching on fire.",
         },
         {
           name: 'Marine Megafauna Foundation',
           role: 'Featured partner',
-          photoSrc: Gn.a,
-          logo: Jn.a,
+          photoSrc: Jn.a,
+          logo: Bn.a,
           description:
             'Marine Megafauna Foundation partnered with Wild Me to create mantamatcher.org, a tool used by multiple people.',
         },
       ],
-      Kn = [
+      Hn = [
         {
-          src: Cn.a,
+          src: An.a,
           url: 'https://en.wikipedia.org/wiki/Pineapple_Fund',
           alt: 'The Pineapple Fund',
         },
         {
-          src: Ln.a,
+          src: Wn.a,
           url: 'https://www.nsf.gov/',
           alt: 'National Science Foundation',
         },
         {
-          src: Nn.a,
+          src: Tn.a,
           url: 'https://www.pbnf.nl/',
           alt: 'The Prince Bernhard Nature Fund',
         },
         {
-          src: Dn.a,
+          src: Pn.a,
           url: 'https://www.adobe.com/',
           alt: 'The Adobe Foundation',
         },
         {
-          src: _n,
+          src: Cn,
           url: 'https://sirenfleet.com/',
           alt: 'Siren Fleet',
         },
         {
-          src: xn,
+          src: Rn,
           url: 'https://www.georgiaaquarium.org/',
           alt: 'Georgia Aquarium',
         },
         {
-          src: jn.a,
+          src: xn.a,
           url: 'https://www.britishecologicalsociety.org/',
           alt: 'British Ecological Society',
         },
         {
-          src: zn.a,
+          src: Mn.a,
           url: 'https://www.waittfoundation.org/',
           alt: 'The Waitt Foundation',
         },
       ];
-    function Vn() {
+    function Gn() {
       var e = Object($.a)();
       return (
         oe(e.formatMessage({ id: 'SUPPORTERS' })),
@@ -4207,7 +4122,7 @@
               'Our supporters.',
             ),
             i.a.createElement(
-              E.a,
+              v.a,
               {
                 variant: 'subtitle1',
                 style: {
@@ -4223,7 +4138,7 @@
             ),
           ),
           i.a.createElement(V, null),
-          Fn.map(function(e) {
+          Un.map(function(e) {
             return i.a.createElement(
               i.a.Fragment,
               null,
@@ -4246,9 +4161,9 @@
                   i.a.createElement(
                     'div',
                     null,
-                    i.a.createElement(E.a, { variant: 'h5' }, e.name),
+                    i.a.createElement(v.a, { variant: 'h5' }, e.name),
                     i.a.createElement(
-                      E.a,
+                      v.a,
                       {
                         variant: 'subtitle1',
                         style: { fontStyle: 'italic', color: '#444' },
@@ -4256,14 +4171,14 @@
                       e.role,
                     ),
                     i.a.createElement(
-                      E.a,
+                      v.a,
                       { style: { marginTop: 8 } },
                       e.description,
                     ),
                   ),
                 ),
                 e.youtubeUrl &&
-                  i.a.createElement(bn.a, {
+                  i.a.createElement(un.a, {
                     style: { maxWidth: '90%', maxHeight: '50%' },
                     url: e.youtubeUrl,
                   }),
@@ -4288,10 +4203,10 @@
               },
               'Additional supporters.',
             ),
-            i.a.createElement(Je, {
+            i.a.createElement(Ue, {
               style: { maxWidth: 880, margin: '80px auto' },
               height: 60,
-              logos: Kn.map(function(e) {
+              logos: Hn.map(function(e) {
                 return e.src;
               }),
             }),
@@ -4326,19 +4241,27 @@
         )
       );
     }
-    var qn = t(449),
-      Yn = t(447),
-      Zn = t(436),
-      Qn = t(437),
-      Xn = t(236),
+    function Fn() {
+      return i.a.createElement(ea, {
+        title: 'Volunteer',
+        imgSrc: oa.a,
+        content:
+          "## Overview\n\nWe are currently seeking volunteers to assist with React development, graphic design, software documentation and community management.\n\n## Programming \n\nAll our code is open source and contributions are very much appreciated. Here's a quick rundown of our active repositories:\n\n - [Wildbook]((https://github.com/WildbookOrg/Wildbook)): Java backend with JSP frontend. \n - [WB-IA](https://github.com/WildbookOrg/wildbook-ia): Python with a small Flask frontend.\n - Codex: [Java backend](https://github.com/WildbookOrg/Wildbook/tree/next-gen) with [React frontend](https://github.com/WildbookOrg/wildbook-frontend) and [Python middleware](https://github.com/WildbookOrg/houston).\n - [Scout](https://github.com/WildbookOrg/report-app): React Native.\n\nFor help getting set up or other questions, send an email to dev@wildme.org. We track tickets internally using Jira so just let us know your interests and we can find some good issues for you.\n\n## Graphic design \n\nFor more information about our graphic design needs, contact ben@wildme.org. Thanks in advance!\n\n## Software documentation and community management \n\nFor more information about our needs regarding software documentation and community management, contact tstere@wildme.org.\n",
+      });
+    }
+    var Kn = t(444),
+      Vn = t(442),
+      qn = t(432),
+      Yn = t(433),
+      Zn = t(236),
+      Qn = t.n(Zn),
+      Xn = t(238),
       $n = t.n(Xn),
-      ei = t(238),
+      ei = t(239),
       ai = t.n(ei),
-      ti = t(239),
-      ni = t.n(ti),
-      ii = t(237),
-      oi = t.n(ii);
-    function ri(e) {
+      ti = t(237),
+      ni = t.n(ti);
+    function ii(e) {
       var a = e.data,
         t = a.name,
         o = a.inviteOnly,
@@ -4355,14 +4278,14 @@
         b = a.algorithms,
         w = a.species,
         y = Object(n.useState)(!1),
-        v = Object(g.a)(y, 2),
-        k = v[0],
-        S = v[1];
+        E = Object(g.a)(y, 2),
+        k = E[0],
+        S = E[1];
       return i.a.createElement(
         We,
         null,
         i.a.createElement(
-          ca.a,
+          sa.a,
           {
             open: k,
             onClose: function() {
@@ -4370,15 +4293,15 @@
             },
           },
           i.a.createElement(
-            pa.a,
+            da.a,
             null,
             i.a.createElement(j.a, { id: 'REQUEST_AN_INVITATION' }),
           ),
           i.a.createElement(
-            da.a,
+            la.a,
             null,
             i.a.createElement(
-              ha.a,
+              ca.a,
               null,
               i.a.createElement(j.a, {
                 id: 'REQUEST_INVITE_DESCRIPTION',
@@ -4386,7 +4309,7 @@
               }),
             ),
             i.a.createElement(
-              ha.a,
+              ca.a,
               null,
               i.a.createElement(j.a, {
                 id: 'REQUEST_INVITE_INSTRUCTIONS',
@@ -4396,24 +4319,24 @@
           ),
         ),
         i.a.createElement(
-          E.a,
+          v.a,
           { variant: 'h2', style: { paddingTop: 30 } },
           t,
         ),
         i.a.createElement(
-          Yn.a,
+          Vn.a,
           null,
           i.a.createElement(
-            A,
+            O,
             { href: '/' },
             i.a.createElement(j.a, { id: 'HOME' }),
           ),
           i.a.createElement(
-            A,
+            O,
             { href: '/projects' },
             i.a.createElement(j.a, { id: 'PROJECTS' }),
           ),
-          i.a.createElement(E.a, null, t),
+          i.a.createElement(v.a, null, t),
         ),
         i.a.createElement(
           'div',
@@ -4430,14 +4353,14 @@
           alt: 'Banner for '.concat(t),
         }),
         i.a.createElement(
-          E.a,
+          v.a,
           null,
           i.a.createElement(j.a, { id: c }),
         ),
-        i.a.createElement(qn.a, {
+        i.a.createElement(Kn.a, {
           icon: o
-            ? i.a.createElement($n.a, null)
-            : i.a.createElement(oi.a, null),
+            ? i.a.createElement(Qn.a, null)
+            : i.a.createElement(ni.a, null),
           variant: 'outlined',
           onClick: o
             ? function() {
@@ -4449,35 +4372,35 @@
           }),
         }),
         u &&
-          i.a.createElement(qn.a, {
-            icon: i.a.createElement(ai.a, null),
+          i.a.createElement(Kn.a, {
+            icon: i.a.createElement($n.a, null),
             variant: 'outlined',
             label: i.a.createElement(j.a, {
               id: 'ADOPTIONS_WELCOME',
             }),
           }),
         f &&
-          i.a.createElement(qn.a, {
-            icon: i.a.createElement(ni.a, null),
+          i.a.createElement(Kn.a, {
+            icon: i.a.createElement(ai.a, null),
             variant: 'outlined',
             label: i.a.createElement(j.a, {
               id: 'HOSTED_BY_WILD_ME',
             }),
           }),
-        i.a.createElement(E.a, null, ''.concat(h, ' sightings')),
-        i.a.createElement(E.a, null, ''.concat(p, ' individuals')),
+        i.a.createElement(v.a, null, ''.concat(h, ' sightings')),
+        i.a.createElement(v.a, null, ''.concat(p, ' individuals')),
         m &&
           m.length > 0 &&
           i.a.createElement(
             'div',
             null,
             i.a.createElement(
-              E.a,
+              v.a,
               { variant: 'h5' },
               i.a.createElement(j.a, { id: 'OFFICIAL_PARTNERS' }),
             ),
             i.a.createElement(
-              Zn.a,
+              qn.a,
               {
                 cellHeight: 100,
                 cols: 3,
@@ -4485,7 +4408,7 @@
               },
               m.map(function(e) {
                 return i.a.createElement(
-                  Qn.a,
+                  Yn.a,
                   { key: e.name },
                   i.a.createElement('img', {
                     style: { height: 100, width: 'auto' },
@@ -4500,7 +4423,7 @@
           'div',
           null,
           i.a.createElement(
-            E.a,
+            v.a,
             { variant: 'h5', style: { margin: '20px 0' } },
             i.a.createElement(j.a, { id: 'ALGORITHMS' }),
           ),
@@ -4512,7 +4435,7 @@
                 Re.a,
                 { item: !0 },
                 i.a.createElement(
-                  va.a,
+                  wa.a,
                   {
                     style: {
                       maxWidth: 220,
@@ -4520,19 +4443,19 @@
                     },
                   },
                   i.a.createElement(
-                    Sa.a,
+                    va.a,
                     null,
                     i.a.createElement(
-                      A,
+                      O,
                       { href: e.url, external: !0 },
                       i.a.createElement(
-                        E.a,
+                        v.a,
                         { variant: 'subtitle2' },
                         e.name,
                       ),
                     ),
                     i.a.createElement(
-                      E.a,
+                      v.a,
                       null,
                       'Here is a brief description of the algorithm.',
                     ),
@@ -4546,7 +4469,7 @@
           'div',
           null,
           i.a.createElement(
-            E.a,
+            v.a,
             { variant: 'h5', style: { margin: '20px 0' } },
             i.a.createElement(j.a, { id: 'SPECIES' }),
           ),
@@ -4558,7 +4481,7 @@
                 Re.a,
                 { item: !0 },
                 i.a.createElement(
-                  va.a,
+                  wa.a,
                   {
                     style: {
                       maxWidth: 220,
@@ -4566,18 +4489,18 @@
                     },
                   },
                   i.a.createElement(
-                    Sa.a,
+                    va.a,
                     null,
                     i.a.createElement(
-                      A,
+                      O,
                       { external: !0, href: e.url },
                       i.a.createElement(
-                        E.a,
+                        v.a,
                         { variant: 'subtitle2' },
                         e.name,
                       ),
                     ),
-                    i.a.createElement(E.a, null, e.alias),
+                    i.a.createElement(v.a, null, e.alias),
                   ),
                 ),
               );
@@ -4586,8 +4509,8 @@
         ),
       );
     }
-    var si = t(127),
-      li = [
+    var oi = t(129),
+      ri = [
         'Lato',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -4600,8 +4523,8 @@
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
       ].join(','),
-      ci = Object(si.lighten)('#21BDC1', 0.7),
-      di = {
+      si = Object(oi.lighten)('#21BDC1', 0.7),
+      li = {
         palette: {
           common: { black: '#0E1014' },
           primary: { main: '#21BDC1' },
@@ -4610,7 +4533,7 @@
           text: { primary: '#0E1014' },
         },
         typography: {
-          fontFamily: li,
+          fontFamily: ri,
           h1: { fontWeight: 800, letterSpacing: '0.02em' },
           h2: { fontWeight: 800, letterSpacing: '0.02em' },
           h5: { fontWeight: 700, letterSpacing: '0.04em' },
@@ -4626,7 +4549,7 @@
             fontWeight: 300,
             fontSize: 14,
             letterSpacing: '0.02em',
-            color: Object(si.darken)('#0E1014', 0.5),
+            color: Object(oi.darken)('#0E1014', 0.5),
           },
           subtitle1: { fontSize: 20, letterSpacing: '0.02em' },
         },
@@ -4646,7 +4569,7 @@
             },
             outlined: { padding: '6px 20px' },
             outlinedSizeSmall: { padding: '4px 12px' },
-            containedSecondary: { backgroundColor: ci },
+            containedSecondary: { backgroundColor: si },
             contained: {
               backgroundColor: '#ffffff',
               boxShadow: '1px 2px 6px -2px rgba(0,0,0,0.2)',
@@ -4654,26 +4577,26 @@
           },
           MuiTableCell: { root: { fontStyle: 'unset' } },
           MuiListItem: {
-            root: { '&$selected': { backgroundColor: ci } },
+            root: { '&$selected': { backgroundColor: si } },
           },
           MuiTreeItem: {
             root: {
               '&$selected': {
                 '&& > .MuiTreeItem-content .MuiTreeItem-label': {
-                  backgroundColor: ci,
+                  backgroundColor: si,
                 },
               },
             },
           },
         },
       },
-      hi = t(240),
-      pi = t(241);
+      ci = t(240),
+      di = t(241);
     'function' == typeof Intl.NumberFormat.__addLocaleData &&
       (Intl.NumberFormat.__addLocaleData(m),
       Intl.NumberFormat.__addLocaleData(u));
-    var mi = { en: hi, es: pi };
-    function ui() {
+    var hi = { en: ci, es: di };
+    function pi() {
       var e = Object(s.f)().pathname;
       return (
         Object(n.useEffect)(
@@ -4685,8 +4608,8 @@
         null
       );
     }
-    function gi() {
-      var e = Object(c.a)(di);
+    function mi() {
+      var e = Object(c.a)(li);
       return i.a.createElement(
         d.a,
         { theme: e },
@@ -4700,14 +4623,14 @@
         ),
         i.a.createElement(
           p.a,
-          { locale: 'en', defaultLocale: 'en', messages: mi.en },
+          { locale: 'en', defaultLocale: 'en', messages: hi.en },
           i.a.createElement(
             'div',
             null,
             i.a.createElement(
               l.a,
               { basename: '/wildbook.org' },
-              i.a.createElement(ui, null),
+              i.a.createElement(pi, null),
               i.a.createElement(
                 'main',
                 {
@@ -4724,20 +4647,20 @@
                 i.a.createElement(
                   s.c,
                   null,
-                  Bt.map(function(e) {
+                  Dt.map(function(e) {
                     return i.a.createElement(
                       s.a,
                       {
                         key: e.path,
                         path: '/projects'.concat(e.path),
                       },
-                      i.a.createElement(ri, { data: e }),
+                      i.a.createElement(ii, { data: e }),
                     );
                   }),
                   i.a.createElement(
                     s.a,
                     { path: '/projects' },
-                    i.a.createElement(zt, null),
+                    i.a.createElement(Mt, null),
                   ),
                   i.a.createElement(
                     s.a,
@@ -4747,7 +4670,7 @@
                   i.a.createElement(
                     s.a,
                     { path: '/publications' },
-                    i.a.createElement(Ea, null),
+                    i.a.createElement(ba, null),
                   ),
                   i.a.createElement(
                     s.a,
@@ -4757,17 +4680,17 @@
                   i.a.createElement(
                     s.a,
                     { path: '/people' },
-                    i.a.createElement(gn, null),
+                    i.a.createElement(pn, null),
                   ),
                   i.a.createElement(
                     s.a,
                     { path: '/supporters' },
-                    i.a.createElement(Vn, null),
+                    i.a.createElement(Gn, null),
                   ),
                   i.a.createElement(
                     s.a,
-                    { path: '/contribute' },
-                    i.a.createElement(ga, null),
+                    { path: '/donate' },
+                    i.a.createElement(pa, null),
                   ),
                   i.a.createElement(
                     s.a,
@@ -4776,8 +4699,13 @@
                   ),
                   i.a.createElement(
                     s.a,
+                    { path: '/volunteer' },
+                    i.a.createElement(Fn, null),
+                  ),
+                  i.a.createElement(
+                    s.a,
                     { path: '/', exact: !0 },
-                    i.a.createElement(Te, null),
+                    i.a.createElement(Ae, null),
                   ),
                   i.a.createElement(
                     s.a,
@@ -4792,13 +4720,13 @@
         ),
       );
     }
-    var fi = document.getElementById('root'),
-      bi = Object(r.hot)(function() {
-        return i.a.createElement(gi, null);
+    var ui = document.getElementById('root'),
+      gi = Object(r.hot)(function() {
+        return i.a.createElement(mi, null);
       });
-    Object(o.render)(i.a.createElement(bi, null), fi);
+    Object(o.render)(i.a.createElement(gi, null), ui);
   },
-  67: function(e, a, t) {
+  65: function(e, a, t) {
     e.exports = t.p + '5694ad04762e0d34cf3e162d17654f63.png';
   },
 });
