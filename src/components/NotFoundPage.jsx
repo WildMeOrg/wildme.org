@@ -1,5 +1,8 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
 import Typography from '@material-ui/core/Typography';
 import ocean from '../assets/ocean.jpeg';
 import savanna from '../assets/savanna.jpeg';
@@ -11,6 +14,9 @@ export default function NotFoundPage({
   details,
   variant = 'ocean',
 }) {
+  const theme = useTheme();
+  const isSm = useMediaQuery(theme.breakpoints.down('sm'));
+
   const imageUrl = variant === 'ocean' ? ocean : savanna;
   const artistName =
     variant === 'ocean' ? 'Pierre Leverrier' : 'David Clode';
@@ -35,7 +41,7 @@ export default function NotFoundPage({
     >
       <div
         style={{
-          marginTop: 64,
+          marginTop: isSm ? 56 : 64,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
