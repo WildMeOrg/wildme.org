@@ -22,11 +22,12 @@ import Splash from './pages/splash/Splash';
 import Press from './pages/press/Press';
 import Legal from './pages/legal/Legal';
 import Services from './pages/services/Services';
-import Contribute from './pages/contribute/Contribute';
+import Donate from './pages/donate/Donate';
 import Publications from './pages/publications/Publications';
 import Projects from './pages/projects/Projects';
 import People from './pages/people/People';
 import Supporters from './pages/supporters/Supporters';
+import Volunteer from './pages/volunteer/Volunteer';
 import ProjectPage from './pages/projects/ProjectPage';
 import projectData from './pages/projects/projectData';
 import materialTheme from './styles/materialTheme';
@@ -117,11 +118,14 @@ export default function App() {
                 <Route path="/supporters">
                   <Supporters />
                 </Route>
-                <Route path="/contribute">
-                  <Contribute />
+                <Route path="/donate">
+                  <Donate />
                 </Route>
                 <Route path="/services">
                   <Services />
+                </Route>
+                <Route path="/volunteer">
+                  <Volunteer />
                 </Route>
                 <Route path="/" exact>
                   <Splash />

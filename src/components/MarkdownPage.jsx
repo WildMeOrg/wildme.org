@@ -20,7 +20,7 @@ export default function MarkdownPage(props) {
         </ResponsiveText>
       </Row>
       <Row>
-        <img style={{ maxWidth: '100%' }} src={imgSrc} alt={title} />
+        <img style={{ width: '100%', maxWidth: 1100 }} src={imgSrc} alt={title} />
       </Row>
       <Row>
         <ReactMarkdown renderers={renderers}>{content}</ReactMarkdown>
