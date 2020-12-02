@@ -184,26 +184,24 @@ export default [
   {
     img: ben,
     name: 'Ben Scheiner',
-    role: 'Frontend developer, H2O.ai Liason',
+    role: 'Senior engineer, H2O.ai Liason',
     renderDescription: () => (
       <div>
         <Typography>
           Ben is a frontend developer with a passion for building
-          user-friendly interfaces that achieve complex tasks. He has
-          extensive experience developing web apps at scale, creating
-          interactive dashboards, and working with robotics. Ben’s
-          goal is to turn Wildbook into a more intuitive and powerful
-          tool for the conservation community by redesigning and
-          rebuilding the UI. He values learning from user analytics,
-          improving developer workflows, and listening carefully to
-          feedback.
+          friendly-yet-powerful user interfaces. He has extensive
+          experience developing web apps at scale, creating
+          interactive dashboards, and working with robotics. Ben is
+          currently designing and building the next generation of
+          Wildbook. He pays careful attention to feedback from users
+          and colleagues.
         </Typography>
         <Typography style={{ marginTop: 16 }}>
           In 2019 Ben fostered two squirrels from infancy to
           adolescence. His hobbies include Ultimate Frisbee, improv,
-          and adventures in Pacific Northwest forests. Ben’s
+          and spending time in Pacific Northwest forests. Ben’s
           employment is made possible through Wild Me’s partnership
-          with h2o.ai.
+          with H2O.ai.
         </Typography>
       </div>
     ),

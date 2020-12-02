@@ -18,11 +18,13 @@ export function searchMatch(object, properties, searchTerm) {
 export default function FilterBar({
   onChange,
   value,
+  instructions,
   width = 260,
   ...rest
 }) {
   const intl = useIntl();
-  const placeholder = intl.formatMessage({ id: 'SEARCH' });
+  const placeholder =
+    instructions || intl.formatMessage({ id: 'SEARCH' });
   return (
     <Input
       style={{ margin: '16px 0', width }}

@@ -13,7 +13,7 @@ export default function PeopleGallery({ people, titleId }) {
   const onClose = () => setSelectedPerson(null);
 
   return (
-    <div style={{ marginBottom: 80 }}>
+    <div style={{ marginBottom: 80, padding: 40 }}>
       <Dialog
         open={Boolean(selectedPerson)}
         onClose={onClose}
@@ -55,13 +55,14 @@ export default function PeopleGallery({ people, titleId }) {
           )}
         </DialogContent>
       </Dialog>
-      <Typography variant="h4" style={{ marginBottom: 40 }}>
+      <Typography variant="h5" style={{ marginBottom: 40 }}>
         <FormattedMessage id={titleId} />
       </Typography>
       <Grid style={{ maxWidth: 1300 }} spacing={3} container>
         {people.map(person => (
           <Grid
             item
+            key={person.name}
             style={{ cursor: 'pointer' }}
             onClick={() => setSelectedPerson(person)}
           >
@@ -73,7 +74,7 @@ export default function PeopleGallery({ people, titleId }) {
             <div>
               <Typography
                 style={{ textAlign: 'center' }}
-                variant="h5"
+                variant="h6"
               >
                 {person.name}
               </Typography>

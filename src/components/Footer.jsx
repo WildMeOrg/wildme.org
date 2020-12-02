@@ -35,7 +35,7 @@ const footerCategories = [
     entries: [
       {
         labelId: 'OUR_TEAM',
-        path: '/people',
+        path: '/team',
       },
       {
         labelId: 'SUPPORTERS',

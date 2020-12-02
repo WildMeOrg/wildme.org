@@ -25,9 +25,10 @@ import Services from './pages/services/Services';
 import Donate from './pages/donate/Donate';
 import Publications from './pages/publications/Publications';
 import Projects from './pages/projects/Projects';
-import People from './pages/people/People';
+import Team from './pages/team/Team';
 import Supporters from './pages/supporters/Supporters';
 import Volunteer from './pages/volunteer/Volunteer';
+import Careers from './pages/careers/Careers';
 import ProjectPage from './pages/projects/ProjectPage';
 import projectData from './pages/projects/projectData';
 import materialTheme from './styles/materialTheme';
@@ -112,8 +113,8 @@ export default function App() {
                 <Route path="/legal">
                   <Legal />
                 </Route>
-                <Route path="/people">
-                  <People />
+                <Route path="/team">
+                  <Team />
                 </Route>
                 <Route path="/supporters">
                   <Supporters />
@@ -126,6 +127,9 @@ export default function App() {
                 </Route>
                 <Route path="/volunteer">
                   <Volunteer />
+                </Route>
+                <Route path="/careers">
+                  <Careers />
                 </Route>
                 <Route path="/" exact>
                   <Splash />

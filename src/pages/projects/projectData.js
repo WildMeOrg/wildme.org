@@ -14,14 +14,18 @@ import lynxBannerLarge from '../../assets/lynx-banner-large.jpg';
 import lynxBannerSmall from '../../assets/lynx-banner-small.jpg';
 import jaguarBannerLarge from '../../assets/jaguar-banner-large.jpg';
 import jaguarBannerSmall from '../../assets/jaguar-banner-small.jpg';
-import dragonsearchBannerLarge from '../../assets/dragon-banner-large.jpg';
-import dragonsearchBannerSmall from '../../assets/dragon-banner-small.jpg';
+import dragonsearchBannerLarge from '../../assets/seadragon-banner-large.jpg';
+import dragonsearchBannerSmall from '../../assets/seadragon-banner-small.jpg';
 import saimaaBannerLarge from '../../assets/saimaa-banner-large.jpg';
 import saimaaBannerSmall from '../../assets/saimaa-banner-small.jpg';
 import sandtigerBannerLarge from '../../assets/sandtiger-banner-large.jpg';
 import sandtigerBannerSmall from '../../assets/sandtiger-banner-small.jpg';
 import bassBannerLarge from '../../assets/bass-banner-large.jpg';
 import bassBannerSmall from '../../assets/bass-banner-small.jpg';
+import skunkBannerLarge from '../../assets/skunk-banner-large.jpg';
+import skunkBannerSmall from '../../assets/skunk-banner-small.jpg';
+import sharkUsaBannerLarge from '../../assets/shark-usa-banner-large.jpg';
+import sharkUsaBannerSmall from '../../assets/shark-usa-banner-small.jpg';
 import osuLogo from '../../assets/osu_logo.svg';
 import crcLogo from '../../assets/cascadia_research_collective.png';
 import noaaLogo from '../../assets/noaa-logo.png';
@@ -554,7 +558,7 @@ const projectData = [
     bannerLarge: sandtigerBannerLarge,
     bannerSmall: sandtigerBannerSmall,
     descriptionId: 'SPOT_A_SHARK_DESCRIPTION',
-    sightings: null,
+    sightings: 7290,
     individuals: null,
     partners: [],
     algorithms: [algorithms.groth, algorithms.i3s],
@@ -574,10 +578,10 @@ const projectData = [
     hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
-    bannerLarge: sandtigerBannerLarge,
-    bannerSmall: sandtigerBannerSmall,
+    bannerLarge: sharkUsaBannerLarge,
+    bannerSmall: sharkUsaBannerSmall,
     descriptionId: 'SPOT_A_SHARK_USA_DESCRIPTION',
-    sightings: null,
+    sightings: 1404,
     individuals: null,
     partners: [],
     algorithms: [algorithms.groth, algorithms.i3s],
@@ -643,8 +647,8 @@ const projectData = [
     hosted: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
-    bannerLarge: saimaaBannerLarge,
-    bannerSmall: saimaaBannerSmall,
+    bannerLarge: skunkBannerLarge,
+    bannerSmall: skunkBannerSmall,
     descriptionId: 'SKUNK_DESCRIPTION',
     sightings: 657,
     individuals: 11,
@@ -665,9 +669,9 @@ const projectData = [
     ],
   },
   {
-    name: 'Dragonsearch',
-    path: '/dragonsearch',
-    href: 'https://dragonsearch.org/',
+    name: 'Seadragonsearch',
+    path: '/seadragonsearch',
+    href: 'https://seadragonsearch.org/',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jason Holmberg',
@@ -675,7 +679,7 @@ const projectData = [
     bannerLarge: dragonsearchBannerLarge,
     bannerSmall: dragonsearchBannerSmall,
     descriptionId: 'DRAGONSEARCH_DESCRIPTION',
-    sightings: null,
+    sightings: 2521,
     individuals: null,
     algorithms: [algorithms.hotspotter],
     partners: [],

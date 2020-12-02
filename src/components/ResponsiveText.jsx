@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 
 const sizeMap = {
   h1: {
-    mobile: 28,
+    mobile: 36,
     desktop: 48,
     component: 'h1',
   },

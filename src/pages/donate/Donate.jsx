@@ -70,9 +70,7 @@ export default function Donate() {
           </Typography>
           <Typography style={{ marginTop: 16 }}>
             <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_2" />
-            <InlineButton
-              onClick={() => setCryptoDialogOpen(true)}
-            >
+            <InlineButton onClick={() => setCryptoDialogOpen(true)}>
               <FormattedMessage id="CRYPTOCURRENCY" />
             </InlineButton>
             <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_3" />

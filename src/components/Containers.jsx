@@ -2,6 +2,9 @@ import React from 'react';
 import { get } from 'lodash-es';
 import { useTheme } from '@material-ui/core/styles';
 import Divider from '@material-ui/core/Divider';
+import Typography from '@material-ui/core/Typography';
+import useDocumentTitle from '../hooks/useDocumentTitle';
+import ResponsiveText from './ResponsiveText';
 
 const smallestDeviceWidth = 320;
 const minimumGutterWidth = 30;
@@ -10,6 +13,48 @@ const horizontalSpace = 24;
 const verticalSpace = 40;
 const minimumBoxWidth =
   smallestDeviceWidth - 2 * minimumGutterWidth - horizontalSpace;
+
+export function Page({
+  documentTitle,
+  title,
+  subtitle,
+  children,
+  style = {},
+  ...rest
+}) {
+  useDocumentTitle(documentTitle);
+  return (
+    <div
+      style={{ marginTop: 64, marginBottom: 100, ...style }}
+      {...rest}
+    >
+      <div style={{ paddingTop: 40 }}>
+        <ResponsiveText
+          variant="h1"
+          style={{ margin: '0 auto 28px auto', width: 'fit-content' }}
+        >
+          {title}
+        </ResponsiveText>
+        {subtitle && (
+          <Typography
+            variant="subtitle1"
+            style={{
+              margin: '0 auto',
+              paddingTop: 12,
+              paddingBottom: 60,
+              maxWidth: 880,
+              textAlign: 'center',
+              width: 'fit-content',
+            }}
+          >
+            {subtitle}
+          </Typography>
+        )}
+      </div>
+      {children}
+    </div>
+  );
+}
 
 export function Showcase({ children, style = {}, ...rest }) {
   return (

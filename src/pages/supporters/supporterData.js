@@ -13,6 +13,8 @@ import nsfLogo from '../../assets/nsf_logo.png';
 import waittLogo from '../../assets/waitt_logo.png';
 import mmfLogo from '../../assets/mmf-logo-black.png';
 import mmfBanner from '../../assets/mmf-banner.jpg';
+import noaaLogo from '../../assets/noaa-logo.png';
+import noaaBanner from '../../assets/noaaBanner.jpg';
 
 export const majorSupporters = [
   {
@@ -38,7 +40,7 @@ export const majorSupporters = [
     youtubeUrl: 'https://www.youtube.com/watch?v=rQqao37u1wU',
     logo: microsoftLogo,
     description:
-      "On June 14, 2018, Wild Me (the organization that develops Wildbook) became a featured partner of Microsoft's AI for Earth program. This deep level of investment and engagement has enabled Wildbook to more effectively and efficiently use AI to combat extinction.",
+      "On June 14, 2018, Wild Me (the organization that develops Wildbook) became a featured partner of Microsoft's AI for Earth program. This deep level of investment and engagement has enabled Wildbook to more effectively and efficiently use AI to combat extinction. Wild Me joined the Microsoft for Startups program in 2020.",
   },
   {
     name: 'NVIDIA',
@@ -55,6 +57,14 @@ export const majorSupporters = [
     logo: mmfLogo,
     description:
       'Marine Megafauna Foundation partnered with Wild Me to create mantamatcher.org, a tool used by multiple people.',
+  },
+  {
+    name: 'National Oceanic and Atmospheric Administration (NOAA)',
+    role: 'Featured partner',
+    photoSrc: noaaBanner,
+    logo: noaaLogo,
+    description:
+      'NOAA partnered with Wild Me to create mantamatcher.org, a tool used by multiple people.',
   },
 ];
 

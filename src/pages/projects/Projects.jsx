@@ -9,7 +9,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 
 import useDocumentTitle from '../../hooks/useDocumentTitle';
-import MainColumn from '../../components/MainColumn';
+import { Page } from '../../components/Containers';
 import Link from '../../components/Link';
 import projectData from './projectData';
 
@@ -18,20 +18,30 @@ export default function Projects() {
   const intl = useIntl();
   useDocumentTitle(intl.formatMessage({ id: 'PROJECTS' }));
 
+  const translatedProjects = intl.formatMessage({ id: 'PROJECTS' });
+
   return (
-    <MainColumn>
-      <Typography
-        variant="h2"
-        style={{ paddingTop: 30, textAlign: 'center' }}
+    <Page
+      documentTitle={translatedProjects}
+      title={translatedProjects}
+    >
+      <Grid
+        container
+        spacing={4}
+        justify="space-around"
+        style={{ padding: '0 30px 80px 30px' }}
       >
-        Projects
-      </Typography>
-      <Grid container spacing={4} style={{ padding: '30px 0' }}>
         {projectData.map(project => (
-          <Grid key={project.name} item>
+          <Grid
+            key={project.name}
+            style={{
+              width: 320,
+              flexGrow: 1,
+            }}
+            item
+          >
             <Card
               style={{
-                width: 300,
                 background: theme.palette.common.black,
                 color: theme.palette.common.white,
                 borderRadius: 0,
@@ -48,9 +58,7 @@ export default function Projects() {
                     <Typography variant="h5">
                       {project.name}
                     </Typography>
-                    <Typography>{`${
-                      project.sightings
-                    } sightings`}</Typography>
+                    <Typography>{`${project.sightings.toLocaleString()} sightings`}</Typography>
                   </CardContent>
                 </Link>
               </CardActionArea>
@@ -58,6 +66,6 @@ export default function Projects() {
           </Grid>
         ))}
       </Grid>
-    </MainColumn>
+    </Page>
   );
 }

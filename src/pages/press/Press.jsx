@@ -4,18 +4,13 @@ import { format, parse } from 'date-fns';
 import { useIntl, FormattedMessage } from 'react-intl';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
 import Select from '@material-ui/core/Select';
-import Alert from '@material-ui/lab/Alert';
-import AlertTitle from '@material-ui/lab/AlertTitle';
-
-import MainColumn from '../../components/MainColumn';
+import { Page, Row, Box } from '../../components/Containers';
 import Link from '../../components/Link';
 import FilterBar, { searchMatch } from '../../components/FilterBar';
 import LogoSoup from '../../components/LogoSoup';
-import useDocumentTitle from '../../hooks/useDocumentTitle';
 import seattleTimesLogo from '../../assets/seattle-times-logo.svg';
 import guardianLogo from '../../assets/guardian-logo.svg';
 import natureLogo from '../../assets/nature-logo.svg';
@@ -45,7 +40,8 @@ const logos = [
 
 export default function Press() {
   const intl = useIntl();
-  useDocumentTitle(intl.formatMessage({ id: 'PRESS' }));
+
+  const translatedPress = intl.formatMessage({ id: 'PRESS' });
 
   const [selectedYear, setSelectedYear] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
@@ -64,65 +60,83 @@ export default function Press() {
   });
 
   return (
-    <MainColumn>
-      <Typography
-        variant="h2"
-        style={{ paddingTop: 30, textAlign: 'center' }}
-      >
-        <FormattedMessage id="PRESS" />
-      </Typography>
-      <Alert
-        style={{ marginTop: 32, marginBottom: 12 }}
-        severity="info"
-      >
-        <AlertTitle>Media Inquiries</AlertTitle>
-        Writing about Wild Me? Please email info@wildme.org with any
-        questions and we will support you as best we can.
-      </Alert>
-      <Grid container justify="space-between">
-        <Grid item>
-          <FilterBar value={searchTerm} onChange={setSearchTerm} />
+    <Page
+      documentTitle={translatedPress}
+      title="Wild Me in the press."
+    >
+      <LogoSoup
+        style={{
+          width: 700,
+          margin: '0 auto',
+          paddingTop: 20,
+          paddingBottom: 20,
+        }}
+        logos={[...logos, ...logos]}
+      />
+
+      <Row style={{ flexDirection: 'column' }}>
+        <Typography variant="h5">Media inquiries</Typography>
+        <Typography style={{ marginTop: 32 }}>
+          Writing about Wild Me? Our press pack is currently under
+          development. In the meantime, please email info@wildme.org
+          with any questions and we will support you as best we can.
+        </Typography>
+      </Row>
+
+      <Row>
+        <Typography variant="h5" style={{ marginTop: 32 }}>
+          Articles and editorials
+        </Typography>
+        <Grid
+          container
+          style={{ marginTop: 32 }}
+          justify="space-between"
+        >
+          <Grid item style={{ flexGrow: 1, marginRight: 60 }}>
+            <FilterBar
+              instructions="Search articles"
+              width="100%"
+              value={searchTerm}
+              onChange={setSearchTerm}
+            />
+          </Grid>
+          <Grid item>
+            <FormControl>
+              <InputLabel htmlFor="filter-input">
+                <FormattedMessage id="YEAR" />
+              </InputLabel>
+              <Select
+                style={{ width: 100 }}
+                native
+                value={selectedYear}
+                onChange={e => {
+                  setSelectedYear(e.target.value);
+                }}
+                inputProps={{
+                  name: 'filter',
+                  id: 'filter-input',
+                }}
+              >
+                <option aria-label="None" value="" />
+                {articleYears.map(year => (
+                  <option key={year} value={year}>
+                    {year}
+                  </option>
+                ))}
+              </Select>
+            </FormControl>
+          </Grid>
         </Grid>
-        <Grid item>
-          <FormControl>
-            <InputLabel htmlFor="filter-input">
-              <FormattedMessage id="YEAR" />
-            </InputLabel>
-            <Select
-              style={{ width: 100 }}
-              native
-              value={selectedYear}
-              onChange={e => {
-                setSelectedYear(e.target.value);
-              }}
-              inputProps={{
-                name: 'filter',
-                id: 'filter-input',
-              }}
-            >
-              <option aria-label="None" value="" />
-              {articleYears.map(year => (
-                <option key={year} value={year}>
-                  {year}
-                </option>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
-      </Grid>
-      <LogoSoup logos={logos} />
-      <Grid
-        container
-        direction="column"
-        style={{ padding: '30px 0' }}
-      >
-        {filteredArticles.map((article, i) => (
-          <Grid item key={article.name}>
-            {i !== 0 && (
-              <Divider style={{ width: '100%', margin: '40px 0' }} />
-            )}
+      </Row>
+      {filteredArticles.map(article => (
+        <Row key={article.name}>
+          <Box>
             <div
-              style={{ display: 'flex', alignItems: 'flex-start' }}
+              style={{
+                display: 'flex',
+                alignItems: 'flex-start',
+                padding: 28,
+              }}
             >
               <div
                 style={{
@@ -148,9 +162,9 @@ export default function Press() {
                 </Typography>
               </div>
             </div>
-          </Grid>
-        ))}
-      </Grid>
-    </MainColumn>
+          </Box>
+        </Row>
+      ))}
+    </Page>
   );
 }

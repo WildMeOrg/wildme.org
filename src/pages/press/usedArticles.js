@@ -5,6 +5,38 @@ import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
 
 const articles = [
   {
+    name:
+      'When Sharks Turned Up at Their Beach, They Called in Drones',
+    href:
+      'https://www.nytimes.com/2020/11/20/science/sharks-drones-artificial-intelligence.html',
+    organization: 'The New York Times',
+    date: '2020-11-20',
+    citation: 'Jackie Snow, The New York Times',
+    excerpt:
+      'Flukebook is a project that tracks individual dolphins and whales by using artificial intelligence to identify them by unique features on their tails and fins, much like facial recognition technology.',
+  },
+  {
+    name:
+      "'Wildbook' site lets users upload pictures of endangered Grevy's zebras in Kenya to identify and track the animals in a bid to save the dwindling species",
+    href:
+      'https://www.dailymail.co.uk/sciencetech/article-8659635/Wildbook-site-lets-users-upload-pictures-endangered-Grevys-zebras-save-dwindling-species.html',
+    organization: 'DailyMail.com',
+    date: '2020-08-24',
+    citation: 'Dan Avery, DailyMail.com',
+    excerpt:
+      "Wildbook's algorithms replace tedious manual identification. So far volunteers, known as ‘citizen scientists,’ have helped map out some 2,800 Grevy’s zebras in Kenya",
+  },
+  {
+    name: "Kenyans go hi-tech to save endangered Grevy's Zebra",
+    href:
+      'https://www.standardmedia.co.ke/nairobi/article/2001378332/kenyans-go-hi-tech-to-save-endangered-grevys-zebra',
+    organization: 'The Standard',
+    date: '2020-07-11',
+    citation: 'Caroline Chebet, The Standard',
+    excerpt:
+      'The technology comprises a database where all photos taken by citizen scientists are loaded. The system compares photos of the zebras to a database of previously recorded animals, thus saving researchers in the field weeks of manual work.',
+  },
+  {
     name: 'Spots and Stripes',
     href:
       'https://www.oceanographicmagazine.com/features/leopard-sharks-sundive-byron-bay/',
@@ -149,6 +181,16 @@ const articles = [
     citation: 'Anne Casselman, National Geographic',
     excerpt:
       "Enter Wildbook, a software program developed by Portland-based conservation tech nonprofit Wild Me, which automatically identifies individual animals by their unique coat patterns or other hallmark features, such as fluke or ear outlines. With the help of Wildbook and the nonprofit Giraffe Conservation Foundation, Stacy-Dawes, a research coordinator at the zoo's Institute for Conservation Research, and her colleagues are able to blitz a giraffe population with photos over two days, upload the images and location data to their Giraffespotter database, and presto: a robust population assessment emerges.",
+  },
+  {
+    name: 'How many elephants are there?',
+    href:
+      'http://engineering.vulcan.com/2018_1112_How-many-elephants-are-there.aspx',
+    organization: 'Vulcan Blog',
+    date: '2018-11-12',
+    citation: 'Pooja M., Kathleen G., Vulcan Blog',
+    excerpt:
+      "With our project, “Modernizing Wildlife Surveys with Machine Learning” (MWS), we're working with Wild Me, a non-profit based in Portland, Oregon and colleagues in East Africa to develop a platform specifically trained on aerial imagery, the kind that is used to generate these population estimates. If all goes well, we'll be able to release the platform, open source, to allow for other organizations and entities to use it, or even add to it, by training it with their data - it could be a system that can derive population estimates for elephants and eventually other large game, like giraffe, in African savannas to polar bears in Arctic tundra.",
   },
   {
     name: '‘Gentle giants’ urgently need conservation management',
@@ -308,6 +350,16 @@ const articles = [
   },
   {
     name:
+      'Finding Big Fish Online: How Wild Me Is Turning Vacation Videos Into Shark Science with Artificial Intelligence',
+    href: 'https://www.prweb.com/releases/2017/05/prweb14334385.htm',
+    organization: 'PR Web',
+    citation: 'PR Web',
+    date: '2017-05-18',
+    excerpt:
+      'Their global research platform—Wildbook for Whale Sharks-has combined over 120 researchers and volunteers with 5000+ citizen scientists into a global community focused on studying the population size and migrations of this rare and gentle giant.',
+  },
+  {
+    name:
       'The Citizen Science Revolution and Artificial Intelligence',
     href:
       'http://scitechconnect.elsevier.com/citizen-science-revolution-artificial-intelligence/',
@@ -346,6 +398,37 @@ const articles = [
     date: '2016-10-14',
     excerpt:
       'Projects that contribute to the Internet of Turtles will be able to (a) digitally collect and share data among entities and across countries and languages; (b) extract and analyze relevant turtle data at different scales, such as population and subpopulation, from all life stages, and from turtles dead or alive; (c) contribute to the regional management unit delineation and assessment process of the International Union for Conservation of Nature’s Marine Turtle Specialist Group; and (d) provide up-to-the-moment clarity on the status of turtles wherever they are (in water or on land).',
+  },
+  {
+    name:
+      "Citizens and scientists earn their stripes counting Kenya's Grevy's zebras",
+    href: 'https://www.youtube.com/watch?v=SezjJxx6NQg',
+    organization: 'Euronews',
+    citation: 'Euronews',
+    date: '2016-02-15',
+    excerpt:
+      'How do you tell one zebra from another? By looking at their stripes, of course – with a special software that can identify their natural “barcode”.',
+  },
+  {
+    name:
+      'UIC Researchers are Crowd-Sourcing Wildlife Photos In Kenya to Collect Animal Data',
+    href:
+      'https://www.americaninno.com/chicago/african-animals-photographed-will-help-researchers-collect-wildlife-data/',
+    organization: 'Chicago Inno',
+    citation: 'Jim Dallke, Chicago Inno',
+    date: '2015-02-16',
+    excerpt:
+      'IBEIS can detect individual species in photographs and can identify animals based on their stripes, spots, or wrinkles.',
+  },
+  {
+    name: 'New Technology Identifies Zebras by Their Stripes',
+    href:
+      'https://www.audubon.org/news/new-technology-identifies-zebras-their-stripes',
+    organization: 'Audobon',
+    citation: 'Alisa Opar, Audobon',
+    date: '2012-03-12',
+    excerpt:
+      'The free, open source program is fast and easy to use. Field ecologists upload a digital photograph of an animal’s flank into StripeSpotter, which analyzes the pixels and assigns a “stripecode.”',
   },
 ];
 

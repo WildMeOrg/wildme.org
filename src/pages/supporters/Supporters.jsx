@@ -2,42 +2,20 @@ import React from 'react';
 import { useIntl } from 'react-intl';
 import ReactPlayer from 'react-player/youtube';
 import Typography from '@material-ui/core/Typography';
-import useDocumentTitle from '../../hooks/useDocumentTitle';
 import LogoSoup from '../../components/LogoSoup';
 import ButtonLink from '../../components/ButtonLink';
 import ResponsiveText from '../../components/ResponsiveText';
-import { Showcase, Line } from '../../components/Containers';
+import { Page, Showcase, Line } from '../../components/Containers';
 import { majorSupporters, supporterLogos } from './supporterData';
 
 export default function Sponsors() {
   const intl = useIntl();
-  useDocumentTitle(intl.formatMessage({ id: 'SUPPORTERS' }));
-
   return (
-    <div style={{ marginTop: 64 }}>
-      <div style={{ paddingTop: 40 }}>
-        <ResponsiveText
-          variant="h1"
-          style={{ margin: '0 auto', width: 'fit-content' }}
-        >
-          Our supporters.
-        </ResponsiveText>
-        <Typography
-          variant="subtitle1"
-          style={{
-            margin: '0 auto',
-            paddingTop: 40,
-            paddingBottom: 60,
-            maxWidth: 880,
-            textAlign: 'center',
-            width: 'fit-content',
-          }}
-        >
-          Conservation doesn&apos;t happen in a vacuum. Join us in
-          celebrating our supporters, whose generosity and direction
-          make it all possible.
-        </Typography>
-      </div>
+    <Page
+      documentTitle={intl.formatMessage({ id: 'SUPPORTERS' })}
+      title="Our supporters."
+      subtitle="Conservation doesn't happen in a vacuum. Join us in celebrating our supporters, whose generosity and direction make it all possible."
+    >
       <Line />
       {majorSupporters.map(sponsor => (
         <>
@@ -88,7 +66,7 @@ export default function Sponsors() {
           variant="h3"
           style={{ margin: '0 auto', width: 'fit-content' }}
         >
-          Additional supporters.
+          Past supporters.
         </ResponsiveText>
 
         <LogoSoup
@@ -118,6 +96,6 @@ export default function Sponsors() {
           Contact us
         </ButtonLink>
       </div>
-    </div>
+    </Page>
   );
 }
