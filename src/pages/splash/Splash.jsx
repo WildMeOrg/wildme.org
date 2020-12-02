@@ -33,7 +33,7 @@ export default function Splash() {
 
   return (
     <div style={{ marginTop: 64 }}>
-      <Row style={{ marginTop: 120, position: 'relative' }}>
+      <Row style={{ marginTop: 116, position: 'relative' }}>
         <ResponsiveText
           style={{
             margin: '0 auto',
@@ -42,7 +42,7 @@ export default function Splash() {
             left: 0,
             right: 0,
             width: '80%',
-            top: isSm ? '15%' : '28%',
+            top: isSm ? '17%' : '26%',
           }}
           variant="h1"
         >
@@ -63,7 +63,7 @@ export default function Splash() {
           >
             <Typography
               style={{
-                marginTop: 60,
+                marginTop: 20,
                 maxWidth: 880,
               }}
               variant="subtitle1"
@@ -75,7 +75,7 @@ export default function Splash() {
               display="primary"
               style={{
                 marginTop: 40,
-                marginBottom: 40,
+                marginBottom: 16,
               }}
             >
               <FormattedMessage id="EXPLORE_PROJECTS" />
@@ -144,11 +144,11 @@ export default function Splash() {
             <FormattedMessage id="DONATION_ASK" />
           </Typography>
           <ButtonLink
-            href="/contribute"
+            href="/donate"
             display="primary"
             style={{ marginTop: 40, marginBottom: 20 }}
           >
-            <FormattedMessage id="CONTRIBUTE" />
+            <FormattedMessage id="DONATE" />
           </ButtonLink>
         </div>
       </Row>

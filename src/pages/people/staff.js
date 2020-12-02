@@ -103,7 +103,7 @@ export default [
   },
   {
     img: jp,
-    name: 'Dr. Jason Parham',
+    name: 'Jason Parham',
     role: 'Senior Computer Vision Research Engineer',
     renderDescription: () => (
       <div>

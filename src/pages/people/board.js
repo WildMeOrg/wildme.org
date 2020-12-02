@@ -61,7 +61,7 @@ export default [
   },
   {
     img: alex,
-    name: 'Alex Dehgan',
+    name: 'Dr. Alex Dehgan',
     role: 'Director',
     renderDescription: () => (
       <Typography>

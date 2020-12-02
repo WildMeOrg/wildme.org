@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { get } from 'lodash-es';
 import { FormattedMessage } from 'react-intl';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -12,6 +11,7 @@ import CloseIcon from '@material-ui/icons/Close';
 export default function PeopleGallery({ people, titleId }) {
   const [selectedPerson, setSelectedPerson] = useState(null);
   const onClose = () => setSelectedPerson(null);
+
   return (
     <div style={{ marginBottom: 80 }}>
       <Dialog
@@ -19,8 +19,7 @@ export default function PeopleGallery({ people, titleId }) {
         onClose={onClose}
         maxWidth="sm"
       >
-        <DialogTitle>
-          <span>{get(selectedPerson, 'name')}</span>
+        <DialogTitle style={{ marginBottom: 20 }}>
           <IconButton
             style={{ position: 'absolute', top: 4, right: 16 }}
             aria-label="close"
@@ -30,13 +29,30 @@ export default function PeopleGallery({ people, titleId }) {
           </IconButton>
         </DialogTitle>
         <DialogContent style={{ paddingBottom: 40 }}>
-          <Typography
-            variant="subtitle1"
-            style={{ marginBottom: 20 }}
-          >
-            {get(selectedPerson, 'role')}
-          </Typography>
-          {selectedPerson && selectedPerson.renderDescription()}
+          {selectedPerson && (
+            <>
+              <img
+                src={selectedPerson.img}
+                alt={selectedPerson.name}
+                style={{
+                  width: 300,
+                  maxWidth: '100%',
+                  float: 'left',
+                  padding: '0px 20px 12px 0',
+                }}
+              />
+              <Typography variant="h6">
+                {selectedPerson.name}
+              </Typography>
+              <Typography
+                variant="subtitle2"
+                style={{ marginBottom: 20 }}
+              >
+                {selectedPerson.role}
+              </Typography>
+              {selectedPerson.renderDescription()}
+            </>
+          )}
         </DialogContent>
       </Dialog>
       <Typography variant="h4" style={{ marginBottom: 40 }}>
@@ -44,7 +60,11 @@ export default function PeopleGallery({ people, titleId }) {
       </Typography>
       <Grid style={{ maxWidth: 1300 }} spacing={3} container>
         {people.map(person => (
-          <Grid item onClick={() => setSelectedPerson(person)}>
+          <Grid
+            item
+            style={{ cursor: 'pointer' }}
+            onClick={() => setSelectedPerson(person)}
+          >
             <img
               src={person.img}
               alt={person.name}
