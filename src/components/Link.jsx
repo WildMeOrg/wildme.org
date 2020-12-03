@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink, NavLink as RouterNavLink } from 'react-router-dom';
 import { useTheme } from '@material-ui/core/styles';
 
 export default function Link({
   children,
   href,
   style,
+  nav,
   disabled = false,
   noUnderline = false,
   external = false,
@@ -38,9 +39,11 @@ export default function Link({
     );
   }
 
+  const RouterComponent = nav ? RouterNavLink : RouterLink;
+
   return (
-    <RouterLink to={href} style={styles} onClick={onClick} {...rest}>
+    <RouterComponent to={href} activeStyle={{ textDecoration: 'none' }} style={styles} onClick={onClick} {...rest}>
       {children}
-    </RouterLink>
+    </RouterComponent>
   );
 }

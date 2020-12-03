@@ -6,7 +6,6 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid';
@@ -69,8 +68,8 @@ export default function ProjectPage({ data }) {
         <Link href="/">
           <FormattedMessage id="HOME" />
         </Link>
-        <Link href="/projects">
-          <FormattedMessage id="PROJECTS" />
+        <Link href="/platforms">
+          <FormattedMessage id="PLATFORMS" />
         </Link>
         <Typography>{name}</Typography>
       </Breadcrumbs>

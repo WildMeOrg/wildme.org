@@ -24,14 +24,14 @@ import Legal from './pages/legal/Legal';
 import Services from './pages/services/Services';
 import Donate from './pages/donate/Donate';
 import Publications from './pages/publications/Publications';
-import Projects from './pages/projects/Projects';
+import Platforms from './pages/platforms/Platforms';
 import Team from './pages/team/Team';
 import Supporters from './pages/supporters/Supporters';
 import Volunteer from './pages/volunteer/Volunteer';
 import Careers from './pages/careers/Careers';
 import Contact from './pages/contact/Contact';
-import ProjectPage from './pages/projects/ProjectPage';
-import projectData from './pages/projects/projectData';
+import PlatformPage from './pages/platforms/PlatformPage';
+import platformData from './pages/platforms/platformData';
 import materialTheme from './styles/materialTheme';
 import messagesEn from '../locale/en.json';
 import messagesEs from '../locale/es.json';
@@ -94,16 +94,16 @@ export default function App() {
             >
               <AppHeader />
               <Switch>
-                {projectData.map(project => (
+                {platformData.map(project => (
                   <Route
                     key={project.path}
-                    path={`/projects${project.path}`}
+                    path={`/platforms${project.path}`}
                   >
-                    <ProjectPage data={project} />
+                    <PlatformPage data={project} />
                   </Route>
                 ))}
-                <Route path="/projects">
-                  <Projects />
+                <Route path="/platforms">
+                  <Platforms />
                 </Route>
                 <Route path="/press">
                   <Press />

@@ -30,10 +30,12 @@ function HelpCard({ title, instructions, action, href }) {
         <Typography variant="h5">{title}</Typography>
         <Popover
           marginThreshold={0}
-          PaperProps={{style: {
-            maxWidth: 'unset',
-            overflowX: 'unset',
-          }}}
+          PaperProps={{
+            style: {
+              maxWidth: 'unset',
+              overflowX: 'unset',
+            },
+          }}
           open={Boolean(anchorEl)}
           anchorEl={anchorEl}
           onClose={e => {

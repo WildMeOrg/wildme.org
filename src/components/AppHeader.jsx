@@ -89,11 +89,11 @@ export default function AppHeader() {
         )}
         {!isSm && (
           <div style={{ color: theme.palette.common.white }}>
-            <Link href="/projects">Projects</Link>
-            <Link href="/products" style={{ marginLeft: linkMargin }}>
+            <Link nav href="/platforms">Platforms</Link>
+            <Link nav href="/products" style={{ marginLeft: linkMargin }}>
               Products
             </Link>
-            <Link href="/services" style={{ marginLeft: linkMargin }}>
+            <Link nav href="/services" style={{ marginLeft: linkMargin }}>
               Services
             </Link>
             <ButtonLink
@@ -106,56 +106,6 @@ export default function AppHeader() {
             </ButtonLink>
           </div>
         )}
-
-        {/* <div
-          style={{ color: theme.palette.common.white, flexShrink: 0 }}
-        >
-          <InlineButton
-            noUnderline
-            style={{
-              textTransform: 'unset',
-              fontSize: 16,
-              letterSpacing: '0.04em',
-              display: 'flex',
-              alignItems: 'center',
-              color: theme.palette.common.white,
-            }}
-            onClick={e => setProductAnchorEl(e.currentTarget)}
-          >
-            Products
-            <DropDownIcon />
-          </InlineButton>
-          <Menu
-            open={Boolean(productAnchorEl)}
-            anchorEl={productAnchorEl}
-            onClose={closeProductMenu}
-            keepMounted
-            id="product-menu"
-            style={{ padding: 0 }}
-          >
-            <MenuList
-              onClick={closeProductMenu}
-              style={{
-                background: 'black',
-                color: 'white',
-                padding: 8,
-              }}
-            >
-              {products.map(product => (
-                <Link
-                  key={product}
-                  noUnderline
-                  href="/"
-                  style={{ width: '100%' }}
-                >
-                  <MenuItem className="dark-menu-item">
-                    <Typography>{product}</Typography>
-                  </MenuItem>
-                </Link>
-              ))}
-            </MenuList>
-          </Menu>
-        </div> */}
       </Toolbar>
     </AppBar>
   );

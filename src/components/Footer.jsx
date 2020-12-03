@@ -12,8 +12,8 @@ const footerCategories = [
     categoryLabelId: 'WORK',
     entries: [
       {
-        labelId: 'PROJECTS',
-        path: '/projects',
+        labelId: 'PLATFORMS',
+        path: '/platforms',
       },
       {
         labelId: 'PRODUCTS',

@@ -107,13 +107,6 @@ export default function Splash() {
         <Box variant="black">
           <SpaceAroundCard>
             <ActionableMetric
-              title="4 metrics"
-              description="Including this one."
-              ask="See press"
-              href="/press"
-              imgSrc={newsIcon}
-            />
-            <ActionableMetric
               title="53 species"
               description="Support automated identification, powered by state-of-the-art machine learning algorithms."
               ask="Explore projects"
@@ -134,6 +127,13 @@ export default function Splash() {
               ask="See publications"
               href="/publications"
               imgSrc={academiaIcon}
+            />
+            <ActionableMetric
+              title="7 ID algorithms"
+              description={'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.'}
+              ask="View products"
+              href="/products"
+              imgSrc={newsIcon}
             />
           </SpaceAroundCard>
         </Box>

@@ -8,22 +8,19 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 
-import useDocumentTitle from '../../hooks/useDocumentTitle';
 import { Page } from '../../components/Containers';
 import Link from '../../components/Link';
-import projectData from './projectData';
+import platformData from './platformData';
 
-export default function Projects() {
+export default function Platforms() {
   const theme = useTheme();
   const intl = useIntl();
-  useDocumentTitle(intl.formatMessage({ id: 'PROJECTS' }));
-
-  const translatedProjects = intl.formatMessage({ id: 'PROJECTS' });
+  const translatedPlatforms = intl.formatMessage({ id: 'PLATFORMS' });
 
   return (
     <Page
-      documentTitle={translatedProjects}
-      title={translatedProjects}
+      documentTitle={translatedPlatforms}
+      title={translatedPlatforms}
     >
       <Grid
         container
@@ -31,7 +28,7 @@ export default function Projects() {
         justify="space-around"
         style={{ padding: '0 30px 80px 30px' }}
       >
-        {projectData.map(project => (
+        {platformData.map(project => (
           <Grid
             key={project.name}
             style={{
@@ -48,7 +45,7 @@ export default function Projects() {
               }}
             >
               <CardActionArea>
-                <Link noUnderline href={`projects${project.path}`}>
+                <Link noUnderline href={`platforms${project.path}`}>
                   <CardMedia
                     style={{ height: 200 }}
                     image={project.bannerSmall}
