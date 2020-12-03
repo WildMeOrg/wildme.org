@@ -134,12 +134,14 @@ export function Box({
     blue: theme.palette.primary.main,
     green: theme.palette.secondary.main,
     black: theme.palette.common.black,
+    gradient: 'linear-gradient(90deg, #21BDC1, #41D06A)',
   };
 
   const colorMap = {
     blue: theme.palette.common.white,
     green: theme.palette.common.white,
     black: theme.palette.common.white,
+    gradient: theme.palette.common.white,
   };
 
   return (
@@ -150,6 +152,7 @@ export function Box({
         margin: `${0.5 * verticalSpace}px ${0.5 * horizontalSpace}px`,
         background: get(backgroundMap, variant, 'unset'),
         color: get(colorMap, variant, 'unset'),
+        borderRadius: 4,
         flexGrow: 1,
         ...style,
       }}

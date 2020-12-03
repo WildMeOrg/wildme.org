@@ -6,7 +6,8 @@ import BackIcon from '@material-ui/icons/KeyboardBackspace';
 const colorMap = {
   primary: 'linear-gradient(90deg, #21BDC1, #41D06A)',
   panel: 'linear-gradient(90deg, #21BDC1, #41D06A)',
-  secondary: 'grey',
+  black: 'black',
+  secondary: '#fafafa',
   tertiary: 'white',
 };
 
@@ -37,7 +38,9 @@ export default function CustomButton({
   }
 
   if (
-    ['primary', 'secondary', 'tertiary', 'subtle'].includes(display)
+    ['primary', 'secondary', 'tertiary', 'subtle', 'black'].includes(
+      display,
+    )
   ) {
     variant = 'contained';
 
@@ -46,6 +49,7 @@ export default function CustomButton({
     } else {
       roleStyles.background = colorMap[display];
       roleStyles.color = 'white';
+      if (display === 'secondary') roleStyles.color = 'black';
     }
   }
 

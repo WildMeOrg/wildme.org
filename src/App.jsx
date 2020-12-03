@@ -29,6 +29,7 @@ import Team from './pages/team/Team';
 import Supporters from './pages/supporters/Supporters';
 import Volunteer from './pages/volunteer/Volunteer';
 import Careers from './pages/careers/Careers';
+import Contact from './pages/contact/Contact';
 import ProjectPage from './pages/projects/ProjectPage';
 import projectData from './pages/projects/projectData';
 import materialTheme from './styles/materialTheme';
@@ -130,6 +131,9 @@ export default function App() {
                 </Route>
                 <Route path="/careers">
                   <Careers />
+                </Route>
+                <Route path="/contact">
+                  <Contact />
                 </Route>
                 <Route path="/" exact>
                   <Splash />
