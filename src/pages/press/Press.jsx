@@ -15,6 +15,10 @@ import seattleTimesLogo from '../../assets/seattle-times-logo.svg';
 import guardianLogo from '../../assets/guardian-logo.svg';
 import natureLogo from '../../assets/nature-logo.svg';
 import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
+import oceonographicLogo from '../../assets/oceanographic-logo.svg';
+import natgeoLogo from '../../assets/natgeo-logo.svg';
+import bbcLogo from '../../assets/bbc-logo.png';
+import nasaLogo from '../../assets/nasa-logo.png';
 import articles from './usedArticles';
 
 const articlesWithDates = articles.map(article => {
@@ -32,10 +36,14 @@ const articlesWithDates = articles.map(article => {
 const articleYears = uniq(articlesWithDates.map(a => a.year));
 
 const logos = [
-  seattleTimesLogo,
-  guardianLogo,
+  natgeoLogo,
+  oceonographicLogo,
   natureLogo,
+  guardianLogo,
   newYorkTimesLogo,
+  nasaLogo,
+  bbcLogo,
+  seattleTimesLogo,
 ];
 
 export default function Press() {
@@ -66,12 +74,13 @@ export default function Press() {
     >
       <LogoSoup
         style={{
-          width: 700,
+          width: 660,
+          maxWidth: '100%',
           margin: '0 auto',
           paddingTop: 20,
-          paddingBottom: 20,
+          paddingBottom: 40,
         }}
-        logos={[...logos, ...logos]}
+        logos={logos}
       />
 
       <Row style={{ flexDirection: 'column' }}>

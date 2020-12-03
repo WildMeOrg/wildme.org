@@ -6,19 +6,29 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import useDocumentTitle from '../../hooks/useDocumentTitle';
-import MainColumn from '../../components/MainColumn';
+import { Page } from '../../components/Containers';
 import InlineButton from '../../components/InlineButton';
+import background from '../../assets/flukebook-banner-large.jpg';
 
 export default function Donate() {
   const intl = useIntl();
-  useDocumentTitle(intl.formatMessage({ id: 'DONATE' }));
+  const translatedDonate = intl.formatMessage({ id: 'DONATE' });
 
   const [cryptoDialogOpen, setCryptoDialogOpen] = useState(false);
   const [orgDialogOpen, setOrgDialogOpen] = useState(false);
 
+  console.log(background);
+
   return (
-    <MainColumn>
+    <Page
+      documentTitle={translatedDonate}
+      style={{
+        backgroundImage: `url("${background}")`,
+        padding: '80px min(80px, 10vw)',
+        minHeight: '100vh',
+        marginBottom: 0,
+      }}
+    >
       <Dialog
         open={cryptoDialogOpen}
         onClose={() => setCryptoDialogOpen(false)}
@@ -51,21 +61,23 @@ export default function Donate() {
         </DialogContent>
       </Dialog>
       <Grid
-        style={{ width: '70%' }}
+        style={{
+          background: 'rgba(255,255,255,0.75)',
+          borderRadius: 20,
+          maxWidth: 480,
+          padding: 30,
+        }}
         container
         spacing={3}
         direction="column"
       >
         <Grid item>
-          <Typography
-            variant="h2"
-            style={{ paddingTop: 30, textAlign: 'center' }}
-          >
-            <FormattedMessage id="DONATE" />
+          <Typography variant="h5">Donations</Typography>
+          <Typography style={{ marginTop: 20, fontWeight: 'bold' }}>
+            Wild Me products make conservation researchers more
+            efficient and more effective.
           </Typography>
-        </Grid>
-        <Grid item>
-          <Typography>
+          <Typography style={{ marginTop: 32 }}>
             <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_1" />
           </Typography>
           <Typography style={{ marginTop: 16 }}>
@@ -77,7 +89,6 @@ export default function Donate() {
             <InlineButton onClick={() => setOrgDialogOpen(true)}>
               <FormattedMessage id="LARGE_DONATIONS_LINK" />
             </InlineButton>
-            <FormattedMessage id="DONATION_UMBRELLA_DESCRIPTION_4" />
           </Typography>
         </Grid>
         <Grid item>
@@ -118,6 +129,6 @@ export default function Donate() {
           </Typography>
         </Grid>
       </Grid>
-    </MainColumn>
+    </Page>
   );
 }

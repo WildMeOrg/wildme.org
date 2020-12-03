@@ -28,29 +28,36 @@ export function Page({
       style={{ marginTop: 64, marginBottom: 100, ...style }}
       {...rest}
     >
-      <div style={{ paddingTop: 40 }}>
-        <ResponsiveText
-          variant="h1"
-          style={{ margin: '0 auto 28px auto', width: 'fit-content' }}
-        >
-          {title}
-        </ResponsiveText>
-        {subtitle && (
-          <Typography
-            variant="subtitle1"
+      {title && (
+        <div style={{ paddingTop: 40 }}>
+          <ResponsiveText
+            variant="h1"
             style={{
-              margin: '0 auto',
-              paddingTop: 12,
-              paddingBottom: 60,
-              maxWidth: 880,
-              textAlign: 'center',
+              margin: '0 auto 28px auto',
               width: 'fit-content',
+              padding: '0 20px',
+              textAlign: 'center',
             }}
           >
-            {subtitle}
-          </Typography>
-        )}
-      </div>
+            {title}
+          </ResponsiveText>
+          {subtitle && (
+            <Typography
+              variant="subtitle1"
+              style={{
+                margin: '0 auto',
+                paddingTop: 12,
+                paddingBottom: 60,
+                maxWidth: 880,
+                textAlign: 'center',
+                width: 'fit-content',
+              }}
+            >
+              {subtitle}
+            </Typography>
+          )}
+        </div>
+      )}
       {children}
     </div>
   );

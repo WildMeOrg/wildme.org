@@ -16,6 +16,7 @@ export default function InlineButton({
         padding: 0,
         background: 'unset',
         letterSpacing: '0.04em',
+        textAlign: 'left',
         ...style,
       }}
       type="button"

@@ -11,6 +11,10 @@ export const tags = {
     id: 'flukebook',
     labelId: 'FLUKEBOOK',
   },
+  iot: {
+    id: 'iot',
+    labelId: 'INTERNET_OF_TURTLES',
+  },
   staff: {
     id: 'staff',
     labelId: 'STAFF_PUBLICATIONS',
@@ -18,6 +22,20 @@ export const tags = {
 };
 
 const publications = [
+  {
+    tags: [tags.iot],
+    href:
+      'https://www.sciencedirect.com/science/article/abs/pii/S0022098120301738',
+    citation:
+      'HotSpotter: Using a computer-driven photo-id application to identify sea turtles. Stephen G. Dunbar, Edward C. Anger, Jason R. Parham, Colin Kingen, Marsha K. Wright, Christian T. Hayes, Shahnaj Safi, Jason Holmberg, Lidia Salinas, Dustin S. Baumbach. Journal of Experimental Marine Biology and Ecology, Feb 2021. doi: 10.1016/j.jembe.2020.151490',
+  },
+  {
+    tags: [tags.flukebook],
+    href:
+      'https://www.cascadiaresearch.org/publications/Franklin_etal_2020JCetResManagement',
+    citation:
+      'Franklin, T., W. Franklin, L. Brooks, P. Harrison, D. Burns, J. Holmberg, and J. Calambokidis. 2020. Photo-Identification of Individual Humpback Whales (Megaptera novaeangliae) Using All Available Natural Marks: Implications for Misidentification and Automated Algorithm Matching Technology. Journal of Cetacean Research and Management. 21:71-83.',
+  },
   {
     tags: [tags.whaleshark],
     href: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14254',
