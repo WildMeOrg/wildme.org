@@ -130,7 +130,9 @@ export default function Splash() {
             />
             <ActionableMetric
               title="7 ID algorithms"
-              description={'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.'}
+              description={
+                'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.'
+              }
               ask="View products"
               href="/products"
               imgSrc={newsIcon}

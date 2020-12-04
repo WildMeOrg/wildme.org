@@ -89,11 +89,21 @@ export default function AppHeader() {
         )}
         {!isSm && (
           <div style={{ color: theme.palette.common.white }}>
-            <Link nav href="/platforms">Platforms</Link>
-            <Link nav href="/products" style={{ marginLeft: linkMargin }}>
+            <Link nav href="/platforms">
+              Platforms
+            </Link>
+            <Link
+              nav
+              href="/products"
+              style={{ marginLeft: linkMargin }}
+            >
               Products
             </Link>
-            <Link nav href="/services" style={{ marginLeft: linkMargin }}>
+            <Link
+              nav
+              href="/services"
+              style={{ marginLeft: linkMargin }}
+            >
               Services
             </Link>
             <ButtonLink

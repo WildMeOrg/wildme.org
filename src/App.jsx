@@ -30,6 +30,7 @@ import Supporters from './pages/supporters/Supporters';
 import Volunteer from './pages/volunteer/Volunteer';
 import Careers from './pages/careers/Careers';
 import Contact from './pages/contact/Contact';
+import Code from './pages/code/Code';
 import PlatformPage from './pages/platforms/PlatformPage';
 import platformData from './pages/platforms/platformData';
 import materialTheme from './styles/materialTheme';
@@ -134,6 +135,9 @@ export default function App() {
                 </Route>
                 <Route path="/contact">
                   <Contact />
+                </Route>
+                <Route path="/code">
+                  <Code />
                 </Route>
                 <Route path="/" exact>
                   <Splash />
