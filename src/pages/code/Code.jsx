@@ -34,7 +34,7 @@ function Entry({
             href={repositoryHref}
             external
           >
-            View on Github
+            View code
           </ButtonLink>
         )}
         {docsHref && (

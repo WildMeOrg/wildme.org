@@ -7,12 +7,12 @@ import useDocumentTitle from '../hooks/useDocumentTitle';
 import ResponsiveText from './ResponsiveText';
 
 const smallestDeviceWidth = 320;
-const minimumGutterWidth = 30;
+const minimumGutterWidth = 28;
 const maxContentWidth = 1100;
 const horizontalSpace = 24;
 const verticalSpace = 40;
 const minimumBoxWidth =
-  smallestDeviceWidth - 2 * minimumGutterWidth - horizontalSpace;
+  smallestDeviceWidth - 4 * minimumGutterWidth - horizontalSpace;
 
 export function Page({
   documentTitle,
@@ -46,7 +46,7 @@ export function Page({
               variant="subtitle1"
               style={{
                 margin: '0 auto',
-                paddingBottom: 20,
+                padding: '40px 28px 20px 28px',
                 maxWidth: 880,
                 textAlign: 'center',
                 width: 'fit-content',

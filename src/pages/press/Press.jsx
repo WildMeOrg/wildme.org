@@ -5,6 +5,8 @@ import { useIntl, FormattedMessage } from 'react-intl';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import FormControl from '@material-ui/core/FormControl';
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import InputLabel from '@material-ui/core/InputLabel';
 import Select from '@material-ui/core/Select';
 import { Page, Row, Box } from '../../components/Containers';
@@ -48,6 +50,8 @@ const logos = [
 
 export default function Press() {
   const intl = useIntl();
+  const theme = useTheme();
+  const isSm = useMediaQuery(theme.breakpoints.down('sm'));
 
   const translatedPress = intl.formatMessage({ id: 'PRESS' });
 
@@ -72,18 +76,7 @@ export default function Press() {
       documentTitle={translatedPress}
       title="Wild Me in the press."
     >
-      <LogoSoup
-        style={{
-          width: 660,
-          maxWidth: '100%',
-          margin: '0 auto',
-          paddingTop: 20,
-          paddingBottom: 40,
-        }}
-        logos={logos}
-      />
-
-      <Row style={{ flexDirection: 'column' }}>
+      <Row style={{ flexDirection: 'column', marginTop: 32 }}>
         <Typography variant="h5">Media inquiries</Typography>
         <Typography style={{ marginTop: 32, maxWidth: 800 }}>
           Writing about Wild Me? Our press pack is currently under
@@ -92,6 +85,17 @@ export default function Press() {
           possible.
         </Typography>
       </Row>
+
+      <LogoSoup
+        style={{
+          width: 660,
+          maxWidth: '100%',
+          margin: '0 auto',
+          paddingBottom: 40,
+          marginTop: 52,
+        }}
+        logos={logos}
+      />
 
       <Row>
         <Typography variant="h5" style={{ marginTop: 32 }}>
@@ -148,18 +152,20 @@ export default function Press() {
                 padding: 28,
               }}
             >
-              <div
-                style={{
-                  width: 150,
-                  maxWidth: '30%',
-                  marginLeft: 8,
-                  flexShrink: 0,
-                }}
-              >
-                <Typography variant="subtitle2">
-                  {article.formattedDate}
-                </Typography>
-              </div>
+              {!isSm && (
+                <div
+                  style={{
+                    width: 150,
+                    maxWidth: '30%',
+                    marginLeft: 8,
+                    flexShrink: 0,
+                  }}
+                >
+                  <Typography variant="subtitle2">
+                    {article.formattedDate}
+                  </Typography>
+                </div>
+              )}
               <div style={{ padding: '0 20px' }}>
                 <Link external href={article.href}>
                   <Typography>{article.name}</Typography>

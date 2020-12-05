@@ -1,18 +1,18 @@
 !(function(e) {
   function a(a) {
     for (
-      var n, r, s = a[0], l = a[1], c = a[2], h = 0, m = [];
+      var n, r, s = a[0], l = a[1], c = a[2], h = 0, p = [];
       h < s.length;
       h++
     )
       (r = s[h]),
         Object.prototype.hasOwnProperty.call(i, r) &&
           i[r] &&
-          m.push(i[r][0]),
+          p.push(i[r][0]),
         (i[r] = 0);
     for (n in l)
       Object.prototype.hasOwnProperty.call(l, n) && (e[n] = l[n]);
-    for (d && d(a); m.length; ) m.shift()();
+    for (d && d(a); p.length; ) p.shift()();
     return o.push.apply(o, c || []), t();
   }
   function t() {
@@ -113,9 +113,7 @@
     ,
     ,
     ,
-    function(e, a, t) {
-      e.exports = t.p + '1f40b5acdec6d43a60c8f1add1469348.jpg';
-    },
+    ,
     ,
     ,
     ,
@@ -152,9 +150,11 @@
       e.exports = t.p + '2c3f1f1a0e843fdcd3dd7bd006cb95a9.jpg';
     },
     function(e, a, t) {
+      e.exports = t.p + '1f40b5acdec6d43a60c8f1add1469348.jpg';
+    },
+    function(e, a, t) {
       e.exports = t.p + '7bdfeb687189bb3a8584c52e4d2a708a.png';
     },
-    ,
     ,
     ,
     ,
@@ -562,8 +562,8 @@
         c = t(251),
         d = t(439),
         h = t(165),
-        m = t(443),
-        p = (t(277), t(166)),
+        p = t(443),
+        m = (t(277), t(166)),
         u = t(167),
         g = t(20),
         f = t(28),
@@ -586,8 +586,8 @@
           c = e.noUnderline,
           d = void 0 !== c && c,
           h = e.external,
-          m = void 0 !== h && h,
-          p = e.onClick,
+          p = void 0 !== h && h,
+          m = e.onClick,
           u = Object(A.a)(e, [
             'children',
             'href',
@@ -614,7 +614,7 @@
             Object.assign({ style: b }, u),
             a,
           );
-        if (m)
+        if (p)
           return i.a.createElement(
             'a',
             Object.assign(
@@ -623,7 +623,7 @@
                 style: b,
                 target: '_blank',
                 rel: 'noopener noreferrer',
-                onClick: p,
+                onClick: m,
               },
               u,
             ),
@@ -637,15 +637,15 @@
               to: t,
               activeStyle: { textDecoration: 'none' },
               style: b,
-              onClick: p,
+              onClick: m,
             },
             u,
           ),
           a,
         );
       }
-      var O = t(413),
-        x = t(415),
+      var x = t(413),
+        O = t(415),
         C = t(169),
         W = t.n(C),
         P = {
@@ -673,10 +673,10 @@
             'size',
           ]),
           h = void 0,
-          m = {};
+          p = {};
         return 'back' === n
           ? i.a.createElement(
-              O.a,
+              x.a,
               Object.assign(
                 {
                   size: 'small',
@@ -697,13 +697,13 @@
               ((h = 'contained'),
               'subtle' === n
                 ? 'default'
-                : ((m.background = P[n]),
-                  (m.color = 'white'),
-                  'secondary' === n && (m.color = 'black'))),
+                : ((p.background = P[n]),
+                  (p.color = 'white'),
+                  'secondary' === n && (p.color = 'black'))),
             'panel' === n && (h = 'outlined'),
-            l && (delete m.background, delete m.color),
+            l && (delete p.background, delete p.color),
             i.a.createElement(
-              O.a,
+              x.a,
               Object.assign(
                 {
                   variant: h,
@@ -713,7 +713,7 @@
                       padding:
                         'small' === c ? '8px 20px' : '20px 32px',
                     },
-                    m,
+                    p,
                     {},
                     s,
                   ),
@@ -722,7 +722,7 @@
                 d,
               ),
               r
-                ? i.a.createElement(x.a, {
+                ? i.a.createElement(O.a, {
                     size: 24,
                     style: { color: 'white' },
                   })
@@ -967,6 +967,7 @@
                       { style: { padding: 0 } },
                       e.entries.map(function(e) {
                         return i.a.createElement(V, {
+                          key: e.path,
                           messageId: e.labelId,
                           href: e.path,
                           onClick: o,
@@ -1162,12 +1163,12 @@
             'style',
           ]),
           h = Object(f.a)(),
-          m = Object(b.a)(h.breakpoints.down('sm')),
-          p = Object(Q.a)($, [a, 'mobile'], 12),
+          p = Object(b.a)(h.breakpoints.down('sm')),
+          m = Object(Q.a)($, [a, 'mobile'], 12),
           u = Object(Q.a)($, [a, 'desktop'], 14),
           g = Object(Q.a)($, [a, 'component'], void 0),
-          w = m
-            ? Object(I.a)({ fontSize: p }, o)
+          w = p
+            ? Object(I.a)({ fontSize: m }, o)
             : Object(I.a)({ fontSize: u }, s);
         return i.a.createElement(
           v.a,
@@ -1233,7 +1234,7 @@
                       variant: 'subtitle1',
                       style: {
                         margin: '0 auto',
-                        paddingBottom: 20,
+                        padding: '40px 28px 20px 28px',
                         maxWidth: 880,
                         textAlign: 'center',
                         width: 'fit-content',
@@ -1261,7 +1262,7 @@
                   flexDirection: 'column',
                   maxWidth: 1100,
                   margin: '0 auto',
-                  padding: '0 '.concat(15, 'px'),
+                  padding: '0 '.concat(14, 'px'),
                 },
                 n,
               ),
@@ -1304,7 +1305,7 @@
                   flexWrap: 'wrap',
                   maxWidth: 1100,
                   margin: '0 auto',
-                  padding: '0 '.concat(15, 'px'),
+                  padding: '0 '.concat(14, 'px'),
                 },
                 n,
               ),
@@ -1341,7 +1342,7 @@
             {
               style: Object(I.a)(
                 {
-                  minWidth: 236,
+                  minWidth: 184,
                   width: { 1: '100%', 2: '42%', 3: '30%', 4: '22%' }[
                     o
                   ],
@@ -1488,8 +1489,8 @@
         ce = t(173),
         de = t.n(ce),
         he = t(174),
-        me = t.n(he);
-      function pe(e) {
+        pe = t.n(he);
+      function me(e) {
         var a = e.title,
           t = e.subtitle,
           n = e.details,
@@ -1497,13 +1498,13 @@
           r = void 0 === o ? 'ocean' : o,
           s = Object(f.a)(),
           l = Object(b.a)(s.breakpoints.down('sm')),
-          c = 'ocean' === r ? de.a : me.a,
+          c = 'ocean' === r ? de.a : pe.a,
           d = 'ocean' === r ? 'Pierre Leverrier' : 'David Clode',
           h =
             'ocean' === r
               ? 'https://unsplash.com/@pierre_leverrier'
               : 'https://unsplash.com/@davidclode',
-          m =
+          p =
             'ocean' === r
               ? 'https://unsplash.com/photos/k0Ynnf2CbKw'
               : 'https://unsplash.com/photos/92MgFhlWD-8';
@@ -1555,7 +1556,7 @@
               i.a.createElement(M.a, { id: 'ON' }),
               i.a.createElement(
                 T,
-                { external: !0, href: m },
+                { external: !0, href: p },
                 'Unsplash',
               ),
             ),
@@ -1570,7 +1571,7 @@
             });
           return (
             X(n),
-            i.a.createElement(pe, {
+            i.a.createElement(me, {
               title: '404',
               subtitle: n,
               details: i.a.createElement(M.a, { id: '404_DETAILS' }),
@@ -1590,9 +1591,9 @@
         Ie = t(177),
         Ae = t.n(Ie),
         Te = t(178),
-        Oe = t.n(Te),
-        xe = t(108),
-        Ce = t.n(xe),
+        xe = t.n(Te),
+        Oe = t(108),
+        Ce = t.n(Oe),
         We = t(179),
         Pe = t.n(We),
         Re = [
@@ -1624,7 +1625,7 @@
           },
           {
             title: 'Seadragon Wildbook official launch!',
-            image: Oe.a,
+            image: xe.a,
             markdown:
               'SeadragonSearch is a collaborative Wildbook that seeks to expand our understanding of wild seadragon populations through meaningful community involvement. SeadragonSearch will use data from underwater imagery to track these unique fish across their distribution for a decade, providing a window into their lives as well as the health of their habitats.\n\n',
             dateString: 'October 2, 2020',
@@ -1744,160 +1745,160 @@
       function Be() {
         var e = Object(le.a)(),
           a = Object(f.a)(),
-          t = Object(b.a)(a.breakpoints.down('sm')),
-          n = e.formatMessage({ id: 'HOME' });
-        return (
-          X(n),
+          t = Object(b.a)(a.breakpoints.down('xs')),
+          n = Object(b.a)(a.breakpoints.down('sm')),
+          o = e.formatMessage({ id: 'HOME' });
+        X(o);
+        var r = n ? 500 : '80%',
+          s = n ? 40 : 80;
+        return i.a.createElement(
+          'div',
+          { style: { marginTop: 64 } },
           i.a.createElement(
-            'div',
-            { style: { marginTop: 64 } },
+            ie,
+            { style: { marginTop: 116, position: 'relative' } },
             i.a.createElement(
-              ie,
-              { style: { marginTop: 116, position: 'relative' } },
-              i.a.createElement(
-                ee,
-                {
-                  style: {
-                    margin: '0 auto',
-                    textAlign: 'center',
-                    position: 'absolute',
-                    left: 0,
-                    right: 0,
-                    width: '80%',
-                    top: t ? '17%' : '26%',
-                  },
-                  variant: 'h1',
+              v.a,
+              {
+                variant: t ? 'h6' : 'h1',
+                style: {
+                  margin: t ? '-34px auto 0px' : '0 auto',
+                  textAlign: 'center',
+                  position: 'absolute',
+                  left: 0,
+                  right: 0,
+                  width: t ? 240 : r,
+                  background: 'rgba(255, 255, 255, 0.7)',
+                  padding: '20px 0',
+                  top: t ? '0%' : '15%',
+                  fontSize: t ? 18 : s,
                 },
-                i.a.createElement(M.a, { id: 'SPLASH_TAGLINE' }),
-              ),
-              i.a.createElement('img', {
-                src: ke.a,
-                alt: 'hero',
-                style: { width: '100%' },
-              }),
+              },
+              i.a.createElement(M.a, { id: 'SPLASH_TAGLINE' }),
             ),
+            i.a.createElement('img', {
+              src: ke.a,
+              alt: 'hero',
+              style: { width: '100%' },
+            }),
+          ),
+          i.a.createElement(
+            ie,
+            null,
             i.a.createElement(
-              ie,
-              null,
-              i.a.createElement(
-                oe,
-                null,
-                i.a.createElement(
-                  'div',
-                  {
-                    style: {
-                      display: 'flex',
-                      flexDirection: 'column',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                      textAlign: 'center',
-                    },
-                  },
-                  i.a.createElement(
-                    v.a,
-                    {
-                      style: { marginTop: 20, maxWidth: 880 },
-                      variant: 'subtitle1',
-                    },
-                    i.a.createElement(M.a, { id: 'SPLASH_SUBTITLE' }),
-                  ),
-                  i.a.createElement(
-                    N,
-                    {
-                      href: '/platforms',
-                      display: 'primary',
-                      style: { marginTop: 40, marginBottom: 16 },
-                    },
-                    i.a.createElement(M.a, {
-                      id: 'EXPLORE_PLATFORMS',
-                    }),
-                  ),
-                ),
-              ),
-            ),
-            i.a.createElement(
-              ie,
-              null,
-              _e.map(function(e) {
-                return i.a.createElement(De, {
-                  variant: 'black',
-                  date: e.dateString,
-                  imgSrc: e.image,
-                  title: e.title,
-                  url: '/news'.concat(e.path),
-                });
-              }),
-            ),
-            i.a.createElement(
-              ie,
-              null,
-              i.a.createElement(
-                oe,
-                { variant: 'black' },
-                i.a.createElement(
-                  re,
-                  null,
-                  i.a.createElement(je, {
-                    title: '53 species',
-                    description:
-                      'Support automated identification, powered by state-of-the-art machine learning algorithms.',
-                    ask: 'Explore projects',
-                    href: '/projects',
-                    imgSrc: ye,
-                  }),
-                  i.a.createElement(je, {
-                    title: '190k lines of code',
-                    description:
-                      'We love sharing our work with the research community. Every line of code is open source.',
-                    ask: 'View repositories',
-                    href: 'https://github.com/WildbookOrg',
-                    external: !0,
-                    imgSrc: be,
-                  }),
-                  i.a.createElement(je, {
-                    title: '81 publications',
-                    description:
-                      'In peer-reviewed journals, coauthored by Wild Me staff and powered by Wild Me technologies.',
-                    ask: 'See publications',
-                    href: '/publications',
-                    imgSrc: fe,
-                  }),
-                  i.a.createElement(je, {
-                    title: '7 ID algorithms',
-                    description:
-                      'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.',
-                    ask: 'View products',
-                    href: '/products',
-                    imgSrc: we,
-                  }),
-                ),
-              ),
-            ),
-            i.a.createElement(
-              ie,
+              oe,
               null,
               i.a.createElement(
                 'div',
                 {
-                  style: { margin: '60px auto', textAlign: 'center' },
+                  style: {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    textAlign: 'center',
+                  },
                 },
                 i.a.createElement(
                   v.a,
-                  { variant: 'h5' },
-                  i.a.createElement(M.a, { id: 'DONATION_ASK' }),
+                  {
+                    style: { marginTop: 20, maxWidth: 880 },
+                    variant: 'subtitle1',
+                  },
+                  i.a.createElement(M.a, { id: 'SPLASH_SUBTITLE' }),
                 ),
                 i.a.createElement(
                   N,
                   {
-                    href: '/donate',
+                    href: '/platforms',
                     display: 'primary',
-                    style: { marginTop: 40, marginBottom: 20 },
+                    style: { marginTop: 40, marginBottom: 16 },
                   },
-                  i.a.createElement(M.a, { id: 'DONATE' }),
+                  i.a.createElement(M.a, { id: 'EXPLORE_PLATFORMS' }),
                 ),
               ),
             ),
-          )
+          ),
+          i.a.createElement(
+            ie,
+            null,
+            _e.map(function(e) {
+              return i.a.createElement(De, {
+                variant: 'black',
+                date: e.dateString,
+                imgSrc: e.image,
+                title: e.title,
+                url: '/news'.concat(e.path),
+              });
+            }),
+          ),
+          i.a.createElement(
+            ie,
+            null,
+            i.a.createElement(
+              oe,
+              { variant: 'black' },
+              i.a.createElement(
+                re,
+                null,
+                i.a.createElement(je, {
+                  title: '53 species',
+                  description:
+                    'Support automated identification, powered by state-of-the-art machine learning algorithms.',
+                  ask: 'Explore projects',
+                  href: '/projects',
+                  imgSrc: ye,
+                }),
+                i.a.createElement(je, {
+                  title: '190k lines of code',
+                  description:
+                    'We love sharing our work with the research community. Every line of code is open source.',
+                  ask: 'View repositories',
+                  href: 'https://github.com/WildbookOrg',
+                  external: !0,
+                  imgSrc: be,
+                }),
+                i.a.createElement(je, {
+                  title: '81 publications',
+                  description:
+                    'In peer-reviewed journals, coauthored by Wild Me staff and powered by Wild Me technologies.',
+                  ask: 'See publications',
+                  href: '/publications',
+                  imgSrc: fe,
+                }),
+                i.a.createElement(je, {
+                  title: '7 ID algorithms',
+                  description:
+                    'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.',
+                  ask: 'View products',
+                  href: '/products',
+                  imgSrc: we,
+                }),
+              ),
+            ),
+          ),
+          i.a.createElement(
+            ie,
+            null,
+            i.a.createElement(
+              'div',
+              { style: { margin: '60px auto', textAlign: 'center' } },
+              i.a.createElement(
+                v.a,
+                { variant: 'h5' },
+                i.a.createElement(M.a, { id: 'DONATION_ASK' }),
+              ),
+              i.a.createElement(
+                N,
+                {
+                  href: '/donate',
+                  display: 'primary',
+                  style: { marginTop: 40, marginBottom: 20 },
+                },
+                i.a.createElement(M.a, { id: 'DONATE' }),
+              ),
+            ),
+          ),
         );
       }
       var Le = t(440),
@@ -2458,43 +2459,36 @@
           }),
         ),
         ha = [ia, na, aa, ea, ta, la.a, ra.a, $e];
-      function ma() {
-        var e = Object(le.a)().formatMessage({ id: 'PRESS' }),
-          a = Object(n.useState)(''),
-          t = Object(g.a)(a, 2),
-          o = t[0],
-          r = t[1],
-          s = Object(n.useState)(''),
-          l = Object(g.a)(s, 2),
-          c = l[0],
-          d = l[1],
-          h = ca
+      function pa() {
+        var e = Object(le.a)(),
+          a = Object(f.a)(),
+          t = Object(b.a)(a.breakpoints.down('sm')),
+          o = e.formatMessage({ id: 'PRESS' }),
+          r = Object(n.useState)(''),
+          s = Object(g.a)(r, 2),
+          l = s[0],
+          c = s[1],
+          d = Object(n.useState)(''),
+          h = Object(g.a)(d, 2),
+          p = h[0],
+          m = h[1],
+          u = ca
             .filter(function(e) {
               return Ze(
                 e,
                 ['formattedDate', 'excerpt', 'citation', 'name'],
-                c,
+                p,
               );
             })
             .filter(function(e) {
-              return !!e.year.includes(o);
+              return !!e.year.includes(l);
             });
         return i.a.createElement(
           ae,
-          { documentTitle: e, title: 'Wild Me in the press.' },
-          i.a.createElement(Xe, {
-            style: {
-              width: 660,
-              maxWidth: '100%',
-              margin: '0 auto',
-              paddingTop: 20,
-              paddingBottom: 40,
-            },
-            logos: ha,
-          }),
+          { documentTitle: o, title: 'Wild Me in the press.' },
           i.a.createElement(
             ie,
-            { style: { flexDirection: 'column' } },
+            { style: { flexDirection: 'column', marginTop: 32 } },
             i.a.createElement(
               v.a,
               { variant: 'h5' },
@@ -2506,6 +2500,16 @@
               'Writing about Wild Me? Our press pack is currently under development. In the meantime, please email info@wildme.org with questions and we will get back to you as soon as possible.',
             ),
           ),
+          i.a.createElement(Xe, {
+            style: {
+              width: 660,
+              maxWidth: '100%',
+              margin: '0 auto',
+              paddingBottom: 40,
+              marginTop: 52,
+            },
+            logos: ha,
+          }),
           i.a.createElement(
             ie,
             null,
@@ -2527,8 +2531,8 @@
                 i.a.createElement(Qe, {
                   instructions: 'Search articles',
                   width: '100%',
-                  value: c,
-                  onChange: d,
+                  value: p,
+                  onChange: m,
                 }),
               ),
               i.a.createElement(
@@ -2547,9 +2551,9 @@
                     {
                       style: { width: 100 },
                       native: !0,
-                      value: o,
+                      value: l,
                       onChange: function(e) {
-                        r(e.target.value);
+                        c(e.target.value);
                       },
                       inputProps: {
                         name: 'filter',
@@ -2572,7 +2576,7 @@
               ),
             ),
           ),
-          h.map(function(e) {
+          u.map(function(e) {
             return i.a.createElement(
               ie,
               { key: e.name },
@@ -2588,22 +2592,23 @@
                       padding: 28,
                     },
                   },
-                  i.a.createElement(
-                    'div',
-                    {
-                      style: {
-                        width: 150,
-                        maxWidth: '30%',
-                        marginLeft: 8,
-                        flexShrink: 0,
-                      },
-                    },
+                  !t &&
                     i.a.createElement(
-                      v.a,
-                      { variant: 'subtitle2' },
-                      e.formattedDate,
+                      'div',
+                      {
+                        style: {
+                          width: 150,
+                          maxWidth: '30%',
+                          marginLeft: 8,
+                          flexShrink: 0,
+                        },
+                      },
+                      i.a.createElement(
+                        v.a,
+                        { variant: 'subtitle2' },
+                        e.formattedDate,
+                      ),
                     ),
-                  ),
                   i.a.createElement(
                     'div',
                     { style: { padding: '0 20px' } },
@@ -2629,8 +2634,8 @@
           }),
         );
       }
-      var pa = t(184),
-        ua = t.n(pa),
+      var ma = t(184),
+        ua = t.n(ma),
         ga = { root: v.a };
       function fa(e) {
         var a = e.content,
@@ -2708,7 +2713,7 @@
         Ia = t(433),
         Aa = t(434),
         Ta = t(432);
-      function Oa(e) {
+      function xa(e) {
         var a = e.children,
           t = e.style,
           n = void 0 === t ? {} : t,
@@ -2738,8 +2743,8 @@
           a,
         );
       }
-      var xa = t(82),
-        Ca = t.n(xa);
+      var Oa = t(114),
+        Ca = t.n(Oa);
       function Wa() {
         var e = Object(le.a)().formatMessage({ id: 'DONATE' }),
           a = Object(n.useState)(!1),
@@ -2750,198 +2755,188 @@
           l = Object(g.a)(s, 2),
           c = l[0],
           d = l[1];
-        return (
-          console.log(Ca.a),
+        return i.a.createElement(
+          ae,
+          {
+            documentTitle: e,
+            style: {
+              backgroundImage: 'url("'.concat(Ca.a, '")'),
+              padding: '80px min(80px, 10vw)',
+              minHeight: '80vh',
+              marginBottom: 0,
+            },
+          },
           i.a.createElement(
-            ae,
+            Sa.a,
             {
-              documentTitle: e,
-              style: {
-                backgroundImage: 'url("'.concat(Ca.a, '")'),
-                padding: '80px min(80px, 10vw)',
-                minHeight: '100vh',
-                marginBottom: 0,
+              open: o,
+              onClose: function() {
+                return r(!1);
               },
             },
             i.a.createElement(
-              Sa.a,
-              {
-                open: o,
-                onClose: function() {
-                  return r(!1);
-                },
-              },
+              Ta.a,
+              null,
+              i.a.createElement(M.a, {
+                id: 'CRYPTOCURRENCY_DONATIONS',
+              }),
+            ),
+            i.a.createElement(
+              Ia.a,
+              null,
               i.a.createElement(
-                Ta.a,
+                Aa.a,
+                null,
+                i.a.createElement(M.a, { id: 'ETHERIUM_WALLET_ID' }),
+                '0x5d41f2e86FeCD1205717B099a8546c5cF6F97e57',
+              ),
+              i.a.createElement(
+                Aa.a,
+                null,
+                i.a.createElement(M.a, { id: 'BITCOIN_WALLET_ID' }),
+                '15KCE1xCGjhcDojjEpMhUA8L6JMdiNGTHy',
+              ),
+            ),
+          ),
+          i.a.createElement(
+            Sa.a,
+            {
+              open: c,
+              onClose: function() {
+                return d(!1);
+              },
+            },
+            i.a.createElement(
+              Ta.a,
+              null,
+              i.a.createElement(M.a, { id: 'CUSTOM_DONATIONS' }),
+            ),
+            i.a.createElement(
+              Ia.a,
+              null,
+              i.a.createElement(
+                Aa.a,
                 null,
                 i.a.createElement(M.a, {
-                  id: 'CRYPTOCURRENCY_DONATIONS',
+                  id: 'CUSTOM_DONATIONS_INSTRUCTIONS',
+                }),
+              ),
+            ),
+          ),
+          i.a.createElement(
+            Je.a,
+            {
+              style: {
+                background: 'rgba(255,255,255,0.75)',
+                borderRadius: 20,
+                maxWidth: 480,
+                padding: 30,
+              },
+              container: !0,
+              spacing: 3,
+              direction: 'column',
+            },
+            i.a.createElement(
+              Je.a,
+              { item: !0 },
+              i.a.createElement(v.a, { variant: 'h5' }, 'Donations'),
+              i.a.createElement(
+                v.a,
+                { style: { marginTop: 20, fontWeight: 'bold' } },
+                'Wild Me products make conservation researchers more efficient and more effective.',
+              ),
+              i.a.createElement(
+                v.a,
+                { style: { marginTop: 32 } },
+                i.a.createElement(M.a, {
+                  id: 'DONATION_UMBRELLA_DESCRIPTION_1',
                 }),
               ),
               i.a.createElement(
-                Ia.a,
-                null,
+                v.a,
+                { style: { marginTop: 16 } },
+                i.a.createElement(M.a, {
+                  id: 'DONATION_UMBRELLA_DESCRIPTION_2',
+                }),
                 i.a.createElement(
-                  Aa.a,
-                  null,
-                  i.a.createElement(M.a, {
-                    id: 'ETHERIUM_WALLET_ID',
-                  }),
-                  '0x5d41f2e86FeCD1205717B099a8546c5cF6F97e57',
+                  xa,
+                  {
+                    onClick: function() {
+                      return r(!0);
+                    },
+                  },
+                  i.a.createElement(M.a, { id: 'CRYPTOCURRENCY' }),
                 ),
+                i.a.createElement(M.a, {
+                  id: 'DONATION_UMBRELLA_DESCRIPTION_3',
+                }),
                 i.a.createElement(
-                  Aa.a,
-                  null,
-                  i.a.createElement(M.a, { id: 'BITCOIN_WALLET_ID' }),
-                  '15KCE1xCGjhcDojjEpMhUA8L6JMdiNGTHy',
-                ),
-              ),
-            ),
-            i.a.createElement(
-              Sa.a,
-              {
-                open: c,
-                onClose: function() {
-                  return d(!1);
-                },
-              },
-              i.a.createElement(
-                Ta.a,
-                null,
-                i.a.createElement(M.a, { id: 'CUSTOM_DONATIONS' }),
-              ),
-              i.a.createElement(
-                Ia.a,
-                null,
-                i.a.createElement(
-                  Aa.a,
-                  null,
+                  xa,
+                  {
+                    onClick: function() {
+                      return d(!0);
+                    },
+                  },
                   i.a.createElement(M.a, {
-                    id: 'CUSTOM_DONATIONS_INSTRUCTIONS',
+                    id: 'LARGE_DONATIONS_LINK',
                   }),
                 ),
               ),
             ),
             i.a.createElement(
               Je.a,
-              {
-                style: {
-                  background: 'rgba(255,255,255,0.75)',
-                  borderRadius: 20,
-                  maxWidth: 480,
-                  padding: 30,
+              { item: !0 },
+              i.a.createElement(
+                'form',
+                {
+                  action: 'https://www.paypal.com/cgi-bin/webscr',
+                  method: 'post',
+                  target: '_top',
                 },
-                container: !0,
-                spacing: 3,
-                direction: 'column',
-              },
-              i.a.createElement(
-                Je.a,
-                { item: !0 },
-                i.a.createElement(
-                  v.a,
-                  { variant: 'h5' },
-                  'Donations',
-                ),
-                i.a.createElement(
-                  v.a,
-                  { style: { marginTop: 20, fontWeight: 'bold' } },
-                  'Wild Me products make conservation researchers more efficient and more effective.',
-                ),
-                i.a.createElement(
-                  v.a,
-                  { style: { marginTop: 32 } },
-                  i.a.createElement(M.a, {
-                    id: 'DONATION_UMBRELLA_DESCRIPTION_1',
-                  }),
-                ),
-                i.a.createElement(
-                  v.a,
-                  { style: { marginTop: 16 } },
-                  i.a.createElement(M.a, {
-                    id: 'DONATION_UMBRELLA_DESCRIPTION_2',
-                  }),
-                  i.a.createElement(
-                    Oa,
-                    {
-                      onClick: function() {
-                        return r(!0);
-                      },
-                    },
-                    i.a.createElement(M.a, { id: 'CRYPTOCURRENCY' }),
-                  ),
-                  i.a.createElement(M.a, {
-                    id: 'DONATION_UMBRELLA_DESCRIPTION_3',
-                  }),
-                  i.a.createElement(
-                    Oa,
-                    {
-                      onClick: function() {
-                        return d(!0);
-                      },
-                    },
-                    i.a.createElement(M.a, {
-                      id: 'LARGE_DONATIONS_LINK',
-                    }),
-                  ),
-                ),
-              ),
-              i.a.createElement(
-                Je.a,
-                { item: !0 },
-                i.a.createElement(
-                  'form',
-                  {
-                    action: 'https://www.paypal.com/cgi-bin/webscr',
-                    method: 'post',
-                    target: '_top',
-                  },
-                  i.a.createElement('input', {
-                    type: 'hidden',
-                    name: 'cmd',
-                    value: '_s-xclick',
-                  }),
-                  i.a.createElement('input', {
-                    type: 'hidden',
-                    name: 'hosted_button_id',
-                    value: '6M475H9KWPSBW',
-                  }),
-                  i.a.createElement('input', {
-                    type: 'image',
-                    src:
-                      'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
-                    border: '0',
-                    name: 'submit',
-                    title:
-                      'PayPal - The safer, easier way to pay online!',
-                    alt: 'Donate with PayPal button',
-                  }),
-                  i.a.createElement('img', {
-                    alt: '',
-                    border: '0',
-                    src:
-                      'https://www.paypal.com/en_US/i/scr/pixel.gif',
-                    width: '1',
-                    height: '1',
-                  }),
-                ),
-              ),
-              i.a.createElement(
-                Je.a,
-                { item: !0 },
-                i.a.createElement(
-                  v.a,
-                  { variant: 'body2' },
-                  i.a.createElement(M.a, { id: 'DONATION_LEGAL_1' }),
-                ),
-                i.a.createElement(
-                  v.a,
-                  { variant: 'body2', style: { marginTop: 16 } },
-                  i.a.createElement(M.a, { id: 'DONATION_LEGAL_2' }),
-                ),
+                i.a.createElement('input', {
+                  type: 'hidden',
+                  name: 'cmd',
+                  value: '_s-xclick',
+                }),
+                i.a.createElement('input', {
+                  type: 'hidden',
+                  name: 'hosted_button_id',
+                  value: '6M475H9KWPSBW',
+                }),
+                i.a.createElement('input', {
+                  type: 'image',
+                  src:
+                    'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+                  border: '0',
+                  name: 'submit',
+                  title:
+                    'PayPal - The safer, easier way to pay online!',
+                  alt: 'Donate with PayPal button',
+                }),
+                i.a.createElement('img', {
+                  alt: '',
+                  border: '0',
+                  src: 'https://www.paypal.com/en_US/i/scr/pixel.gif',
+                  width: '1',
+                  height: '1',
+                }),
               ),
             ),
-          )
+            i.a.createElement(
+              Je.a,
+              { item: !0 },
+              i.a.createElement(
+                v.a,
+                { variant: 'body2' },
+                i.a.createElement(M.a, { id: 'DONATION_LEGAL_1' }),
+              ),
+              i.a.createElement(
+                v.a,
+                { variant: 'body2', style: { marginTop: 16 } },
+                i.a.createElement(M.a, { id: 'DONATION_LEGAL_2' }),
+              ),
+            ),
+          ),
         );
       }
       var Pa = t(186),
@@ -3338,7 +3333,7 @@
           c = Object(g.a)(l, 2),
           d = c[0],
           h = c[1],
-          m = Ma.filter(function(e) {
+          p = Ma.filter(function(e) {
             return Ze(e, ['citation', 'href'], d);
           }).filter(function(e) {
             var a = !1;
@@ -3414,7 +3409,7 @@
               ),
             ),
           ),
-          m.map(function(e) {
+          p.map(function(e) {
             return i.a.createElement(
               ie,
               { key: e.citation, style: { margin: '32px auto' } },
@@ -3467,8 +3462,8 @@
         ct = t.n(lt),
         dt = t(199),
         ht = t.n(dt),
-        mt = t(200),
-        pt = t.n(mt),
+        pt = t(200),
+        mt = t.n(pt),
         ut = t(201),
         gt = t.n(ut),
         ft = t(202),
@@ -3482,9 +3477,9 @@
         It = t(206),
         At = t.n(It),
         Tt = t(207),
-        Ot = t.n(Tt),
-        xt = t(208),
-        Ct = t.n(xt),
+        xt = t.n(Tt),
+        Ot = t(208),
+        Ct = t.n(Ot),
         Wt = t(209),
         Pt = t.n(Wt),
         Rt = t(210),
@@ -3496,7 +3491,7 @@
       var Bt = t.p + '9da4f5328441afaea6adc9542026a0a9.svg',
         Lt = t(213),
         zt = t.n(Lt),
-        Ht = t(114),
+        Ht = t(115),
         Jt = t.n(Ht),
         Gt = t(214),
         Ft = t.n(Gt),
@@ -4031,7 +4026,7 @@
             inviteOnly: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Ot.a,
+            bannerLarge: xt.a,
             bannerSmall: Ct.a,
             descriptionId: 'BASS_DESCRIPTION',
             sightings: 607,
@@ -4108,7 +4103,7 @@
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
             bannerLarge: ht.a,
-            bannerSmall: pt.a,
+            bannerSmall: mt.a,
             descriptionId: 'JAGUAR_DESCRIPTION',
             sightings: 925,
             individuals: 129,
@@ -4369,7 +4364,7 @@
                 i.a.createElement('img', {
                   src: e.img,
                   alt: e.name,
-                  style: { width: 300 },
+                  style: { width: 300, maxWidth: '100%' },
                 }),
                 i.a.createElement(
                   'div',
@@ -4387,8 +4382,8 @@
       }
       var dn = t(222),
         hn = t.n(dn),
-        mn = t(223),
-        pn = t.n(mn),
+        pn = t(223),
+        mn = t.n(pn),
         un = t(224),
         gn = t.n(un),
         fn = [
@@ -4414,7 +4409,7 @@
             },
           },
           {
-            img: pn.a,
+            img: mn.a,
             name: 'Dr. Zaven Arzoumanian',
             role: 'President',
             renderDescription: function() {
@@ -4448,8 +4443,8 @@
         In = t.n(Sn),
         An = t(229),
         Tn = t.n(An),
-        On = t(230),
-        xn = t.n(On),
+        xn = t(230),
+        On = t.n(xn),
         Cn = t(231),
         Wn = t.n(Cn),
         Pn = t(232),
@@ -4521,7 +4516,7 @@
             },
           },
           {
-            img: xn.a,
+            img: On.a,
             name: 'Jason Parham',
             role: 'Senior Computer Vision Research Engineer',
             renderDescription: function() {
@@ -4685,7 +4680,7 @@
         ci = t.n(li),
         di = t(246),
         hi = t.n(di),
-        mi = [
+        pi = [
           {
             name: 'The Gordon and Betty Moore Foundation',
             role: 'Featured sponsor',
@@ -4737,7 +4732,7 @@
               'NOAA partnered with Wild Me to create mantamatcher.org, a tool used by multiple people.',
           },
         ],
-        pi = [
+        mi = [
           {
             src: qn.a,
             url: 'https://en.wikipedia.org/wiki/Pineapple_Fund',
@@ -4790,7 +4785,7 @@
               "Conservation doesn't happen in a vacuum. Join us in celebrating our supporters, whose generosity and direction make it all possible.",
           },
           i.a.createElement(ne, null),
-          mi.map(function(e) {
+          pi.map(function(e) {
             return i.a.createElement(
               i.a.Fragment,
               null,
@@ -4858,7 +4853,7 @@
             i.a.createElement(Xe, {
               style: { maxWidth: 880, margin: '80px auto' },
               height: 60,
-              logos: pi.map(function(e) {
+              logos: mi.map(function(e) {
                 return e.src;
               }),
             }),
@@ -5121,7 +5116,7 @@
                   href: o,
                   external: !0,
                 },
-                'View on Github',
+                'View code',
               ),
             r &&
               i.a.createElement(
@@ -5272,8 +5267,8 @@
           c = a.descriptionId,
           d = a.bannerLarge,
           h = a.sightings,
-          m = a.partners,
-          p = a.algorithms,
+          p = a.partners,
+          m = a.algorithms,
           u = a.species,
           f = Object(n.useState)(!1),
           b = Object(g.a)(f, 2),
@@ -5427,8 +5422,8 @@
               ),
             ),
           ),
-          m &&
-            m.length > 0 &&
+          p &&
+            p.length > 0 &&
             i.a.createElement(
               ie,
               { style: { marginTop: 100 } },
@@ -5446,7 +5441,7 @@
                 { n: 2 },
                 i.a.createElement(Xe, {
                   height: 90,
-                  logoDefinitions: m,
+                  logoDefinitions: p,
                 }),
               ),
             ),
@@ -5468,7 +5463,7 @@
               i.a.createElement(
                 Je.a,
                 { container: !0, spacing: 8 },
-                p.map(function(e) {
+                m.map(function(e) {
                   return i.a.createElement(
                     Je.a,
                     { item: !0, style: { width: 240 } },
@@ -5534,7 +5529,7 @@
           ),
         );
       }
-      function Oi(e) {
+      function xi(e) {
         var a = e.articleData,
           t = a.title,
           n = a.image,
@@ -5547,7 +5542,7 @@
           content: o,
         });
       }
-      var xi = t(134),
+      var Oi = t(134),
         Ci = [
           'Lato',
           '-apple-system',
@@ -5561,7 +5556,7 @@
           '"Segoe UI Emoji"',
           '"Segoe UI Symbol"',
         ].join(','),
-        Wi = Object(xi.lighten)('#21BDC1', 0.7),
+        Wi = Object(Oi.lighten)('#21BDC1', 0.7),
         Pi = {
           palette: {
             common: { black: '#0E1014' },
@@ -5587,7 +5582,7 @@
               fontWeight: 300,
               fontSize: 14,
               letterSpacing: '0.02em',
-              color: Object(xi.darken)('#0E1014', 0.5),
+              color: Object(Oi.darken)('#0E1014', 0.5),
             },
             subtitle1: { fontSize: 20, letterSpacing: '0.02em' },
           },
@@ -5633,7 +5628,7 @@
         Ri = t(248),
         Ni = t(249);
       'function' == typeof Intl.NumberFormat.__addLocaleData &&
-        (Intl.NumberFormat.__addLocaleData(p),
+        (Intl.NumberFormat.__addLocaleData(m),
         Intl.NumberFormat.__addLocaleData(u));
       var Mi = { en: Ri, es: Ni };
       function ji() {
@@ -5663,7 +5658,7 @@
             }),
           ),
           i.a.createElement(
-            m.a,
+            p.a,
             { locale: 'en', defaultLocale: 'en', messages: Mi.en },
             i.a.createElement(
               'div',
@@ -5702,7 +5697,7 @@
                       return i.a.createElement(
                         s.a,
                         { key: e.path, path: '/news'.concat(e.path) },
-                        i.a.createElement(Oi, { articleData: e }),
+                        i.a.createElement(xi, { articleData: e }),
                       );
                     }),
                     i.a.createElement(
@@ -5713,7 +5708,7 @@
                     i.a.createElement(
                       s.a,
                       { path: '/press' },
-                      i.a.createElement(ma, null),
+                      i.a.createElement(pa, null),
                     ),
                     i.a.createElement(
                       s.a,

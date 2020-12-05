@@ -17,15 +17,13 @@ export default function Donate() {
   const [cryptoDialogOpen, setCryptoDialogOpen] = useState(false);
   const [orgDialogOpen, setOrgDialogOpen] = useState(false);
 
-  console.log(background);
-
   return (
     <Page
       documentTitle={translatedDonate}
       style={{
         backgroundImage: `url("${background}")`,
         padding: '80px min(80px, 10vw)',
-        minHeight: '100vh',
+        minHeight: '80vh',
         marginBottom: 0,
       }}
     >

@@ -12,7 +12,6 @@ import {
   SpaceAroundCard,
 } from '../../components/Containers';
 import ButtonLink from '../../components/ButtonLink';
-import ResponsiveText from '../../components/ResponsiveText';
 import academiaIcon from '../../assets/academia-icon.svg';
 import codeIcon from '../../assets/code-icon.svg';
 import newsIcon from '../../assets/news-icon.svg';
@@ -27,28 +26,35 @@ const visibleNews = take(newsData, 3);
 export default function Splash() {
   const intl = useIntl();
   const theme = useTheme();
-  const isSm = useMediaQuery(theme.breakpoints.down('sm'));
+  const isSm = useMediaQuery(theme.breakpoints.down('xs'));
+  const isMd = useMediaQuery(theme.breakpoints.down('sm'));
 
   const pageNotFound = intl.formatMessage({ id: 'HOME' });
   useDocumentTitle(pageNotFound);
 
+  const w1 = isMd ? 500 : '80%';
+  const fs1 = isMd ? 40 : 80;
+
   return (
     <div style={{ marginTop: 64 }}>
       <Row style={{ marginTop: 116, position: 'relative' }}>
-        <ResponsiveText
+        <Typography
+          variant={isSm ? 'h6' : 'h1'}
           style={{
-            margin: '0 auto',
+            margin: isSm ? '-34px auto 0px' : '0 auto',
             textAlign: 'center',
             position: 'absolute',
             left: 0,
             right: 0,
-            width: '80%',
-            top: isSm ? '17%' : '26%',
+            width: isSm ? 240 : w1,
+            background: 'rgba(255, 255, 255, 0.7)',
+            padding: '20px 0',
+            top: isSm ? '0%' : '15%',
+            fontSize: isSm ? 18 : fs1,
           }}
-          variant="h1"
         >
           <FormattedMessage id="SPLASH_TAGLINE" />
-        </ResponsiveText>
+        </Typography>
         <img src={hero} alt="hero" style={{ width: '100%' }} />
       </Row>
       <Row>

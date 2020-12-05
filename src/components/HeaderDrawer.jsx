@@ -96,43 +96,42 @@ export default function AppDrawer({ open, onClose, handleClick }) {
           />
         </div>
         <div>
-          {navigation.map(category => {
-            return (
-              <MuiAccordion
-                expanded={expandedCategory === category.categoryId}
-                onChange={() => {
-                  if (expandedCategory === category.categoryId) {
-                    setExpandedCategory(null);
-                  } else {
-                    setExpandedCategory(category.categoryId);
-                  }
+          {navigation.map(category => (
+            <MuiAccordion
+              expanded={expandedCategory === category.categoryId}
+              onChange={() => {
+                if (expandedCategory === category.categoryId) {
+                  setExpandedCategory(null);
+                } else {
+                  setExpandedCategory(category.categoryId);
                 }
-                }
-                style={{ boxShadow: 'unset' }}
-                key={category.categoryId}
+              }}
+              style={{ boxShadow: 'unset' }}
+              key={category.categoryId}
+            >
+              <MuiAccordionSummary
+                style={{ margin: 0, minHeight: 0 }}
+                expandIcon={<OpenIcon />}
               >
-                <MuiAccordionSummary style={{ margin: 0, minHeight: 0 }} expandIcon={<OpenIcon />}>
-                  <Typography variant="h6">
-                    <FormattedMessage id={category.categoryLabelId} />
-                  </Typography>
-                </MuiAccordionSummary>
-                <MuiAccordionDetails style={{ padding: '0 16px' }}>
-                  <List style={{ padding: 0 }}>
-                    {category.entries.map(entry => {
-                      return (
-                        <Entry
-                          messageId={entry.labelId}
-                          href={entry.path}
-                          onClick={handleClick}
-                          external={entry.external}
-                        />
-                      );
-                    })}
-                  </List>
-                </MuiAccordionDetails>
-              </MuiAccordion>
-            );
-          })}
+                <Typography variant="h6">
+                  <FormattedMessage id={category.categoryLabelId} />
+                </Typography>
+              </MuiAccordionSummary>
+              <MuiAccordionDetails style={{ padding: '0 16px' }}>
+                <List style={{ padding: 0 }}>
+                  {category.entries.map(entry => (
+                    <Entry
+                      key={entry.path}
+                      messageId={entry.labelId}
+                      href={entry.path}
+                      onClick={handleClick}
+                      external={entry.external}
+                    />
+                  ))}
+                </List>
+              </MuiAccordionDetails>
+            </MuiAccordion>
+          ))}
         </div>
         <div style={{ backgroundColor: 'rgb(241 241 241)' }}>
           <ButtonLink
