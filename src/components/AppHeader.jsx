@@ -94,10 +94,10 @@ export default function AppHeader() {
             </Link>
             <Link
               nav
-              href="/products"
+              href="/wildbook"
               style={{ marginLeft: linkMargin }}
             >
-              Products
+              Wildbook
             </Link>
             <Link
               nav

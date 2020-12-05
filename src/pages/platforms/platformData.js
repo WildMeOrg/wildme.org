@@ -87,6 +87,8 @@ const projectData = [
     href: 'https://flukebook.org/',
     inviteOnly: true,
     hosted: true,
+    tagline:
+      'A.I for the conservation of whales & dolphins by automating individual identification.',
     adminName: 'Drew Blount',
     adminContact: 'drew@wildme.org',
     bannerLarge: flukebookBannerLarge,
@@ -104,21 +106,22 @@ const projectData = [
     ],
     partners: [
       {
-        name: 'NOAA',
-        logo: noaaLogo,
+        name: 'Cascadia Research Collective',
+        imageSrc: crcLogo,
+        url: 'https://www.cascadiaresearch.org/',
       },
       {
         name: 'Dominican Sperm Whale Project',
-        logo: dwspLogo,
+        imageSrc: dwspLogo,
+        invertLogo: true,
       },
       {
         name: 'New England Aquarium',
-        logo: neaqLogo,
+        imageSrc: neaqLogo,
       },
       {
-        name: 'Cascadia Research Collective',
-        logo: crcLogo,
-        url: 'https://www.cascadiaresearch.org/',
+        name: 'NOAA',
+        imageSrc: noaaLogo,
       },
     ],
     species: [
@@ -306,6 +309,8 @@ const projectData = [
     name: 'whaleshark.org',
     path: '/whaleshark',
     href: 'https://whaleshark.org/',
+    tagline:
+      'A.I for the conservation of whale sharks by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adoption: true,
@@ -320,11 +325,11 @@ const projectData = [
     partners: [
       {
         name: 'Whale Shark and Oceanic Research Centre',
-        logo: wsorcLogo,
+        imageSrc: wsorcLogo,
       },
       {
         name: 'Department of Marine and Coastal Resources, Thailand',
-        logo: dmcrLogo,
+        imageSrc: dmcrLogo,
       },
     ],
     species: [
@@ -339,6 +344,8 @@ const projectData = [
     name: 'MantaMatcher',
     path: '/mantamatcher',
     href: 'https://mantamatcher.org/',
+    tagline:
+      'A.I for the conservation of rays by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adoption: true,
@@ -357,7 +364,8 @@ const projectData = [
     partners: [
       {
         name: 'Marine Megafauna Foundation',
-        logo: mmfLogo,
+        imageSrc: mmfLogo,
+        invertLogo: true,
       },
     ],
     species: [
@@ -387,6 +395,8 @@ const projectData = [
     name: 'GiraffeSpotter',
     path: '/giraffespotter',
     href: 'https://giraffespotter.org/',
+    tagline:
+      'A.I for the conservation of giraffes by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jon Van Oast',
@@ -400,11 +410,11 @@ const projectData = [
     partners: [
       {
         name: 'Giraffe Conservation Foundation',
-        logo: gcfLogo,
+        imageSrc: gcfLogo,
       },
       {
         name: 'San Diego Zoo Global',
-        logo: sdZooLogo,
+        imageSrc: sdZooLogo,
       },
     ],
     species: [
@@ -439,6 +449,8 @@ const projectData = [
     name: 'Internet of Turtles',
     path: '/iot',
     href: 'https://iot.wildbook.org/',
+    tagline:
+      'A.I for the conservation of turtles by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Colin Kingen',
@@ -477,6 +489,8 @@ const projectData = [
     name: 'Wildbook for Zebras',
     path: '/zebra',
     href: 'https://zebra.wildbook.org/',
+    tagline:
+      'A.I for the conservation of zebras by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jason Holmberg',
@@ -505,6 +519,8 @@ const projectData = [
     name: 'Wildbook for Lynx',
     path: '/lynx',
     href: 'https://lynx.wildbook.org/',
+    tagline:
+      'A.I for the conservation of lynx by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jason Holmberg',
@@ -528,6 +544,8 @@ const projectData = [
     name: 'Giant Sea Bass',
     path: '/bass',
     href: 'https://spottinggiantseabass.msi.ucsb.edu/',
+    tagline:
+      'A.I for the conservation of giant sea bass by automating individual identification.',
     inviteOnly: true,
     adminName: 'Jason Holmberg',
     adminContact: 'jason@wildme.org',
@@ -550,6 +568,8 @@ const projectData = [
     name: 'Spot a Shark',
     path: '/spotashark',
     href: 'https://spotashark.com/',
+    tagline:
+      'A.I for the conservation of sharks by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adoption: true,
@@ -574,6 +594,8 @@ const projectData = [
     name: 'Spot a Shark USA',
     path: '/spotasharkusa',
     href: 'https://spotasharkusa.com/',
+    tagline:
+      'A.I for the conservation of sharks by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jason Holmberg',
@@ -597,6 +619,8 @@ const projectData = [
     name: 'Wildbook for Jaguars',
     path: '/jaguar',
     href: 'https://jaguar.wildbook.com/',
+    tagline:
+      'A.I for the conservation of jaguars by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jason Holmberg',
@@ -620,6 +644,8 @@ const projectData = [
     name: 'Saimaa Seal',
     path: '/saimaaseal',
     href: 'https://norppagalleria.wwf.fi/',
+    tagline:
+      'A.I for the conservation of Saimaa seals by automating individual identification.',
     inviteOnly: true,
     hosted: false,
     adminName: 'Jason Holmberg',
@@ -643,6 +669,8 @@ const projectData = [
     name: 'Skunk Wildbook',
     path: '/skunks',
     href: 'http://skunk.wildbook.org/',
+    tagline:
+      'A.I for the conservation of skunks by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jason Holmberg',
@@ -656,7 +684,7 @@ const projectData = [
     partners: [
       {
         name: 'Oregon State University',
-        logo: osuLogo,
+        imageSrc: osuLogo,
         url: 'https://mmi.oregonstate.edu/',
       },
     ],
@@ -672,6 +700,8 @@ const projectData = [
     name: 'Seadragonsearch',
     path: '/seadragonsearch',
     href: 'https://seadragonsearch.org/',
+    tagline:
+      'A.I for the conservation of seadragons by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jason Holmberg',

@@ -8,7 +8,15 @@ const renderers = {
 };
 
 export default function MarkdownPage(props) {
-  const { content, imgSrc, title, style = {}, ...rest } = props;
+  const {
+    content,
+    imgSrc,
+    imgSubtitle,
+    title,
+    children,
+    style = {},
+    ...rest
+  } = props;
   return (
     <Page documentTitle={title} title={title}>
       <div style={{ marginBottom: 80, ...style }} {...rest}>
@@ -18,12 +26,21 @@ export default function MarkdownPage(props) {
             src={imgSrc}
             alt={title}
           />
+          {imgSubtitle && (
+            <Typography
+              variant="body2"
+              style={{ marginTop: 8, marginBottom: 20 }}
+            >
+              {imgSubtitle}
+            </Typography>
+          )}
         </Row>
         <Row>
           <ReactMarkdown renderers={renderers}>
             {content}
           </ReactMarkdown>
         </Row>
+        <Row>{children}</Row>
       </div>
     </Page>
   );

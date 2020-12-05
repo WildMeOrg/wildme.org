@@ -5,35 +5,25 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import InvitationIcon from '@material-ui/icons/EmailOutlined';
-import AdoptionIcon from '@material-ui/icons/CardGiftcard';
-import HostedIcon from '@material-ui/icons/CloudQueue';
-import PublicIcon from '@material-ui/icons/Public';
-import MainColumn from '../../components/MainColumn';
+import ResponsiveText from '../../components/ResponsiveText';
+import LogoSoup from '../../components/LogoSoup';
 import ButtonLink from '../../components/ButtonLink';
 import Link from '../../components/Link';
+import { Row, Box } from '../../components/Containers';
 
 export default function ProjectPage({ data }) {
   const {
     name,
-    inviteOnly,
+    tagline,
     href,
     adminContact,
     adminName,
     descriptionId,
     bannerLarge,
     sightings,
-    individuals,
     partners,
-    adoption,
-    hosted,
     algorithms,
     species,
   } = data;
@@ -41,7 +31,7 @@ export default function ProjectPage({ data }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <MainColumn>
+    <div>
       <Dialog open={modalOpen} onClose={() => setModalOpen(false)}>
         <DialogTitle>
           <FormattedMessage id="REQUEST_AN_INVITATION" />
@@ -61,28 +51,94 @@ export default function ProjectPage({ data }) {
           </DialogContentText>
         </DialogContent>
       </Dialog>
-      <Typography variant="h2" style={{ paddingTop: 30 }}>
-        {name}
-      </Typography>
-      <Breadcrumbs>
-        <Link href="/">
-          <FormattedMessage id="HOME" />
-        </Link>
-        <Link href="/platforms">
-          <FormattedMessage id="PLATFORMS" />
-        </Link>
-        <Typography>{name}</Typography>
-      </Breadcrumbs>
-      <div>
-        <ButtonLink display="primary" href={href} external>
-          <FormattedMessage id="VISIT_SITE" />
-        </ButtonLink>
+      <img
+        style={{
+          width: '100%',
+          position: 'relative',
+          filter: 'brightness(0.6)',
+          objectFit: 'cover',
+          minHeight: 600,
+        }}
+        src={bannerLarge}
+        width="100%"
+        alt={`Banner for ${name}`}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          left: 0,
+          top: 0,
+          right: 0,
+          bottom: 0,
+        }}
+      >
+        <div
+          style={{
+            paddingTop: '30vmax',
+            textAlign: 'center',
+            color: 'white',
+          }}
+        >
+          <ResponsiveText variant="h1">{name}</ResponsiveText>
+          <ResponsiveText
+            variant="h5"
+            style={{ marginTop: '2vmax', padding: '0 24px' }}
+          >
+            {tagline}
+          </ResponsiveText>
+          <ButtonLink
+            style={{ marginTop: 'max(2vmax, 16px)' }}
+            display="primary"
+            href={href}
+            external
+          >
+            <FormattedMessage id="VISIT_SITE" />
+          </ButtonLink>
+        </div>
       </div>
-      <img src={bannerLarge} width="70%" alt={`Banner for ${name}`} />
-      <Typography>
-        <FormattedMessage id={descriptionId} />
-      </Typography>
-      <Chip
+      <Row>
+        <Breadcrumbs style={{ marginLeft: 12 }}>
+          <Link href="/">
+            <FormattedMessage id="HOME" />
+          </Link>
+          <Link href="/platforms">
+            <FormattedMessage id="PLATFORMS" />
+          </Link>
+          <Typography>{name}</Typography>
+        </Breadcrumbs>
+      </Row>
+
+      <Row>
+        <Box n={2} style={{ position: 'relative' }}>
+          <img
+            style={{
+              width: '85%',
+              position: 'relative',
+            }}
+            src={bannerLarge}
+            width="100%"
+            alt={`Banner for ${name}`}
+          />
+          <div
+            style={{
+              position: 'absolute',
+              left: '55%',
+              top: '20%',
+              backgroundColor: 'white',
+            }}
+          >
+            <Typography variant="h5" style={{ padding: 4 }}>
+              {`${sightings.toLocaleString()} sightings`}
+            </Typography>
+          </div>
+        </Box>
+        <Box n={2}>
+          <Typography>
+            <FormattedMessage id={descriptionId} />
+          </Typography>
+        </Box>
+      </Row>
+      {/* <Chip
         icon={inviteOnly ? <InvitationIcon /> : <PublicIcon />}
         variant="outlined"
         onClick={inviteOnly ? () => setModalOpen(true) : undefined}
@@ -105,82 +161,65 @@ export default function ProjectPage({ data }) {
           variant="outlined"
           label={<FormattedMessage id="HOSTED_BY_WILD_ME" />}
         />
-      )}
-      <Typography>{`${sightings} sightings`}</Typography>
-      <Typography>{`${individuals} individuals`}</Typography>
+      )} */}
       {partners && partners.length > 0 && (
-        <div>
-          <Typography variant="h5">
-            <FormattedMessage id="OFFICIAL_PARTNERS" />
-          </Typography>
-          <GridList
-            cellHeight={100}
-            cols={3}
-            style={{ background: 'grey' }}
-          >
-            {partners.map(partner => (
-              <GridListTile key={partner.name}>
-                <img
-                  style={{ height: 100, width: 'auto' }}
-                  src={partner.logo}
-                  alt={`${partner.name} logo`}
-                />
-              </GridListTile>
-            ))}
-          </GridList>
-        </div>
+        <Row style={{ marginTop: 100 }}>
+          <Box n={2}>
+            <Typography variant="h5">
+              {`${name} partners.`}
+            </Typography>
+          </Box>
+          <Box n={2}>
+            <LogoSoup height={90} logoDefinitions={partners} />
+          </Box>
+        </Row>
       )}
-      <div>
-        <Typography variant="h5" style={{ margin: '20px 0' }}>
-          <FormattedMessage id="ALGORITHMS" />
-        </Typography>
-        <Grid container spacing={2}>
-          {algorithms.map(algorithm => (
-            <Grid item>
-              <Card
-                style={{
-                  maxWidth: 220,
-                  backgroundColor: 'rgb(210, 176, 255)',
-                }}
-              >
-                <CardContent>
-                  <Link href={algorithm.url} external>
-                    <Typography variant="subtitle2">
-                      {algorithm.name}
-                    </Typography>
-                  </Link>
-                  <Typography>
-                    Here is a brief description of the algorithm.
+      <Row style={{ marginTop: 100 }}>
+        <Box n={2}>
+          <Typography variant="h5">
+            <FormattedMessage id="ALGORITHMS" />
+          </Typography>
+        </Box>
+        <Box n={2}>
+          <Grid container spacing={8}>
+            {algorithms.map(algorithm => (
+              <Grid item style={{ width: 240 }}>
+                <Link href={algorithm.url} external>
+                  <Typography variant="h6">
+                    {algorithm.name}
                   </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </div>
-      <div>
-        <Typography variant="h5" style={{ margin: '20px 0' }}>
-          <FormattedMessage id="SPECIES" />
-        </Typography>
-        <Grid container spacing={2}>
-          {species.map(currentSpecies => (
-            <Grid item>
-              <Card
-                style={{ maxWidth: 220, backgroundColor: '#b0c5ff' }}
-              >
-                <CardContent>
-                  <Link external href={currentSpecies.url}>
-                    <Typography variant="subtitle2">
-                      {currentSpecies.name}
-                    </Typography>
-                  </Link>
-                  <Typography>{currentSpecies.alias}</Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </div>
-    </MainColumn>
+                </Link>
+                <Typography variant="body2" style={{ marginTop: 20 }}>
+                  Here is a brief description of the algorithm.
+                </Typography>
+              </Grid>
+            ))}
+          </Grid>
+        </Box>
+      </Row>
+      <Row style={{ marginTop: 100, marginBottom: 100 }}>
+        <Box n={2}>
+          <Typography variant="h5">
+            <FormattedMessage id="SPECIES_TITLE" />
+          </Typography>
+        </Box>
+        <Box n={2}>
+          <Grid container spacing={8}>
+            {species.map(currentSpecies => (
+              <Grid item style={{ width: 240 }}>
+                <Link href={currentSpecies.url} external>
+                  <Typography variant="h6">
+                    {currentSpecies.name}
+                  </Typography>
+                </Link>
+                <Typography style={{ fontStyle: 'italic' }}>
+                  {currentSpecies.alias}
+                </Typography>
+              </Grid>
+            ))}
+          </Grid>
+        </Box>
+      </Row>
+    </div>
   );
 }

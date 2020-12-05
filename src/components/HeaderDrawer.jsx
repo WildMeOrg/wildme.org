@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
@@ -6,18 +6,23 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
+import MuiAccordion from '@material-ui/core/Accordion';
+import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
+import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
+import OpenIcon from '@material-ui/icons/ChevronRight';
 
+import navigation from '../constants/navigation';
 import Link from './Link';
 import ButtonLink from './ButtonLink';
 import logo from '../assets/WildMe-Logo-Gradient.png';
 
-function Entry({ messageId, message, Icon, ...rest }) {
+function Entry({ messageId, message, ...rest }) {
   return (
-    <ListItem style={{ marginLeft: 8 }}>
+    <ListItem style={{ padding: '4px 0 4px 8px' }}>
       <Link noUnderline {...rest}>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <ListItemText>
-            <Typography variant="h5">
+            <Typography>
               {messageId ? (
                 <FormattedMessage id={messageId} />
               ) : (
@@ -32,6 +37,8 @@ function Entry({ messageId, message, Icon, ...rest }) {
 }
 
 export default function AppDrawer({ open, onClose, handleClick }) {
+  const [expandedCategory, setExpandedCategory] = useState(null);
+
   return (
     <Drawer open={open} onClose={onClose}>
       <div
@@ -56,6 +63,7 @@ export default function AppDrawer({ open, onClose, handleClick }) {
             <Link
               style={{ display: 'flex', alignItems: 'center' }}
               noUnderline
+              onClick={handleClick}
               href="/"
             >
               <img
@@ -87,39 +95,45 @@ export default function AppDrawer({ open, onClose, handleClick }) {
             }}
           />
         </div>
-        <List>
-          <Entry
-            message="Projects"
-            href="/projects"
-            onClick={handleClick}
-          />
-          <Entry
-            message="Products"
-            href="/products"
-            onClick={handleClick}
-          />
-          <Entry
-            message="Services"
-            href="/services"
-            onClick={handleClick}
-          />
-          <Entry message="Code" href="/code" onClick={handleClick} />
-          <Entry
-            message="About Us"
-            href="/about"
-            onClick={handleClick}
-          />
-          <Entry
-            message="Resources"
-            href="/resources"
-            onClick={handleClick}
-          />
-          <Entry
-            message="Connect"
-            href="/connect"
-            onClick={handleClick}
-          />
-        </List>
+        <div>
+          {navigation.map(category => {
+            return (
+              <MuiAccordion
+                expanded={expandedCategory === category.categoryId}
+                onChange={() => {
+                  if (expandedCategory === category.categoryId) {
+                    setExpandedCategory(null);
+                  } else {
+                    setExpandedCategory(category.categoryId);
+                  }
+                }
+                }
+                style={{ boxShadow: 'unset' }}
+                key={category.categoryId}
+              >
+                <MuiAccordionSummary style={{ margin: 0, minHeight: 0 }} expandIcon={<OpenIcon />}>
+                  <Typography variant="h6">
+                    <FormattedMessage id={category.categoryLabelId} />
+                  </Typography>
+                </MuiAccordionSummary>
+                <MuiAccordionDetails style={{ padding: '0 16px' }}>
+                  <List style={{ padding: 0 }}>
+                    {category.entries.map(entry => {
+                      return (
+                        <Entry
+                          messageId={entry.labelId}
+                          href={entry.path}
+                          onClick={handleClick}
+                          external={entry.external}
+                        />
+                      );
+                    })}
+                  </List>
+                </MuiAccordionDetails>
+              </MuiAccordion>
+            );
+          })}
+        </div>
         <div style={{ backgroundColor: 'rgb(241 241 241)' }}>
           <ButtonLink
             style={{ margin: '32px 0 32px 32px' }}

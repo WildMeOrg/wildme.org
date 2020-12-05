@@ -10,7 +10,14 @@ export default function ButtonLink({
   ...rest
 }) {
   return (
-    <Link noUnderline href={href} external={external} {...linkProps}>
+    <Link
+      noUnderline
+      href={href}
+      target={external ? '_blank' : undefined}
+      rel={external ? 'noopener noreferrer' : 'unset'}
+      external={external}
+      {...linkProps}
+    >
       <Button {...rest}>{children}</Button>
     </Link>
   );

@@ -1,6 +1,14 @@
 import React from 'react';
 
-export default function LogoSoup({ logos, height = 30, ...rest }) {
+export default function LogoSoup({
+  logoDefinitions,
+  logos,
+  height = 30,
+  ...rest
+}) {
+  const iterable =
+    logoDefinitions || logos.map(logo => ({ imageSrc: logo }));
+
   return (
     <div {...rest}>
       <div
@@ -10,14 +18,18 @@ export default function LogoSoup({ logos, height = 30, ...rest }) {
           flexWrap: 'wrap',
         }}
       >
-        {logos.map(logo => (
+        {iterable.map(logo => (
           <img
-            key={logo}
-            style={{ margin: 20, maxWidth: '80vw' }}
-            src={logo}
+            key={logo.imageSrc}
+            style={{
+              margin: 20,
+              maxWidth: '80vw',
+              filter: logo.invertLogo ? 'invert(1)' : 'unset',
+            }}
+            src={logo.imageSrc}
             height={height}
             width="auto"
-            alt="Logo"
+            alt={logo.name || 'Organization logo'}
           />
         ))}
       </div>

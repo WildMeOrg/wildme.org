@@ -5,100 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import Link from './Link';
 import { Box, SpaceAroundCard } from './Containers';
 import logo from '../assets/WildMe-Logo-Gradient.png';
-
-const footerCategories = [
-  {
-    categoryId: 'work',
-    categoryLabelId: 'WORK',
-    entries: [
-      {
-        labelId: 'PLATFORMS',
-        path: '/platforms',
-      },
-      {
-        labelId: 'PRODUCTS',
-        path: '/products',
-      },
-      {
-        labelId: 'SERVICES',
-        path: '/services',
-      },
-      {
-        labelId: 'CODE',
-        path: '/code',
-      },
-    ],
-  },
-  {
-    categoryId: 'about',
-    categoryLabelId: 'ABOUT',
-    entries: [
-      {
-        labelId: 'OUR_TEAM',
-        path: '/team',
-      },
-      {
-        labelId: 'SUPPORTERS',
-        path: '/supporters',
-      },
-      {
-        labelId: 'PRESS',
-        path: '/press',
-      },
-      {
-        labelId: 'PUBLICATIONS',
-        path: '/publications',
-      },
-    ],
-  },
-  {
-    categoryId: 'resources',
-    categoryLabelId: 'RESOURCES',
-    entries: [
-      {
-        labelId: 'START_A_WILDBOOK',
-        path: 'http://wiki.wildbook.org/en/researchers/overview',
-        external: true,
-      },
-      {
-        labelId: 'SUPPORT_&_FEEDBACK',
-        path: 'https://community.wildbook.org/',
-        external: true,
-      },
-      {
-        labelId: 'DOCUMENTATION',
-        path: 'http://wiki.wildbook.org/',
-        external: true,
-      },
-      {
-        labelId: 'LEGAL',
-        path: '/legal',
-      },
-    ],
-  },
-  {
-    categoryId: 'connect',
-    categoryLabelId: 'CONNECT',
-    entries: [
-      {
-        labelId: 'CONTACT_US',
-        path: '/contact',
-      },
-      {
-        labelId: 'VOLUNTEER',
-        path: '/volunteer',
-      },
-      {
-        labelId: 'DONATE',
-        path: '/donate',
-      },
-      {
-        labelId: 'CAREERS',
-        path: '/careers',
-      },
-    ],
-  },
-];
+import navigation from '../constants/navigation';
 
 export default function Footer() {
   const theme = useTheme();
@@ -109,7 +16,7 @@ export default function Footer() {
         reverse
         style={{ padding: '30px 30px 20px 30px' }}
       >
-        {footerCategories.map(category => (
+        {navigation.map(category => (
           <div
             key={category.categoryId}
             style={{

@@ -31,8 +31,11 @@ import Volunteer from './pages/volunteer/Volunteer';
 import Careers from './pages/careers/Careers';
 import Contact from './pages/contact/Contact';
 import Code from './pages/code/Code';
+import Wildbook from './pages/wildbook/Wildbook';
 import PlatformPage from './pages/platforms/PlatformPage';
 import platformData from './pages/platforms/platformData';
+import NewsArticle from './pages/news/NewsArticle';
+import newsData from './pages/news/newsData';
 import materialTheme from './styles/materialTheme';
 import messagesEn from '../locale/en.json';
 import messagesEs from '../locale/es.json';
@@ -103,6 +106,14 @@ export default function App() {
                     <PlatformPage data={project} />
                   </Route>
                 ))}
+                {newsData.map(articleData => (
+                  <Route
+                    key={articleData.path}
+                    path={`/news${articleData.path}`}
+                  >
+                    <NewsArticle articleData={articleData} />
+                  </Route>
+                ))}
                 <Route path="/platforms">
                   <Platforms />
                 </Route>
@@ -117,6 +128,9 @@ export default function App() {
                 </Route>
                 <Route path="/team">
                   <Team />
+                </Route>
+                <Route path="/wildbook">
+                  <Wildbook />
                 </Route>
                 <Route path="/supporters">
                   <Supporters />

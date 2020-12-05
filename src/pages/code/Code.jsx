@@ -14,12 +14,51 @@ function Entry({
   return (
     <Box n={3} variant="black" style={{ padding: 40 }}>
       <Typography variant="h4">{title}</Typography>
-      <Typography variant="h6" style={{ marginTop: 8, marginLeft: 4, color: 'rgb(142 148 150)' }}>{languages}</Typography>
+      <Typography
+        variant="h6"
+        style={{
+          marginTop: 8,
+          marginLeft: 4,
+          color: 'rgb(142 148 150)',
+        }}
+      >
+        {languages}
+      </Typography>
       <Typography style={{ marginTop: 20 }}>{description}</Typography>
       <div style={{ marginTop: 12 }}>
-        {repositoryHref && <ButtonLink size="small" style={{ marginRight: 20, marginTop: 16 }} display="primary" href={repositoryHref} external>View on Github</ButtonLink>}
-        {docsHref && <ButtonLink size="small" style={{ marginRight: 20, marginTop: 16 }} display="primary" href={docsHref} external>Documentation</ButtonLink>}
-        {supportHref && <ButtonLink size="small" style={{ marginRight: 20, marginTop: 16 }} display="primary" href={supportHref} external>Support</ButtonLink>}
+        {repositoryHref && (
+          <ButtonLink
+            size="small"
+            style={{ marginRight: 20, marginTop: 16 }}
+            display="primary"
+            href={repositoryHref}
+            external
+          >
+            View on Github
+          </ButtonLink>
+        )}
+        {docsHref && (
+          <ButtonLink
+            size="small"
+            style={{ marginRight: 20, marginTop: 16 }}
+            display="primary"
+            href={docsHref}
+            external
+          >
+            Documentation
+          </ButtonLink>
+        )}
+        {supportHref && (
+          <ButtonLink
+            size="small"
+            style={{ marginRight: 20, marginTop: 16 }}
+            display="primary"
+            href={supportHref}
+            external
+          >
+            Support
+          </ButtonLink>
+        )}
       </div>
     </Box>
   );

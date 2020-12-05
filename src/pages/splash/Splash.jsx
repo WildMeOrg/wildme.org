@@ -1,4 +1,5 @@
 import React from 'react';
+import { take } from 'lodash-es';
 import { useIntl, FormattedMessage } from 'react-intl';
 import Typography from '@material-ui/core/Typography';
 import { useTheme } from '@material-ui/core/styles';
@@ -12,16 +13,16 @@ import {
 } from '../../components/Containers';
 import ButtonLink from '../../components/ButtonLink';
 import ResponsiveText from '../../components/ResponsiveText';
-import zebraTexture from '../../assets/zebra-texture.jpeg';
-import multiFeature from '../../assets/multifeature.jpeg';
-import seadragons from '../../assets/seadragons.jpeg';
 import academiaIcon from '../../assets/academia-icon.svg';
 import codeIcon from '../../assets/code-icon.svg';
 import newsIcon from '../../assets/news-icon.svg';
 import speciesIcon from '../../assets/species-icon.svg';
 import hero from '../../assets/hero2.jpg';
+import newsData from '../news/newsData';
 import ActionableMetric from './ActionableMetric';
 import ImageCard from './ImageCard';
+
+const visibleNews = take(newsData, 3);
 
 export default function Splash() {
   const intl = useIntl();
@@ -71,37 +72,28 @@ export default function Splash() {
               <FormattedMessage id="SPLASH_SUBTITLE" />
             </Typography>
             <ButtonLink
-              href="/projects"
+              href="/platforms"
               display="primary"
               style={{
                 marginTop: 40,
                 marginBottom: 16,
               }}
             >
-              <FormattedMessage id="EXPLORE_PROJECTS" />
+              <FormattedMessage id="EXPLORE_PLATFORMS" />
             </ButtonLink>
           </div>
         </Box>
       </Row>
       <Row>
-        <ImageCard
-          variant="black"
-          date="November 8, 2020"
-          imgSrc={multiFeature}
-          title="Staff publishes research in the Journal of Cetacean Research and Management"
-        />
-        <ImageCard
-          variant="black"
-          date="October 14, 2020"
-          imgSrc={zebraTexture}
-          title="Wild Me releases two zebra image datasets to spur research into Wildlife photo ID"
-        />
-        <ImageCard
-          variant="black"
-          date="August 27, 2020"
-          imgSrc={seadragons}
-          title="Seadragon Wildbook official launch!"
-        />
+        {visibleNews.map(articleData => (
+          <ImageCard
+            variant="black"
+            date={articleData.dateString}
+            imgSrc={articleData.image}
+            title={articleData.title}
+            url={`/news${articleData.path}`}
+          />
+        ))}
       </Row>
       <Row>
         <Box variant="black">

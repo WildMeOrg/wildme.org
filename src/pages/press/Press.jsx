@@ -85,10 +85,11 @@ export default function Press() {
 
       <Row style={{ flexDirection: 'column' }}>
         <Typography variant="h5">Media inquiries</Typography>
-        <Typography style={{ marginTop: 32 }}>
+        <Typography style={{ marginTop: 32, maxWidth: 800 }}>
           Writing about Wild Me? Our press pack is currently under
           development. In the meantime, please email info@wildme.org
-          with any questions and we will support you as best we can.
+          with questions and we will get back to you as soon as
+          possible.
         </Typography>
       </Row>
 

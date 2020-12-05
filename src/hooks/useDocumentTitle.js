@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 export default function(message, appendSitename = true) {
-  const siteName = 'wildme.org';
+  const siteName = 'Wild Me';
   useEffect(() => {
     if (appendSitename && siteName) {
       document.title = `${message} | ${siteName}`;

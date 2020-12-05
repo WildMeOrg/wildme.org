@@ -13,7 +13,7 @@ export default function PeopleGallery({ people, titleId }) {
   const onClose = () => setSelectedPerson(null);
 
   return (
-    <div style={{ marginBottom: 80, padding: 40 }}>
+    <div style={{ marginBottom: 60, padding: 40 }}>
       <Dialog
         open={Boolean(selectedPerson)}
         onClose={onClose}

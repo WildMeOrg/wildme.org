@@ -36,7 +36,14 @@ export default function Link({
 
   if (external) {
     return (
-      <a href={href} style={styles} onClick={onClick} {...rest}>
+      <a
+        href={href}
+        style={styles}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={onClick}
+        {...rest}
+      >
         {children}
       </a>
     );
