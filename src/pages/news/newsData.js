@@ -1,13 +1,13 @@
-import drewBlog from './markdown/blog-drew-pie.md';
-import turtlePub from './markdown/turtle-pub.md';
-import multifeature from './markdown/multifeature.md';
-import zebras from './markdown/zebra-datasets.md';
-import seadragon from './markdown/seadragon.md';
+import articlePieBlog from './articles/PieBlogPost';
+import turtlePub from './articles/turtle-pub.md';
+import multifeature from './articles/multifeature.md';
+import zebras from './articles/zebra-datasets.md';
+import seadragon from './articles/seadragon.md';
 import zebraTexture from '../../assets/zebra-texture.jpeg';
 import multiImage from '../../assets/multifeature.jpeg';
 import seadragons from '../../assets/seadragons.jpeg';
 import turtles from '../../assets/turtle-banner-small.jpg';
-import pie from '../../assets/pie.jpeg';
+import pie from '../../assets/pie-article.jpeg';
 
 const newsData = [
   {
@@ -21,7 +21,7 @@ const newsData = [
   {
     title: 'Wild Me Blog: The New PIE Algorithm',
     image: pie,
-    markdown: drewBlog,
+    markdown: articlePieBlog,
     dateString: 'November 16, 2020',
     path: '/pie-blog',
   },

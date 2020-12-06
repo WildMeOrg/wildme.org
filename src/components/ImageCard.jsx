@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import { Box } from '../../components/Containers';
-import Link from '../../components/Link';
+import { Box } from './Containers';
+import Link from './Link';
 
 export default function ImageCard({
   title,
@@ -24,6 +24,7 @@ export default function ImageCard({
         style={{
           width: '100%',
           minHeight: 280,
+          maxHeight: 320,
           objectFit: 'cover',
         }}
         alt={title}

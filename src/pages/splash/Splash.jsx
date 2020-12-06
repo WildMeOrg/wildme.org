@@ -12,6 +12,7 @@ import {
   SpaceAroundCard,
 } from '../../components/Containers';
 import ButtonLink from '../../components/ButtonLink';
+import ImageCard from '../../components/ImageCard';
 import academiaIcon from '../../assets/academia-icon.svg';
 import codeIcon from '../../assets/code-icon.svg';
 import newsIcon from '../../assets/news-icon.svg';
@@ -19,7 +20,6 @@ import speciesIcon from '../../assets/species-icon.svg';
 import hero from '../../assets/hero2.jpg';
 import newsData from '../news/newsData';
 import ActionableMetric from './ActionableMetric';
-import ImageCard from './ImageCard';
 
 const visibleNews = take(newsData, 3);
 
@@ -91,17 +91,6 @@ export default function Splash() {
         </Box>
       </Row>
       <Row>
-        {visibleNews.map(articleData => (
-          <ImageCard
-            variant="black"
-            date={articleData.dateString}
-            imgSrc={articleData.image}
-            title={articleData.title}
-            url={`/news${articleData.path}`}
-          />
-        ))}
-      </Row>
-      <Row>
         <Box variant="black">
           <SpaceAroundCard>
             <ActionableMetric
@@ -137,6 +126,17 @@ export default function Splash() {
             />
           </SpaceAroundCard>
         </Box>
+      </Row>
+      <Row>
+        {visibleNews.map(articleData => (
+          <ImageCard
+            variant="black"
+            date={articleData.dateString}
+            imgSrc={articleData.image}
+            title={articleData.title}
+            url={`/news${articleData.path}`}
+          />
+        ))}
       </Row>
       <Row>
         <div style={{ margin: '60px auto', textAlign: 'center' }}>

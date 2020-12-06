@@ -1,4 +1,11 @@
+import pie1 from '../assets/pie-embed-1.jpeg';
+import pie2 from '../assets/pie-embed-2.jpeg';
+import pie3 from '../assets/pie-embed-3.jpeg';
+
+const markdown = `
 *This is the first in a series of posts written by the engineers and developers of Wildbook. Drew has been with Wild Me since 2015, working mostly on Flukebook, the Wildbook for Cetaceans, and more recently doing cross-species algorithm-development as a Machine Learning Engineer.*
+
+![Manta Ray](${pie1})
 
 We use a lot of different computer vision algorithms here at Wild Me. Some are old-school like the pattern-matcher used on Whaleshark.org, where users manually click the spots on a whale shark, and the Modified Groth algorithm does individual ID using nothing more than these spot coordinates and some trigonometry. More advanced is the widely-deployed HotSpotter algorithm, which can ID humpback whale flukes, zebras, cheetahs, and all sorts of animals that have distinct patterns. HotSpotter automatically extracts pattern-features from photos without any user input, then matches these features by analyzing the patterns of local pixel contrast within them. Even more advanced are our machine learning techniques, especially those using deep neural networks. This category includes our detector, which uses convolutional neural nets trained to draw bounding boxes around animals in photos, as well as neural net classifiers like the Deepsense algorithm that matches north atlantic right whales on Flukebook.
 
@@ -26,8 +33,8 @@ Moskvyak's publicly-available PIE model was trained on a high quality curated da
 
 We take pride in being open source, and we are grateful that Olga Moskvyak shares open source values. Not only are the models from her publication publicly available, but more importantly the code she used to train those models. This crucially allows us to extend PIE to new species and train it on new datasets. We at Wild Me have access to some of the highest-quality animal ID data in the world, so this is a dream come true. The original stand-alone python program constituting PIE is [available on github](https://github.com/olgamoskvyak/reid-manta), so we forked that code into our wildbook-ia repository where all of our computer vision code lives. My task as a machine learning engineer these past few months has been to integrate the original PIE code into our wildbook-ia server so that it operates as a seamless component of the larger Wildbook platform. As mentioned above, this was implemented first on the MantaMatcher platform. And with that deployment complete, I've spent all my time since then applying PIE to new species.
 
+![rw match 4650|666x500](${pie2})
 
-![rw match 4650|666x500](upload://hlXueO2XrNX7PeNbBTnQ41YGFtp.jpeg) 
 *A researcher-confirmed match on a right whale lateral head callosity made by PIE. Pretty tough match, huh?*
 
 **Where else is PIE used?**
@@ -43,7 +50,12 @@ Later this week we'll be deploying yet another novel species for PIE, one that's
 
 We found orcas to be much more challenging! Our latest PIE model achieved 60% top-12 accuracy on these charismatic cetaceans. However, as many researchers are well aware, manually matching field photos without algorithmic assistance can be an enormous time-sink, and making that job easier by any amount can be a big help. We are deploying this model on Flukebook as a time-saving tool for orca researchers, and alongside the finFindR trailing-edge matcher, that community will have access to two cutting-edge algorithms to assist their data curation efforts.
 
-![orca2|689x114](upload://qNkEiYsMuXGTDTqZ61MQHlzeRcT.jpeg) 
+![orca2|689x114](${pie3}) 
+
 *One technique we tried to improve orca accuracy was automatically removing background sea and sky from images.*
 
 As we've seen with orcas, no one tool is a magical solution that will ID every species perfectly well--not even PIE. But with open source software and collaboration with the field researchers who know these animals better than anyone, we can turn cutting-edge machine learning research into tools that help the field biologist study earth's creatures. This is far from the end of our new developments with Olga Moskvyak's algorithm: now that we've explored some new computer vision problems like orca saddle patches, we're going to revisit some older problems such as whale sharks or aerial photos of right whales, to see if the latest deep learning techniques might improve the accuracy or workflow of identifying individual animals on Wildbook.
+
+`;
+
+export default markdown;
