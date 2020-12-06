@@ -1,17 +1,17 @@
 ## Overview
 
-We are currently seeking volunteers to assist with React development, graphic design, software documentation and community management.
+Like most non-profits, we try to achieve a lot with a relatively small staff. As a result, we HUGELY appreciate our volunteer workforce. If you are curious about making a contribution, take a look at the information below. 
 
 ## Programming 
 
-All our code is open source and contributions are very much appreciated. Here's a quick rundown of our active repositories:
+All our code is open source and PRs are very much appreciated. Here's a quick rundown of our active repositories:
 
- - [Wildbook]((https://github.com/WildbookOrg/Wildbook)): Java backend with JSP frontend. 
+ - [Wildbook](https://github.com/WildbookOrg/Wildbook): Java backend with JSP frontend. 
  - [WB-IA](https://github.com/WildbookOrg/wildbook-ia): Python with a small Flask frontend.
  - Codex: [Java backend](https://github.com/WildbookOrg/Wildbook/tree/next-gen) with [React frontend](https://github.com/WildbookOrg/wildbook-frontend) and [Python middleware](https://github.com/WildbookOrg/houston).
  - [Scout](https://github.com/WildbookOrg/report-app): React Native.
 
-For help getting set up or other questions, send an email to dev@wildme.org. We track tickets internally using Jira so just let us know your interests and we can find some good issues for you.
+For help getting set up or other questions, send an email to dev@wildme.org. We handle project management internally using Jira so just let us know your interests and we can find some good tickets for you.
 
 ## Graphic design 
 
@@ -20,3 +20,7 @@ For more information about our graphic design needs, contact ben@wildme.org. Tha
 ## Software documentation and community management 
 
 For more information about our needs regarding software documentation and community management, contact tstere@wildme.org.
+
+## Miscellaneous
+
+Have something else in mind? Send an email to info@wildme.org and we will be in touch!

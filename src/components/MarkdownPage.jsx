@@ -22,7 +22,11 @@ export default function MarkdownPage(props) {
       <div style={{ marginBottom: 80, ...style }} {...rest}>
         <Row>
           <img
-            style={{ width: '100%', maxWidth: 1100 }}
+            style={{
+              width: '100%',
+              maxWidth: 1100,
+              height: 'intrinsic', // safari fix
+            }}
             src={imgSrc}
             alt={title}
           />

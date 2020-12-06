@@ -1,11 +1,11 @@
 ## Overview
 
-Wild Me staff have over a decade of experience supporting the software behind citizen science projects. As a means of supporting our projects, we offer software consultation on citizen science and wildlife research, especially with [Wildbook](http://wildbook.org/doku.php).
+Wild Me staff have over a decade of experience supporting the software behind citizen science projects. As a means of supporting our projects, we offer software consultation on citizen science and wildlife research, especially with Wildbook.
 
 Service examples include:
 
- - Professional [Wildbook](http://wildbook.org/doku.php) hosting in the Azure cloud
- - Custom [Wildbook](http://wildbook.org/doku.php) feature development and configuration
+ - Professional Wildbook hosting in the Azure cloud
+ - Custom Wildbook feature development and configuration
  - Custom citizen science software development
  - Bulk data upload services
 

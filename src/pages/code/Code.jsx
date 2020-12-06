@@ -1,5 +1,8 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import HelpIcon from '@material-ui/icons/Help';
+import DocsIcon from '@material-ui/icons/Description';
 import ButtonLink from '../../components/ButtonLink';
 import { Page, Box, Row } from '../../components/Containers';
 
@@ -31,6 +34,7 @@ function Entry({
             size="small"
             style={{ marginRight: 20, marginTop: 16 }}
             display="primary"
+            startIcon={<GitHubIcon />}
             href={repositoryHref}
             external
           >
@@ -43,9 +47,10 @@ function Entry({
             style={{ marginRight: 20, marginTop: 16 }}
             display="primary"
             href={docsHref}
+            startIcon={<DocsIcon />}
             external
           >
-            Documentation
+            DOCUMENTATION
           </ButtonLink>
         )}
         {supportHref && (
@@ -54,6 +59,7 @@ function Entry({
             style={{ marginRight: 20, marginTop: 16 }}
             display="primary"
             href={supportHref}
+            startIcon={<HelpIcon />}
             external
           >
             Support

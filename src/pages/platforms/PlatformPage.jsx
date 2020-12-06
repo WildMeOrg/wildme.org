@@ -13,7 +13,7 @@ import ButtonLink from '../../components/ButtonLink';
 import Link from '../../components/Link';
 import { Row, Box } from '../../components/Containers';
 
-export default function ProjectPage({ data }) {
+export default function PlatformPage({ data }) {
   const {
     name,
     tagline,
@@ -66,6 +66,7 @@ export default function ProjectPage({ data }) {
       <div
         style={{
           position: 'absolute',
+          height: 'fit-content',
           left: 0,
           top: 0,
           right: 0,
@@ -183,7 +184,7 @@ export default function ProjectPage({ data }) {
         <Box n={2}>
           <Grid container spacing={8}>
             {algorithms.map(algorithm => (
-              <Grid item style={{ width: 240 }}>
+              <Grid key={algorithm.url} item style={{ width: 240 }}>
                 <Link href={algorithm.url} external>
                   <Typography variant="h6">
                     {algorithm.name}
@@ -206,7 +207,11 @@ export default function ProjectPage({ data }) {
         <Box n={2}>
           <Grid container spacing={8}>
             {species.map(currentSpecies => (
-              <Grid item style={{ width: 240 }}>
+              <Grid
+                key={currentSpecies.name}
+                item
+                style={{ width: 240 }}
+              >
                 <Link href={currentSpecies.url} external>
                   <Typography variant="h6">
                     {currentSpecies.name}

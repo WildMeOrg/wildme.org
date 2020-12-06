@@ -49,17 +49,23 @@ export default function Link({
     );
   }
 
-  const RouterComponent = nav ? RouterNavLink : RouterLink;
+  if (nav) {
+    return (
+      <RouterNavLink
+        to={href}
+        activeStyle={{ textDecoration: 'none' }}
+        style={styles}
+        onClick={onClick}
+        {...rest}
+      >
+        {children}
+      </RouterNavLink>
+    );
+  }
 
   return (
-    <RouterComponent
-      to={href}
-      activeStyle={{ textDecoration: 'none' }}
-      style={styles}
-      onClick={onClick}
-      {...rest}
-    >
+    <RouterLink to={href} style={styles} onClick={onClick} {...rest}>
       {children}
-    </RouterComponent>
+    </RouterLink>
   );
 }

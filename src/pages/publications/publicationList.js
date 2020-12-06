@@ -23,14 +23,14 @@ export const tags = {
 
 const publications = [
   {
-    tags: [tags.iot],
+    tags: [tags.iot, tags.staff],
     href:
       'https://www.sciencedirect.com/science/article/abs/pii/S0022098120301738',
     citation:
       'HotSpotter: Using a computer-driven photo-id application to identify sea turtles. Stephen G. Dunbar, Edward C. Anger, Jason R. Parham, Colin Kingen, Marsha K. Wright, Christian T. Hayes, Shahnaj Safi, Jason Holmberg, Lidia Salinas, Dustin S. Baumbach. Journal of Experimental Marine Biology and Ecology, Feb 2021. doi: 10.1016/j.jembe.2020.151490',
   },
   {
-    tags: [tags.flukebook],
+    tags: [tags.flukebook, tags.staff],
     href:
       'https://www.cascadiaresearch.org/publications/Franklin_etal_2020JCetResManagement',
     citation:

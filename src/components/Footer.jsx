@@ -1,20 +1,67 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { useTheme } from '@material-ui/core/styles';
+import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import Link from './Link';
 import { Box, SpaceAroundCard } from './Containers';
 import logo from '../assets/WildMe-Logo-Gradient.png';
 import navigation from '../constants/navigation';
+
+const iconMap = {
+  facebook: FacebookIcon,
+  github: GitHubIcon,
+  twitter: TwitterIcon,
+};
+
+function SocialLink({ variant, href }) {
+  const theme = useTheme();
+  const IconComponent = iconMap[variant];
+
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      <IconButton>
+        <IconComponent
+          fontSize="large"
+          style={{ color: theme.palette.common.white }}
+        />
+      </IconButton>
+    </a>
+  );
+}
 
 export default function Footer() {
   const theme = useTheme();
 
   return (
     <Box variant="black" style={{ margin: 0 }}>
+      <div
+        style={{
+          paddingTop: 30,
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <SocialLink
+          variant="github"
+          href="https://github.com/WildbookOrg"
+        />
+        <SocialLink
+          variant="facebook"
+          href="https://www.facebook.com/wildmeorg/"
+        />
+        <SocialLink
+          variant="twitter"
+          href="https://twitter.com/WildbookORG"
+        />
+      </div>
       <SpaceAroundCard
         reverse
-        style={{ padding: '30px 30px 20px 30px' }}
+        style={{ padding: '0 30px 20px 30px' }}
       >
         {navigation.map(category => (
           <div
@@ -39,6 +86,7 @@ export default function Footer() {
               >
                 <Link
                   // noUnderline
+                  nav
                   href={entry.path}
                   external={Boolean(entry.external)}
                 >
@@ -49,13 +97,15 @@ export default function Footer() {
           </div>
         ))}
       </SpaceAroundCard>
-      <div
+      <Link
         style={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
           paddingBottom: 12,
         }}
+        noUnderline
+        href="/"
       >
         <img
           style={{ height: 40 }}
@@ -76,7 +126,7 @@ export default function Footer() {
           <span style={{ fontWeight: 500 }}>WILD</span>
           <span style={{ fontWeight: 200 }}>ME</span>
         </Typography>
-      </div>
+      </Link>
       <div
         style={{
           display: 'flex',

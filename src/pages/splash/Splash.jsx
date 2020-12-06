@@ -55,7 +55,11 @@ export default function Splash() {
         >
           <FormattedMessage id="SPLASH_TAGLINE" />
         </Typography>
-        <img src={hero} alt="hero" style={{ width: '100%' }} />
+        <img
+          src={hero}
+          alt="hero"
+          style={{ width: '100%', height: 'intrinsic' }} // intrinsic is a safari fix
+        />
       </Row>
       <Row>
         <Box>

@@ -8,7 +8,7 @@ import ResponsiveText from '../../components/ResponsiveText';
 import { Page, Showcase, Line } from '../../components/Containers';
 import { majorSupporters, supporterLogos } from './supporterData';
 
-export default function Sponsors() {
+export default function Supporters() {
   const intl = useIntl();
   return (
     <Page
@@ -18,7 +18,7 @@ export default function Sponsors() {
     >
       <Line />
       {majorSupporters.map(sponsor => (
-        <>
+        <React.Fragment key={sponsor.name}>
           <Showcase style={{ maxWidth: 800 }}>
             <div style={{ marginBottom: 32 }}>
               <img
@@ -59,12 +59,16 @@ export default function Sponsors() {
             )}
           </Showcase>
           <Line />
-        </>
+        </React.Fragment>
       ))}
       <div style={{ paddingTop: 40, margin: '0 auto' }}>
         <ResponsiveText
           variant="h3"
-          style={{ margin: '0 auto', width: 'fit-content' }}
+          style={{
+            margin: '0 auto',
+            width: 'fit-content',
+            textAlign: 'center',
+          }}
         >
           Past supporters.
         </ResponsiveText>

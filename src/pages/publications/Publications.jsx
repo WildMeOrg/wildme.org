@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useIntl } from 'react-intl';
 import Grid from '@material-ui/core/Grid';
+import { Alert, AlertTitle } from '@material-ui/lab';
+import MissingIcon from '@material-ui/icons/FeedbackOutlined';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import FormControl from '@material-ui/core/FormControl';
@@ -8,9 +10,8 @@ import InputLabel from '@material-ui/core/InputLabel';
 import Select from '@material-ui/core/Select';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import { Page, Row } from '../../components/Containers';
-
-import FilterBar, { searchMatch } from '../../components/FilterBar';
 import Link from '../../components/Link';
+import FilterBar, { searchMatch } from '../../components/FilterBar';
 import publicationList, { tags } from './publicationList';
 
 export default function Publications() {
@@ -44,6 +45,16 @@ export default function Publications() {
         id: 'PUBLICATIONS_DESCRIPTION',
       })}
     >
+      <Row>
+        <Alert
+          icon={<MissingIcon fontSize="large" />}
+          severity="warning"
+        >
+          <AlertTitle>Don&apos;t see your paper?</AlertTitle>
+          {'Send us an email and we will get it on the list. '}
+          <Link href="/contact">Contact us</Link>
+        </Alert>
+      </Row>
       <Row>
         <Grid container justify="space-between">
           <Grid item style={{ flexGrow: 1, marginRight: 60 }}>
