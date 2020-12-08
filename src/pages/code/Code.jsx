@@ -87,9 +87,9 @@ export default function Code() {
           supportHref="https://community.wildbook.org/"
         />
         <Entry
-          title="Wildbook-IA"
+          title="Wildbook IA"
           languages="Python"
-          description="Wildbook-IA is short for Wildbook Intelligent Agent and is often abbreviated WBIA. Our machine learning and computer vision stack, including a small Flask interface."
+          description="Wildbook IA is short for Wildbook Image Analysis and is often abbreviated WBIA. Our machine learning and computer vision stack, including a small Flask interface."
           repositoryHref="https://github.com/WildbookOrg/wildbook-ia"
           supportHref="https://community.wildbook.org/"
         />
@@ -104,7 +104,7 @@ export default function Code() {
         <Entry
           title="Houston"
           languages="Python, Flask"
-          description="A middleware for simultaneously interfacing with the EDM and WBIA (Ecological Data Module and Wildbook Intelligent Agent)."
+          description="A middleware for simultaneously interfacing with the EDM (Ecological Data Module) and WBIA (Wildbook Image Analysis)."
           repositoryHref="https://github.com/WildbookOrg/houston"
           docsHref="http://wiki.wildbook.org/en/developers/overview/houston"
         />

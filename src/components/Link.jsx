@@ -4,6 +4,7 @@ import {
   NavLink as RouterNavLink,
 } from 'react-router-dom';
 import { useTheme } from '@material-ui/core/styles';
+import { lato } from '../styles/materialTheme';
 
 export default function Link({
   children,
@@ -22,7 +23,7 @@ export default function Link({
     color: disabled ? theme.palette.text.disabled : 'unset',
     textDecoration: noUnderline ? 'unset' : 'underline',
     cursor: disabled ? 'default' : 'pointer',
-    fontFamily: 'Lato',
+    fontFamily: lato,
     ...style,
   };
 

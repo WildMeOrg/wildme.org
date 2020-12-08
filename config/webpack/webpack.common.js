@@ -73,7 +73,7 @@ module.exports = {
         use: ['@svgr/webpack', 'file-loader'],
       },
       {
-        test: /\.(woff|woff2|ttf)$/,
+        test: /\.(woff|woff2|ttf|eot)$/,
         use: {
           loader: 'file-loader',
           options: {},

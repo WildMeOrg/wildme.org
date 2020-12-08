@@ -100,8 +100,8 @@ export default function Splash() {
             <ActionableMetric
               title="53 species"
               description="Support automated identification, powered by state-of-the-art machine learning algorithms."
-              ask="Explore projects"
-              href="/projects"
+              ask="Explore platforms"
+              href="/platforms"
               imgSrc={speciesIcon}
             />
             <ActionableMetric
