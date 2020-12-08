@@ -8,6 +8,8 @@ import giraffeBannerLarge from '../../assets/giraffespotter-banner-large.jpg';
 import giraffeBannerSmall from '../../assets/giraffespotter-banner-small.jpg';
 import iotBannerLarge from '../../assets/turtle-banner-large.jpg';
 import iotBannerSmall from '../../assets/turtle-banner-small.jpg';
+import acwBannerLarge from '../../assets/acw-banner-large.jpg';
+import acwBannerSmall from '../../assets/acw-banner-small.jpg';
 import zebraBannerLarge from '../../assets/zebra-banner-large.jpg';
 import zebraBannerSmall from '../../assets/zebra-banner-small.jpg';
 import lynxBannerLarge from '../../assets/lynx-banner-large.jpg';
@@ -587,6 +589,42 @@ const projectData = [
         name: 'Carcharias taurus',
         alias: 'Sand tiger shark',
         url: 'https://en.wikipedia.org/wiki/Sand_tiger_shark',
+      },
+    ],
+  },
+  {
+    name: 'African Carnivores',
+    path: '/acw',
+    href: 'https://africancarnivore.wildbook.org/',
+    tagline:
+      'A.I for the conservation of african carnivores by automating individual identification.',
+    inviteOnly: true,
+    hosted: true,
+    adoption: false,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: acwBannerLarge,
+    bannerSmall: acwBannerSmall,
+    descriptionId: 'ACW_DESCRIPTION',
+    sightings: 21466,
+    individuals: null,
+    partners: [],
+    algorithms: [algorithms.hotspotter],
+    species: [
+      {
+        name: 'Lycaon Pictus',
+        alias: 'Wild Dog',
+        url: 'https://en.wikipedia.org/wiki/African_wild_dog',
+      },
+      {
+        name: 'Panthera Pardus',
+        alias: 'Leopard',
+        url: 'https://en.wikipedia.org/wiki/Leopard',
+      },
+      {
+        name: 'Acinonyx Jubatus',
+        alias: 'Cheetah',
+        url: 'https://en.wikipedia.org/wiki/Cheetah',
       },
     ],
   },
