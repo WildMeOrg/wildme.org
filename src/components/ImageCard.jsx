@@ -30,7 +30,9 @@ export default function ImageCard({
         alt={title}
       />
       <div style={{ padding: '32px 32px 0 32px' }}>
-        <Typography variant="h5">{title}</Typography>
+        <Link noUnderline href={url}>
+          <Typography variant="h5">{title}</Typography>
+        </Link>
         <Typography variant="subtitle2" style={{ marginTop: 12 }}>
           {date}
         </Typography>

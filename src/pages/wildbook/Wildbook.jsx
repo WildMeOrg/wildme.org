@@ -7,6 +7,7 @@ import markdown from './wb.md';
 export default function Wildbook() {
   return (
     <MarkdownPage
+      documentTitle="Wildbook"
       title="Wildbook: our flagship product."
       imgSrc={wildbookBanner}
       content={markdown}
@@ -25,7 +26,7 @@ export default function Wildbook() {
           style={{ marginTop: 20 }}
           display="primary"
           external
-          href=""
+          href="http://wiki.wildbook.org/en/researchers"
         >
           Start a Wildbook
         </ButtonLink>

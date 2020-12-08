@@ -73,11 +73,10 @@ function HelpCard({ title, instructions, action, href }) {
 
 export default function Contact() {
   return (
-    <Page
-      documentTitle="Contact Us"
-      title="Contact Us"
-      subtitle="Want to chat? Choose from the options below."
-    >
+    <Page documentTitle="Contact Us" title="Contact Us">
+      <Typography variant="subtitle1" style={{ textAlign: 'center' }}>
+        Want to contact us? Choose from the options below.
+      </Typography>
       <div
         style={{
           display: 'flex',
@@ -95,21 +94,21 @@ export default function Contact() {
         />
         <HelpCard
           title="Problems with this website"
-          instructions="Thanks for pointing it out. Please email ben@wildme.org and I will get it fixed."
+          instructions="Send an email to ben@wildme.org and I will get it fixed. Thanks for pointing it out."
         />
         <HelpCard
           title="Volunteering"
-          instructions="Thanks for offering to help! Please email dev@wildme.org with some information about your interests and availability."
+          instructions="Thanks for offering to help! Send an email to dev@wildme.org with some information about your interests and availability."
         />
         <HelpCard
           title="Start a Wildbook"
-          instructions="Please refer to our documentation on how to start a Wildbook."
+          instructions="Refer to our documentation on how to start a Wildbook."
           action="See the docs"
-          href="http://wiki.wildbook.org/en/researchers/overview"
+          href="http://wiki.wildbook.org/en/researchers"
         />
         <HelpCard
           title="Partnerships, sponsorships, and grants"
-          instructions="Please email jason@wildme.org and we will be in touch as soon as possible."
+          instructions="Send an email to jason@wildme.org and we will be in touch as soon as possible."
         />
         <HelpCard
           title="General inquiries"

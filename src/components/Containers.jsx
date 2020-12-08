@@ -37,6 +37,7 @@ export function Page({
               width: 'fit-content',
               padding: '0 20px',
               textAlign: 'center',
+              maxWidth: 1100,
             }}
           >
             {title}
