@@ -92,7 +92,7 @@
   (s.push = a), (s = s.slice());
   for (var c = 0; c < s.length; c++) a(s[c]);
   var d = l;
-  o.push([377, 1]), t();
+  o.push([379, 1]), t();
 })(
   Array(68).concat([
     function(e, a, t) {
@@ -283,6 +283,12 @@
       e.exports = t.p + '60cc656103f99fb3ab964d02957d4e78.jpg';
     },
     function(e, a, t) {
+      e.exports = t.p + 'f893495e367fed625a2f7eae76de9ebf.jpg';
+    },
+    function(e, a, t) {
+      e.exports = t.p + 'f52d73f21ca426a1ae20b3e5afd7de25.jpg';
+    },
+    function(e, a, t) {
       e.exports = t.p + '0b157e5ef572b19492e4d0e0f8233eb0.jpg';
     },
     function(e, a, t) {
@@ -441,7 +447,7 @@
     },
     function(e) {
       e.exports = JSON.parse(
-        '{"OPEN_SOURCE_SOFTWARE_CREATED_BY":" is open source software created by the folks at ","END_OF_SENTENCE":".","HOME":"Home","ABOUT":"About","PROJECTS":"Projects","CONTRIBUTE":"Contribute","START_A_WILDBOOK":"Start a Wildbook","DOCUMENTATION":"Documentation","TWITTER":"Twitter","FACEBOOK":"Facebook","DONATE":"Donate","YEAR":"Year","WORK":"Work","WILDBOOK":"Wildbook","SEARCH":"Search","ALGORITHMS":"Algorithms.","LEARN_MORE":"Learn more","VOLUNTEER":"Volunteer","SPECIES_TITLE":"Species.","SPECIES":"Species","WORK_WITH_US":"Work with us","PRODUCTS":"Products","SERVICES":"Services","SUPPORTERS":"Supporters","INTERNET_OF_TURTLES":"Internet of Turtles","CODE":"Code","OUR_TEAM":"Our team","PLATFORMS":"Platforms","OFFICIAL_PARTNERS":"Official partners","PLATINUM_SPONSORS":"Platinum sponsors","ADDITIONAL_SPONSORS":"Additional sponsors","CRYPTOCURRENCY_DONATIONS":"Cryptocurrency donations","CUSTOM_DONATIONS":"Large donations and partnerships","DONATION_LEGAL_1":"Donations are tax deductible to the extent allowed by law and are processed in U.S. dollars. Wild Me is a U.S. nonprofit, tax-exempt charitable organization (tax identification number 26-2151271) under Section 501(c)(3) of the Internal Revenue Code.","DONATION_LEGAL_2":"All donations will support the development of Wild Me\'s products and projects.","CUSTOM_DONATIONS_INSTRUCTIONS":"Thank you for your consideration! Please email jason@wildme.org and we\'ll be in touch as soon as possible.","ETHERIUM_WALLET_ID":"Etherium wallet id: ","DONATION_UMBRELLA_DESCRIPTION_1":"Protecting endangered species has never been more important, and we need all the help we can get. Can you chip in to help us build better software for the research community?","DONATION_UMBRELLA_DESCRIPTION_2":"The most common way to donate is via PayPal, but we also accept ","CRYPTOCURRENCY":"cryptocurrency","DONATION_UMBRELLA_DESCRIPTION_3":" and offer other options for ","LARGE_DONATIONS_LINK":"large donations, grants, and partnerships.","DONATION_UMBRELLA_DESCRIPTION_4":".","REPORT_SIGHTING_DESCRIPTION_1":"Many Wildbooks rely on contributions from citizen scientists to accurate assess the population size of endangered species. Take a look at the ","PROJECTS_PAGE":"projects page","REPORT_SIGHTING_DESCRIPTION_2":" to see if you live close to any of the animals we study. If not, perhaps a trip is in order!","BITCOIN_WALLET_ID":"Bitcoin wallet id: ","REPORT_A_SIGHTING":"Report a sighting","SUPPORT_&_FEEDBACK":"Help & feedback","WILD_ME_SERVICES":"Wild Me Services","CONNECT":"Connect","EXPLORE_PLATFORMS":"Explore platforms","PAGE_TITLE_STAFF":"Wild Me Staff","PAGE_TITLE_BOARD":"Board of Directors","VOLUNTEER_ASK_1":"We are currently seeking volunteers to assist with React development, graphic design, software documentation and community management.","VOLUNTEER_ASK_2":"Wildbook is completely open source. For more information about our needs regarding React development and graphic design, contact ben@wildme.org.","VOLUNTEER_ASK_3":"For more information about our needs regarding software documentation and community management, contact tstere@wildme.org.","VOLUNTEER_ASK_4":"Thanks in advance for any help you can provide!","SPLASH_TAGLINE":"Conservation meets machine learning.","SPLASH_SUBTITLE":"Wild Me builds open software for the conservation research community. We are data scientists and software engineers combatting extinction.","ADOPTIONS_WELCOME":"Adoptions Welcome","DONATION_ASK":"Wild Me is a 501(c)(3) non-profit organization.","HOSTED_BY_WILD_ME":"Hosted by Wild Me","FLUKEBOOK":"Flukebook","CAREERS":"Careers","CONTACT_US":"Contact Us","WHALESHARK_DOT_ORG":"whaleshark.org","MANTAMATCHER":"MantaMatcher","ALL_PROJECTS":"All projects","PUBLICATIONS":"Publications","PUBLICATIONS_DESCRIPTION":"These publications involve Wildbook, either directly by relating to our methodologies or indirectly by their use of data on one of the Wildbook platforms.","HOW_IT_WORKS":"How it works","PRESS":"Press","SPONSORS":"Sponsors","RESOURCES":"Resources","PAGE_NOT_FOUND":"Page not found","LEGAL":"Legal","VISIT_SITE":"Visit site","REQUEST_AN_INVITATION":"Request an invitation","REQUEST_INVITE_DESCRIPTION":"{siteName} is an invitation-only Wildbook. Depending on the circumstances, this measure is taken for reasons related to data quality, privacy, or poaching.","REQUEST_INVITE_INSTRUCTIONS":"You can request an invitation by contacting {name}. Their email address is {email}","STAFF_PUBLICATIONS":"Staff publications","INVITE_ONLY":"Invitation only","PUBLIC":"Public","GIRAFFESPOTTER":"GiraffeSpotter","PHOTO_BY":"Photo by ","ON":" on ","404_DETAILS":"No content matching this URL was found.","DRAGONSEARCH_DESCRIPTION":"DragonSearch is a collaborative research project that seeks to expand understanding of wild seadragon populations through meaningful community involvement. Seadragons are icons for marine biodiversity, but there are still many knowledge gaps for their conservation. DragonSearch will use data from underwater imagery to track these unique fish across their distribution for a decade, providing a window into their lives as well as the health of their habitats.","SPOT_A_SHARK_USA_DESCRIPTION":"Spot A Shark USA is a citizen-science program that engages anyone who spends time on the water in sand tiger shark research along the Atlantic coast. Divers, snorkelers, and others are asked to photograph encounters with sand tiger sharks and post their images to the Spot A Shark USA website. Scientists then use unique spot patterns visible along the sides of the photographed sharks to identify individual animals. Identifying individual sand tiger sharks helps track shark movement and behavior over time. It also determines which coastal habitats sand tiger sharks use during their lives. This information is used by Spot A Shark USA researchers, as well as international partners, to facilitate management decisions aimed towards conserving sand tiger sharks, which are critically endangered in several parts of the world. ","SPOT_A_SHARK_DESCRIPTION":"Engaging divers as citizen scientists is providing valuable information about sand tiger sharks including insights into their habitat needs, social structure, migratory patterns and reproductive cycles.","BASS_DESCRIPTION":"We aim to use the power of community science to learn more about and better appreciate this iconic California species.","JAGUAR_DESCRIPTION":"Wildbook for Jaguars is a place to upload pictures of jaguars.","SAIMAA_SEAL_DESCRIPTION":"This is a place to upload pictures of Saimaa ringed seals.","SKUNK_DESCRIPTION":"This is a place to upload pictures of skunks.","LYNX_DESCRIPTION":"The monitoring and identification of the Iberian lynx is the cornerstone on which the conservation of this unique feline in the world is based. This tool is an essential support in this task because it is a great time saver and allows seamless exchange of information between the different organizations involved in monitoring. On the other hand, WWF in collaboration with WildBook, we want to open the study of the Iberian lynx to the general public, uniting citizen science with new technologies, so that any nature lover can contribute to the recovery of this species.","ZEBRA_DESCRIPTION":"Wildbook for Zebras applies computer vision algorithms and deep learning to identify and track individual zebras across hundreds of thousands of photos. We help researchers collaborate with each other and citizen scientists contribute to the effort. A.I. scales and speeds research and conservation.","IOT_DESCRIPTION":"The \'gold standard\' for sea turtle population monitoring programs are long-term capture-mark-recapture (CMR) studies on nesting beaches as well as foraging areas for populations. Comprehensive CMR studies facilitate robust abundance assessments and diagnoses of population trends, which, in turn, inform effective conservation management efforts.","GIRAFFESPOTTER_DESCRIPTION":"With less than 100,000 giraffe remaining in all of Africa and a decline of almost 40% over the last three decades, giraffe have moved from \'Least Concern\' to \'Vulnerable\' on The IUCN Red List of Threatened Species™. It is time to act now to save this iconic species from extinction!","WHALESHARK_DESCRIPTION":"The whaleshark.org photo-identification library is an award-winning visual database of whale shark encounters and of individually catalogued whale sharks. The library is maintained and used by marine biologists to collect and analyze whale shark sighting data to learn more about these amazing creatures.","MANTAMATCHER_DESCRIPTION":"Manta Matcher is the first global online manta ray database, managing manta ray sightings and identifications worldwide. Researchers and citizen scientists all collaborate through our Wildbook software.","FLUKEBOOK_DESCRIPTION":"Flukebook is a free, online research platform that assists the conservation of whales and dolphins by automating individual identification and providing a common data model for collaboration, saving significant time and money in the research process. Flukebook uses artificial intelligence and computer vision to help researchers rapidly curate cetacean sightings and photo-identification data across their catalogs, and it provides a portal for citizen scientists to contribute to marine conservation and follow individual animals they have met. One platform. Many species. Many researchers.","LOADING":"Loading"}',
+        '{"OPEN_SOURCE_SOFTWARE_CREATED_BY":" is open source software created by the folks at ","END_OF_SENTENCE":".","HOME":"Home","ABOUT":"About","PROJECTS":"Projects","CONTRIBUTE":"Contribute","START_A_WILDBOOK":"Start a Wildbook","DOCUMENTATION":"Documentation","TWITTER":"Twitter","FACEBOOK":"Facebook","DONATE":"Donate","YEAR":"Year","WORK":"Work","WILDBOOK":"Wildbook","SEARCH":"Search","ALGORITHMS":"Algorithms.","LEARN_MORE":"Learn more","VOLUNTEER":"Volunteer","SPECIES_TITLE":"Species.","SPECIES":"Species","WORK_WITH_US":"Work with us","PRODUCTS":"Products","SERVICES":"Services","SUPPORTERS":"Supporters","INTERNET_OF_TURTLES":"Internet of Turtles","CODE":"Code","OUR_TEAM":"Our team","PLATFORMS":"Platforms","OFFICIAL_PARTNERS":"Official partners","PLATINUM_SPONSORS":"Platinum sponsors","ADDITIONAL_SPONSORS":"Additional sponsors","CRYPTOCURRENCY_DONATIONS":"Cryptocurrency donations","CUSTOM_DONATIONS":"Large donations and partnerships","DONATION_LEGAL_1":"Donations are tax deductible to the extent allowed by law and are processed in U.S. dollars. Wild Me is a U.S. nonprofit, tax-exempt charitable organization (tax identification number 26-2151271) under Section 501(c)(3) of the Internal Revenue Code.","DONATION_LEGAL_2":"All donations will support the development of Wild Me\'s products and projects.","CUSTOM_DONATIONS_INSTRUCTIONS":"Thank you for your consideration! Please email jason@wildme.org and we\'ll be in touch as soon as possible.","ETHERIUM_WALLET_ID":"Etherium wallet id: ","DONATION_UMBRELLA_DESCRIPTION_1":"Protecting endangered species has never been more important, and we need all the help we can get. Can you chip in to help us build better software for the research community?","DONATION_UMBRELLA_DESCRIPTION_2":"The most common way to donate is via PayPal, but we also accept ","CRYPTOCURRENCY":"cryptocurrency","DONATION_UMBRELLA_DESCRIPTION_3":" and offer other options for ","LARGE_DONATIONS_LINK":"large donations, grants, and partnerships.","DONATION_UMBRELLA_DESCRIPTION_4":".","REPORT_SIGHTING_DESCRIPTION_1":"Many Wildbooks rely on contributions from citizen scientists to accurate assess the population size of endangered species. Take a look at the ","PROJECTS_PAGE":"projects page","REPORT_SIGHTING_DESCRIPTION_2":" to see if you live close to any of the animals we study. If not, perhaps a trip is in order!","BITCOIN_WALLET_ID":"Bitcoin wallet id: ","REPORT_A_SIGHTING":"Report a sighting","SUPPORT_&_FEEDBACK":"Help & feedback","WILD_ME_SERVICES":"Wild Me Services","CONNECT":"Connect","EXPLORE_PLATFORMS":"Explore platforms","PAGE_TITLE_STAFF":"Wild Me Staff","PAGE_TITLE_BOARD":"Board of Directors","VOLUNTEER_ASK_1":"We are currently seeking volunteers to assist with React development, graphic design, software documentation and community management.","VOLUNTEER_ASK_2":"Wildbook is completely open source. For more information about our needs regarding React development and graphic design, contact ben@wildme.org.","VOLUNTEER_ASK_3":"For more information about our needs regarding software documentation and community management, contact tstere@wildme.org.","VOLUNTEER_ASK_4":"Thanks in advance for any help you can provide!","SPLASH_TAGLINE":"Conservation meets machine learning.","SPLASH_SUBTITLE":"Wild Me builds open software for the conservation research community. We are data scientists and software engineers combatting extinction.","ADOPTIONS_WELCOME":"Adoptions Welcome","DONATION_ASK":"Wild Me is a 501(c)(3) non-profit organization.","HOSTED_BY_WILD_ME":"Hosted by Wild Me","FLUKEBOOK":"Flukebook","CAREERS":"Careers","CONTACT_US":"Contact Us","WHALESHARK_DOT_ORG":"whaleshark.org","MANTAMATCHER":"MantaMatcher","ALL_PROJECTS":"All projects","PUBLICATIONS":"Publications","PUBLICATIONS_DESCRIPTION":"These publications involve Wildbook, either directly by relating to our methodologies or indirectly by their use of data on one of the Wildbook platforms.","HOW_IT_WORKS":"How it works","PRESS":"Press","SPONSORS":"Sponsors","RESOURCES":"Resources","PAGE_NOT_FOUND":"Page not found","LEGAL":"Legal","VISIT_SITE":"Visit site","REQUEST_AN_INVITATION":"Request an invitation","REQUEST_INVITE_DESCRIPTION":"{siteName} is an invitation-only Wildbook. Depending on the circumstances, this measure is taken for reasons related to data quality, privacy, or poaching.","REQUEST_INVITE_INSTRUCTIONS":"You can request an invitation by contacting {name}. Their email address is {email}","STAFF_PUBLICATIONS":"Staff publications","INVITE_ONLY":"Invitation only","PUBLIC":"Public","GIRAFFESPOTTER":"GiraffeSpotter","PHOTO_BY":"Photo by ","ON":" on ","404_DETAILS":"No content matching this URL was found.","ACW_DESCRIPTION":"ACW uses advanced computer vision software to find the African Wild Dog, Leopard, Cheetah, Lion or Hyaena in your photos to identify it as a known, or unknown, individual of the species.","DRAGONSEARCH_DESCRIPTION":"DragonSearch is a collaborative research project that seeks to expand understanding of wild seadragon populations through meaningful community involvement. Seadragons are icons for marine biodiversity, but there are still many knowledge gaps for their conservation. DragonSearch will use data from underwater imagery to track these unique fish across their distribution for a decade, providing a window into their lives as well as the health of their habitats.","SPOT_A_SHARK_USA_DESCRIPTION":"Spot A Shark USA is a citizen-science program that engages anyone who spends time on the water in sand tiger shark research along the Atlantic coast. Divers, snorkelers, and others are asked to photograph encounters with sand tiger sharks and post their images to the Spot A Shark USA website. Scientists then use unique spot patterns visible along the sides of the photographed sharks to identify individual animals. Identifying individual sand tiger sharks helps track shark movement and behavior over time. It also determines which coastal habitats sand tiger sharks use during their lives. This information is used by Spot A Shark USA researchers, as well as international partners, to facilitate management decisions aimed towards conserving sand tiger sharks, which are critically endangered in several parts of the world. ","SPOT_A_SHARK_DESCRIPTION":"Engaging divers as citizen scientists is providing valuable information about sand tiger sharks including insights into their habitat needs, social structure, migratory patterns and reproductive cycles.","BASS_DESCRIPTION":"We aim to use the power of community science to learn more about and better appreciate this iconic California species.","JAGUAR_DESCRIPTION":"Wildbook for Jaguars is a place to upload pictures of jaguars.","SAIMAA_SEAL_DESCRIPTION":"This is a place to upload pictures of Saimaa ringed seals.","SKUNK_DESCRIPTION":"This is a place to upload pictures of skunks.","LYNX_DESCRIPTION":"The monitoring and identification of the Iberian lynx is the cornerstone on which the conservation of this unique feline in the world is based. This tool is an essential support in this task because it is a great time saver and allows seamless exchange of information between the different organizations involved in monitoring. On the other hand, WWF in collaboration with WildBook, we want to open the study of the Iberian lynx to the general public, uniting citizen science with new technologies, so that any nature lover can contribute to the recovery of this species.","ZEBRA_DESCRIPTION":"Wildbook for Zebras applies computer vision algorithms and deep learning to identify and track individual zebras across hundreds of thousands of photos. We help researchers collaborate with each other and citizen scientists contribute to the effort. A.I. scales and speeds research and conservation.","IOT_DESCRIPTION":"The \'gold standard\' for sea turtle population monitoring programs are long-term capture-mark-recapture (CMR) studies on nesting beaches as well as foraging areas for populations. Comprehensive CMR studies facilitate robust abundance assessments and diagnoses of population trends, which, in turn, inform effective conservation management efforts.","GIRAFFESPOTTER_DESCRIPTION":"With less than 100,000 giraffe remaining in all of Africa and a decline of almost 40% over the last three decades, giraffe have moved from \'Least Concern\' to \'Vulnerable\' on The IUCN Red List of Threatened Species™. It is time to act now to save this iconic species from extinction!","WHALESHARK_DESCRIPTION":"The whaleshark.org photo-identification library is an award-winning visual database of whale shark encounters and of individually catalogued whale sharks. The library is maintained and used by marine biologists to collect and analyze whale shark sighting data to learn more about these amazing creatures.","MANTAMATCHER_DESCRIPTION":"Manta Matcher is the first global online manta ray database, managing manta ray sightings and identifications worldwide. Researchers and citizen scientists all collaborate through our Wildbook software.","FLUKEBOOK_DESCRIPTION":"Flukebook is a free, online research platform that assists the conservation of whales and dolphins by automating individual identification and providing a common data model for collaboration, saving significant time and money in the research process. Flukebook uses artificial intelligence and computer vision to help researchers rapidly curate cetacean sightings and photo-identification data across their catalogs, and it provides a portal for citizen scientists to contribute to marine conservation and follow individual animals they have met. One platform. Many species. Many researchers.","LOADING":"Loading"}',
       );
     },
     function(e) {
@@ -570,25 +576,25 @@
       var n = t(0),
         i = t.n(n),
         o = t(14),
-        r = t(260),
-        s = (t(278), t(279), t(280), t(57)),
+        r = t(262),
+        s = (t(280), t(281), t(282), t(57)),
         l = t(81),
-        c = t(261),
-        d = t(451),
+        c = t(263),
+        d = t(453),
         h = t(167),
-        m = t(455),
-        p = (t(287), t(168)),
+        m = t(457),
+        p = (t(289), t(168)),
         u = t(169),
         g = t(20),
         f = t(29),
-        b = t(434),
-        w = t(435),
-        y = t(436),
+        b = t(436),
+        w = t(437),
+        y = t(438),
         v = t(58),
         k = t(173),
         E = t.n(k),
-        S = t(380),
-        I = t(18),
+        S = t(382),
+        I = t(17),
         A = t(16);
       function T(e) {
         var a = e.children,
@@ -663,8 +669,8 @@
               a,
             );
       }
-      var x = t(424),
-        O = t(426),
+      var x = t(426),
+        O = t(428),
         C = t(171),
         W = t.n(C),
         P = {
@@ -748,7 +754,7 @@
                 : a,
             ));
       }
-      function M(e) {
+      function N(e) {
         var a = e.children,
           t = e.href,
           n = e.external,
@@ -775,15 +781,15 @@
           i.a.createElement(R, s, a),
         );
       }
-      var N = t(429),
-        j = t(464),
-        D = t(433),
-        _ = t(427),
-        B = t(428),
+      var M = t(431),
+        j = t(466),
+        D = t(435),
+        _ = t(429),
         L = t(430),
-        z = t(461),
-        H = t(431),
-        J = t(432),
+        B = t(432),
+        z = t(463),
+        H = t(433),
+        J = t(434),
         G = t(172),
         U = t.n(G),
         F = [
@@ -857,12 +863,12 @@
               'div',
               { style: { display: 'flex', alignItems: 'center' } },
               i.a.createElement(
-                B.a,
+                L.a,
                 null,
                 i.a.createElement(
                   v.a,
                   null,
-                  a ? i.a.createElement(N.a, { id: a }) : t,
+                  a ? i.a.createElement(M.a, { id: a }) : t,
                 ),
               ),
             ),
@@ -942,7 +948,7 @@
                   ),
                 ),
               ),
-              i.a.createElement(L.a, {
+              i.a.createElement(B.a, {
                 style: {
                   marginTop: 12,
                   marginBottom: 12,
@@ -973,7 +979,7 @@
                     i.a.createElement(
                       v.a,
                       { variant: 'h6' },
-                      i.a.createElement(N.a, {
+                      i.a.createElement(M.a, {
                         id: e.categoryLabelId,
                       }),
                     ),
@@ -1002,7 +1008,7 @@
               'div',
               { style: { backgroundColor: 'rgb(241 241 241)' } },
               i.a.createElement(
-                M,
+                N,
                 {
                   style: { margin: '32px 0 32px 32px' },
                   href: '/donate',
@@ -1134,7 +1140,7 @@
                   'Services',
                 ),
                 i.a.createElement(
-                  M,
+                  N,
                   {
                     href: '/donate',
                     style: { marginLeft: 32 },
@@ -1153,7 +1159,7 @@
         ee = t.n($),
         ae = t(175),
         te = t.n(ae),
-        ne = t(453),
+        ne = t(455),
         ie = function(e) {
           var a =
               !(arguments.length > 1 && void 0 !== arguments[1]) ||
@@ -1248,6 +1254,7 @@
                       width: 'fit-content',
                       padding: '0 20px',
                       textAlign: 'center',
+                      maxWidth: 1100,
                     },
                   },
                   t,
@@ -1302,7 +1309,7 @@
           t = void 0 === a ? {} : a,
           n = Object(A.a)(e, ['style']);
         return i.a.createElement(
-          L.a,
+          B.a,
           Object.assign(
             {
               style: Object(I.a)(
@@ -1488,7 +1495,7 @@
                         href: e.path,
                         external: Boolean(e.external),
                       },
-                      i.a.createElement(N.a, { id: e.labelId }),
+                      i.a.createElement(M.a, { id: e.labelId }),
                     ),
                   );
                 }),
@@ -1555,7 +1562,7 @@
           ),
         );
       }
-      var fe = t(437),
+      var fe = t(439),
         be = t(177),
         we = t.n(be),
         ye = t(178),
@@ -1621,9 +1628,9 @@
             i.a.createElement(
               v.a,
               null,
-              i.a.createElement(N.a, { id: 'PHOTO_BY' }),
+              i.a.createElement(M.a, { id: 'PHOTO_BY' }),
               i.a.createElement(T, { external: !0, href: h }, d),
-              i.a.createElement(N.a, { id: 'ON' }),
+              i.a.createElement(M.a, { id: 'ON' }),
               i.a.createElement(
                 T,
                 { external: !0, href: m },
@@ -1644,12 +1651,12 @@
             i.a.createElement(ke, {
               title: '404',
               subtitle: n,
-              details: i.a.createElement(N.a, { id: '404_DETAILS' }),
+              details: i.a.createElement(M.a, { id: '404_DETAILS' }),
               variant: t,
             })
           );
         },
-        Se = t(459);
+        Se = t(461);
       function Ie(e) {
         var a = e.title,
           t = e.date,
@@ -1676,7 +1683,11 @@
           i.a.createElement(
             'div',
             { style: { padding: '32px 32px 0 32px' } },
-            i.a.createElement(v.a, { variant: 'h5' }, a),
+            i.a.createElement(
+              T,
+              { noUnderline: !0, href: o },
+              i.a.createElement(v.a, { variant: 'h5' }, a),
+            ),
             i.a.createElement(
               v.a,
               { variant: 'subtitle2', style: { marginTop: 12 } },
@@ -1698,8 +1709,8 @@
         We = t.n(Ce),
         Pe = t(180),
         Re = t.n(Pe),
-        Me = t(181),
-        Ne = t.n(Me),
+        Ne = t(181),
+        Me = t.n(Ne),
         je = t(182),
         De = t.n(je),
         _e = '\n*This is the first in a series of posts written by the engineers and developers of Wildbook. Drew has been with Wild Me since 2015, working mostly on Flukebook, the Wildbook for Cetaceans, and more recently doing cross-species algorithm-development as a Machine Learning Engineer.*\n\n![Manta Ray]('
@@ -1708,15 +1719,15 @@
             ")\n\nWe use a lot of different computer vision algorithms here at Wild Me. Some are old-school like the pattern-matcher used on Whaleshark.org, where users manually click the spots on a whale shark, and the Modified Groth algorithm does individual ID using nothing more than these spot coordinates and some trigonometry. More advanced is the widely-deployed HotSpotter algorithm, which can ID humpback whale flukes, zebras, cheetahs, and all sorts of animals that have distinct patterns. HotSpotter automatically extracts pattern-features from photos without any user input, then matches these features by analyzing the patterns of local pixel contrast within them. Even more advanced are our machine learning techniques, especially those using deep neural networks. This category includes our detector, which uses convolutional neural nets trained to draw bounding boxes around animals in photos, as well as neural net classifiers like the Deepsense algorithm that matches north atlantic right whales on Flukebook.\n\nIn this post, I'm introducing the newest, shiniest algorithm in our quiver of matching methods, one that marries the accuracy of neural networks with the flexible architecture of methods like HotSpotter. Developed by computer science PhD student Olga Moskvyak at Queensland University of Technology and productized by myself, we're proud to add the PIE algorithm to Wildbook. PIE stands for \"Pose Invariant Embeddings\", taken from the title of Moskvyak’s paper *Robust Re-identification of Manta Rays from Natural Markings by Learning Pose Invariant Embeddings*. We'll be looking at how PIE works, where it's applied so far, and some future avenues we're exploring with this awesome new technique.\n\n\n**What is PIE?**\nThe core concepts we need to explain PIE are embeddings and neural networks. Understanding these, we'll see how PIE is a flexible and powerful tool for individual ID.\n\nFirst, embeddings. In computer vision, an embedding is an abstract, numerical representation of an image that allows us to make semantic decisions based on that representation rather than the image itself. To explain through example, the spot-matcher on Whaleshark.org works on spot-coordinates; these coordinates constitute the embedding for a given image and the Modified Groth algorithm matches these embeddings using geometry. All of this ultimately allows us to ask “which animal is this?”.\n\nNow for neural networks. Neural networks are the most popular technique in modern machine learning. At a high level, they're inspired by how neurons work in brains, able to learn and perform all sorts of tasks by adjusting a huge network of small, flexible units. Practically speaking, neural networks are systems that can be iteratively improved to perform a task on training data. This process is what we call training, or learning. For example the Deepsense right whale matcher on Flukebook is a neural network that was trained to look at an image of a right whale and return that whale's ID according to the NARW catalog. When the network first started training it was very poor at that task, but through the training process it gradually improved to be quite accurate, at which point we made it available to all of you.\n\nUnlike Deepsense, the PIE neural network is not trained to classify images into bins (one bin for each whale in the catalog). Instead, its deep neural network is trained to extract embeddings from images. Give an image to PIE, and it returns a list of 256 numbers between 0 and 1 (also called a 256-long or 256-dimensional vector): this is the image's embedding. How does it choose those 256 numbers? That's the trick, both clever and intuitive once you get it.\n\nWe call the 256-dimensional space of all possible PIE embeddings, fittingly enough, the embedding space. So PIE generates a mapping from an input image to a point in embedding space. Now, how are these embeddings chosen? How is PIE trained? Remember, the goal here is individual ID. PIE is trained with the simple concept that images of the same individual should produce similar embeddings, and images of different individuals should make different embeddings; the distance between two images in embedding space corresponds to the similarity between those images for the purpose of individual ID. The result of this is that an individual with N photos in the catalog should produce N points in embedding space all clustered close together, in a cluster unique to that individual. A second individual with M photos should be a distinct cluster elsewhere in embedding space. These two criteria together (same individual->close embeddings; different individuals->far) are the training signal for PIE, the metric that's procedurally optimized during learning. The technical term for this measure is [Triplet Loss](https://en.wikipedia.org/wiki/Triplet_loss), if you want to read more about that.\n\nPIE is trained to learn embeddings that are useful for individual ID. Unlike HotSpotter, which is a \"static\" pattern matcher, ie a fixed algorithm not trained for each separate species (which by the way, is very impressive considering how broadly-effective HotSpotter is!), PIE can be trained on a per-species basis. So we have a separate PIE model optimized for manta rays versus humpback whales. And unlike fixed-catalog classifiers like Deepsense, PIE can gracefully add new individuals to its catalog without being retrained: it learns the general task of mapping images into embeddings that represent individuals, rather than the specific task of sorting images into a fixed number of IDs. PIE strikes a lovely balance between a flexible general-purpose identifier and one that can be trained and refined on a given problem.\n\n\n**How did PIE get into Wildbook?**\nAs you may have guessed from the title of Olga's paper, PIE was developed with manta ray identification in mind. Manta ray bellies have individually-distinct patterning, but these patterns have proven challenging for HotSpotter and other techniques to match accurately in the past. This not only makes mantas a great subject for new research, but means that mantamatcher.org (the Wildbook for--you guessed it--manta rays (and other rays!)) the target of our first PIE deployment.\n\nMoskvyak's publicly-available PIE model was trained on a high quality curated dataset from Project Manta out of University of Queensland, who are themselves contributors to MantaMatcher, so we simply deployed that model on MantaMatcher.org. It's still too early for us to have usage-based accuracy statistics, but the reported accuracy is 62% top-1 and 97% top-10 (meaning the algorithm returns the correct match in the first 10 candidates 97% of the time; as with all our ID algorithms, PIE return a list of candidate matches and relies on researchers to confirm the accuracy of those results). After years of being a Wildbook that doesn't use advanced computer vision, MantaMatcher was upgraded to the absolute cutting edge of animal individual ID.\n\nWe take pride in being open source, and we are grateful that Olga Moskvyak shares open source values. Not only are the models from her publication publicly available, but more importantly the code she used to train those models. This crucially allows us to extend PIE to new species and train it on new datasets. We at Wild Me have access to some of the highest-quality animal ID data in the world, so this is a dream come true. The original stand-alone python program constituting PIE is [available on github](https://github.com/olgamoskvyak/reid-manta), so we forked that code into our wildbook-ia repository where all of our computer vision code lives. My task as a machine learning engineer these past few months has been to integrate the original PIE code into our wildbook-ia server so that it operates as a seamless component of the larger Wildbook platform. As mentioned above, this was implemented first on the MantaMatcher platform. And with that deployment complete, I've spent all my time since then applying PIE to new species.\n\n![rw match 4650|666x500](",
           )
           .concat(
-            Ne.a,
+            Me.a,
             ")\n\n*A researcher-confirmed match on a right whale lateral head callosity made by PIE. Pretty tough match, huh?*\n\n**Where else is PIE used?**\n\nOur first novel application of PIE was for lateral photos of right whale heads. As mentioned previously, there's already a highly-accurate model for matching right whales on Flukebook, the Deepsense classifier. This model was trained on aerial photos, taken from aircraft or drone, that show clear and consistent views of the callosities on a right whale's head. However, researchers don't always have access to aircraft, and boat-based photos are different enough from aerial photos that the models are not cross-applicable. So there was a need from our right whale researchers to match the callosities on a whale's head based on lateral, boat-based photos. With funding from NOAA on our ongoing right whale-matching collaboration, I trained and tuned the PIE architecture to the lateral right whale problem.\n\nAs is almost always the case with machine learning, there are two aspects of making a new model: there's the obvious one, finding a new set of training data and re-training the system on that, but there's also the less obvious problem of finding the right big-picture settings, called \"metaparameters\" or \"hyperparameters\", that define how exactly the training system works. For example, the learning rate of a neural network defines how much the network changes at each step of the training process. If your learning rate is too high, you might not get a very accurate solution because the network isn't fine-tuned enough. But if it's too low, training could take way too long: it could be the difference between a 4 hour training process and a 40 hour one. Another piece of the PIE architecture that we experimented with is called image augmentation, which is when you manipulate images in the training set to artificially increase the number of training images, for example stretching a photo, changing its exposure, or rotating it a few degrees. Image augmentation can prevent overfitting (when the network simply memorizes its training data and can't extrapolate its reasoning to new images) so it produces more robust models, but if you use too much augmentation you might make the training data so complicated that the network just gets confused and never learns very well. The model-development process involves experimenting with these types of settings to make the most accurate system possible.\n\nAfter a few weeks of working on the right whale lateral model, we arrived at a model with a top-12 accuracy of 90%. While not as accurate as say, the manta ray or humpback fluke matchers that approach 99% in this metric, we consider this a much more difficult problem considering the nature of these whale callosities and the photos in which they appear. This difficulty is also reflected in the fact that, to our knowledge, this is the first ever automatic system for matching boat-based photos of right whales. This new flavor of PIE was deployed on Flukebook at the beginning of October and is available to our users.\n\nLater this week we'll be deploying yet another novel species for PIE, one that's even more challenging than lateral right whales: orcas! I grew up in the Pacifict Northwest of the United States, a place where we're very proud of our resident (and transient!) killer whales, so this is super exciting to me. We started the effort with a dataset contributed by the Norwegian Orca Survey that we hand-annotated to draw bounding boxes around the animals. We had already curated this data as part of our development of the finFindR dorsal fin trailing-edge-matching algorithm, which is super accurate for bottlenose and other smaller dolphins, but has not been as impressive on orcas. Simply put, orca dorsal fin edges are not as distinct as bottlenose dolphins', at least among the data we've seen. From conversations with the researchers we know in the orca community, we learned that the saddle patch just behind an orca's dorsal fin is the most distinct and easily-photographed feature on the animals, so that became our target for matching with the PIE pattern-matcher. Unlike the pigment on a humpback whale's fluke, these saddle patches are not dramatically different in terms of large shapes and patterns; instead, scars and other subtle features on the area are the distinguishing characteristics in these photos.\n\n\nWe found orcas to be much more challenging! Our latest PIE model achieved 60% top-12 accuracy on these charismatic cetaceans. However, as many researchers are well aware, manually matching field photos without algorithmic assistance can be an enormous time-sink, and making that job easier by any amount can be a big help. We are deploying this model on Flukebook as a time-saving tool for orca researchers, and alongside the finFindR trailing-edge matcher, that community will have access to two cutting-edge algorithms to assist their data curation efforts.\n\n![orca2|689x114](",
           )
           .concat(
             De.a,
             ") \n\n*One technique we tried to improve orca accuracy was automatically removing background sea and sky from images.*\n\nAs we've seen with orcas, no one tool is a magical solution that will ID every species perfectly well--not even PIE. But with open source software and collaboration with the field researchers who know these animals better than anyone, we can turn cutting-edge machine learning research into tools that help the field biologist study earth's creatures. This is far from the end of our new developments with Olga Moskvyak's algorithm: now that we've explored some new computer vision problems like orca saddle patches, we're going to revisit some older problems such as whale sharks or aerial photos of right whales, to see if the latest deep learning techniques might improve the accuracy or workflow of identifying individual animals on Wildbook.\n\n",
           ),
-        Be = t(183),
-        Le = t.n(Be),
+        Le = t(183),
+        Be = t.n(Le),
         ze = t(184),
         He = t.n(ze),
         Je = t(185),
@@ -1762,7 +1773,7 @@
           {
             title:
               'Wild Me releases two zebra image datasets to spur research into Wildlife photo ID',
-            image: Le.a,
+            image: Be.a,
             markdown:
               'Wild Me is releasing two data sets to spur new research into machine learning and wildlife Photo ID.\n\n## Whale Shark Data Set\n\nOur released whale shark (Rhincodon typus) data set represents a collaborative effort based on the data collection and population modeling efforts conducted at Ningaloo Marine Park in Western Australia from 1995-2008 (Holmberg et al. 2008, 2009). Photos (7888) and metadata from 2441 whale shark encounters were collected from 464 individual contributors, especially from the original research of Brad Norman and from members of the local whale shark tourism industry who sight these animals annually from April-June. Images were annotated with bounding boxes around each visible whale shark and viewpoints labeled (e.g., left, right, etc.). A total of 543 individual whale sharks were identified by their unique spot patterning using first computer-assisted spot pattern recognition (Arzoumanian et al. 2005) and then manual review and confirmation.  A total of 7,693 named sightings were exported.\n\n[Download the Whale Shark Data Set](https://academictorrents.com/details/bb47cd1d6dde2f49b040495382c778c102409080)\n\n \n\n## Plains Zebra (GZGC) Data Set\n\nOur dataset for plains zebra (Equus quagga) is taken from a two-day census of the Nairobi National Park, located just south of the capital’s airport in Nairobi, Kenya.  The “Great Zebra and Giraffe Count” (GZGC) photographic census was organized on February 28th and March 1st 2015 and had the participation of 27 different teams of citizen scientists, 55 total photographers, and collected 9,406 images of plains zebra and Masai giraffe (Giraffa tippelskirchi) (Parham et al. 2017).  Only images containing either zebras or giraffes were included in the exported dataset, a total of 4,948 images, where the original biographical information of the original contributors are removed.  All images are labeled with bounding boxes around the individual animals for which there is ID metadata, meaning some images contain missing boxes and are not intended to be used for object detection training or testing.  Viewpoints for all animal annotations were also added.  All ID assignments were completed using the HotSpotter algorithm (Crall et al. 2013) by visually matching the stripes and spots as seen on the body of the animal.  A total of 2,056 combined names are released for 6,286 individual zebra and 639 giraffe sightings.  This dataset presents as a challenging comparison compared to the whale shark dataset since it contains a significantly higher number of animals that are only seen once during the survey.\n\n[Download the Plains Zebra Data Set](https://academictorrents.com/details/69160c6bf11275321017f18124dbaff2d381b21c)\n',
             dateString: 'July 28, 2020',
@@ -1863,7 +1874,7 @@
                   fontSize: t ? 18 : s,
                 },
               },
-              i.a.createElement(N.a, { id: 'SPLASH_TAGLINE' }),
+              i.a.createElement(M.a, { id: 'SPLASH_TAGLINE' }),
             ),
             i.a.createElement('img', {
               src: We.a,
@@ -1894,16 +1905,16 @@
                     style: { marginTop: 20, maxWidth: 880 },
                     variant: 'subtitle1',
                   },
-                  i.a.createElement(N.a, { id: 'SPLASH_SUBTITLE' }),
+                  i.a.createElement(M.a, { id: 'SPLASH_SUBTITLE' }),
                 ),
                 i.a.createElement(
-                  M,
+                  N,
                   {
                     href: '/platforms',
                     display: 'primary',
                     style: { marginTop: 40, marginBottom: 16 },
                   },
-                  i.a.createElement(N.a, { id: 'EXPLORE_PLATFORMS' }),
+                  i.a.createElement(M.a, { id: 'EXPLORE_PLATFORMS' }),
                 ),
               ),
             ),
@@ -1975,30 +1986,30 @@
               i.a.createElement(
                 v.a,
                 { variant: 'h5' },
-                i.a.createElement(N.a, { id: 'DONATION_ASK' }),
+                i.a.createElement(M.a, { id: 'DONATION_ASK' }),
               ),
               i.a.createElement(
-                M,
+                N,
                 {
                   href: '/donate',
                   display: 'primary',
                   style: { marginTop: 40, marginBottom: 20 },
                 },
-                i.a.createElement(N.a, { id: 'DONATE' }),
+                i.a.createElement(M.a, { id: 'DONATE' }),
               ),
             ),
           ),
         );
       }
-      var ea = t(452),
-        aa = t(456),
-        ta = t(457),
-        na = t(440),
-        ia = t(441),
-        oa = t(462),
-        ra = t(454),
-        sa = t(438),
-        la = t(439),
+      var ea = t(454),
+        aa = t(458),
+        ta = t(459),
+        na = t(442),
+        ia = t(443),
+        oa = t(464),
+        ra = t(456),
+        sa = t(440),
+        la = t(441),
         ca = t(188),
         da = t.n(ca);
       function ha(e, a, t) {
@@ -2631,7 +2642,7 @@
                   i.a.createElement(
                     oa.a,
                     { htmlFor: 'filter-input' },
-                    i.a.createElement(N.a, { id: 'YEAR' }),
+                    i.a.createElement(M.a, { id: 'YEAR' }),
                   ),
                   i.a.createElement(
                     ra.a,
@@ -2723,69 +2734,97 @@
       }
       var Oa = t(191),
         Ca = t.n(Oa),
-        Wa = { root: v.a };
+        Wa = {
+          root: function(e) {
+            var a = e.style,
+              t = Object(A.a)(e, ['style']);
+            return i.a.createElement(
+              v.a,
+              Object.assign(
+                {
+                  style: Object(I.a)(
+                    {
+                      fontSize: 18,
+                      margin: '0 auto',
+                      maxWidth: 800,
+                      width: '100%',
+                    },
+                    a,
+                  ),
+                },
+                t,
+              ),
+            );
+          },
+        };
       function Pa(e) {
         var a = e.content,
           t = e.imgSrc,
           n = e.imgSubtitle,
           o = e.title,
-          r = e.children,
-          s = e.style,
-          l = void 0 === s ? {} : s,
-          c = Object(A.a)(e, [
+          r = e.documentTitle,
+          s = e.children,
+          l = e.style,
+          c = void 0 === l ? {} : l,
+          d = Object(A.a)(e, [
             'content',
             'imgSrc',
             'imgSubtitle',
             'title',
+            'documentTitle',
             'children',
             'style',
           ]);
         return i.a.createElement(
           se,
-          { documentTitle: o, title: o },
+          { documentTitle: r || o, title: o },
           i.a.createElement(
             'div',
             Object.assign(
-              { style: Object(I.a)({ marginBottom: 80 }, l) },
-              c,
+              { style: Object(I.a)({ marginBottom: 80 }, c) },
+              d,
             ),
             i.a.createElement(
               de,
               null,
-              i.a.createElement('img', {
-                style: {
-                  width: '100%',
-                  maxWidth: 1100,
-                  height: 'intrinsic',
-                },
-                src: t,
-                alt: o,
-              }),
-              n &&
-                i.a.createElement(
-                  v.a,
-                  {
-                    variant: 'body2',
-                    style: { marginTop: 8, marginBottom: 20 },
+              i.a.createElement(
+                'div',
+                { style: { margin: '0 auto' } },
+                i.a.createElement('img', {
+                  style: {
+                    width: '100%',
+                    maxWidth: 800,
+                    height: 'intrinsic',
                   },
-                  n,
-                ),
+                  src: t,
+                  alt: o,
+                }),
+                n &&
+                  i.a.createElement(
+                    v.a,
+                    {
+                      variant: 'body2',
+                      style: { marginTop: 8, marginBottom: 20 },
+                    },
+                    n,
+                  ),
+              ),
             ),
             i.a.createElement(
               de,
               null,
               i.a.createElement(Ca.a, { renderers: Wa }, a),
             ),
-            i.a.createElement(de, null, r),
+            i.a.createElement(de, null, s),
           ),
         );
       }
       var Ra = t(192),
-        Ma = t.n(Ra);
-      function Na() {
+        Na = t.n(Ra);
+      function Ma() {
         return i.a.createElement(Pa, {
           title: 'Legal',
-          imgSrc: Ma.a,
+          imgSrc: Na.a,
           content:
             '## Trademarks\n\n - Wildbook is a registered trademark of Wild Me.\n\n## Licenses\n\n - Wildbook is distributed under the [GPL v2 open source license](https://opensource.org/licenses/gpl-2.0.php).\n - WBIA is distributed under the [GPL v2 open source license](https://opensource.org/licenses/gpl-2.0.php).\n\n## Copyrights\n\n - All content copyright Wild Me 2016 and may not be used without express permission.\n',
         });
@@ -2800,10 +2839,10 @@
             '## Overview\n\nWild Me staff have over a decade of experience supporting the software behind citizen science projects. As a means of supporting our projects, we offer software consultation on citizen science and wildlife research, especially with Wildbook.\n\nService examples include:\n\n - Professional Wildbook hosting in the Azure cloud\n - Custom Wildbook feature development and configuration\n - Custom citizen science software development\n - Bulk data upload services\n\n## Our Philosophy and Experience\n\nAt Wild Me, we realize that obtaining actual value from citizen science projects starts with two strong foundations:\n\nGood initial study design by the research community\nClear information architecture reinforced by usable software\nAs experienced software developers and information architects, we focus our projects on supporting four key “personas” of citizen science:\n\n - “The Scientist” – within an effective citizen science project, there is always a core of individuals (academic or just passionate and curious) focused on translating data and passion into useful scientific analyses and/or an educational experience. This core is an absolute must to obtain very real value from “CitSci”.\n - “The Evangelist” –  The Evangelist is a citizen science projects passionate outreach specialist. This individual motivates volunteers, builds local and online communities, and helps direct greater resources to a project to help improve its scientific or educational outcome.\n - “The Technologist” – The technologist is the newest role in citizen science. Almost any 21st Century CitSci project requires an experienced IT professional to help ensure that the infrastructure of the project (software, hardware, database, user experience, etc.) supports all of the other roles in the project in an effective means of interaction and data exchange and feedback.\n - “The Volunteer” – The public has never before had so many opportunities to participate in science. From active, project-specific data collection to passive data mining of social media, the public can provide new volumes of data to support more refined and previously unachievable scientific analyses. In return, CitSci projects have a responsibility to provide benefit to those contributing. This can be description of the scientific benefit the volunteer provided or “exchanging the gift of data for a gift of knowledge”. Sometimes, the education provided to volunteers in a CitSci project can be the primary benefit of the project as a whole!\n\nAt Wild Me, we building citizen science projects on good initial study designs and design our software to support the varied roles and “personas” of the people collaborating, maximizing the potential for project success and benefit.\n\n## Information Architecture + Computer Vision + Machine Learning\n\nIn the modern era of “Big Data”, managing larger volumes of citizen science data requires good study design backed by a great information architecture with strong security. At its core, our software is query-based, emphasizing that the goal of data management is to allow you to get answers to research questions faster. We also build software that integrates with other applications and servers, allowing you to operate a compatible “platform” of applications for collaborative research.\n\nWild Me has experience developing and supporting citizen science projects that integrate computer vision and machine learning to scale up processing speed and support new analyses, such as by integrating and customizing multiple pattern recognition algorithms to more accurately identify individual whales.\n\n## Can we help you?\n\n_Do you have questions about a new project or species with Wildbook or other Wild Me software?_\n\nContact us at [services@wildme.org](mailto:services@wildme.org).\n\n_Do you need technical support for Wildbook?_\n\nCreate a post on the [Wildbook Community Forums](https://community.wildbook.org/)! We will respond shortly, unless a member of the community gets there first 🙂\n\n',
         });
       }
-      var Ba = t(442),
-        La = t(444),
-        za = t(445),
-        Ha = t(443);
+      var La = t(444),
+        Ba = t(446),
+        za = t(447),
+        Ha = t(445);
       function Ja(e) {
         var a = e.children,
           t = e.style,
@@ -2858,7 +2897,7 @@
             },
           },
           i.a.createElement(
-            Ba.a,
+            La.a,
             {
               open: o,
               onClose: function() {
@@ -2868,29 +2907,29 @@
             i.a.createElement(
               Ha.a,
               null,
-              i.a.createElement(N.a, {
+              i.a.createElement(M.a, {
                 id: 'CRYPTOCURRENCY_DONATIONS',
               }),
             ),
             i.a.createElement(
-              La.a,
+              Ba.a,
               null,
               i.a.createElement(
                 za.a,
                 null,
-                i.a.createElement(N.a, { id: 'ETHERIUM_WALLET_ID' }),
+                i.a.createElement(M.a, { id: 'ETHERIUM_WALLET_ID' }),
                 '0x5d41f2e86FeCD1205717B099a8546c5cF6F97e57',
               ),
               i.a.createElement(
                 za.a,
                 null,
-                i.a.createElement(N.a, { id: 'BITCOIN_WALLET_ID' }),
+                i.a.createElement(M.a, { id: 'BITCOIN_WALLET_ID' }),
                 '15KCE1xCGjhcDojjEpMhUA8L6JMdiNGTHy',
               ),
             ),
           ),
           i.a.createElement(
-            Ba.a,
+            La.a,
             {
               open: c,
               onClose: function() {
@@ -2900,15 +2939,15 @@
             i.a.createElement(
               Ha.a,
               null,
-              i.a.createElement(N.a, { id: 'CUSTOM_DONATIONS' }),
+              i.a.createElement(M.a, { id: 'CUSTOM_DONATIONS' }),
             ),
             i.a.createElement(
-              La.a,
+              Ba.a,
               null,
               i.a.createElement(
                 za.a,
                 null,
-                i.a.createElement(N.a, {
+                i.a.createElement(M.a, {
                   id: 'CUSTOM_DONATIONS_INSTRUCTIONS',
                 }),
               ),
@@ -2939,14 +2978,14 @@
               i.a.createElement(
                 v.a,
                 { style: { marginTop: 32 } },
-                i.a.createElement(N.a, {
+                i.a.createElement(M.a, {
                   id: 'DONATION_UMBRELLA_DESCRIPTION_1',
                 }),
               ),
               i.a.createElement(
                 v.a,
                 { style: { marginTop: 16 } },
-                i.a.createElement(N.a, {
+                i.a.createElement(M.a, {
                   id: 'DONATION_UMBRELLA_DESCRIPTION_2',
                 }),
                 i.a.createElement(
@@ -2956,9 +2995,9 @@
                       return r(!0);
                     },
                   },
-                  i.a.createElement(N.a, { id: 'CRYPTOCURRENCY' }),
+                  i.a.createElement(M.a, { id: 'CRYPTOCURRENCY' }),
                 ),
-                i.a.createElement(N.a, {
+                i.a.createElement(M.a, {
                   id: 'DONATION_UMBRELLA_DESCRIPTION_3',
                 }),
                 i.a.createElement(
@@ -2968,7 +3007,7 @@
                       return d(!0);
                     },
                   },
-                  i.a.createElement(N.a, {
+                  i.a.createElement(M.a, {
                     id: 'LARGE_DONATIONS_LINK',
                   }),
                 ),
@@ -3019,19 +3058,19 @@
               i.a.createElement(
                 v.a,
                 { variant: 'body2' },
-                i.a.createElement(N.a, { id: 'DONATION_LEGAL_1' }),
+                i.a.createElement(M.a, { id: 'DONATION_LEGAL_1' }),
               ),
               i.a.createElement(
                 v.a,
                 { variant: 'body2', style: { marginTop: 16 } },
-                i.a.createElement(N.a, { id: 'DONATION_LEGAL_2' }),
+                i.a.createElement(M.a, { id: 'DONATION_LEGAL_2' }),
               ),
             ),
           ),
         );
       }
-      var Ka = t(458),
-        qa = t(446),
+      var Ka = t(460),
+        qa = t(448),
         Va = t(193),
         Ya = t.n(Va),
         Za = t(194),
@@ -3547,10 +3586,10 @@
           }),
         );
       }
-      var at = t(447),
-        tt = t(448),
-        nt = t(450),
-        it = t(449),
+      var at = t(449),
+        tt = t(450),
+        nt = t(452),
+        it = t(451),
         ot = t(195),
         rt = t.n(ot),
         st = t(196),
@@ -3579,14 +3618,14 @@
         Wt = t.n(Ct),
         Pt = t(208),
         Rt = t.n(Pt),
-        Mt = t(209),
-        Nt = t.n(Mt),
+        Nt = t(209),
+        Mt = t.n(Nt),
         jt = t(210),
         Dt = t.n(jt),
         _t = t(211),
-        Bt = t.n(_t),
-        Lt = t(212),
-        zt = t.n(Lt),
+        Lt = t.n(_t),
+        Bt = t(212),
+        zt = t.n(Bt),
         Ht = t(213),
         Jt = t.n(Ht),
         Gt = t(214),
@@ -3602,15 +3641,15 @@
         $t = t(219),
         en = t.n($t),
         an = t(220),
-        tn = t.n(an);
-      var nn = t.p + '9da4f5328441afaea6adc9542026a0a9.svg',
-        on = t(221),
-        rn = t.n(on),
-        sn = t(118),
-        ln = t.n(sn),
-        cn = t(222),
+        tn = t.n(an),
+        nn = t(221),
+        on = t.n(nn),
+        rn = t(222),
+        sn = t.n(rn);
+      var ln = t.p + '9da4f5328441afaea6adc9542026a0a9.svg',
+        cn = t(223),
         dn = t.n(cn),
-        hn = t(223),
+        hn = t(118),
         mn = t.n(hn),
         pn = t(224),
         un = t.n(pn),
@@ -3622,7 +3661,11 @@
         vn = t.n(yn),
         kn = t(228),
         En = t.n(kn),
-        Sn = {
+        Sn = t(229),
+        In = t.n(Sn),
+        An = t(230),
+        Tn = t.n(An),
+        xn = {
           hotspotter: {
             name: 'Hotspotter',
             url: 'http://wiki.wildbook.org/en/researchers/overview',
@@ -3664,7 +3707,7 @@
             url: 'http://wiki.wildbook.org/en/researchers/overview',
           },
         },
-        In = [
+        On = [
           {
             name: 'Flukebook',
             path: '/flukebook',
@@ -3682,25 +3725,25 @@
             individuals: 42505,
             photos: 12e5,
             algorithms: [
-              Sn.hotspotter,
-              Sn.curvrank,
-              Sn.deepsense,
-              Sn.dtw,
-              Sn.kaggle,
+              xn.hotspotter,
+              xn.curvrank,
+              xn.deepsense,
+              xn.dtw,
+              xn.kaggle,
             ],
             partners: [
               {
                 name: 'Cascadia Research Collective',
-                imageSrc: rn.a,
+                imageSrc: dn.a,
                 url: 'https://www.cascadiaresearch.org/',
               },
               {
                 name: 'Dominican Sperm Whale Project',
-                imageSrc: dn.a,
+                imageSrc: un.a,
                 invertLogo: !0,
               },
-              { name: 'New England Aquarium', imageSrc: mn.a },
-              { name: 'NOAA', imageSrc: ln.a },
+              { name: 'New England Aquarium', imageSrc: fn.a },
+              { name: 'NOAA', imageSrc: mn.a },
             ],
             species: [
               {
@@ -3912,16 +3955,16 @@
             descriptionId: 'WHALESHARK_DESCRIPTION',
             sightings: 75191,
             individuals: 12060,
-            algorithms: [Sn.groth, Sn.i3s],
+            algorithms: [xn.groth, xn.i3s],
             partners: [
               {
                 name: 'Whale Shark and Oceanic Research Centre',
-                imageSrc: wn.a,
+                imageSrc: En.a,
               },
               {
                 name:
                   'Department of Marine and Coastal Resources, Thailand',
-                imageSrc: un.a,
+                imageSrc: wn.a,
               },
             ],
             species: [
@@ -3948,11 +3991,11 @@
             descriptionId: 'MANTAMATCHER_DESCRIPTION',
             sightings: 36287,
             individuals: 11105,
-            algorithms: [Sn.mantamatcher, Sn.pie, Sn.hotspotter],
+            algorithms: [xn.mantamatcher, xn.pie, xn.hotspotter],
             partners: [
               {
                 name: 'Marine Megafauna Foundation',
-                imageSrc: fn.a,
+                imageSrc: vn.a,
                 invertLogo: !0,
               },
             ],
@@ -3995,13 +4038,13 @@
             descriptionId: 'GIRAFFESPOTTER_DESCRIPTION',
             sightings: 20379,
             individuals: 6801,
-            algorithms: [Sn.hotspotter],
+            algorithms: [xn.hotspotter],
             partners: [
               {
                 name: 'Giraffe Conservation Foundation',
-                imageSrc: vn.a,
+                imageSrc: In.a,
               },
-              { name: 'San Diego Zoo Global', imageSrc: En.a },
+              { name: 'San Diego Zoo Global', imageSrc: Tn.a },
             ],
             species: [
               {
@@ -4048,7 +4091,7 @@
             descriptionId: 'IOT_DESCRIPTION',
             sightings: 37149,
             individuals: 6775,
-            algorithms: [Sn.hotspotter],
+            algorithms: [xn.hotspotter],
             partners: [],
             species: [
               {
@@ -4086,12 +4129,12 @@
             hosted: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Et.a,
-            bannerSmall: It.a,
+            bannerLarge: Tt.a,
+            bannerSmall: Ot.a,
             descriptionId: 'ZEBRA_DESCRIPTION',
             sightings: 28520,
             individuals: 8280,
-            algorithms: [Sn.hotspotter],
+            algorithms: [xn.hotspotter],
             partners: [],
             species: [
               {
@@ -4117,12 +4160,12 @@
             hosted: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Tt.a,
-            bannerSmall: Ot.a,
+            bannerLarge: Wt.a,
+            bannerSmall: Rt.a,
             descriptionId: 'LYNX_DESCRIPTION',
             sightings: 22479,
             individuals: 558,
-            algorithms: [Sn.hotspotter],
+            algorithms: [xn.hotspotter],
             partners: [],
             species: [
               {
@@ -4141,12 +4184,12 @@
             inviteOnly: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Kt.a,
-            bannerSmall: Vt.a,
+            bannerLarge: Zt.a,
+            bannerSmall: Xt.a,
             descriptionId: 'BASS_DESCRIPTION',
             sightings: 607,
             individuals: null,
-            algorithms: [Sn.groth, Sn.i3s],
+            algorithms: [xn.groth, xn.i3s],
             partners: [],
             species: [
               {
@@ -4167,18 +4210,54 @@
             adoption: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Jt.a,
-            bannerSmall: Ut.a,
+            bannerLarge: Kt.a,
+            bannerSmall: Vt.a,
             descriptionId: 'SPOT_A_SHARK_DESCRIPTION',
             sightings: 7290,
             individuals: null,
             partners: [],
-            algorithms: [Sn.groth, Sn.i3s],
+            algorithms: [xn.groth, xn.i3s],
             species: [
               {
                 name: 'Carcharias taurus',
                 alias: 'Sand tiger shark',
                 url: 'https://en.wikipedia.org/wiki/Sand_tiger_shark',
+              },
+            ],
+          },
+          {
+            name: 'African Carnivores',
+            path: '/acw',
+            href: 'https://africancarnivore.wildbook.org/',
+            tagline:
+              'A.I for the conservation of african carnivores by automating individual identification.',
+            inviteOnly: !0,
+            hosted: !0,
+            adoption: !1,
+            adminName: 'Jason Holmberg',
+            adminContact: 'jason@wildme.org',
+            bannerLarge: Et.a,
+            bannerSmall: It.a,
+            descriptionId: 'ACW_DESCRIPTION',
+            sightings: 21466,
+            individuals: null,
+            partners: [],
+            algorithms: [xn.hotspotter],
+            species: [
+              {
+                name: 'Lycaon Pictus',
+                alias: 'Wild Dog',
+                url: 'https://en.wikipedia.org/wiki/African_wild_dog',
+              },
+              {
+                name: 'Panthera Pardus',
+                alias: 'Leopard',
+                url: 'https://en.wikipedia.org/wiki/Leopard',
+              },
+              {
+                name: 'Acinonyx Jubatus',
+                alias: 'Cheetah',
+                url: 'https://en.wikipedia.org/wiki/Cheetah',
               },
             ],
           },
@@ -4192,13 +4271,13 @@
             hosted: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: en.a,
-            bannerSmall: tn.a,
+            bannerLarge: on.a,
+            bannerSmall: sn.a,
             descriptionId: 'SPOT_A_SHARK_USA_DESCRIPTION',
             sightings: 1404,
             individuals: null,
             partners: [],
-            algorithms: [Sn.groth, Sn.i3s],
+            algorithms: [xn.groth, xn.i3s],
             species: [
               {
                 name: 'Carcharias taurus',
@@ -4217,12 +4296,12 @@
             hosted: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Wt.a,
-            bannerSmall: Rt.a,
+            bannerLarge: Mt.a,
+            bannerSmall: Dt.a,
             descriptionId: 'JAGUAR_DESCRIPTION',
             sightings: 925,
             individuals: 129,
-            algorithms: [Sn.hotspotter],
+            algorithms: [xn.hotspotter],
             partners: [],
             species: [
               {
@@ -4242,12 +4321,12 @@
             hosted: !1,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Bt.a,
-            bannerSmall: zt.a,
+            bannerLarge: Jt.a,
+            bannerSmall: Ut.a,
             descriptionId: 'SAIMAA_SEAL_DESCRIPTION',
             sightings: 4559,
             individuals: 446,
-            algorithms: [Sn.hotspotter],
+            algorithms: [xn.hotspotter],
             partners: [],
             species: [
               {
@@ -4268,16 +4347,16 @@
             hosted: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Zt.a,
-            bannerSmall: Xt.a,
+            bannerLarge: en.a,
+            bannerSmall: tn.a,
             descriptionId: 'SKUNK_DESCRIPTION',
             sightings: 657,
             individuals: 11,
-            algorithms: [Sn.hotspotter],
+            algorithms: [xn.hotspotter],
             partners: [
               {
                 name: 'Oregon State University',
-                imageSrc: nn,
+                imageSrc: ln,
                 url: 'https://mmi.oregonstate.edu/',
               },
             ],
@@ -4300,12 +4379,12 @@
             hosted: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Nt.a,
-            bannerSmall: Dt.a,
+            bannerLarge: Lt.a,
+            bannerSmall: zt.a,
             descriptionId: 'DRAGONSEARCH_DESCRIPTION',
             sightings: 2521,
             individuals: null,
-            algorithms: [Sn.hotspotter],
+            algorithms: [xn.hotspotter],
             partners: [],
             species: [
               {
@@ -4326,7 +4405,7 @@
             ],
           },
         ];
-      function An() {
+      function Cn() {
         var e = Object(f.a)(),
           a = Object(fe.a)().formatMessage({ id: 'PLATFORMS' });
         return i.a.createElement(
@@ -4340,7 +4419,7 @@
               justify: 'space-around',
               style: { padding: '0 30px 80px 30px' },
             },
-            In.map(function(a) {
+            On.map(function(a) {
               return i.a.createElement(
                 na.a,
                 {
@@ -4396,9 +4475,9 @@
           ),
         );
       }
-      var Tn = t(229),
-        xn = t.n(Tn);
-      function On(e) {
+      var Wn = t(231),
+        Pn = t.n(Wn);
+      function Rn(e) {
         var a = e.people,
           t = e.titleId,
           o = Object(n.useState)(null),
@@ -4412,7 +4491,7 @@
           'div',
           { style: { marginBottom: 60, padding: 40 } },
           i.a.createElement(
-            Ba.a,
+            La.a,
             { open: Boolean(s), onClose: c, maxWidth: 'sm' },
             i.a.createElement(
               Ha.a,
@@ -4424,11 +4503,11 @@
                   'aria-label': 'close',
                   onClick: c,
                 },
-                i.a.createElement(xn.a, null),
+                i.a.createElement(Pn.a, null),
               ),
             ),
             i.a.createElement(
-              La.a,
+              Ba.a,
               { style: { paddingBottom: 40 } },
               s &&
                 i.a.createElement(
@@ -4460,7 +4539,7 @@
           i.a.createElement(
             v.a,
             { variant: 'h5', style: { marginBottom: 40 } },
-            i.a.createElement(N.a, { id: t }),
+            i.a.createElement(M.a, { id: t }),
           ),
           i.a.createElement(
             na.a,
@@ -4495,15 +4574,15 @@
           ),
         );
       }
-      var Cn = t(230),
-        Wn = t.n(Cn),
-        Pn = t(231),
-        Rn = t.n(Pn),
-        Mn = t(232),
-        Nn = t.n(Mn),
-        jn = [
+      var Nn = t(232),
+        Mn = t.n(Nn),
+        jn = t(233),
+        Dn = t.n(jn),
+        _n = t(234),
+        Ln = t.n(_n),
+        Bn = [
           {
-            img: Wn.a,
+            img: Mn.a,
             name: 'Dr. Tanya Berger-Wolf',
             role: 'Director',
             renderDescription: function() {
@@ -4524,7 +4603,7 @@
             },
           },
           {
-            img: Rn.a,
+            img: Dn.a,
             name: 'Dr. Zaven Arzoumanian',
             role: 'President',
             renderDescription: function() {
@@ -4536,7 +4615,7 @@
             },
           },
           {
-            img: Nn.a,
+            img: Ln.a,
             name: 'Dr. Alex Dehgan',
             role: 'Director',
             renderDescription: function() {
@@ -4548,10 +4627,6 @@
             },
           },
         ],
-        Dn = t(233),
-        _n = t.n(Dn),
-        Bn = t(234),
-        Ln = t.n(Bn),
         zn = t(235),
         Hn = t.n(zn),
         Jn = t(236),
@@ -4564,9 +4639,13 @@
         Yn = t.n(Vn),
         Zn = t(240),
         Qn = t.n(Zn),
-        Xn = [
+        Xn = t(241),
+        $n = t.n(Xn),
+        ei = t(242),
+        ai = t.n(ei),
+        ti = [
           {
-            img: Ln.a,
+            img: Gn.a,
             name: 'Colin Kingen',
             role: 'Software Engineer/Community Engagement',
             renderDescription: function() {
@@ -4593,7 +4672,7 @@
             },
           },
           {
-            img: Gn.a,
+            img: qn.a,
             name: 'Jason Holmberg',
             role: 'Executive Director',
             renderDescription: function() {
@@ -4619,7 +4698,7 @@
             },
           },
           {
-            img: Hn.a,
+            img: Fn.a,
             name: 'Dr. Mark Fisher',
             role: 'Software Engineer',
             renderDescription: function() {
@@ -4631,7 +4710,7 @@
             },
           },
           {
-            img: qn.a,
+            img: Qn.a,
             name: 'Jason Parham',
             role: 'Senior Computer Vision Research Engineer',
             renderDescription: function() {
@@ -4663,7 +4742,7 @@
             },
           },
           {
-            img: _n.a,
+            img: Hn.a,
             name: 'Drew Blount',
             role: 'Machine Learning Engineer',
             renderDescription: function() {
@@ -4690,7 +4769,7 @@
             },
           },
           {
-            img: Yn.a,
+            img: $n.a,
             name: 'Tanya Stere',
             role: 'Director of Product',
             renderDescription: function() {
@@ -4702,7 +4781,7 @@
             },
           },
           {
-            img: Fn.a,
+            img: Yn.a,
             name: 'Ben Scheiner',
             role: 'Senior engineer, H2O.ai Liason',
             renderDescription: function() {
@@ -4723,7 +4802,7 @@
             },
           },
           {
-            img: Qn.a,
+            img: ai.a,
             name: 'Jon Van Oast',
             role: 'Senior Engineer',
             renderDescription: function() {
@@ -4745,7 +4824,7 @@
             },
           },
         ];
-      function $n() {
+      function ni() {
         return i.a.createElement(
           se,
           {
@@ -4754,37 +4833,33 @@
             subtitle:
               'Our team works at the intersection of conservation, software development, and academia. We take pride in what we do, and even more pride in how we treat each other.',
           },
-          i.a.createElement(On, {
-            people: jn,
+          i.a.createElement(Rn, {
+            people: Bn,
             titleId: 'PAGE_TITLE_BOARD',
           }),
-          i.a.createElement(On, {
-            people: Xn,
+          i.a.createElement(Rn, {
+            people: ti,
             titleId: 'PAGE_TITLE_STAFF',
           }),
         );
       }
-      var ei = t(241),
-        ai = t.n(ei),
-        ti = t(242),
-        ni = t.n(ti);
-      var ii = t.p + '55eeadabee8e0d95ab46a3071450cfd4.svg',
-        oi = t(243),
-        ri = t.n(oi),
-        si = t(244),
-        li = t.n(si),
+      var ii = t(243),
+        oi = t.n(ii),
+        ri = t(244),
+        si = t.n(ri);
+      var li = t.p + '55eeadabee8e0d95ab46a3071450cfd4.svg',
         ci = t(245),
         di = t.n(ci),
         hi = t(246),
         mi = t.n(hi),
         pi = t(247),
-        ui = t.n(pi);
-      var gi = t.p + 'b3a9d4797603d9e9f7cc4f4a39dfb81b.svg';
-      var fi = t.p + 'ecb31afcf38b3656f7c7e7e2792dff37.svg',
-        bi = t(248),
-        wi = t.n(bi),
-        yi = t(249),
-        vi = t.n(yi),
+        ui = t.n(pi),
+        gi = t(248),
+        fi = t.n(gi),
+        bi = t(249),
+        wi = t.n(bi);
+      var yi = t.p + 'b3a9d4797603d9e9f7cc4f4a39dfb81b.svg';
+      var vi = t.p + 'ecb31afcf38b3656f7c7e7e2792dff37.svg',
         ki = t(250),
         Ei = t.n(ki),
         Si = t(251),
@@ -4795,13 +4870,17 @@
         Oi = t.n(xi),
         Ci = t(254),
         Wi = t.n(Ci),
-        Pi = [
+        Pi = t(255),
+        Ri = t.n(Pi),
+        Ni = t(256),
+        Mi = t.n(Ni),
+        ji = [
           {
             name: 'The Gordon and Betty Moore Foundation',
             role: 'Featured sponsor',
             youtubeUrl: null,
-            photoSrc: di.a,
-            logo: li.a,
+            photoSrc: ui.a,
+            logo: mi.a,
             description:
               'The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area. Visit Moore.org and follow @MooreFound.',
           },
@@ -4809,7 +4888,7 @@
             name: 'H2O.ai',
             role: 'Featured sponsor',
             youtubeUrl: 'https://www.youtube.com/watch?v=jQ_sM-ULJ8A',
-            logo: ii,
+            logo: li,
             description:
               "On August 13, 2018, H2O.ai became a sponsor of Wildbook in celebration of World Elephant Day. H2O.ai's continued investment helps Wildbook support its staff, accelerating the conservation of endangered species with AI.",
           },
@@ -4817,7 +4896,7 @@
             name: 'Microsoft',
             role: 'Featured sponsor',
             youtubeUrl: 'https://www.youtube.com/watch?v=rQqao37u1wU',
-            logo: ni.a,
+            logo: si.a,
             description:
               "On June 14, 2018, Wild Me (the organization that develops Wildbook) became a featured partner of Microsoft's AI for Earth program. This deep level of investment and engagement has enabled Wildbook to more effectively and efficiently use AI to combat extinction. Wild Me joined the Microsoft for Startups program in 2020.",
           },
@@ -4825,15 +4904,15 @@
             name: 'NVIDIA',
             role: 'Featured sponsor',
             youtubeUrl: 'https://www.youtube.com/watch?v=TLw_I1ghvLM',
-            logo: ri.a,
+            logo: di.a,
             description:
               "Wild Me is a member of NVIDIA's Inception Incubator program and has received hardware donations from NVIDIA. The donated GPUs make it possible to run our machine learning algorithms faster and keep JP's basement from overheating and catching on fire.",
           },
           {
             name: 'Marine Megafauna Foundation',
             role: 'Featured partner',
-            photoSrc: Oi.a,
-            logo: Ti.a,
+            photoSrc: Ri.a,
+            logo: Wi.a,
             description:
               'Marine Megafauna Foundation partnered with Wild Me to create mantamatcher.org, a tool used by multiple people.',
           },
@@ -4841,55 +4920,55 @@
             name:
               'National Oceanic and Atmospheric Administration (NOAA)',
             role: 'Featured partner',
-            photoSrc: Wi.a,
-            logo: ln.a,
+            photoSrc: Mi.a,
+            logo: mn.a,
             description:
               'NOAA partnered with Wild Me to create mantamatcher.org, a tool used by multiple people.',
           },
         ],
-        Ri = [
+        Di = [
           {
-            src: mi.a,
+            src: fi.a,
             url: 'https://en.wikipedia.org/wiki/Pineapple_Fund',
             alt: 'The Pineapple Fund',
           },
           {
-            src: Ei.a,
+            src: Ti.a,
             url: 'https://www.nsf.gov/',
             alt: 'National Science Foundation',
           },
           {
-            src: ui.a,
+            src: wi.a,
             url: 'https://www.pbnf.nl/',
             alt: 'The Prince Bernhard Nature Fund',
           },
           {
-            src: vi.a,
+            src: Ii.a,
             url: 'https://www.adobe.com/',
             alt: 'The Adobe Foundation',
           },
           {
-            src: gi,
+            src: yi,
             url: 'https://sirenfleet.com/',
             alt: 'Siren Fleet',
           },
           {
-            src: fi,
+            src: vi,
             url: 'https://www.georgiaaquarium.org/',
             alt: 'Georgia Aquarium',
           },
           {
-            src: wi.a,
+            src: Ei.a,
             url: 'https://www.britishecologicalsociety.org/',
             alt: 'British Ecological Society',
           },
           {
-            src: Ii.a,
+            src: Oi.a,
             url: 'https://www.waittfoundation.org/',
             alt: 'The Waitt Foundation',
           },
         ];
-      function Mi() {
+      function _i() {
         var e = Object(fe.a)();
         return i.a.createElement(
           se,
@@ -4900,7 +4979,7 @@
               "Conservation doesn't happen in a vacuum. Join us in celebrating our supporters, whose generosity and direction make it all possible.",
           },
           i.a.createElement(ce, null),
-          Pi.map(function(e) {
+          ji.map(function(e) {
             return i.a.createElement(
               i.a.Fragment,
               { key: e.name },
@@ -4940,7 +5019,7 @@
                   ),
                 ),
                 e.youtubeUrl &&
-                  i.a.createElement(ai.a, {
+                  i.a.createElement(oi.a, {
                     style: { maxWidth: '90%', maxHeight: '50%' },
                     url: e.youtubeUrl,
                   }),
@@ -4972,7 +5051,7 @@
             i.a.createElement(pa, {
               style: { maxWidth: 880, margin: '80px auto' },
               height: 60,
-              logos: Ri.map(function(e) {
+              logos: Di.map(function(e) {
                 return e.src;
               }),
             }),
@@ -4995,7 +5074,7 @@
               'Become a sponsor.',
             ),
             i.a.createElement(
-              M,
+              N,
               {
                 href: '/contact',
                 display: 'primary',
@@ -5006,7 +5085,7 @@
           ),
         );
       }
-      function Ni() {
+      function Li() {
         return i.a.createElement(Pa, {
           title: 'Volunteer',
           imgSrc: Da.a,
@@ -5014,7 +5093,7 @@
             "## Overview\n\nLike most non-profits, we try to achieve a lot with a relatively small staff. As a result, we HUGELY appreciate our volunteer workforce. If you are curious about making a contribution, take a look at the information below. \n\n## Programming \n\nAll our code is open source and PRs are very much appreciated. Here's a quick rundown of our active repositories:\n\n - [Wildbook](https://github.com/WildbookOrg/Wildbook): Java backend with JSP frontend. \n - [WB-IA](https://github.com/WildbookOrg/wildbook-ia): Python with a small Flask frontend.\n - Codex: [Java backend](https://github.com/WildbookOrg/Wildbook/tree/next-gen) with [React frontend](https://github.com/WildbookOrg/wildbook-frontend) and [Python middleware](https://github.com/WildbookOrg/houston).\n - [Scout](https://github.com/WildbookOrg/report-app): React Native.\n\nFor help getting set up or other questions, send an email to dev@wildme.org. We handle project management internally using Jira so just let us know your interests and we can find some good tickets for you.\n\n## Graphic design \n\nFor more information about our graphic design needs, contact ben@wildme.org. Thanks in advance!\n\n## Software documentation and community management \n\nFor more information about our needs regarding software documentation and community management, contact tstere@wildme.org.\n\n## Miscellaneous\n\nHave something else in mind? Send an email to info@wildme.org and we will be in touch!\n",
         });
       }
-      function ji() {
+      function Bi() {
         return i.a.createElement(
           se,
           {
@@ -5054,7 +5133,7 @@
               'There are no open positions at the moment. But we love to meet good people. Please feel free to reach out about future employment opportunities.',
             ),
             i.a.createElement(
-              M,
+              N,
               {
                 display: 'primary',
                 style: { marginTop: 40 },
@@ -5065,8 +5144,8 @@
           ),
         );
       }
-      var Di = t(463);
-      function _i(e) {
+      var zi = t(465);
+      function Hi(e) {
         var a = e.title,
           t = e.instructions,
           o = e.action,
@@ -5100,7 +5179,7 @@
             },
             i.a.createElement(v.a, { variant: 'h5' }, a),
             i.a.createElement(
-              Di.a,
+              zi.a,
               {
                 marginThreshold: 0,
                 PaperProps: {
@@ -5127,7 +5206,7 @@
                 i.a.createElement(v.a, { variant: 'h5' }, t),
                 o &&
                   i.a.createElement(
-                    M,
+                    N,
                     {
                       display: 'secondary',
                       style: { marginTop: 32 },
@@ -5141,14 +5220,15 @@
           ),
         );
       }
-      function Bi() {
+      function Ji() {
         return i.a.createElement(
           se,
-          {
-            documentTitle: 'Contact Us',
-            title: 'Contact Us',
-            subtitle: 'Want to chat? Choose from the options below.',
-          },
+          { documentTitle: 'Contact Us', title: 'Contact Us' },
+          i.a.createElement(
+            v.a,
+            { variant: 'subtitle1', style: { textAlign: 'center' } },
+            'Want to contact us? Choose from the options below.',
+          ),
           i.a.createElement(
             'div',
             {
@@ -5160,37 +5240,36 @@
                 margin: '0px auto',
               },
             },
-            i.a.createElement(_i, {
+            i.a.createElement(Hi, {
               title: 'Wildbook bugs and feature requests',
               instructions:
                 'Create an issue on the Wildbook community forums.',
               action: 'Visit the forums',
               href: 'https://community.wildbook.org/',
             }),
-            i.a.createElement(_i, {
+            i.a.createElement(Hi, {
               title: 'Problems with this website',
               instructions:
-                'Thanks for pointing it out. Please email ben@wildme.org and I will get it fixed.',
+                'Send an email to ben@wildme.org and I will get it fixed. Thanks for pointing it out.',
             }),
-            i.a.createElement(_i, {
+            i.a.createElement(Hi, {
               title: 'Volunteering',
               instructions:
-                'Thanks for offering to help! Please email dev@wildme.org with some information about your interests and availability.',
+                'Thanks for offering to help! Send an email to dev@wildme.org with some information about your interests and availability.',
             }),
-            i.a.createElement(_i, {
+            i.a.createElement(Hi, {
               title: 'Start a Wildbook',
               instructions:
-                'Please refer to our documentation on how to start a Wildbook.',
+                'Refer to our documentation on how to start a Wildbook.',
               action: 'See the docs',
-              href:
-                'http://wiki.wildbook.org/en/researchers/overview',
+              href: 'http://wiki.wildbook.org/en/researchers',
             }),
-            i.a.createElement(_i, {
+            i.a.createElement(Hi, {
               title: 'Partnerships, sponsorships, and grants',
               instructions:
-                'Please email jason@wildme.org and we will be in touch as soon as possible.',
+                'Send an email to jason@wildme.org and we will be in touch as soon as possible.',
             }),
-            i.a.createElement(_i, {
+            i.a.createElement(Hi, {
               title: 'General inquiries',
               instructions:
                 'Send an email to info@wildme.org and we will get back to you soon!',
@@ -5198,11 +5277,11 @@
           ),
         );
       }
-      var Li = t(256),
-        zi = t.n(Li),
-        Hi = t(255),
-        Ji = t.n(Hi);
-      function Gi(e) {
+      var Gi = t(258),
+        Ui = t.n(Gi),
+        Fi = t(257),
+        Ki = t.n(Fi);
+      function qi(e) {
         var a = e.title,
           t = e.description,
           n = e.languages,
@@ -5231,7 +5310,7 @@
             { style: { marginTop: 12 } },
             o &&
               i.a.createElement(
-                M,
+                N,
                 {
                   size: 'small',
                   style: { marginRight: 20, marginTop: 16 },
@@ -5244,26 +5323,26 @@
               ),
             r &&
               i.a.createElement(
-                M,
+                N,
                 {
                   size: 'small',
                   style: { marginRight: 20, marginTop: 16 },
                   display: 'primary',
                   href: r,
-                  startIcon: i.a.createElement(Ji.a, null),
+                  startIcon: i.a.createElement(Ki.a, null),
                   external: !0,
                 },
                 'DOCUMENTATION',
               ),
             s &&
               i.a.createElement(
-                M,
+                N,
                 {
                   size: 'small',
                   style: { marginRight: 20, marginTop: 16 },
                   display: 'primary',
                   href: s,
-                  startIcon: i.a.createElement(zi.a, null),
+                  startIcon: i.a.createElement(Ui.a, null),
                   external: !0,
                 },
                 'Support',
@@ -5271,7 +5350,7 @@
           ),
         );
       }
-      function Ui() {
+      function Vi() {
         return i.a.createElement(
           se,
           {
@@ -5283,7 +5362,7 @@
           i.a.createElement(
             de,
             null,
-            i.a.createElement(Gi, {
+            i.a.createElement(qi, {
               title: 'Wildbook',
               languages: 'Java, JSP',
               description:
@@ -5294,7 +5373,7 @@
                 'http://wiki.wildbook.org/en/developers/overview/big-picture',
               supportHref: 'https://community.wildbook.org/',
             }),
-            i.a.createElement(Gi, {
+            i.a.createElement(qi, {
               title: 'Wildbook-IA',
               languages: 'Python',
               description:
@@ -5303,7 +5382,7 @@
                 'https://github.com/WildbookOrg/wildbook-ia',
               supportHref: 'https://community.wildbook.org/',
             }),
-            i.a.createElement(Gi, {
+            i.a.createElement(qi, {
               title: 'wildme.org',
               languages: 'Javascript, React',
               description:
@@ -5315,7 +5394,7 @@
           i.a.createElement(
             de,
             null,
-            i.a.createElement(Gi, {
+            i.a.createElement(qi, {
               title: 'Houston',
               languages: 'Python, Flask',
               description:
@@ -5325,7 +5404,7 @@
               docsHref:
                 'http://wiki.wildbook.org/en/developers/overview/houston',
             }),
-            i.a.createElement(Gi, {
+            i.a.createElement(qi, {
               title: 'Nexgen frontend',
               languages: 'Javascript, React',
               description:
@@ -5336,14 +5415,15 @@
           ),
         );
       }
-      var Fi = t(257),
-        Ki = t.n(Fi);
-      function qi() {
+      var Yi = t(259),
+        Zi = t.n(Yi);
+      function Qi() {
         return i.a.createElement(
           Pa,
           {
+            documentTitle: 'Wildbook',
             title: 'Wildbook: our flagship product.',
-            imgSrc: Ki.a,
+            imgSrc: Zi.a,
             content:
               'Wildbook blends structured wildlife research with artificial intelligence, citizen science, and computer vision to speed population analysis and develop new insights to help fight extinction.\n\n## Why Wildbook?\n\nAccording to a July 2017 [study in the Proceedings of the National Academy of Sciences](https://pubmed.ncbi.nlm.nih.gov/28696295/), a “sixth mass extinction” is underway, a trend signalled by widespread vertebrate losses that “will have negative cascading consequences on ecosystem functioning and services vital to sustaining civilization.” This meta-study is based on multiple, independent analyses and represents a growing awareness in the wildlife research community that more rapid assessment, response, and review are needed to understand and counter this decline.\n\nUnfortunately, wildlife research efforts are frequently underfunded and small scale. The collection and management of wildlife data remains a largely ad hoc and academic exercise focused on moving small data sets (often in Excel and Access) into local, custom population studies for “one-off” analyses without long-term data curation or collaboration across borders and regions. Arriving at a critical mass of data for population analysis can take years (especially for rare or endangered species). Long required observation periods and manual data processing (e.g., matching photos “by eye”) can create multi-year lags between study initialization and scientific results, as well as create conclusions too coarse or slow for effective and optimizable conservation action. This limits the scope, scale, repeatability, continuity, and ROI of the studies as they face the limits of their home-grown tools and IT capabilities.\n\nWildlife researchers lack a common yet customizable platform for collaboration and often don’t have the technical experience or budget to take advantage of advanced computing tools (e.g., computer vision, artificial intelligence). These tools allows projects to obtain, curate, and analyze “Big Data”, such as the potential of citizen scientists to collect and contribute large volumes of wildlife data through tourism and volunteerism.\n\n## Data Management in the Cloud \n\nWildbook is an open source software framework to support collaborative mark-recapture, molecular ecology, and social ecology studies, especially where citizen science and artificial intelligence can help scale up projects. It is developed by the non-profit Wild Me (PI Jason Holmberg) and research partners at the University of Illinois-Chicago (PI Tanya Berger-Wolf), Rensselaer Polytechnic Institute (PI Charles V. Stewart), and Princeton University (PI Daniel Rubenstein).\n\nWildbook provides a technical foundation (database, APIs, computer vision, etc.) for wildlife research projects that are:\n\n - tracking individual animals in a wildlife population using natural markings , genetic identifiers, or vocalizations\n - collecting biological samples from a wildlife population and performing genetic and/or chemical analyses (e.g., stable isotope measurements, haplotype determination, etc.)\n - engaging citizen scientists and\\or using social media to collect sighting information\n - looking to build a collaborative, distributed research network for a migratory and/or global species\n - looking to develop a new animal biometrics solution (e.g., pattern matching from photos) for one or more species\n - collecting behavioral and/or social data for a wildlife study population\n\nThe biological and statistical communities already support a number of excellent tools, such as Program MARK,GenAlEx, and SOCPROG for use in analyzing wildlife data. Wildbook is a complementary software application that:\n\n - provides a scalable and collaborative platform for intelligent wildlife data storage and management, including advanced, consolidated searching\n - provides an easy-to-use software suite of functionality that can be extended to meet the needs of wildlife projects, especially where individual identification is used\n - provides an API to support the easy export of data to cross-disciplinary analysis applications (e.g., GenePop ) and other software (e.g., Google Earth)\n - provides a platform that supports the exposure of data in biodiversity databases (e.g., GBIF and OBIS)\n - provides a platform for animal biometrics that supports easy data access and facilitates matching application deployment for multiple species\n\n## Gateway to A.I. and Computer Vision\n\nImages have become the most abundant, available and cheap source of data. The explosive growth in the use of digital cameras, together with rapid innovations in storage technology and automatic image analysis software, makes this vision possible particularly for large animals with distinctive striped, spotted, wrinkled or notched markings, such as elephants, giraffes and zebras. This large number of collected images must be analyzed automatically to produce a database that records who the animals are, where they are, and when they were photographed. Combining this with geographic, environmental, behavioral and climate data would enable the determination of what the animals are doing, and why they are doing it.\n\nWildbook evolved out of multi-disciplinary, collaborative research conducted under National Science Foundation support (see ibeis.org). Wildbook employees computer vision and A.I. components to detect features in submitted images and detect and then identify individual animals. Wildbook brings massive-scale computer vision to wildlife research for the first time.\n\nWildbook integrates the data management software of Wild Me with the computer vision and A.I. research of RPI. Wildbook includes a two-part, multi-species computer vision pipeline to find and identify individual animals in photos collected under real-world conditions, especially with citizen science contribution.\n\n\n\n',
           },
@@ -5360,17 +5440,17 @@
               },
             },
             i.a.createElement(
-              M,
+              N,
               {
                 style: { marginTop: 20 },
                 display: 'primary',
                 external: !0,
-                href: '',
+                href: 'http://wiki.wildbook.org/en/researchers',
               },
               'Start a Wildbook',
             ),
             i.a.createElement(
-              M,
+              N,
               {
                 style: { marginTop: 20 },
                 display: 'primary',
@@ -5382,8 +5462,8 @@
           ),
         );
       }
-      var Vi = t(460);
-      function Yi(e) {
+      var Xi = t(462);
+      function $i(e) {
         var a = e.data,
           t = a.name,
           o = a.tagline,
@@ -5404,7 +5484,7 @@
           'div',
           null,
           i.a.createElement(
-            Ba.a,
+            La.a,
             {
               open: w,
               onClose: function() {
@@ -5414,15 +5494,15 @@
             i.a.createElement(
               Ha.a,
               null,
-              i.a.createElement(N.a, { id: 'REQUEST_AN_INVITATION' }),
+              i.a.createElement(M.a, { id: 'REQUEST_AN_INVITATION' }),
             ),
             i.a.createElement(
-              La.a,
+              Ba.a,
               null,
               i.a.createElement(
                 za.a,
                 null,
-                i.a.createElement(N.a, {
+                i.a.createElement(M.a, {
                   id: 'REQUEST_INVITE_DESCRIPTION',
                   values: { siteName: t },
                 }),
@@ -5430,7 +5510,7 @@
               i.a.createElement(
                 za.a,
                 null,
-                i.a.createElement(N.a, {
+                i.a.createElement(M.a, {
                   id: 'REQUEST_INVITE_INSTRUCTIONS',
                   values: { name: l, email: s },
                 }),
@@ -5480,14 +5560,14 @@
                 o,
               ),
               i.a.createElement(
-                M,
+                N,
                 {
                   style: { marginTop: 'max(2vmax, 16px)' },
                   display: 'primary',
                   href: r,
                   external: !0,
                 },
-                i.a.createElement(N.a, { id: 'VISIT_SITE' }),
+                i.a.createElement(M.a, { id: 'VISIT_SITE' }),
               ),
             ),
           ),
@@ -5495,17 +5575,17 @@
             de,
             null,
             i.a.createElement(
-              Vi.a,
+              Xi.a,
               { style: { marginLeft: 12 } },
               i.a.createElement(
                 T,
                 { href: '/' },
-                i.a.createElement(N.a, { id: 'HOME' }),
+                i.a.createElement(M.a, { id: 'HOME' }),
               ),
               i.a.createElement(
                 T,
                 { href: '/platforms' },
-                i.a.createElement(N.a, { id: 'PLATFORMS' }),
+                i.a.createElement(M.a, { id: 'PLATFORMS' }),
               ),
               i.a.createElement(v.a, null, t),
             ),
@@ -5545,7 +5625,7 @@
               i.a.createElement(
                 v.a,
                 null,
-                i.a.createElement(N.a, { id: c }),
+                i.a.createElement(M.a, { id: c }),
               ),
             ),
           ),
@@ -5581,7 +5661,7 @@
               i.a.createElement(
                 v.a,
                 { variant: 'h5' },
-                i.a.createElement(N.a, { id: 'ALGORITHMS' }),
+                i.a.createElement(M.a, { id: 'ALGORITHMS' }),
               ),
             ),
             i.a.createElement(
@@ -5622,7 +5702,7 @@
               i.a.createElement(
                 v.a,
                 { variant: 'h5' },
-                i.a.createElement(N.a, { id: 'SPECIES_TITLE' }),
+                i.a.createElement(M.a, { id: 'SPECIES_TITLE' }),
               ),
             ),
             i.a.createElement(
@@ -5656,7 +5736,7 @@
           ),
         );
       }
-      function Zi(e) {
+      function eo(e) {
         var a = e.articleData,
           t = a.title,
           n = a.image,
@@ -5693,8 +5773,8 @@
           ),
         );
       }
-      var Qi = t(136),
-        Xi = [
+      var ao = t(136),
+        to = [
           'Lato',
           '-apple-system',
           'BlinkMacSystemFont',
@@ -5707,8 +5787,8 @@
           '"Segoe UI Emoji"',
           '"Segoe UI Symbol"',
         ].join(','),
-        $i = Object(Qi.lighten)('#21BDC1', 0.7),
-        eo = {
+        no = Object(ao.lighten)('#21BDC1', 0.7),
+        io = {
           palette: {
             common: { black: '#0E1014' },
             primary: { main: '#21BDC1' },
@@ -5717,7 +5797,7 @@
             text: { primary: '#0E1014' },
           },
           typography: {
-            fontFamily: Xi,
+            fontFamily: to,
             h1: { fontWeight: 800, letterSpacing: '0.02em' },
             h2: { fontWeight: 800, letterSpacing: '0.02em' },
             h5: { fontWeight: 700, letterSpacing: '0.04em' },
@@ -5733,7 +5813,7 @@
               fontWeight: 300,
               fontSize: 14,
               letterSpacing: '0.02em',
-              color: Object(Qi.darken)('#0E1014', 0.5),
+              color: Object(ao.darken)('#0E1014', 0.5),
             },
             subtitle1: { fontSize: 20, letterSpacing: '0.02em' },
           },
@@ -5755,7 +5835,7 @@
               },
               outlined: { padding: '6px 20px' },
               outlinedSizeSmall: { padding: '4px 12px' },
-              containedSecondary: { backgroundColor: $i },
+              containedSecondary: { backgroundColor: no },
               contained: {
                 backgroundColor: '#ffffff',
                 boxShadow: '1px 2px 6px -2px rgba(0,0,0,0.4)',
@@ -5763,26 +5843,26 @@
             },
             MuiTableCell: { root: { fontStyle: 'unset' } },
             MuiListItem: {
-              root: { '&$selected': { backgroundColor: $i } },
+              root: { '&$selected': { backgroundColor: no } },
             },
             MuiTreeItem: {
               root: {
                 '&$selected': {
                   '&& > .MuiTreeItem-content .MuiTreeItem-label': {
-                    backgroundColor: $i,
+                    backgroundColor: no,
                   },
                 },
               },
             },
           },
         },
-        ao = t(258),
-        to = t(259);
+        oo = t(260),
+        ro = t(261);
       'function' == typeof Intl.NumberFormat.__addLocaleData &&
         (Intl.NumberFormat.__addLocaleData(p),
         Intl.NumberFormat.__addLocaleData(u));
-      var no = { en: ao, es: to };
-      function io() {
+      var so = { en: oo, es: ro };
+      function lo() {
         var e = Object(s.f)().pathname;
         return (
           Object(n.useEffect)(
@@ -5794,8 +5874,8 @@
           null
         );
       }
-      function oo() {
-        var e = Object(c.a)(eo);
+      function co() {
+        var e = Object(c.a)(io);
         return i.a.createElement(
           d.a,
           { theme: e },
@@ -5810,14 +5890,14 @@
           ),
           i.a.createElement(
             m.a,
-            { locale: 'en', defaultLocale: 'en', messages: no.en },
+            { locale: 'en', defaultLocale: 'en', messages: so.en },
             i.a.createElement(
               'div',
               null,
               i.a.createElement(
                 l.a,
                 { basename: '/wildbook.org' },
-                i.a.createElement(io, null),
+                i.a.createElement(lo, null),
                 i.a.createElement(
                   'main',
                   {
@@ -5834,27 +5914,27 @@
                   i.a.createElement(
                     s.c,
                     null,
-                    In.map(function(e) {
+                    On.map(function(e) {
                       return i.a.createElement(
                         s.a,
                         {
                           key: e.path,
                           path: '/platforms'.concat(e.path),
                         },
-                        i.a.createElement(Yi, { data: e }),
+                        i.a.createElement($i, { data: e }),
                       );
                     }),
                     Ve.map(function(e) {
                       return i.a.createElement(
                         s.a,
                         { key: e.path, path: '/news'.concat(e.path) },
-                        i.a.createElement(Zi, { articleData: e }),
+                        i.a.createElement(eo, { articleData: e }),
                       );
                     }),
                     i.a.createElement(
                       s.a,
                       { path: '/platforms' },
-                      i.a.createElement(An, null),
+                      i.a.createElement(Cn, null),
                     ),
                     i.a.createElement(
                       s.a,
@@ -5869,22 +5949,22 @@
                     i.a.createElement(
                       s.a,
                       { path: '/legal' },
-                      i.a.createElement(Na, null),
+                      i.a.createElement(Ma, null),
                     ),
                     i.a.createElement(
                       s.a,
                       { path: '/team' },
-                      i.a.createElement($n, null),
+                      i.a.createElement(ni, null),
                     ),
                     i.a.createElement(
                       s.a,
                       { path: '/wildbook' },
-                      i.a.createElement(qi, null),
+                      i.a.createElement(Qi, null),
                     ),
                     i.a.createElement(
                       s.a,
                       { path: '/supporters' },
-                      i.a.createElement(Mi, null),
+                      i.a.createElement(_i, null),
                     ),
                     i.a.createElement(
                       s.a,
@@ -5899,22 +5979,22 @@
                     i.a.createElement(
                       s.a,
                       { path: '/volunteer' },
-                      i.a.createElement(Ni, null),
+                      i.a.createElement(Li, null),
                     ),
                     i.a.createElement(
                       s.a,
                       { path: '/careers' },
-                      i.a.createElement(ji, null),
-                    ),
-                    i.a.createElement(
-                      s.a,
-                      { path: '/contact' },
                       i.a.createElement(Bi, null),
                     ),
                     i.a.createElement(
                       s.a,
+                      { path: '/contact' },
+                      i.a.createElement(Ji, null),
+                    ),
+                    i.a.createElement(
+                      s.a,
                       { path: '/code' },
-                      i.a.createElement(Ui, null),
+                      i.a.createElement(Vi, null),
                     ),
                     i.a.createElement(
                       s.a,
@@ -5934,11 +6014,11 @@
           ),
         );
       }
-      var ro = document.getElementById('root'),
-        so = Object(r.hot)(function() {
-          return i.a.createElement(oo, null);
+      var ho = document.getElementById('root'),
+        mo = Object(r.hot)(function() {
+          return i.a.createElement(co, null);
         });
-      Object(o.render)(i.a.createElement(so, null), ro);
+      Object(o.render)(i.a.createElement(mo, null), ho);
     },
   ]),
 );
