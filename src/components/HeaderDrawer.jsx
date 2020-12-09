@@ -43,7 +43,7 @@ export default function AppDrawer({ open, onClose, handleClick }) {
     <Drawer open={open} onClose={onClose}>
       <div
         style={{
-          width: 300,
+          width: 280,
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
@@ -95,7 +95,7 @@ export default function AppDrawer({ open, onClose, handleClick }) {
             }}
           />
         </div>
-        <div>
+        <div style={{ maxHeight: '100%', overflow: 'scroll' }}>
           {navigation.map(category => (
             <MuiAccordion
               expanded={expandedCategory === category.categoryId}

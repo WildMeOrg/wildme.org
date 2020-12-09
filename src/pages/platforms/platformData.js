@@ -38,49 +38,7 @@ import mmfLogo from '../../assets/mmf-logo.png';
 import wsorcLogo from '../../assets/wsorc-logo.png';
 import gcfLogo from '../../assets/gcf_logo.png';
 import sdZooLogo from '../../assets/sdzoo_global.png';
-
-const algorithms = {
-  hotspotter: {
-    name: 'Hotspotter',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  curvrank: {
-    name: 'Curvrank',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  dtw: {
-    name: 'DTW',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  deepsense: {
-    name: 'Deepsense',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  finfindr: {
-    name: 'finFindR',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  kaggle: {
-    name: 'Kaggle7',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  mantamatcher: {
-    name: 'MantaMatcher',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  groth: {
-    name: 'Modified Groth',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  i3s: {
-    name: 'I3S',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-  pie: {
-    name: 'PIE',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
-  },
-};
+import algorithms from '../../constants/algorithms';
 
 const projectData = [
   {
@@ -90,7 +48,7 @@ const projectData = [
     inviteOnly: true,
     hosted: true,
     tagline:
-      'A.I for the conservation of whales & dolphins by automating individual identification.',
+      'Computer vision and deep learning to identify and track individual whales and dolphins.',
     adminName: 'Drew Blount',
     adminContact: 'drew@wildme.org',
     bannerLarge: flukebookBannerLarge,

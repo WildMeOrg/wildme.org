@@ -166,9 +166,7 @@ export default function PlatformPage({ data }) {
       {partners && partners.length > 0 && (
         <Row style={{ marginTop: 100 }}>
           <Box n={2}>
-            <Typography variant="h5">
-              {`${name} partners.`}
-            </Typography>
+            <Typography variant="h5">{`${name} partners`}</Typography>
           </Box>
           <Box n={2}>
             <LogoSoup height={90} logoDefinitions={partners} />
@@ -191,7 +189,8 @@ export default function PlatformPage({ data }) {
                   </Typography>
                 </Link>
                 <Typography variant="body2" style={{ marginTop: 20 }}>
-                  Here is a brief description of the algorithm.
+                  {algorithm.description ||
+                    'Here is a brief description of the algorithm.'}
                 </Typography>
               </Grid>
             ))}

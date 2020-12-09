@@ -91,6 +91,13 @@ export default {
         color: '#0E1014',
       },
     },
+    MuiAccordionSummary: {
+      content: {
+        '&.Mui-expanded': {
+          margin: '12px 0',
+        },
+      },
+    },
     MuiButton: {
       label: {
         letterSpacing: '0.04em',
