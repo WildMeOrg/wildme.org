@@ -6,17 +6,13 @@ import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 import useDocumentTitle from '../../hooks/useDocumentTitle';
-import {
-  Row,
-  Box,
-  SpaceAroundCard,
-} from '../../components/Containers';
+import { Row, Box } from '../../components/Containers';
 import ButtonLink from '../../components/ButtonLink';
 import ImageCard from '../../components/ImageCard';
 import academiaIcon from '../../assets/academia-icon.svg';
 import codeIcon from '../../assets/code-icon.svg';
-import newsIcon from '../../assets/news-icon.svg';
 import speciesIcon from '../../assets/species-icon.svg';
+import algorithmsIcon from '../../assets/algorithms.svg';
 import hero from '../../assets/hero2.jpg';
 import newsData from '../news/newsData';
 import ActionableMetric from './ActionableMetric';
@@ -95,40 +91,43 @@ export default function Splash() {
         </Box>
       </Row>
       <Row>
-        <Box variant="black">
-          <SpaceAroundCard>
-            <ActionableMetric
-              title="53 species"
-              description="Support automated identification, powered by state-of-the-art machine learning algorithms."
-              ask="Explore platforms"
-              href="/platforms"
-              imgSrc={speciesIcon}
-            />
-            <ActionableMetric
-              title="190k lines of code"
-              description="We love sharing our work with the research community. Every line of code is open source."
-              ask="View repositories"
-              href="https://github.com/WildbookOrg"
-              external
-              imgSrc={codeIcon}
-            />
-            <ActionableMetric
-              title="81 publications"
-              description="In peer-reviewed journals, coauthored by Wild Me staff and powered by Wild Me technologies."
-              ask="See publications"
-              href="/publications"
-              imgSrc={academiaIcon}
-            />
-            <ActionableMetric
-              title="7 ID algorithms"
-              description={
-                'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.'
-              }
-              ask="View products"
-              href="/products"
-              imgSrc={newsIcon}
-            />
-          </SpaceAroundCard>
+        <Box variant="black" n={2}>
+          <ActionableMetric
+            title="53 species"
+            description="Support automated identification, powered by state-of-the-art machine learning algorithms."
+            ask="Explore platforms"
+            href="/platforms"
+            imgSrc={speciesIcon}
+          />
+        </Box>
+        <Box variant="black" n={2}>
+          <ActionableMetric
+            title="81 publications"
+            description="In peer-reviewed journals, coauthored by Wild Me staff and powered by Wild Me technologies."
+            ask="See publications"
+            href="/publications"
+            imgSrc={academiaIcon}
+          />
+        </Box>
+        <Box variant="black" n={2}>
+          <ActionableMetric
+            title="10 years of code"
+            description="We love building software for the conservation research community. Every line of code is open source."
+            ask="View code"
+            href="/code"
+            imgSrc={codeIcon}
+          />
+        </Box>
+        <Box variant="black" n={2}>
+          <ActionableMetric
+            title="7 ID algorithms"
+            description={
+              'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.'
+            }
+            ask="View products"
+            href="/products"
+            imgSrc={algorithmsIcon}
+          />
         </Box>
       </Row>
       <Row>

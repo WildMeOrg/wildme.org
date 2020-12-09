@@ -20,10 +20,9 @@ export default function ActionableMetric({
       style={{
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'flex-start',
-        textAlign: 'left',
-        width: 220,
-        margin: '32px 0',
+        alignItems: 'center',
+        textAlign: 'center',
+        margin: '60px 44px',
       }}
     >
       {imgSrc ? (
@@ -33,7 +32,7 @@ export default function ActionableMetric({
           style={{ height: 120, width: 120, marginLeft: 20 }}
         />
       ) : (
-        <Logo style={{ height: 88, width: 88 }} />
+        <Logo style={{ height: 92, width: 92 }} />
       )}
       <Typography variant="h5" style={{ marginTop: 12 }}>
         {title}

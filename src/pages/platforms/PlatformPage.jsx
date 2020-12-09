@@ -165,7 +165,7 @@ export default function PlatformPage({ data }) {
       )} */}
       {partners && partners.length > 0 && (
         <Row style={{ marginTop: 100 }}>
-          <Box n={2}>
+          <Box n={5}>
             <Typography variant="h5">{`${name} partners`}</Typography>
           </Box>
           <Box n={2}>
@@ -174,7 +174,7 @@ export default function PlatformPage({ data }) {
         </Row>
       )}
       <Row style={{ marginTop: 100 }}>
-        <Box n={2}>
+        <Box n={5}>
           <Typography variant="h5">
             <FormattedMessage id="ALGORITHMS" />
           </Typography>
@@ -198,7 +198,7 @@ export default function PlatformPage({ data }) {
         </Box>
       </Row>
       <Row style={{ marginTop: 100, marginBottom: 100 }}>
-        <Box n={2}>
+        <Box n={5}>
           <Typography variant="h5">
             <FormattedMessage id="SPECIES_TITLE" />
           </Typography>

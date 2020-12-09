@@ -1461,9 +1461,13 @@
               style: Object(I.a)(
                 {
                   minWidth: 184,
-                  width: { 1: '100%', 2: '42%', 3: '30%', 4: '22%' }[
-                    o
-                  ],
+                  width: {
+                    1: '100%',
+                    2: '42%',
+                    3: '30%',
+                    4: '22%',
+                    5: '15%',
+                  }[o],
                   margin: ''.concat(20, 'px ').concat(12, 'px'),
                   background: Object(se.a)(d, t, 'unset'),
                   color: Object(se.a)(h, t, 'unset'),
@@ -1789,8 +1793,8 @@
       }
       var Ce = t.p + '20274b5272378c6758c58d001533fc55.svg';
       var We = t.p + 'bd41a7a13b5eef314e40015c1e9f39c9.svg';
-      var Pe = t.p + '52a784e161d35e28214fff8b543da010.svg';
-      var Re = t.p + '723db4f8699fab7f4f596aa548a25854.svg',
+      var Pe = t.p + '723db4f8699fab7f4f596aa548a25854.svg';
+      var Re = t.p + '4fcec235f8999965a885873cef338640.svg',
         Ne = t(179),
         Me = t.n(Ne),
         je = t(180),
@@ -1884,10 +1888,9 @@
             style: {
               display: 'flex',
               flexDirection: 'column',
-              alignItems: 'flex-start',
-              textAlign: 'left',
-              width: 220,
-              margin: '32px 0',
+              alignItems: 'center',
+              textAlign: 'center',
+              margin: '60px 44px',
             },
           },
           o
@@ -1897,7 +1900,7 @@
                 style: { height: 120, width: 120, marginLeft: 20 },
               })
             : i.a.createElement(d, {
-                style: { height: 88, width: 88 },
+                style: { height: 92, width: 92 },
               }),
           i.a.createElement(
             v.a,
@@ -2010,44 +2013,51 @@
             null,
             i.a.createElement(
               ge,
-              { variant: 'black' },
-              i.a.createElement(
-                fe,
-                null,
-                i.a.createElement(aa, {
-                  title: '53 species',
-                  description:
-                    'Support automated identification, powered by state-of-the-art machine learning algorithms.',
-                  ask: 'Explore platforms',
-                  href: '/platforms',
-                  imgSrc: Re,
-                }),
-                i.a.createElement(aa, {
-                  title: '190k lines of code',
-                  description:
-                    'We love sharing our work with the research community. Every line of code is open source.',
-                  ask: 'View repositories',
-                  href: 'https://github.com/WildbookOrg',
-                  external: !0,
-                  imgSrc: We,
-                }),
-                i.a.createElement(aa, {
-                  title: '81 publications',
-                  description:
-                    'In peer-reviewed journals, coauthored by Wild Me staff and powered by Wild Me technologies.',
-                  ask: 'See publications',
-                  href: '/publications',
-                  imgSrc: Ce,
-                }),
-                i.a.createElement(aa, {
-                  title: '7 ID algorithms',
-                  description:
-                    'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.',
-                  ask: 'View products',
-                  href: '/products',
-                  imgSrc: Pe,
-                }),
-              ),
+              { variant: 'black', n: 2 },
+              i.a.createElement(aa, {
+                title: '53 species',
+                description:
+                  'Support automated identification, powered by state-of-the-art machine learning algorithms.',
+                ask: 'Explore platforms',
+                href: '/platforms',
+                imgSrc: Pe,
+              }),
+            ),
+            i.a.createElement(
+              ge,
+              { variant: 'black', n: 2 },
+              i.a.createElement(aa, {
+                title: '81 publications',
+                description:
+                  'In peer-reviewed journals, coauthored by Wild Me staff and powered by Wild Me technologies.',
+                ask: 'See publications',
+                href: '/publications',
+                imgSrc: Ce,
+              }),
+            ),
+            i.a.createElement(
+              ge,
+              { variant: 'black', n: 2 },
+              i.a.createElement(aa, {
+                title: '10 years of code',
+                description:
+                  'We love building software for the conservation research community. Every line of code is open source.',
+                ask: 'View code',
+                href: '/code',
+                imgSrc: We,
+              }),
+            ),
+            i.a.createElement(
+              ge,
+              { variant: 'black', n: 2 },
+              i.a.createElement(aa, {
+                title: '7 ID algorithms',
+                description:
+                  'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.',
+                ask: 'View products',
+                href: '/products',
+                imgSrc: Re,
+              }),
             ),
           ),
           i.a.createElement(
@@ -5725,7 +5735,7 @@
               { style: { marginTop: 100 } },
               i.a.createElement(
                 ge,
-                { n: 2 },
+                { n: 5 },
                 i.a.createElement(
                   v.a,
                   { variant: 'h5' },
@@ -5746,7 +5756,7 @@
             { style: { marginTop: 100 } },
             i.a.createElement(
               ge,
-              { n: 2 },
+              { n: 5 },
               i.a.createElement(
                 v.a,
                 { variant: 'h5' },
@@ -5788,7 +5798,7 @@
             { style: { marginTop: 100, marginBottom: 100 } },
             i.a.createElement(
               ge,
-              { n: 2 },
+              { n: 5 },
               i.a.createElement(
                 v.a,
                 { variant: 'h5' },

@@ -128,6 +128,7 @@ export function Box({
     2: '42%',
     3: '30%',
     4: '22%',
+    5: '15%',
   };
 
   const backgroundMap = {
