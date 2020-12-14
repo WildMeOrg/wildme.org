@@ -26,7 +26,7 @@ export default function Wildbook() {
           style={{ marginTop: 20 }}
           display="primary"
           external
-          href="http://wiki.wildbook.org/en/researchers"
+          href="https://docs.wildme.org/docs/researchers/overview"
         >
           Start a Wildbook
         </ButtonLink>
@@ -34,7 +34,7 @@ export default function Wildbook() {
           style={{ marginTop: 20 }}
           display="primary"
           external
-          href="http://wiki.wildbook.org/en/researchers"
+          href="https://docs.wildme.org/docs/researchers/overview"
         >
           More information
         </ButtonLink>

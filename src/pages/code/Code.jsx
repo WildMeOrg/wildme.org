@@ -83,7 +83,7 @@ export default function Code() {
           languages="Java, JSP"
           description="A Java app which serves the frontend using a templating language called JSP. Wildbook-IA is required to run Wildbook."
           repositoryHref="https://github.com/WildbookOrg/wildbook"
-          docsHref="http://wiki.wildbook.org/en/developers/overview/big-picture"
+          docsHref="https://docs.wildme.org/docs/developers/wildbook_overview"
           supportHref="https://community.wildbook.org/"
         />
         <Entry
@@ -106,7 +106,7 @@ export default function Code() {
           languages="Python, Flask"
           description="A middleware for simultaneously interfacing with the EDM (Ecological Data Module) and WBIA (Wildbook Image Analysis)."
           repositoryHref="https://github.com/WildbookOrg/houston"
-          docsHref="http://wiki.wildbook.org/en/developers/overview/houston"
+          docsHref="https://docs.wildme.org/docs/developers/houston"
         />
         <Entry
           title="Nexgen frontend"

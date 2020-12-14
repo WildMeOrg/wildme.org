@@ -49,7 +49,7 @@ const navigation = [
     entries: [
       {
         labelId: 'START_A_WILDBOOK',
-        path: 'http://wiki.wildbook.org/en/researchers/overview',
+        path: 'https://docs.wildme.org/docs/researchers/overview',
         external: true,
       },
       {
@@ -59,7 +59,7 @@ const navigation = [
       },
       {
         labelId: 'DOCUMENTATION',
-        path: 'http://wiki.wildbook.org/',
+        path: 'http://docs.wildme.org/',
         external: true,
       },
       {
