@@ -144,14 +144,15 @@ export default function Splash() {
       <Row>
         <div style={{ margin: '60px auto', textAlign: 'center' }}>
           <Typography variant="h5">
-            <FormattedMessage id="DONATION_ASK" />
+            Updates from Wild Me, once a month.
           </Typography>
           <ButtonLink
-            href="/donate"
+            external
+            href="http://eepurl.com/hllEeP"
             display="primary"
             style={{ marginTop: 40, marginBottom: 20 }}
           >
-            <FormattedMessage id="DONATE" />
+            Get the newsletter
           </ButtonLink>
         </div>
       </Row>
