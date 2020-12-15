@@ -41,16 +41,19 @@ export default function Publications() {
     <Page
       documentTitle={translatedPublications}
       title={translatedPublications}
-      description={intl.formatMessage({
+      subtitle={intl.formatMessage({
         id: 'PUBLICATIONS_DESCRIPTION',
       })}
     >
-      <Row>
+      <Row style={{ marginTop: 16, marginBottom: 16 }}>
         <Alert
+          style={{ paddingRight: 20 }}
           icon={<MissingIcon fontSize="large" />}
           severity="warning"
         >
-          <AlertTitle>Don&apos;t see your paper?</AlertTitle>
+          <AlertTitle>
+            Don&apos;t see your Wildbook-related paper listed here?
+          </AlertTitle>
           {'Send us an email and we will get it on the list. '}
           <Link href="/contact">Contact us</Link>
         </Alert>

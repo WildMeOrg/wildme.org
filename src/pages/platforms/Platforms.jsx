@@ -32,7 +32,8 @@ export default function Platforms() {
           <Grid
             key={project.name}
             style={{
-              width: 320,
+              width: 400,
+              maxWidth: 600,
               flexGrow: 1,
             }}
             item

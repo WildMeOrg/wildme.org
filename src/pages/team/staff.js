@@ -19,17 +19,13 @@ export default [
       <Typography>
         <span>
           Colin Kingen is a Software Engineer and Technical Support
-          Lead in Portland, Oregon. He is also the project lead on the{' '}
-        </span>
-        <a href="https://iot.wildbook.org/">Internet of Turtles</a>
-        <span>
-          . He has a strong interest in biology and environmental
-          science. He is passionate about using coding and technology
-          to build tools and resources to benefit the community and
-          foster learning. His work on Wildbook includes working with
-          others to build an adoption and donation system to help with
-          funding and increase interest and engagement for citizen
-          science.
+          Lead in Portland, Oregon. He has a strong interest in
+          biology and environmental science. He is passionate about
+          using coding and technology to build tools and resources to
+          benefit the community and foster learning. His work on
+          Wildbook includes working with others to build an adoption
+          and donation system to help with funding and increase
+          interest and engagement for citizen science.
         </span>
       </Typography>
     ),
@@ -149,19 +145,13 @@ export default [
     renderDescription: () => (
       <Typography>
         <span>
-          Drew is a data scientist, software engineer, cryptography
-          enthusiast, and the project leader on{' '}
-        </span>
-        <a href="https://flukebook.org/">
-          Flukebook: the Wildbook for Cetaceans
-        </a>
-        <span>
-          . He has academic publications in both theoretical machine
-          learning and applied data analysis, and has been active in
-          the burgeoning, post-Bitcoin “crypto” world. Throughout
-          these experiences, his work has focused on using information
-          technology to benefit public, cooperative communities rather
-          than private interests.
+          Drew is a data scientist, software engineer and cryptography
+          enthusiast. He has academic publications in both theoretical
+          machine learning and applied data analysis, and has been
+          active in the burgeoning, post-Bitcoin “crypto” world.
+          Throughout these experiences, his work has focused on using
+          information technology to benefit public, cooperative
+          communities rather than private interests.
         </span>
       </Typography>
     ),
@@ -216,11 +206,8 @@ export default [
           Jon Van Oast has been developing online collaborative
           software for over twenty years. He has a strong interest in
           open source software/hardware, open data, citizen science,
-          and conservation. Jon is the project lead on{' '}
+          and conservation.
         </span>
-        <a href="https://giraffespotter.org/">
-          GiraffeSpotter: the Wildbook for Giraffe.
-        </a>
       </Typography>
     ),
   },

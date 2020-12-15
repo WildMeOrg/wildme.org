@@ -89,15 +89,12 @@ export default function Supporters() {
           flexDirection: 'column',
         }}
       >
-        <ResponsiveText variant="h3">
-          Become a sponsor.
-        </ResponsiveText>
         <ButtonLink
           href="/contact"
           display="primary"
           style={{ marginTop: 40, marginBottom: 80 }}
         >
-          Contact us
+          Become a sponsor
         </ButtonLink>
       </div>
     </Page>

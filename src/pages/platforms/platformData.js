@@ -10,6 +10,7 @@ import iotBannerLarge from '../../assets/turtle-banner-large.jpg';
 import iotBannerSmall from '../../assets/turtle-banner-small.jpg';
 import acwBannerLarge from '../../assets/acw-banner-large.jpg';
 import acwBannerSmall from '../../assets/acw-banner-small.jpg';
+import leopardSharkBanner from '../../assets/leopardshark.jpg';
 import zebraBannerLarge from '../../assets/zebra-banner-large.jpg';
 import zebraBannerSmall from '../../assets/zebra-banner-small.jpg';
 import lynxBannerLarge from '../../assets/lynx-banner-large.jpg';
@@ -29,10 +30,11 @@ import skunkBannerSmall from '../../assets/skunk-banner-small.jpg';
 import sharkUsaBannerLarge from '../../assets/shark-usa-banner-large.jpg';
 import sharkUsaBannerSmall from '../../assets/shark-usa-banner-small.jpg';
 import osuLogo from '../../assets/osu_logo.svg';
-import crcLogo from '../../assets/cascadia_research_collective.png';
 import noaaLogo from '../../assets/noaa-logo.png';
 import dwspLogo from '../../assets/dswp-logo.png';
-import neaqLogo from '../../assets/neaq-logo.jpg';
+import indocetLogo from '../../assets/indocet-logo.png';
+import boemLogo from '../../assets/boem-logo.png';
+import aswnLogo from '../../assets/aswn-logo.png';
 import dmcrLogo from '../../assets/dmcr-logo.png';
 import mmfLogo from '../../assets/mmf-logo.png';
 import wsorcLogo from '../../assets/wsorc-logo.png';
@@ -66,22 +68,25 @@ const projectData = [
     ],
     partners: [
       {
-        name: 'Cascadia Research Collective',
-        imageSrc: crcLogo,
-        url: 'https://www.cascadiaresearch.org/',
-      },
-      {
         name: 'Dominican Sperm Whale Project',
         imageSrc: dwspLogo,
         invertLogo: true,
       },
       {
-        name: 'New England Aquarium',
-        imageSrc: neaqLogo,
-      },
-      {
         name: 'NOAA',
         imageSrc: noaaLogo,
+      },
+      {
+        name: 'Indocet',
+        imageSrc: indocetLogo,
+      },
+      {
+        name: 'ASWN',
+        imageSrc: aswnLogo,
+      },
+      {
+        name: 'BOEM',
+        imageSrc: boemLogo,
       },
     ],
     species: [
@@ -637,31 +642,6 @@ const projectData = [
     ],
   },
   {
-    name: 'Saimaa Seal',
-    path: '/saimaaseal',
-    href: 'https://norppagalleria.wwf.fi/',
-    tagline:
-      'A.I for the conservation of Saimaa seals by automating individual identification.',
-    inviteOnly: true,
-    hosted: false,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
-    bannerLarge: saimaaBannerLarge,
-    bannerSmall: saimaaBannerSmall,
-    descriptionId: 'SAIMAA_SEAL_DESCRIPTION',
-    sightings: 4559,
-    individuals: 446,
-    algorithms: [algorithms.hotspotter],
-    partners: [],
-    species: [
-      {
-        name: 'Pusa hispida saimensis',
-        alias: 'Saimaa ringed seal',
-        url: 'https://en.wikipedia.org/wiki/Saimaa_ringed_seal',
-      },
-    ],
-  },
-  {
     name: 'Skunk Wildbook',
     path: '/skunks',
     href: 'http://skunk.wildbook.org/',
@@ -724,6 +704,57 @@ const projectData = [
         name: 'Phyllopteryx dewysea',
         alias: 'Ruby seadragon',
         url: 'https://en.wikipedia.org/wiki/Ruby_seadragon',
+      },
+    ],
+  },
+  {
+    name: 'Saimaa Seal',
+    path: '/saimaaseal',
+    href: 'https://norppagalleria.wwf.fi/',
+    tagline:
+      'A.I for the conservation of Saimaa seals by automating individual identification.',
+    inviteOnly: true,
+    hosted: false,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: saimaaBannerLarge,
+    bannerSmall: saimaaBannerSmall,
+    descriptionId: 'SAIMAA_SEAL_DESCRIPTION',
+    sightings: 4559,
+    individuals: 446,
+    algorithms: [algorithms.hotspotter],
+    partners: [],
+    species: [
+      {
+        name: 'Pusa hispida saimensis',
+        alias: 'Saimaa ringed seal',
+        url: 'https://en.wikipedia.org/wiki/Saimaa_ringed_seal',
+      },
+    ],
+  },
+  {
+    name: 'Leopard Sharks',
+    path: '/leopardsharks',
+    href: 'https://leopardshark.wildbook.org/',
+    tagline:
+      'A.I for the conservation of leopard sharks by automating individual identification.',
+    inviteOnly: true,
+    hosted: true,
+    adoption: false,
+    adminName: 'Jason Holmberg',
+    adminContact: 'jason@wildme.org',
+    bannerLarge: leopardSharkBanner,
+    bannerSmall: leopardSharkBanner,
+    descriptionId: 'LEOPARDSHARK_DESCRIPTION',
+    sightings: 196,
+    individuals: null,
+    partners: [],
+    algorithms: [algorithms.hotspotter],
+    species: [
+      {
+        name: 'Stegostoma Fasciatum',
+        alias: 'Leopard Shark',
+        url: 'https://en.wikipedia.org/wiki/Leopard_shark',
       },
     ],
   },

@@ -19,7 +19,9 @@ For more information about our graphic design needs, contact ben@wildme.org. Tha
 
 ## Software documentation and community management 
 
-For more information about our needs regarding software documentation and community management, contact tstere@wildme.org.
+Want to contribute to our [documentation](http://docs.wildme.org/docs/how_to_edit)? We'll review what you provide and get it folded in.
+
+Interested in contributing to our [Community](https://community.wildbook.org/)? Create an account and look around. Answer questions from other users, post interesting content related to your conservation goals, and ask questions.
 
 ## Miscellaneous
 

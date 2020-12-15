@@ -182,15 +182,26 @@ export default function PlatformPage({ data }) {
         <Box n={2}>
           <Grid container spacing={8}>
             {algorithms.map(algorithm => (
-              <Grid key={algorithm.url} item style={{ width: 240 }}>
-                <Link href={algorithm.url} external>
-                  <Typography variant="h6">
-                    {algorithm.name}
-                  </Typography>
-                </Link>
-                <Typography variant="body2" style={{ marginTop: 20 }}>
+              <Grid key={algorithm.url} item>
+                <Typography
+                  variant="h6"
+                  style={{ textDecoration: 'underline' }}
+                >
+                  {algorithm.name}
+                </Typography>
+                <Typography
+                  variant="body2"
+                  style={{ margin: '20px 0' }}
+                >
                   {algorithm.description ||
                     'Here is a brief description of the algorithm.'}
+                  <Link
+                    style={{ marginLeft: 4 }}
+                    href={algorithm.url}
+                    external
+                  >
+                    {`Learn more about ${algorithm.name}.`}
+                  </Link>
                 </Typography>
               </Grid>
             ))}

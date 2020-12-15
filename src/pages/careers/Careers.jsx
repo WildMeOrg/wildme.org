@@ -35,7 +35,7 @@ export default function Careers() {
         </Typography>
         <Typography>
           There are no open positions at the moment. But we love to
-          meet good people. Please feel free to reach out about future
+          meet good people. Feel free to reach out about future
           employment opportunities.
         </Typography>
         <ButtonLink

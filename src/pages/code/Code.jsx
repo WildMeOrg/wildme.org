@@ -75,13 +75,13 @@ export default function Code() {
     <Page
       documentTitle="Code"
       title="Code"
-      subtitle="We are a small team managing a lot of code. If you experience any issues with our documentation, please let us know."
+      subtitle="We are a small team managing a lot of code. If you experience any issues with our documentation, let us know."
     >
       <Row>
         <Entry
           title="Wildbook"
           languages="Java, JSP"
-          description="A Java app which serves the frontend using a templating language called JSP. Wildbook-IA is required to run Wildbook."
+          description="A Java app which serves the frontend using a templating language called JSP."
           repositoryHref="https://github.com/WildbookOrg/wildbook"
           docsHref="https://docs.wildme.org/docs/developers/wildbook_overview"
           supportHref="https://community.wildbook.org/"

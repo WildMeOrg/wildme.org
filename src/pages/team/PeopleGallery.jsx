@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
-import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
+import { Row, Box } from '../../components/Containers';
 
 export default function PeopleGallery({ people, titleId }) {
   const [selectedPerson, setSelectedPerson] = useState(null);
@@ -55,13 +55,15 @@ export default function PeopleGallery({ people, titleId }) {
           )}
         </DialogContent>
       </Dialog>
-      <Typography variant="h5" style={{ marginBottom: 40 }}>
-        <FormattedMessage id={titleId} />
-      </Typography>
-      <Grid style={{ maxWidth: 1300 }} spacing={3} container>
+      <Row style={{ padding: 0 }}>
+        <Typography variant="h5" style={{ marginBottom: 40 }}>
+          <FormattedMessage id={titleId} />
+        </Typography>
+      </Row>
+      <Row>
         {people.map(person => (
-          <Grid
-            item
+          <Box
+            n={4}
             key={person.name}
             style={{ cursor: 'pointer' }}
             onClick={() => setSelectedPerson(person)}
@@ -79,9 +81,9 @@ export default function PeopleGallery({ people, titleId }) {
                 {person.name}
               </Typography>
             </div>
-          </Grid>
+          </Box>
         ))}
-      </Grid>
+      </Row>
     </div>
   );
 }

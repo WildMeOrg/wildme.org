@@ -8,7 +8,7 @@ export default function Wildbook() {
   return (
     <MarkdownPage
       documentTitle="Wildbook"
-      title="Wildbook: our flagship product."
+      title="Wildbook: stand together against extinction."
       imgSrc={wildbookBanner}
       content={markdown}
     >
