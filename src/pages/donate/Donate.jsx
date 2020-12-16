@@ -91,15 +91,14 @@ export default function Donate() {
         </Grid>
         <Grid item>
           <form
-            action="https://www.paypal.com/cgi-bin/webscr"
+            action="https://www.paypal.com/donate"
             method="post"
             target="_top"
           >
-            <input type="hidden" name="cmd" value="_s-xclick" />
             <input
               type="hidden"
               name="hosted_button_id"
-              value="6M475H9KWPSBW"
+              value="C7QGAC99JDCDU"
             />
             <input
               type="image"

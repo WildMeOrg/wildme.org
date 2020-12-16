@@ -882,8 +882,8 @@
         H = t(384),
         J = t(434),
         U = t(436),
-        F = t(468),
-        G = t(437),
+        G = t(468),
+        F = t(437),
         K = t(438),
         q = t(176),
         V = t.n(q),
@@ -1056,7 +1056,7 @@
               { style: { maxHeight: '100%', overflow: 'scroll' } },
               Y.map(function(e) {
                 return i.a.createElement(
-                  F.a,
+                  G.a,
                   {
                     expanded: l === e.categoryId,
                     onChange: function() {
@@ -1066,7 +1066,7 @@
                     key: e.categoryId,
                   },
                   i.a.createElement(
-                    G.a,
+                    F.a,
                     {
                       style: { margin: 0, minHeight: 0 },
                       expandIcon: i.a.createElement(V.a, null),
@@ -1827,8 +1827,8 @@
           ),
         Je = t(187),
         Ue = t.n(Je),
-        Fe = t(188),
-        Ge = t.n(Fe),
+        Ge = t(188),
+        Fe = t.n(Ge),
         Ke = t(189),
         qe = t.n(Ke),
         Ve = t(111),
@@ -1855,7 +1855,7 @@
           {
             title:
               'Staff publishes research in the Journal of Cetacean Research and Management',
-            image: Ge.a,
+            image: Fe.a,
             markdown:
               'In our September we announced multi-feature matching, which makes it possible to match multiple features of an individual simultaneously. Initially this functionality will be best leveraged on Flukebook, where dorsal, fluke detection, and body detection and individual ID are available for many different species.\n\nWe are excited to announce that this technique is [now published](https://www.cascadiaresearch.org/publications/Franklin_etal_2020JCetResManagement) in the Journal of Cetacean Research and Management. \n\n## Citation \n\nPhoto-identification of individual humpback whales (Megaptera novaeangliae) using all available natural marks: implications for misidentification and automated algorithm matching technology. Trish Franklin, Wally Franklin, Lyndon Brooks, Peter Harrison, Dan Burns, Jason Holmberg, John Calambokidis. \n',
             dateString: 'November 3, 2020',
@@ -2928,8 +2928,8 @@
       }
       var Ja = t(448),
         Ua = t(450),
-        Fa = t(451),
-        Ga = t(449);
+        Ga = t(451),
+        Fa = t(449);
       function Ka(e) {
         var a = e.children,
           t = e.style,
@@ -2992,7 +2992,7 @@
               },
             },
             i.a.createElement(
-              Ga.a,
+              Fa.a,
               null,
               i.a.createElement(L.a, {
                 id: 'CRYPTOCURRENCY_DONATIONS',
@@ -3002,13 +3002,13 @@
               Ua.a,
               null,
               i.a.createElement(
-                Fa.a,
+                Ga.a,
                 null,
                 i.a.createElement(L.a, { id: 'ETHERIUM_WALLET_ID' }),
                 '0x5d41f2e86FeCD1205717B099a8546c5cF6F97e57',
               ),
               i.a.createElement(
-                Fa.a,
+                Ga.a,
                 null,
                 i.a.createElement(L.a, { id: 'BITCOIN_WALLET_ID' }),
                 '15KCE1xCGjhcDojjEpMhUA8L6JMdiNGTHy',
@@ -3024,7 +3024,7 @@
               },
             },
             i.a.createElement(
-              Ga.a,
+              Fa.a,
               null,
               i.a.createElement(L.a, { id: 'CUSTOM_DONATIONS' }),
             ),
@@ -3032,7 +3032,7 @@
               Ua.a,
               null,
               i.a.createElement(
-                Fa.a,
+                Ga.a,
                 null,
                 i.a.createElement(L.a, {
                   id: 'CUSTOM_DONATIONS_INSTRUCTIONS',
@@ -3106,19 +3106,14 @@
               i.a.createElement(
                 'form',
                 {
-                  action: 'https://www.paypal.com/cgi-bin/webscr',
+                  action: 'https://www.paypal.com/donate',
                   method: 'post',
                   target: '_top',
                 },
                 i.a.createElement('input', {
                   type: 'hidden',
-                  name: 'cmd',
-                  value: '_s-xclick',
-                }),
-                i.a.createElement('input', {
-                  type: 'hidden',
                   name: 'hosted_button_id',
-                  value: '6M475H9KWPSBW',
+                  value: 'C7QGAC99JDCDU',
                 }),
                 i.a.createElement('input', {
                   type: 'image',
@@ -3717,9 +3712,9 @@
         Ht = t(214),
         Jt = t.n(Ht),
         Ut = t(215),
-        Ft = t.n(Ut),
-        Gt = t(216),
-        Kt = t.n(Gt),
+        Gt = t.n(Ut),
+        Ft = t(216),
+        Kt = t.n(Ft),
         qt = t(217),
         Vt = t.n(qt),
         Yt = t(218),
@@ -4463,7 +4458,7 @@
             hosted: !0,
             adminName: 'Jason Holmberg',
             adminContact: 'jason@wildme.org',
-            bannerLarge: Ft.a,
+            bannerLarge: Gt.a,
             bannerSmall: Kt.a,
             descriptionId: 'DRAGONSEARCH_DESCRIPTION',
             sightings: 2521,
@@ -4630,7 +4625,7 @@
             Ja.a,
             { open: Boolean(s), onClose: c, maxWidth: 'sm' },
             i.a.createElement(
-              Ga.a,
+              Fa.a,
               { style: { marginBottom: 20 } },
               i.a.createElement(
                 S.a,
@@ -4717,9 +4712,9 @@
       var Hn = t(237),
         Jn = t.n(Hn),
         Un = t(238),
-        Fn = t.n(Un),
-        Gn = t(239),
-        Kn = t.n(Gn),
+        Gn = t.n(Un),
+        Fn = t(239),
+        Kn = t.n(Fn),
         qn = [
           {
             img: Jn.a,
@@ -4743,7 +4738,7 @@
             },
           },
           {
-            img: Fn.a,
+            img: Gn.a,
             name: 'Dr. Zaven Arzoumanian',
             role: 'President',
             renderDescription: function() {
@@ -5038,7 +5033,7 @@
               'NOAA partnered with Wild Me to create mantamatcher.org, a tool used by multiple people.',
           },
         ],
-        Fi = [
+        Gi = [
           {
             src: Ii.a,
             url: 'https://en.wikipedia.org/wiki/Pineapple_Fund',
@@ -5080,7 +5075,7 @@
             alt: 'The Waitt Foundation',
           },
         ];
-      function Gi() {
+      function Fi() {
         var e = Object(ve.a)();
         return i.a.createElement(
           he,
@@ -5183,7 +5178,7 @@
             i.a.createElement(ba, {
               style: { maxWidth: 880, margin: '80px auto' },
               height: 60,
-              logos: Fi.map(function(e) {
+              logos: Gi.map(function(e) {
                 return e.src;
               }),
             }),
@@ -5626,7 +5621,7 @@
               },
             },
             i.a.createElement(
-              Ga.a,
+              Fa.a,
               null,
               i.a.createElement(L.a, { id: 'REQUEST_AN_INVITATION' }),
             ),
@@ -5634,7 +5629,7 @@
               Ua.a,
               null,
               i.a.createElement(
-                Fa.a,
+                Ga.a,
                 null,
                 i.a.createElement(L.a, {
                   id: 'REQUEST_INVITE_DESCRIPTION',
@@ -5642,7 +5637,7 @@
                 }),
               ),
               i.a.createElement(
-                Fa.a,
+                Ga.a,
                 null,
                 i.a.createElement(L.a, {
                   id: 'REQUEST_INVITE_INSTRUCTIONS',
@@ -6028,7 +6023,7 @@
                     i.a.createElement(
                       s.a,
                       { path: '/supporters' },
-                      i.a.createElement(Gi, null),
+                      i.a.createElement(Fi, null),
                     ),
                     i.a.createElement(
                       s.a,
