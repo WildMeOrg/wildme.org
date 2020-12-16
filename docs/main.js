@@ -587,7 +587,7 @@
         o = t(14),
         r = t(268),
         s = (t(283), t(284), t(285), t(57)),
-        l = t(82),
+        l = t(81),
         c = t(269),
         d = t(458),
         h = t(171),
@@ -2923,7 +2923,7 @@
           title: 'Services',
           imgSrc: za.a,
           content:
-            '## Overview\n\nWe here at Wild Me have almost two decades of experience supporting wildlife and citizen scitentist projects through software and computer vision. We work with our users to find solutions that empower the conservation community, and we strive to be representatives of how technology can be leveraged for a better world.\n\nTo support this mission, we offer a number of free and paid services, including:\n\n- Consultation on technological advancements for mark recapture and citizen scientist projects\n- Azure cloud hosting of Wildbooks\n- Data upload assistance\n- Annotation of photographic data\n- Configuration and support of Wildbooks\n- Custom computer vision and machine learning model development\n- Wildbook feature development\n\n## What comes next?\n\nTo inquire about any of the services above, or to see about joining an existing platform, email us at services@wildme.org.\n\nNeed help with an existing Wildbook? Have questions that don’t seem to fit with the list above? Reach out to us on the Wildbook Community Forums! We will respond shortly, unless a member of the community gets there first.\n',
+            '## Overview\n\nWe here at Wild Me have almost two decades of experience supporting wildlife and citizen scitentist projects through software and computer vision. We work with our users to find solutions that empower the conservation community, and we strive to be representatives of how technology can be leveraged for a better world.\n\nTo support this mission, we offer a number of free and paid services, including:\n\n- Consultation on technological advancements for mark recapture and citizen scientist projects\n- Azure cloud hosting of Wildbooks\n- Data upload assistance\n- Annotation of photographic data\n- Configuration and support of Wildbooks\n- Custom computer vision and machine learning model development\n- Wildbook feature development\n\n## What comes next?\n\nTo inquire about any of the services above, or to see about joining an existing platform, email us at services@wildme.org.\n\nNeed help with an existing Wildbook? Have questions that don’t seem to fit with the list above? Reach out to us on the [Wildbook Community Forums](https://community.wildbook.org/)! We will respond shortly, unless a member of the community gets there first.\n',
         });
       }
       var Ja = t(448),
@@ -3779,7 +3779,7 @@
           dtw: {
             name: 'DTW',
             description:
-              'OC/WDTW (or “DTW” for short) is based originally on a sound wave matching technique called “Dynamic Time Warping”. DTW uses the A* algorithmt to extract the trailing edge of a fluke and then look for matches to other edges by measuring the difference between them. This computer vision technique does not use ML and is optimized only for the trailing edge of humpback flukes but has good accuracy and speed.',
+              'OC/WDTW (or “DTW” for short) is based originally on a sound wave matching technique called “Dynamic Time Warping”. DTW uses the A* algorithm to extract the trailing edge of a fluke and then look for matches to other edges by measuring the difference between them. This computer vision technique does not use ML and is optimized only for the trailing edge of humpback flukes but has good accuracy and speed.',
             url:
               'https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w41/Weideman_Integral_Curvature_Representation_ICCV_2017_paper.pdf',
           },
@@ -5090,6 +5090,26 @@
             subtitle:
               "Conservation doesn't happen in a vacuum. Join us in celebrating our supporters, whose generosity and direction make it all possible.",
           },
+          i.a.createElement(
+            'div',
+            {
+              style: {
+                alignItems: 'center',
+                margin: '0 auto',
+                display: 'flex',
+                flexDirection: 'column',
+              },
+            },
+            i.a.createElement(
+              j,
+              {
+                href: '/contact',
+                display: 'primary',
+                style: { marginTop: 20, marginBottom: 32 },
+              },
+              'Become a sponsor',
+            ),
+          ),
           i.a.createElement(pe, null),
           Ui.map(function(e) {
             return i.a.createElement(
@@ -5168,28 +5188,6 @@
               }),
             }),
           ),
-          i.a.createElement(pe, null),
-          i.a.createElement(
-            'div',
-            {
-              style: {
-                alignItems: 'center',
-                paddingTop: 40,
-                margin: '0 auto',
-                display: 'flex',
-                flexDirection: 'column',
-              },
-            },
-            i.a.createElement(
-              j,
-              {
-                href: '/contact',
-                display: 'primary',
-                style: { marginTop: 40, marginBottom: 80 },
-              },
-              'Become a sponsor',
-            ),
-          ),
         );
       }
       function Ki() {
@@ -5237,7 +5235,7 @@
             i.a.createElement(
               v.a,
               null,
-              'There are no open positions at the moment. But we love to meet good people. Feel free to reach out about future employment opportunities.',
+              'There are no open positions at the moment, but we love to meet good people. Feel free to reach out about future employment opportunities.',
             ),
             i.a.createElement(
               j,

@@ -16,6 +16,22 @@ export default function Supporters() {
       title="Our supporters."
       subtitle="Conservation doesn't happen in a vacuum. Join us in celebrating our supporters, whose generosity and direction make it all possible."
     >
+      <div
+        style={{
+          alignItems: 'center',
+          margin: '0 auto',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <ButtonLink
+          href="/contact"
+          display="primary"
+          style={{ marginTop: 20, marginBottom: 32 }}
+        >
+          Become a sponsor
+        </ButtonLink>
+      </div>
       <Line />
       {majorSupporters.map(sponsor => (
         <React.Fragment key={sponsor.name}>
@@ -78,24 +94,6 @@ export default function Supporters() {
           height={60}
           logos={supporterLogos.map(logo => logo.src)}
         />
-      </div>
-      <Line />
-      <div
-        style={{
-          alignItems: 'center',
-          paddingTop: 40,
-          margin: '0 auto',
-          display: 'flex',
-          flexDirection: 'column',
-        }}
-      >
-        <ButtonLink
-          href="/contact"
-          display="primary"
-          style={{ marginTop: 40, marginBottom: 80 }}
-        >
-          Become a sponsor
-        </ButtonLink>
       </div>
     </Page>
   );

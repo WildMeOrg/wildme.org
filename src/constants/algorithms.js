@@ -16,7 +16,7 @@ const algorithms = {
   dtw: {
     name: 'DTW',
     description:
-      'OC/WDTW (or “DTW” for short) is based originally on a sound wave matching technique called “Dynamic Time Warping”. DTW uses the A* algorithmt to extract the trailing edge of a fluke and then look for matches to other edges by measuring the difference between them. This computer vision technique does not use ML and is optimized only for the trailing edge of humpback flukes but has good accuracy and speed.',
+      'OC/WDTW (or “DTW” for short) is based originally on a sound wave matching technique called “Dynamic Time Warping”. DTW uses the A* algorithm to extract the trailing edge of a fluke and then look for matches to other edges by measuring the difference between them. This computer vision technique does not use ML and is optimized only for the trailing edge of humpback flukes but has good accuracy and speed.',
     url:
       'https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w41/Weideman_Integral_Curvature_Representation_ICCV_2017_paper.pdf',
   },
