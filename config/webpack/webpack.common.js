@@ -14,6 +14,7 @@ const isDev =
 
 const globals = {
   __DEV__: isDev && !process.env.LINKED_DEV,
+  __GH_PAGES__: process.env.DEPLOY_TARGET === 'ghpages',
   __config__: JSON.stringify(config),
 };
 

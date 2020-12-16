@@ -68,7 +68,9 @@ export default function App() {
   const theme = createMuiTheme(materialTheme);
   const locale = 'en';
 
-  const routerBasename = __DEV__ ? '/' : '/wildbook.org'; // for gh-pages prod
+  const routerBasename = __GH_PAGES__ ? '/wildbook.org' : '/';
+  const RouterComponent = __DEV__ ? BrowserRouter : HashRouter;
+  // const RouterComponent = __GH_PAGES__ ? HashRouter : BrowserRouter;
 
   return (
     <ThemeProvider theme={theme}>
@@ -84,7 +86,7 @@ export default function App() {
         messages={messageMap[locale]}
       >
         <div>
-          <HashRouter basename={routerBasename}>
+          <RouterComponent basename={routerBasename}>
             <ScrollToTop />
             <main
               style={{
@@ -162,7 +164,7 @@ export default function App() {
               </Switch>
             </main>
             <Footer />
-          </HashRouter>
+          </RouterComponent>
         </div>
       </IntlProvider>
     </ThemeProvider>

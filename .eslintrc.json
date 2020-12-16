@@ -1,7 +1,10 @@
 {
   "extends": ["airbnb"],
   "parser": "babel-eslint",
-  "ignorePatterns": ["docs/**"],
+  "ignorePatterns": [
+    "docs/**",
+    "build/**"
+  ],
   "settings": {
     "import/resolver": {
       "node": {},
@@ -47,6 +50,7 @@
   },
   "globals": {
     "__DEV__": true,
+    "__GH_PAGES__": true,
     "__config__": true,
     "__CLOUD__": true
   }

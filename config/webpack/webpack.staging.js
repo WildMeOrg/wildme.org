@@ -8,7 +8,7 @@ const common = require('./webpack.common.js');
 // const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const rootDir = resolve(__dirname, '../../');
-const outputPath = path.resolve(rootDir, 'build');
+const outputPath = path.resolve(rootDir, 'docs');
 
 module.exports = merge(common, {
   mode: 'production',
@@ -20,6 +20,7 @@ module.exports = merge(common, {
     path: outputPath,
     filename: '[name].js',
     chunkFilename: '[name].chunk.js',
+    publicPath: 'https://wildbookorg.github.io/wildme.org/',
   },
   optimization: {
     minimizer: [

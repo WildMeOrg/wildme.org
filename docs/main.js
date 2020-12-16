@@ -5938,7 +5938,8 @@
         );
       }
       function bo() {
-        var e = Object(c.a)(C);
+        var e = Object(c.a)(C),
+          a = l.a;
         return i.a.createElement(
           d.a,
           { theme: e },
@@ -5958,7 +5959,7 @@
               'div',
               null,
               i.a.createElement(
-                l.a,
+                a,
                 { basename: '/wildbook.org' },
                 i.a.createElement(fo, null),
                 i.a.createElement(

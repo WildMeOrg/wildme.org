@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "run-script-os",
-    "start:default": "NODE_ENV=development webpack-dev-server --config ./config/webpack/webpack.dev.js",
-    "start:win32": "$env:NODE_ENV=\"development\" & webpack-dev-server --config ./config/webpack/webpack.dev.js",
+    "start:default": "NODE_ENV=development DEPLOY_TARGET=none webpack-dev-server --config ./config/webpack/webpack.dev.js",
+    "start:win32": "$env:NODE_ENV=\"development\" & $env:DEPLOY_TARGET=\"none\" & webpack-dev-server --config ./config/webpack/webpack.dev.js",
     "lint": "./node_modules/.bin/eslint --fix \"src/**/*.{js,jsx}\"",
     "format": "./node_modules/.bin/prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist",
-    "build": "npm run clean && NODE_ENV=production webpack --config ./config/webpack/webpack.prod.js"
+    "build": "rm -rf build && NODE_ENV=production DEPLOY_TARGET=azure webpack --config ./config/webpack/webpack.prod.js",
+    "ghpages": "rm -rf docs && NODE_ENV=production DEPLOY_TARGET=ghpages webpack --config ./config/webpack/webpack.staging.js"
   },
   "repository": {
     "type": "git",
