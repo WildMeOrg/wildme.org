@@ -124,8 +124,8 @@ export default function Splash() {
             description={
               'Allow us to tailor our matching techniques to the unique "fingerprint" of each species.'
             }
-            ask="View products"
-            href="/products"
+            ask="View services"
+            href="/services"
             imgSrc={algorithmsIcon}
           />
         </Box>
