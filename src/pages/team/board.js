@@ -9,7 +9,7 @@ export default [
   {
     img: tanya,
     name: 'Dr. Tanya Berger-Wolf',
-    role: 'Director',
+    role: 'Director, Co-founder',
     renderDescription: () => (
       <div>
         <Typography>
@@ -41,7 +41,7 @@ export default [
   {
     img: zaven,
     name: 'Dr. Zaven Arzoumanian',
-    role: 'President',
+    role: 'President, Co-founder',
     renderDescription: () => (
       <Typography>
         Zaven Arzoumanian earned degrees in Physics at McGill
