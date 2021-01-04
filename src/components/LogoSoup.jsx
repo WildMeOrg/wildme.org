@@ -1,4 +1,6 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import Tooltip from '@material-ui/core/Tooltip';
 
 export default function LogoSoup({
   logoDefinitions,
@@ -18,20 +20,35 @@ export default function LogoSoup({
           flexWrap: 'wrap',
         }}
       >
-        {iterable.map(logo => (
-          <img
-            key={logo.imageSrc}
-            style={{
-              margin: 20,
-              maxWidth: '80vw',
-              filter: logo.invertLogo ? 'invert(1)' : 'unset',
-            }}
-            src={logo.imageSrc}
-            height={height}
-            width="auto"
-            alt={logo.name || 'Organization logo'}
-          />
-        ))}
+        {iterable.map(logo => {
+          const Container = logo.url ? 'a' : 'div';
+          return (
+            <Tooltip
+              key={logo.imageSrc}
+              title={
+                <Typography variant="body2">{logo.name}</Typography>
+              }
+            >
+              <Container
+                href={logo.url || undefined}
+                target={logo.url ? '_blank' : undefined}
+                rel={logo.url ? 'noopener noreferrer' : undefined}
+              >
+                <img
+                  style={{
+                    margin: 20,
+                    maxWidth: '80vw',
+                    filter: logo.invertLogo ? 'invert(1)' : 'unset',
+                  }}
+                  src={logo.imageSrc}
+                  height={height}
+                  width="auto"
+                  alt={logo.name || 'Organization logo'}
+                />
+              </Container>
+            </Tooltip>
+          );
+        })}
       </div>
     </div>
   );

@@ -56,7 +56,7 @@ export default function Footer() {
         />
         <SocialLink
           variant="twitter"
-          href="https://twitter.com/WildbookORG"
+          href="https://twitter.com/WildMeOrg"
         />
       </div>
       <SpaceAroundCard
