@@ -92,7 +92,7 @@ export default function Supporters() {
         <LogoSoup
           style={{ maxWidth: 880, margin: '80px auto' }}
           height={60}
-          logos={supporterLogos.map(logo => logo.src)}
+          logoDefinitions={supporterLogos}
         />
       </div>
     </Page>

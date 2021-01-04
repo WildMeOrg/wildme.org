@@ -8,6 +8,7 @@ const renderers = {
     <Typography
       style={{
         fontSize: 18,
+        lineHeight: '32px',
         margin: '0 auto',
         maxWidth: 800,
         width: '100%',

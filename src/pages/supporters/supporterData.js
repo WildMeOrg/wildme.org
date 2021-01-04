@@ -70,43 +70,43 @@ export const majorSupporters = [
 
 export const supporterLogos = [
   {
-    src: pineappleLogo,
+    imageSrc: pineappleLogo,
     url: 'https://en.wikipedia.org/wiki/Pineapple_Fund',
-    alt: 'The Pineapple Fund',
+    name: 'The Pineapple Fund',
   },
   {
-    src: nsfLogo,
+    imageSrc: nsfLogo,
     url: 'https://www.nsf.gov/',
-    alt: 'National Science Foundation',
+    name: 'National Science Foundation',
   },
   {
-    src: pgnfLogo,
+    imageSrc: pgnfLogo,
     url: 'https://www.pbnf.nl/',
-    alt: 'The Prince Bernhard Nature Fund',
+    name: 'The Prince Bernhard Nature Fund',
   },
   {
-    src: adobeLogo,
+    imageSrc: adobeLogo,
     url: 'https://www.adobe.com/',
-    alt: 'The Adobe Foundation',
+    name: 'The Adobe Foundation',
   },
   {
-    src: sirenFleetLogo,
+    imageSrc: sirenFleetLogo,
     url: 'https://sirenfleet.com/',
-    alt: 'Siren Fleet',
+    name: 'Siren Fleet',
   },
   {
-    src: georiaAquariumLogo,
+    imageSrc: georiaAquariumLogo,
     url: 'https://www.georgiaaquarium.org/',
-    alt: 'Georgia Aquarium',
+    name: 'Georgia Aquarium',
   },
   {
-    src: britishEcologicalSocietyLogo,
+    imageSrc: britishEcologicalSocietyLogo,
     url: 'https://www.britishecologicalsociety.org/',
-    alt: 'British Ecological Society',
+    name: 'British Ecological Society',
   },
   {
-    src: waittLogo,
+    imageSrc: waittLogo,
     url: 'https://www.waittfoundation.org/',
-    alt: 'The Waitt Foundation',
+    name: 'The Waitt Foundation',
   },
 ];

@@ -29,7 +29,6 @@ const algorithms = {
   },
   finfindr: {
     name: 'finFindR',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
   },
   kaggle: {
     name: 'Kaggle7',
@@ -40,15 +39,16 @@ const algorithms = {
   },
   mantamatcher: {
     name: 'MantaMatcher',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
   },
   groth: {
     name: 'Modified Groth',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
+    description:
+      'In 1986, Dr. Edward Groth published a pattern-matching algorithm for comparing coordinates of stars in the night sky. We use an adaptation of this algorithm to match whale sharks using the coordinates of their spots.',
+    url:
+      'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2664.2005.01117.x',
   },
   i3s: {
     name: 'I3S',
-    url: 'http://wiki.wildbook.org/en/researchers/overview',
   },
   pie: {
     name: 'PIE',

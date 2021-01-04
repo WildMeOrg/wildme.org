@@ -71,22 +71,27 @@ const projectData = [
         name: 'Dominican Sperm Whale Project',
         imageSrc: dwspLogo,
         invertLogo: true,
+        url: 'http://www.thespermwhaleproject.org/',
       },
       {
-        name: 'NOAA',
+        name: 'National Oceanic and Atmospheric Administration',
         imageSrc: noaaLogo,
+        url: 'https://www.noaa.gov/',
       },
       {
         name: 'Indocet',
         imageSrc: indocetLogo,
+        url: 'https://indocet.org/',
       },
       {
-        name: 'ASWN',
+        name: 'Arabian Sea Whale Network',
         imageSrc: aswnLogo,
+        url: 'https://arabianseawhalenetwork.org/',
       },
       {
-        name: 'BOEM',
+        name: 'Bureau of Ocean Energy Management',
         imageSrc: boemLogo,
+        url: 'https://www.boem.gov/',
       },
     ],
     species: [
@@ -291,10 +296,13 @@ const projectData = [
       {
         name: 'Whale Shark and Oceanic Research Centre',
         imageSrc: wsorcLogo,
+        url: 'https://wsorc.org/',
       },
       {
         name: 'Department of Marine and Coastal Resources, Thailand',
         imageSrc: dmcrLogo,
+        url:
+          'https://www.iyor2018.org/organization/department-marine-coastal-resources-thailand/',
       },
     ],
     species: [
@@ -331,6 +339,7 @@ const projectData = [
         name: 'Marine Megafauna Foundation',
         imageSrc: mmfLogo,
         invertLogo: true,
+        url: 'https://marinemegafaunafoundation.org/',
       },
     ],
     species: [
@@ -376,10 +385,12 @@ const projectData = [
       {
         name: 'Giraffe Conservation Foundation',
         imageSrc: gcfLogo,
+        url: 'https://giraffeconservation.org/',
       },
       {
         name: 'San Diego Zoo Global',
         imageSrc: sdZooLogo,
+        url: 'https://www.sandiegozooglobal.org/',
       },
     ],
     species: [

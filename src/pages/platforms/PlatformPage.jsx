@@ -169,7 +169,7 @@ export default function PlatformPage({ data }) {
             <Typography variant="h5">{`${name} partners`}</Typography>
           </Box>
           <Box n={2}>
-            <LogoSoup height={90} logoDefinitions={partners} />
+            <LogoSoup height={120} logoDefinitions={partners} />
           </Box>
         </Row>
       )}
@@ -189,19 +189,18 @@ export default function PlatformPage({ data }) {
                 >
                   {algorithm.name}
                 </Typography>
-                <Typography
-                  variant="body2"
-                  style={{ margin: '20px 0' }}
-                >
+                <Typography style={{ margin: '20px 0' }}>
                   {algorithm.description ||
-                    'Here is a brief description of the algorithm.'}
-                  <Link
-                    style={{ marginLeft: 4 }}
-                    href={algorithm.url}
-                    external
-                  >
-                    {`Learn more about ${algorithm.name}.`}
-                  </Link>
+                    'Brief description of this algorithm coming soon.'}
+                  {algorithm.url && (
+                    <Link
+                      style={{ marginLeft: 4 }}
+                      href={algorithm.url}
+                      external
+                    >
+                      {`Learn more about ${algorithm.name}.`}
+                    </Link>
+                  )}
                 </Typography>
               </Grid>
             ))}
