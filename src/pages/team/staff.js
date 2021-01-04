@@ -33,7 +33,7 @@ export default [
   {
     img: jh,
     name: 'Jason Holmberg',
-    role: 'Executive Director',
+    role: 'Executive Director, Co-founder',
     renderDescription: () => (
       <div>
         <Typography>

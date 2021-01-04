@@ -9,7 +9,7 @@ export default function People() {
     <Page
       documentTitle="Team"
       title="Meet our team."
-      subtitle="Our team works at the intersection of conservation, software development, and academia. We take pride in what we do, and even more pride in how we treat each other."
+      subtitle="Our team works at the intersection of conservation, AI, engineering, and academia. We take pride in what we do, and even more pride in how we treat each other."
     >
       <PeopleGallery people={board} titleId="PAGE_TITLE_BOARD" />
       <PeopleGallery people={staff} titleId="PAGE_TITLE_STAFF" />

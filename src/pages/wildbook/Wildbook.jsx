@@ -26,9 +26,9 @@ export default function Wildbook() {
           style={{ marginTop: 20 }}
           display="primary"
           external
-          href="https://docs.wildme.org/docs/researchers/overview"
+          href="https://wildme.org/#/platforms"
         >
-          Start a Wildbook
+          Available Wildbooks
         </ButtonLink>
         <ButtonLink
           style={{ marginTop: 20 }}
