@@ -37,9 +37,6 @@ const algorithms = {
     url:
       'https://medium.com/@ducha.aiki/thanks-radek-7th-place-solution-to-hwi-2019-competition-738624e4c885',
   },
-  mantamatcher: {
-    name: 'MantaMatcher',
-  },
   groth: {
     name: 'Modified Groth',
     description:
@@ -49,12 +46,20 @@ const algorithms = {
   },
   i3s: {
     name: 'I3S',
+    description:
+      'The I3S algorithm was developed in 2007 for pattern-matching of the spotted raggedtooth shark (Carcharias taurus). Since then, the algorithm has proven effective for other species with spots.',
+    url: 'https://reijns.com/i3s/i3s-classic/',
   },
   pie: {
     name: 'PIE',
     description:
       '“Pose Invariant Embeddings” (or PIE) is a deep learning approach to individual ID. PIE is trained to learn embeddings that are useful for distinguishing among individuals in a wildlife population. Unlike HotSpotter, which is a “static” pattern matcher (i.e. a fixed algorithm not trained for each separate species), PIE can be trained on a per-species basis. Wild Me has generated separate PIE models optimized for manta rays, humpback whales, orcas, right whales, and so on. And unlike fixed-catalog classifiers like Deepsense or Kaggle7, PIE can gracefully add new individuals to its catalog without being retrained: it learns the general task of mapping images into embeddings that represent individuals, rather than the specific task of sorting images into a fixed number of IDs. PIE strikes a lovely balance between a flexible general-purpose identifier and one that can be trained and refined on a given problem. In summary, PIE is a very powerful, reusable machine learning technique that can be trained to identify individuals across many species.',
     url: 'https://arxiv.org/pdf/1902.10847.pdf',
+  },
+  mantamatcher: {
+    name: 'MantaMatcher',
+    description:
+      'The MantaMatcher algorithm uses a SIFT-based approach and was developed specifically for the identification of giant manta rays.',
   },
 };
 
