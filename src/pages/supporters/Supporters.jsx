@@ -36,15 +36,29 @@ export default function Supporters() {
       {majorSupporters.map(sponsor => (
         <React.Fragment key={sponsor.name}>
           <Showcase style={{ maxWidth: 800 }}>
-            <div style={{ marginBottom: 32 }}>
-              <img
-                alt={`${sponsor.name} logo`}
-                height="auto"
-                width="200"
-                src={sponsor.logo}
-                style={{ padding: '12px 40px 12px 0', float: 'left' }}
-              />
-              <div>
+            <div
+              style={{
+                marginBottom: 32,
+                display: 'flex',
+                flexWrap: 'wrap',
+              }}
+            >
+              <a
+                href={sponsor.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  alt={`${sponsor.name} logo`}
+                  src={sponsor.logo}
+                  style={{
+                    padding: '12px 40px 12px 0',
+                    width: 200,
+                    height: 'auto',
+                  }}
+                />
+              </a>
+              <div style={{ maxWidth: 480 }}>
                 <Typography variant="h5">{sponsor.name}</Typography>
                 <Typography
                   variant="subtitle1"
