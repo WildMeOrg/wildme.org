@@ -17,6 +17,10 @@ import mmfLogo from '../../assets/mmf-logo-black.png';
 import mmfBanner from '../../assets/mmf-banner.jpg';
 import noaaLogo from '../../assets/noaa-logo.png';
 import noaaBanner from '../../assets/noaaBanner.jpg';
+import transloaditLogo from './assets/transloadit-logo.svg';
+import lokaliseLogo from './assets/lokalise-logo.svg';
+import flatfileLogo from './assets/flatfile-logo.svg';
+import algoliaLogo from './assets/algolia-logo.svg';
 
 export const majorSupporters = [
   {
@@ -81,6 +85,33 @@ export const majorSupporters = [
     logo: seadragonSearchLogo,
     description:
       'SeadragonSearch partnered with Wild Me to create SeadragonSearch.org, the Wildbook for Seadragons.',
+  },
+];
+
+export const softwareLogos = [
+  {
+    imageSrc: lokaliseLogo,
+    url: 'https://lokalise.com/',
+    name: 'Lokalise',
+    tooltip: 'Translation management services for Codex',
+  },
+  {
+    imageSrc: transloaditLogo,
+    url: 'https://transloadit.com/',
+    name: 'Transloadit',
+    tooltip: 'File upload services for Codex',
+  },
+  {
+    imageSrc: flatfileLogo,
+    url: 'https://flatfile.io/',
+    name: 'Flatfile',
+    tooltip: 'Data import services for Codex',
+  },
+  {
+    imageSrc: algoliaLogo,
+    url: 'https://www.algolia.com/',
+    name: 'Algolia',
+    tooltip: 'Documentation search',
   },
 ];
 

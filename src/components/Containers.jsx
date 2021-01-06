@@ -47,7 +47,7 @@ export function Page({
               variant="subtitle1"
               style={{
                 margin: '0 auto',
-                padding: '40px 28px 20px 28px',
+                padding: '12px 28px 20px 28px',
                 maxWidth: 880,
                 textAlign: 'center',
                 width: 'fit-content',

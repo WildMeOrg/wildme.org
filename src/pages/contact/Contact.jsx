@@ -71,7 +71,7 @@ export default function Contact() {
           top: 40,
           width: '100vw',
           background: `url('${contactUsBg}')`,
-          filter: 'hue-rotate(300deg)',
+          filter: 'hue-rotate(300deg) brightness(1.5)',
           minHeight: '100vh',
           paddingBottom: 100,
         }}

@@ -6,6 +6,7 @@ export default function LogoSoup({
   logoDefinitions,
   logos,
   height = 30,
+  showSubtitles,
   ...rest
 }) {
   const iterable =
@@ -26,13 +27,18 @@ export default function LogoSoup({
             <Tooltip
               key={logo.imageSrc}
               title={
-                <Typography variant="body2">{logo.name}</Typography>
+                <Typography variant="body2">
+                  {logo.tooltip || logo.name}
+                </Typography>
               }
             >
               <Container
                 href={logo.url || undefined}
                 target={logo.url ? '_blank' : undefined}
                 rel={logo.url ? 'noopener noreferrer' : undefined}
+                style={
+                  logo.url ? { textDecoration: 'none' } : undefined
+                }
               >
                 <img
                   style={{
@@ -45,6 +51,14 @@ export default function LogoSoup({
                   width="auto"
                   alt={logo.name || 'Organization logo'}
                 />
+                {showSubtitles && (
+                  <Typography
+                    variant="h6"
+                    style={{ textAlign: 'center', color: 'black' }}
+                  >
+                    {logo.name}
+                  </Typography>
+                )}
               </Container>
             </Tooltip>
           );

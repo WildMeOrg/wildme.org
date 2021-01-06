@@ -6,14 +6,18 @@ import LogoSoup from '../../components/LogoSoup';
 import ButtonLink from '../../components/ButtonLink';
 import ResponsiveText from '../../components/ResponsiveText';
 import { Page, Showcase, Line } from '../../components/Containers';
-import { majorSupporters, supporterLogos } from './supporterData';
+import {
+  majorSupporters,
+  softwareLogos,
+  supporterLogos,
+} from './supporterData';
 
 export default function Supporters() {
   const intl = useIntl();
   return (
     <Page
       documentTitle={intl.formatMessage({ id: 'SUPPORTERS' })}
-      title="Our supporters."
+      title="Our supporters"
       subtitle="Conservation doesn't happen in a vacuum. Join us in celebrating our supporters, whose generosity and direction make it all possible."
     >
       <div
@@ -100,7 +104,37 @@ export default function Supporters() {
             textAlign: 'center',
           }}
         >
-          Past supporters.
+          Operational support
+        </ResponsiveText>
+        <Typography
+          style={{
+            margin: '12px auto 0 auto',
+            width: 'fit-content',
+            textAlign: 'center',
+            color: 'rgb(68, 68, 68)',
+            fontStyle: 'italic',
+          }}
+        >
+          These organizations generously donate products and services.
+        </Typography>
+        <LogoSoup
+          style={{ maxWidth: 880, margin: '80px auto' }}
+          height={120}
+          logoDefinitions={softwareLogos}
+          showSubtitles
+        />
+      </div>
+      <Line />
+      <div style={{ paddingTop: 40, margin: '0 auto' }}>
+        <ResponsiveText
+          variant="h3"
+          style={{
+            margin: '0 auto',
+            width: 'fit-content',
+            textAlign: 'center',
+          }}
+        >
+          Past supporters
         </ResponsiveText>
 
         <LogoSoup
