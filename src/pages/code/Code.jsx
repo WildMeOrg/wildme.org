@@ -4,7 +4,9 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import HelpIcon from '@material-ui/icons/Help';
 import DocsIcon from '@material-ui/icons/Description';
 import ButtonLink from '../../components/ButtonLink';
+import LogoSoup from '../../components/LogoSoup';
 import { Page, Box, Row } from '../../components/Containers';
+import shoutoutLogos from './shoutoutData';
 
 function Entry({
   title,
@@ -72,11 +74,7 @@ function Entry({
 
 export default function Code() {
   return (
-    <Page
-      documentTitle="Code"
-      title="Code"
-      subtitle="We are a small team managing a lot of code. If you experience any issues with our documentation, let us know."
-    >
+    <Page documentTitle="Repositories" title="Repositories">
       <Row>
         <Entry
           title="Wildbook"
@@ -113,6 +111,16 @@ export default function Code() {
           languages="Javascript, React"
           description="In the distant future, Wildbook's JSP frontend will be replaced by a more modern user interface powered by Houston's API."
           repositoryHref="https://github.com/WildbookOrg/wildbook-frontend"
+        />
+      </Row>
+      <Row>
+        <Typography variant="h5" style={{ margin: '40px auto' }}>
+          Shout out to these wonderful open source projects!
+        </Typography>
+        <LogoSoup
+          style={{ margin: '0 auto' }}
+          height={100}
+          logoDefinitions={shoutoutLogos}
         />
       </Row>
     </Page>
