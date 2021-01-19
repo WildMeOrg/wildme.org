@@ -80,7 +80,7 @@ export default function Code() {
           title="Wildbook"
           languages="Java, JSP"
           description="A Java app which serves the frontend using a templating language called JSP."
-          repositoryHref="https://github.com/WildbookOrg/wildbook"
+          repositoryHref="https://github.com/WildMeOrg/wildbook"
           docsHref="https://docs.wildme.org/docs/developers/wildbook_overview"
           supportHref="https://community.wildbook.org/"
         />
@@ -88,14 +88,14 @@ export default function Code() {
           title="Wildbook IA"
           languages="Python"
           description="Wildbook IA is short for Wildbook Image Analysis and is often abbreviated WBIA. Our machine learning and computer vision stack, including a small Flask interface."
-          repositoryHref="https://github.com/WildbookOrg/wildbook-ia"
+          repositoryHref="https://github.com/WildMeOrg/wildbook-ia"
           supportHref="https://community.wildbook.org/"
         />
         <Entry
           title="wildme.org"
           languages="Javascript, React"
           description="The code for this website, written in React."
-          repositoryHref="https://github.com/WildbookOrg/wildme.org"
+          repositoryHref="https://github.com/WildMeOrg/wildme.org"
         />
       </Row>
       <Row>
@@ -103,14 +103,14 @@ export default function Code() {
           title="Houston"
           languages="Python, Flask"
           description="A middleware for simultaneously interfacing with the EDM (Ecological Data Module) and WBIA (Wildbook Image Analysis)."
-          repositoryHref="https://github.com/WildbookOrg/houston"
+          repositoryHref="https://github.com/WildMeOrg/houston"
           docsHref="https://docs.wildme.org/docs/developers/houston"
         />
         <Entry
           title="Nexgen frontend"
           languages="Javascript, React"
           description="In the distant future, Wildbook's JSP frontend will be replaced by a more modern user interface powered by Houston's API."
-          repositoryHref="https://github.com/WildbookOrg/wildbook-frontend"
+          repositoryHref="https://github.com/WildMeOrg/codex-frontend"
         />
       </Row>
       <Row>
