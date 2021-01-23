@@ -43,6 +43,18 @@ const publications = [
       'Araujo G, Ismail AR, McCann C, McCann D, Legaspi CG, Snow S, Labaja J, Manjaji-Matsumoto M, Ponzo A. (2020) Getting the most out of citizen science for endangered species such as Whale Shark. J Fish Biol. 2020 Jan 9. doi: 10.1111/jfb.14254.    ',
   },
   {
+    tags: [tags.flukebook],
+    href: 'https://archive.iwc.int/pages/view.php?search=SC%2F68B%2FPH%2F03&k=&modal=&display=list&order_by=resourcetype&offset=0&per_page=240&archive=&sort=DESC&restypes=1%2C2%2C3%2C4%2C14&recentdaylimit=&foredit=&ref=17340',
+    citation:
+      'Khan C, Holmberg J, Hamilton P, Pettis H, Blount D, Parham J, Mucha M, Charlton C, Rowntree V, Vermeulen E, Rayment W, Dawson S, Johnston D, Groch K (2020) From Competition to Collaboration: Automated Identification of Right Whales. International Whale Commission, Cambridge, UK (virtual).  Report SC/68B/PH/03.    ',
+  },
+  {
+    tags: [tags.flukebook],
+    href: 'https://archive.iwc.int/pages/view.php?search=SC%2F68B%2FPH%2F06&k=&modal=&display=list&order_by=resourcetype&offset=0&per_page=240&archive=&sort=DESC&restypes=1%2C2%2C3%2C4%2C14&recentdaylimit=&foredit=&ref=17352',
+    citation:
+      'Blount D, Minton G, Khan C, Levenson J, Dulau V, Gero S, Parham J, Holmberg J (2020) Flukebook – Continuing growth and technical advancement for cetacean photo identification and data archiving, including automated fin, fluke, and body matching. International Whale Commission, Cambridge, UK (virtual).  Report SC/68B/PH/06    ',
+  },
+  {
     tags: [tags.whaleshark],
     href: 'https://www.nature.com/articles/s41598-019-53718-w',
     citation:
