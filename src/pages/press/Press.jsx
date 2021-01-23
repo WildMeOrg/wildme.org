@@ -75,16 +75,12 @@ export default function Press() {
     <Page
       documentTitle={translatedPress}
       title="Wild Me in the press."
+      style={{ marginBottom: 0 }}
     >
-      {/* <Row style={{ flexDirection: 'column', marginTop: 32 }}>
-        <Typography variant="h5">Media inquiries</Typography>
-        <Typography style={{ marginTop: 32 }}>
-          Writing about Wild Me? Our press pack is currently under
-          development. In the meantime, please email info@wildme.org
-          with questions and we will get back to you as soon as
-          possible.
-        </Typography>
-      </Row> */}
+      <Typography style={{ textAlign: 'center', marginBottom: 60 }}>
+        Writing about us? Take a look at our{' '}
+        <Link href="/media-resources">media resources</Link>.
+      </Typography>
 
       <LogoSoup
         style={{
