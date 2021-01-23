@@ -20,6 +20,7 @@ import Footer from './components/Footer';
 import FourOhFour from './pages/fourohfour/FourOhFour';
 import Splash from './pages/splash/Splash';
 import Press from './pages/press/Press';
+import MediaResources from './pages/press/MediaResources';
 import Legal from './pages/legal/Legal';
 import Services from './pages/services/Services';
 import Donate from './pages/donate/Donate';
@@ -121,6 +122,9 @@ export default function App() {
                 </Route>
                 <Route path="/press">
                   <Press />
+                </Route>
+                <Route path="/media-resources">
+                  <MediaResources />
                 </Route>
                 <Route path="/publications">
                   <Publications />
