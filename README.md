@@ -4,9 +4,9 @@ The React frontend for [wildme.org](https://wildme.org/). This site is not in pr
 
 ## Contributions 
 
-Found a bug? Submit a report [here](https://github.com/WildbookOrg/wildme.org/issues/new).
+Found a bug? Submit a report [here](https://github.com/WildMeOrg/wildme.org/issues/new).
 
-Developer contributions are very much appreciated =). This app is written with React and Material-UI in hopes that it should be easy to work with. Take a gander at the [contribution guide](https://github.com/WildbookOrg/wildme.org/blob/master/CONTRIBUTION_GUIDE.md). If you a Java dev looking to help with our project, take a look at the [backend](https://github.com/WildbookOrg/Wildbook). And if you are a Python dev or data scientist take a look at [WB-IA](https://github.com/WildbookOrg/wildbook-ia). 
+Developer contributions are very much appreciated =). This app is written with React and Material-UI in hopes that it should be easy to work with. Take a gander at the [contribution guide](https://github.com/WildMeOrg/wildme.org/blob/master/CONTRIBUTION_GUIDE.md). If you a Java dev looking to help with our project, take a look at the [backend](https://github.com/WildMeOrg/Wildbook). And if you are a Python dev or data scientist take a look at [WB-IA](https://github.com/WildMeOrg/wildbook-ia). 
 
 We are also looking for help from designers and 3D modelers! Please send an email to ben@wildme.org if you are interested.
 

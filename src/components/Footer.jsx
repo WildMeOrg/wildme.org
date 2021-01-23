@@ -48,7 +48,7 @@ export default function Footer() {
       >
         <SocialLink
           variant="github"
-          href="https://github.com/WildbookOrg"
+          href="https://github.com/WildMeOrg"
         />
         <SocialLink
           variant="facebook"
@@ -163,7 +163,7 @@ export default function Footer() {
             </Button>
           </div>
           <div>
-            <IconButton href="https://twitter.com/wildbookORG">
+            <IconButton href="https://twitter.com/WildMeOrg">
               <TwitterIcon />
             </IconButton>
             <IconButton href="https://www.facebook.com/wildmeorg/">

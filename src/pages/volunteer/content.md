@@ -6,10 +6,10 @@ Like most non-profits, we try to achieve a lot with a relatively small staff. As
 
 All our code is open source and PRs are very much appreciated. Here's a quick rundown of our active repositories:
 
- - [Wildbook](https://github.com/WildbookOrg/Wildbook): Java backend with JSP frontend. 
- - [WB-IA](https://github.com/WildbookOrg/wildbook-ia): Python with a small Flask frontend.
- - Codex: [Java backend](https://github.com/WildbookOrg/Wildbook/tree/next-gen) with [React frontend](https://github.com/WildbookOrg/wildbook-frontend) and [Python middleware](https://github.com/WildbookOrg/houston).
- - [Scout](https://github.com/WildbookOrg/report-app): React Native.
+ - [Wildbook](https://github.com/WildMeOrg/Wildbook): Java backend with JSP frontend. 
+ - [WB-IA](https://github.com/WildMeOrg/wildbook-ia): Python with a small Flask frontend.
+ - Codex: [Java backend](https://github.com/WildMeOrg/Wildbook/tree/next-gen) with [React frontend](https://github.com/WildMeOrg/codex-frontend) and [Python middleware](https://github.com/WildMeOrg/houston).
+ - [Scout](https://github.com/WildMeOrg/report-app): React Native.
 
 For help getting set up or other questions, send an email to dev@wildme.org. We handle project management internally using Jira so just let us know your interests and we can find some good tickets for you.
 
