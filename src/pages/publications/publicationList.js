@@ -23,6 +23,14 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.whaleshark],
+    href:
+      'https://www.researchgate.net/publication/348305378_Seasonal_Occurrence_Horizontal_Movements_and_Habitat_Use_Patterns_of_Whale_Sharks_Rhincodon_typus_in_the_Gulf_of_Mexico#fullTextFileContent',
+    citation:
+      'Seasonal Occurrence, Horizontal Movements, and Habitat Use Patterns of Whale Sharks (Rhincodon typus) in the Gulf of Mexico. Eric R. Hoffmayer, Jennifer A. McKinney, James S. Franks, Michael E. Byrne, Michael E. Byrne et al. Frontiers in Marine Science, Jan 2021. doi: 10.3389/fmars.2020.598515',
+  },
+  {
+	  
     tags: [tags.iot, tags.staff],
     href:
       'https://www.sciencedirect.com/science/article/abs/pii/S0022098120301738',
