@@ -54,7 +54,7 @@ const navigation = [
       },
       {
         labelId: 'SUPPORT_&_FEEDBACK',
-        path: 'https://community.wildbook.org/',
+        path: 'https://community.wildme.org/',
         external: true,
       },
       {

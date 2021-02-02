@@ -17,7 +17,7 @@ const helpItems = [
     title: 'Wildbook bugs and feature requests',
     instructions: 'Create an issue on the Wildbook community forums.',
     action: 'Visit the forums',
-    href: 'https://community.wildbook.org/',
+    href: 'https://community.wildme.org/',
   },
   {
     id: 'wildme-dot-org',

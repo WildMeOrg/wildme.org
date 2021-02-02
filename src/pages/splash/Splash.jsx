@@ -29,7 +29,7 @@ export default function Splash() {
   useDocumentTitle(pageNotFound);
 
   const w1 = isMd ? 500 : '80%';
-  const fs1 = isMd ? 40 : 80;
+  const fs1 = isMd ? 40 : 68;
 
   return (
     <div style={{ marginTop: 64 }}>
@@ -44,8 +44,8 @@ export default function Splash() {
             right: 0,
             width: isSm ? 240 : w1,
             background: 'rgba(255, 255, 255, 0.7)',
-            padding: '20px 0',
-            top: isSm ? '0%' : '15%',
+            padding: isSm ? '8px 0' : '20px 0',
+            top: isSm ? '25%' : '15%',
             fontSize: isSm ? 18 : fs1,
           }}
         >
