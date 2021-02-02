@@ -933,7 +933,7 @@
               },
               {
                 labelId: 'SUPPORT_&_FEEDBACK',
-                path: 'https://community.wildbook.org/',
+                path: 'https://community.wildme.org/',
                 external: !0,
               },
               {
@@ -2978,7 +2978,7 @@
           title: 'Services',
           imgSrc: Ha.a,
           content:
-            '## Overview\n\nWe here at Wild Me have almost two decades of experience supporting wildlife and citizen scitentist projects through software and computer vision. We work with our users to find solutions that empower the conservation community, and we strive to be representatives of how technology can be leveraged for a better world.\n\nTo support this mission, we offer a number of free and paid services, including:\n\n- Consultation on technological advancements for mark recapture and citizen scientist projects\n- Azure cloud hosting of Wildbooks\n- Data upload assistance\n- Annotation of photographic data\n- Configuration and support of Wildbooks\n- Custom computer vision and machine learning model development\n- Wildbook feature development\n\n## What comes next?\n\nTo inquire about any of the services above, or to see about joining an existing platform, email us at services@wildme.org.\n\nNeed help with an existing Wildbook? Have questions that don’t seem to fit with the list above? Reach out to us on the [Wildbook Community Forums](https://community.wildbook.org/)! We will respond shortly, unless a member of the community gets there first.\n',
+            '## Overview\n\nWe here at Wild Me have almost two decades of experience supporting wildlife and citizen scitentist projects through software and computer vision. We work with our users to find solutions that empower the conservation community, and we strive to be representatives of how technology can be leveraged for a better world.\n\nTo support this mission, we offer a number of free and paid services, including:\n\n- Consultation on technological advancements for mark recapture and citizen scientist projects\n- Azure cloud hosting of Wildbooks\n- Data upload assistance\n- Annotation of photographic data\n- Configuration and support of Wildbooks\n- Custom computer vision and machine learning model development\n- Wildbook feature development\n\n## What comes next?\n\nTo inquire about any of the services above, or to see about joining an existing platform, email us at services@wildme.org.\n\nNeed help with an existing Wildbook? Have questions that don’t seem to fit with the list above? Reach out to us on the [Wildbook Community Forums](https://community.wildme.org/)! We will respond shortly, unless a member of the community gets there first.\n',
         });
       }
       var Fa = t(457),
@@ -5369,7 +5369,7 @@
           title: 'Volunteer',
           imgSrc: Ha.a,
           content:
-            "## Overview\n\nLike most non-profits, we try to achieve a lot with a relatively small staff. As a result, we HUGELY appreciate our volunteer workforce. If you are curious about making a contribution, take a look at the information below. \n\n## Programming \n\nAll our code is open source and PRs are very much appreciated. Here's a quick rundown of our active repositories:\n\n - [Wildbook](https://github.com/WildMeOrg/Wildbook): Java backend with JSP frontend. \n - [WB-IA](https://github.com/WildMeOrg/wildbook-ia): Python with a small Flask frontend.\n - Codex: [Java backend](https://github.com/WildMeOrg/Wildbook/tree/next-gen) with [React frontend](https://github.com/WildMeOrg/codex-frontend) and [Python middleware](https://github.com/WildMeOrg/houston).\n - [Scout](https://github.com/WildMeOrg/report-app): React Native.\n\nFor help getting set up or other questions, send an email to dev@wildme.org. We handle project management internally using Jira so just let us know your interests and we can find some good tickets for you.\n\n## Graphic design \n\nFor more information about our graphic design needs, contact ben@wildme.org. Thanks in advance!\n\n## Software documentation and community management \n\nWant to contribute to our [documentation](http://docs.wildme.org/docs/how_to_edit)? We'll review what you provide and get it folded in.\n\nInterested in contributing to our [Community](https://community.wildbook.org/)? Create an account and look around. Answer questions from other users, post interesting content related to your conservation goals, and ask questions.\n\n## Miscellaneous\n\nHave something else in mind? Send an email to info@wildme.org and we will be in touch!\n",
+            "## Overview\n\nLike most non-profits, we try to achieve a lot with a relatively small staff. As a result, we HUGELY appreciate our volunteer workforce. If you are curious about making a contribution, take a look at the information below. \n\n## Programming \n\nAll our code is open source and PRs are very much appreciated. Here's a quick rundown of our active repositories:\n\n - [Wildbook](https://github.com/WildMeOrg/Wildbook): Java backend with JSP frontend. \n - [WB-IA](https://github.com/WildMeOrg/wildbook-ia): Python with a small Flask frontend.\n - Codex: [Java backend](https://github.com/WildMeOrg/Wildbook/tree/next-gen) with [React frontend](https://github.com/WildMeOrg/codex-frontend) and [Python middleware](https://github.com/WildMeOrg/houston).\n - [Scout](https://github.com/WildMeOrg/report-app): React Native.\n\nFor help getting set up or other questions, send an email to dev@wildme.org. We handle project management internally using Jira so just let us know your interests and we can find some good tickets for you.\n\n## Graphic design \n\nFor more information about our graphic design needs, contact ben@wildme.org. Thanks in advance!\n\n## Software documentation and community management \n\nWant to contribute to our [documentation](http://docs.wildme.org/docs/how_to_edit)? We'll review what you provide and get it folded in.\n\nInterested in contributing to our [Community](https://community.wildme.org/)? Create an account and look around. Answer questions from other users, post interesting content related to your conservation goals, and ask questions.\n\n## Miscellaneous\n\nHave something else in mind? Send an email to info@wildme.org and we will be in touch!\n",
         });
       }
       function ao() {
@@ -5434,7 +5434,7 @@
             instructions:
               'Create an issue on the Wildbook community forums.',
             action: 'Visit the forums',
-            href: 'https://community.wildbook.org/',
+            href: 'https://community.wildme.org/',
           },
           {
             id: 'wildme-dot-org',
@@ -5701,7 +5701,7 @@
               repositoryHref: 'https://github.com/WildMeOrg/wildbook',
               docsHref:
                 'https://docs.wildme.org/docs/developers/wildbook_overview',
-              supportHref: 'https://community.wildbook.org/',
+              supportHref: 'https://community.wildme.org/',
             }),
             i.a.createElement(ko, {
               title: 'Wildbook IA',
@@ -5710,7 +5710,7 @@
                 'Wildbook IA is short for Wildbook Image Analysis and is often abbreviated WBIA. Our machine learning and computer vision stack, including a small Flask interface.',
               repositoryHref:
                 'https://github.com/WildMeOrg/wildbook-ia',
-              supportHref: 'https://community.wildbook.org/',
+              supportHref: 'https://community.wildme.org/',
             }),
             i.a.createElement(ko, {
               title: 'wildme.org',

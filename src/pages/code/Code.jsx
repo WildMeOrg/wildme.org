@@ -82,14 +82,14 @@ export default function Code() {
           description="A Java app which serves the frontend using a templating language called JSP."
           repositoryHref="https://github.com/WildMeOrg/wildbook"
           docsHref="https://docs.wildme.org/docs/developers/wildbook_overview"
-          supportHref="https://community.wildbook.org/"
+          supportHref="https://community.wildme.org/"
         />
         <Entry
           title="Wildbook IA"
           languages="Python"
           description="Wildbook IA is short for Wildbook Image Analysis and is often abbreviated WBIA. Our machine learning and computer vision stack, including a small Flask interface."
           repositoryHref="https://github.com/WildMeOrg/wildbook-ia"
-          supportHref="https://community.wildbook.org/"
+          supportHref="https://community.wildme.org/"
         />
         <Entry
           title="wildme.org"
