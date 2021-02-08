@@ -6,6 +6,17 @@ import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
 const articles = [
   {
     name:
+      'The Amazing Ways Wild Me Uses Artificial Intelligence And Citizen Scientists To Help With Conservation',
+    href:
+      'https://www.forbes.com/sites/bernardmarr/2021/01/29/the-amazing-ways-wild-me-uses-artificial-intelligence-and-citizen-scientists-to-help-with-conservation',
+    organization: 'Forbes',
+    date: '2020-01-29',
+    citation: 'Bernard Marr, Forbes',
+    excerpt:
+      'There’s no doubt Wild Me’s innovations have revolutionized animal identification. It’s a spectacular example of what can result when humans and machines combine efforts for the greater good.',
+  },
+  {
+    name:
       'When Sharks Turned Up at Their Beach, They Called in Drones',
     href:
       'https://www.nytimes.com/2020/11/20/science/sharks-drones-artificial-intelligence.html',
