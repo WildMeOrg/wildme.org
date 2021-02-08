@@ -160,6 +160,12 @@ const publications = [
       'Araujo G, Lucey A, Labaja J, So CL, Snow S, Ponzo A. (2014) Population structure and residency patterns of whale sharks, Rhincodon typus, at a provisioning site in Cebu, Philippines. PeerJ 2:e543',
   },
   {
+    tags: [tags.staff],
+    href: 'https://doi.org/10.1109/WACV.2013.6475023',
+    citation:
+      'Crall, J. P., Stewart, C. V., Berger-Wolf, T. Y., Rubenstein, D. I., & Sundaresan, S. R. (2013). HotSpotter-Patterned species instance recognition. In 2013 IEEE Workshop on Applications of Computer Vision, WACV 2013 (pp. 230-237). [6475023] (Proceedings of IEEE Workshop on Applications of Computer Vision).',
+  },
+  {
     tags: [tags.whaleshark],
     href: 'http://www.int-res.com/articles/meps_oa/m482p153.pdf',
     citation:
