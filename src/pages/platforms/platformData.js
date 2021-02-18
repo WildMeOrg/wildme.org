@@ -628,11 +628,11 @@ const projectData = [
     ],
   },
   {
-    name: 'Wildbook for Jaguars',
+    name: 'Whiskerbook',
     path: '/jaguar',
-    href: 'https://jaguar.wildbook.com/',
+    href: 'https://www.whiskerbook.org/',
     tagline:
-      'A.I for the conservation of jaguars by automating individual identification.',
+      'A.I for the conservation of big cats by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adminName: 'Jason Holmberg',
@@ -650,6 +650,16 @@ const projectData = [
         alias: 'Jaguar',
         url: 'https://en.wikipedia.org/wiki/Jaguar',
       },
+	  {
+        name: 'Panthera uncia',
+        alias: 'Snow leopard',
+        url: 'https://en.wikipedia.org/wiki/Snow_leopard',
+      },
+	  {
+        name: 'Acinonyx jubatus',
+        alias: 'Asiatic cheetah',
+        url: 'hhttps://en.wikipedia.org/wiki/Asiatic_cheetah',
+      }
     ],
   },
   {
