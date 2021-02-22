@@ -30,9 +30,11 @@ export default function Publications() {
   const filteredPublications = searchFilteredPublications.filter(
     publication => {
       let matched = false;
-      publication.tags.forEach(tag => {
-        if (tag.id.includes(selectedTag)) matched = true;
-      });
+      if (publication.tags) {
+        publication.tags.forEach(tag => {
+          if (tag.id.includes(selectedTag)) matched = true;
+        });
+      }
       return matched;
     },
   );
