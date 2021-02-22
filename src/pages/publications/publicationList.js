@@ -68,6 +68,21 @@ const publications = [
     citation:
       'Araujo, G., Agustines, A., Tracey, B. et al. (2019) Photo-ID and telemetry highlight a global whale shark hotspot in Palawan, Philippines. Sci Rep 9, 17209 (2019) doi:10.1038/s41598-019-53718-w    ',
   },
+  
+  {
+    tags: [tags.spotashark, tags.staff],
+    href:
+      'https://doi.org/10.1002/ecy.2687',
+    citation:
+      'Paxton, A. B., Blair, E., Blawas, C., Fatzinger, M. H., Marens, M., Holmberg, J., Kingen, C., Houppermans, T., Keusenkothen, M., McCord, J., Silliman, B. R., and Penfold, L. M.. 2019. Citizen science reveals female sand tiger sharks (Carcharias taurus) exhibit signs of site fidelity on shipwrecks. Ecology 100( 8):e02687. 10.1002/ecy.2687',
+  },
+  {
+    tags: [tags.spotashark, tags.staff],
+    href:
+      'https://doi.org/10.1002/bes2.1553',
+    citation:
+      'Paxton, A. B., Blair, E., Blawas, C., Fatzinger, M. H., Marens, M., Holmberg, J., Kingen, C., Houppermans, T., Keusenkothen, M., McCord, J., Silliman, B. R., and Penfold, L. M. 2019. Citizen science provides evidence that a large coastal shark species returns to the same or nearby shipwrecks. Bull Ecol Soc Am 100( 3):e01553. https://doi.org/10.1002/bes2.1553',
+  },
   {
     tags: [tags.whaleshark],
     href:
