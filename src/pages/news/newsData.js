@@ -1,4 +1,3 @@
-import articlePieBlog from './articles/PieBlogPost';
 import turtlePub from './articles/turtle-pub.md';
 import multifeature from './articles/multifeature.md';
 import zebras from './articles/zebra-datasets.md';
@@ -8,8 +7,18 @@ import multiImage from '../../assets/multifeature.jpeg';
 import seadragons from '../../assets/seadragons.jpeg';
 import turtles from '../../assets/turtle-banner-small.jpg';
 import pie from '../../assets/pie-article.jpeg';
+import articlePieBlog from './articles/PieBlogPost';
+import assignerImage from './assets/assigner-blog-post/bpc-confusing.jpg';
+import assignerPost from './articles/assigner-blog-post';
 
 const newsData = [
+  {
+    title: 'The Assigner: Building an ML Component Start to Finish',
+    image: assignerImage,
+    markdown: assignerPost,
+    dateString: 'February 24, 2021',
+    path: '/assigner-blog',
+  },
   {
     title:
       'New publication in the Journal of Experimental Marine Biology and Ecology',
