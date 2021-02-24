@@ -6,17 +6,19 @@ import ImageCard from '../../components/ImageCard';
 import newsData from './newsData';
 
 export default function NewsArticle({ articleData }) {
-  const { title, image, markdown, dateString } = articleData;
+  const { title, image, markdown, dateString, author } = articleData;
 
   const otherArticles = newsData.filter(
     article => article.title !== title,
   );
 
+  const imgSubtitle = `${author}, ${dateString}`;
+
   return (
     <MarkdownPage
       title={title}
       imgSrc={image}
-      imgSubtitle={dateString}
+      imgSubtitle={imgSubtitle}
       content={markdown}
     >
       <div>

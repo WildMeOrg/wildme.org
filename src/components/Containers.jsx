@@ -20,6 +20,7 @@ export function Page({
   subtitle,
   children,
   style = {},
+  titleStyles = {},
   ...rest
 }) {
   useDocumentTitle(documentTitle);
@@ -38,6 +39,7 @@ export function Page({
               padding: '0 20px',
               textAlign: 'center',
               maxWidth: 1100,
+              ...titleStyles,
             }}
           >
             {title}

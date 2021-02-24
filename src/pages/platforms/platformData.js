@@ -650,16 +650,16 @@ const projectData = [
         alias: 'Jaguar',
         url: 'https://en.wikipedia.org/wiki/Jaguar',
       },
-	  {
+      {
         name: 'Panthera uncia',
         alias: 'Snow leopard',
         url: 'https://en.wikipedia.org/wiki/Snow_leopard',
       },
-	  {
+      {
         name: 'Acinonyx jubatus',
         alias: 'Asiatic cheetah',
         url: 'hhttps://en.wikipedia.org/wiki/Asiatic_cheetah',
-      }
+      },
     ],
   },
   {
