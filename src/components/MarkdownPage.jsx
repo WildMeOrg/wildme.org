@@ -1,13 +1,16 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown/with-html';
 import Typography from '@material-ui/core/Typography';
 import { Page, Row } from './Containers';
+
+const maxArticleWidth = 680;
 
 const renderers = {
   root: ({ style, ...rest }) => (
     <Typography
       style={{
         fontSize: 18,
+        fontWeight: 300,
         lineHeight: '32px',
         margin: '0 auto',
         maxWidth: 800,
@@ -31,14 +34,18 @@ export default function MarkdownPage(props) {
     ...rest
   } = props;
   return (
-    <Page documentTitle={documentTitle || title} title={title}>
+    <Page
+      documentTitle={documentTitle || title}
+      title={title}
+      titleStyles={{ maxWidth: maxArticleWidth + 200 }}
+    >
       <div style={{ marginBottom: 80, ...style }} {...rest}>
-        <Row>
+        <Row style={{ maxWidth: maxArticleWidth }}>
           <div style={{ margin: '0 auto' }}>
             <img
               style={{
                 width: '100%',
-                maxWidth: 800,
+                maxWidth: maxArticleWidth,
                 height: 'intrinsic', // safari fix
               }}
               src={imgSrc}
@@ -54,8 +61,8 @@ export default function MarkdownPage(props) {
             )}
           </div>
         </Row>
-        <Row>
-          <ReactMarkdown renderers={renderers}>
+        <Row style={{ maxWidth: maxArticleWidth }}>
+          <ReactMarkdown renderers={renderers} allowDangerousHtml>
             {content}
           </ReactMarkdown>
         </Row>

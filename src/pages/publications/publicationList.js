@@ -30,7 +30,6 @@ const publications = [
       'Seasonal Occurrence, Horizontal Movements, and Habitat Use Patterns of Whale Sharks (Rhincodon typus) in the Gulf of Mexico. Eric R. Hoffmayer, Jennifer A. McKinney, James S. Franks, Michael E. Byrne, Michael E. Byrne et al. Frontiers in Marine Science, Jan 2021. doi: 10.3389/fmars.2020.598515',
   },
   {
-	  
     tags: [tags.iot, tags.staff],
     href:
       'https://www.sciencedirect.com/science/article/abs/pii/S0022098120301738',
@@ -52,13 +51,15 @@ const publications = [
   },
   {
     tags: [tags.flukebook],
-    href: 'https://archive.iwc.int/pages/view.php?search=SC%2F68B%2FPH%2F03&k=&modal=&display=list&order_by=resourcetype&offset=0&per_page=240&archive=&sort=DESC&restypes=1%2C2%2C3%2C4%2C14&recentdaylimit=&foredit=&ref=17340',
+    href:
+      'https://archive.iwc.int/pages/view.php?search=SC%2F68B%2FPH%2F03&k=&modal=&display=list&order_by=resourcetype&offset=0&per_page=240&archive=&sort=DESC&restypes=1%2C2%2C3%2C4%2C14&recentdaylimit=&foredit=&ref=17340',
     citation:
       'Khan C, Holmberg J, Hamilton P, Pettis H, Blount D, Parham J, Mucha M, Charlton C, Rowntree V, Vermeulen E, Rayment W, Dawson S, Johnston D, Groch K (2020) From Competition to Collaboration: Automated Identification of Right Whales. International Whale Commission, Cambridge, UK (virtual).  Report SC/68B/PH/03.    ',
   },
   {
     tags: [tags.flukebook],
-    href: 'https://archive.iwc.int/pages/view.php?search=SC%2F68B%2FPH%2F06&k=&modal=&display=list&order_by=resourcetype&offset=0&per_page=240&archive=&sort=DESC&restypes=1%2C2%2C3%2C4%2C14&recentdaylimit=&foredit=&ref=17352',
+    href:
+      'https://archive.iwc.int/pages/view.php?search=SC%2F68B%2FPH%2F06&k=&modal=&display=list&order_by=resourcetype&offset=0&per_page=240&archive=&sort=DESC&restypes=1%2C2%2C3%2C4%2C14&recentdaylimit=&foredit=&ref=17352',
     citation:
       'Blount D, Minton G, Khan C, Levenson J, Dulau V, Gero S, Parham J, Holmberg J (2020) Flukebook – Continuing growth and technical advancement for cetacean photo identification and data archiving, including automated fin, fluke, and body matching. International Whale Commission, Cambridge, UK (virtual).  Report SC/68B/PH/06    ',
   },
@@ -68,18 +69,16 @@ const publications = [
     citation:
       'Araujo, G., Agustines, A., Tracey, B. et al. (2019) Photo-ID and telemetry highlight a global whale shark hotspot in Palawan, Philippines. Sci Rep 9, 17209 (2019) doi:10.1038/s41598-019-53718-w    ',
   },
-  
+
   {
     tags: [tags.spotashark, tags.staff],
-    href:
-      'https://doi.org/10.1002/ecy.2687',
+    href: 'https://doi.org/10.1002/ecy.2687',
     citation:
       'Paxton, A. B., Blair, E., Blawas, C., Fatzinger, M. H., Marens, M., Holmberg, J., Kingen, C., Houppermans, T., Keusenkothen, M., McCord, J., Silliman, B. R., and Penfold, L. M.. 2019. Citizen science reveals female sand tiger sharks (Carcharias taurus) exhibit signs of site fidelity on shipwrecks. Ecology 100( 8):e02687. 10.1002/ecy.2687',
   },
   {
     tags: [tags.spotashark, tags.staff],
-    href:
-      'https://doi.org/10.1002/bes2.1553',
+    href: 'https://doi.org/10.1002/bes2.1553',
     citation:
       'Paxton, A. B., Blair, E., Blawas, C., Fatzinger, M. H., Marens, M., Holmberg, J., Kingen, C., Houppermans, T., Keusenkothen, M., McCord, J., Silliman, B. R., and Penfold, L. M. 2019. Citizen science provides evidence that a large coastal shark species returns to the same or nearby shipwrecks. Bull Ecol Soc Am 100( 3):e01553. https://doi.org/10.1002/bes2.1553',
   },

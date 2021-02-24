@@ -18,6 +18,7 @@ const newsData = [
     markdown: assignerPost,
     dateString: 'February 24, 2021',
     path: '/assigner-blog',
+    author: 'Drew Blount',
   },
   {
     title:
@@ -26,6 +27,7 @@ const newsData = [
     markdown: turtlePub,
     dateString: 'December 1, 2020',
     path: '/jembe-pub-2020',
+    author: 'Jason Holmberg',
   },
   {
     title: 'Wild Me Blog: The New PIE Algorithm',
@@ -33,6 +35,7 @@ const newsData = [
     markdown: articlePieBlog,
     dateString: 'November 16, 2020',
     path: '/pie-blog',
+    author: 'Drew Blount',
   },
   {
     title:
@@ -41,6 +44,7 @@ const newsData = [
     markdown: multifeature,
     dateString: 'November 3, 2020',
     path: '/jcrm-pub-2020',
+    author: 'Jason Holmberg',
   },
   {
     title: 'Seadragon Wildbook official launch!',
@@ -48,6 +52,7 @@ const newsData = [
     markdown: seadragon,
     dateString: 'October 2, 2020',
     path: '/seadragon-launch',
+    author: 'Jason Holmberg',
   },
   {
     title:
@@ -56,6 +61,7 @@ const newsData = [
     markdown: zebras,
     dateString: 'July 28, 2020',
     path: '/zebra-datasets',
+    author: 'Jason Holmberg',
   },
 ];
 
