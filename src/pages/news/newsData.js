@@ -1,4 +1,3 @@
-import articlePieBlog from './articles/PieBlogPost';
 import turtlePub from './articles/turtle-pub.md';
 import multifeature from './articles/multifeature.md';
 import zebras from './articles/zebra-datasets.md';
@@ -8,8 +7,19 @@ import multiImage from '../../assets/multifeature.jpeg';
 import seadragons from '../../assets/seadragons.jpeg';
 import turtles from '../../assets/turtle-banner-small.jpg';
 import pie from '../../assets/pie-article.jpeg';
+import articlePieBlog from './articles/PieBlogPost';
+import assignerImage from './assets/assigner-blog-post/bpc-confusing.jpg';
+import assignerPost from './articles/assigner-blog-post';
 
 const newsData = [
+  {
+    title: 'The Assigner: Building an ML Component Start to Finish',
+    image: assignerImage,
+    markdown: assignerPost,
+    dateString: 'February 24, 2021',
+    path: '/assigner-blog',
+    author: 'Drew Blount',
+  },
   {
     title:
       'New publication in the Journal of Experimental Marine Biology and Ecology',
@@ -17,6 +27,7 @@ const newsData = [
     markdown: turtlePub,
     dateString: 'December 1, 2020',
     path: '/jembe-pub-2020',
+    author: 'Jason Holmberg',
   },
   {
     title: 'Wild Me Blog: The New PIE Algorithm',
@@ -24,6 +35,7 @@ const newsData = [
     markdown: articlePieBlog,
     dateString: 'November 16, 2020',
     path: '/pie-blog',
+    author: 'Drew Blount',
   },
   {
     title:
@@ -32,6 +44,7 @@ const newsData = [
     markdown: multifeature,
     dateString: 'November 3, 2020',
     path: '/jcrm-pub-2020',
+    author: 'Jason Holmberg',
   },
   {
     title: 'Seadragon Wildbook official launch!',
@@ -39,6 +52,7 @@ const newsData = [
     markdown: seadragon,
     dateString: 'October 2, 2020',
     path: '/seadragon-launch',
+    author: 'Jason Holmberg',
   },
   {
     title:
@@ -47,6 +61,7 @@ const newsData = [
     markdown: zebras,
     dateString: 'July 28, 2020',
     path: '/zebra-datasets',
+    author: 'Jason Holmberg',
   },
 ];
 
