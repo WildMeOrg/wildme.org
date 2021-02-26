@@ -34,6 +34,13 @@ const publications = [
       'Seasonal Occurrence, Horizontal Movements, and Habitat Use Patterns of Whale Sharks (Rhincodon typus) in the Gulf of Mexico. Eric R. Hoffmayer, Jennifer A. McKinney, James S. Franks, Michael E. Byrne, Michael E. Byrne et al. Frontiers in Marine Science, Jan 2021. doi: 10.3389/fmars.2020.598515',
   },
   {
+    tags: [tags.iot],
+    href:
+      'https://www.sciencedirect.com/science/article/pii/B9780128210291000052?via%3Dihub',
+    citation:
+      '5 - Applications of Photo Identification in Sea Turtle Studies. Stephen G. Dunbar, Jillian Hudgins, Claire Jean. Applications of Photo Identification in Sea Turtle Studies, Pages 45-55, Editor(s): Brad Nahill, Jan 2021. doi: 10.1016/B978-0-12-821029-1.00005-2',
+  },  
+  {
     tags: [tags.iot, tags.staff],
     href:
       'https://www.sciencedirect.com/science/article/abs/pii/S0022098120301738',
