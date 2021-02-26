@@ -5,6 +5,16 @@ import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
 
 const articles = [
   {
+    name: 'The Potential of Citizen Science',
+    href:
+      'https://www.washingtonpost.com/rolex-partnership-content/climate-solutions/the-potential-of-citizen-science/',
+    organization: 'Washington Post',
+    date: '2020-02-25',
+    citation: 'Washington Post (Rolex Partnership Content)',
+    excerpt:
+      'According to Norman, a citizen scientist is just a regular person who’s helping to expand knowledge of the natural world; for his purposes, its anyone with a camera and the ability to upload their whale shark photos to the ever-growing database, now known as Wildbook for Whale Sharks and managed through Wild Me.',
+  },
+  {
     name:
       'The Amazing Ways Wild Me Uses Artificial Intelligence And Citizen Scientists To Help With Conservation',
     href:
