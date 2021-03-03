@@ -60,11 +60,12 @@ const projectData = [
     individuals: 42505,
     photos: 1200000,
     algorithms: [
+	  algorithms.pie,
       algorithms.hotspotter,
       algorithms.curvrank,
       algorithms.deepsense,
       algorithms.dtw,
-      algorithms.kaggle,
+      algorithms.kaggle
     ],
     partners: [
       {
