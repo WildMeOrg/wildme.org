@@ -7,9 +7,9 @@ const algorithms = {
       'http://cs.rpi.edu/hotspotter/crall-hotspotter-wacv-2013.pdf',
   },
   curvrank: {
-    name: 'Curvrank',
+    name: 'Curvrank v2',
     description:
-      'CurvRank is a machine learning-based approach to matching curvature or an “edge”, such as the trailing edge of a cetacean fluke or a dorsal fin. Specifically ML is employed to weight sections of a fin or fluke that contain individually identifying information and to represent the curvature in a comparable format less subject to deformation from changes in the pose of the animal in the image.',
+      'CurvRank v2 is a machine learning-based approach to matching curvature or an “edge”, such as the trailing edge of a cetacean fluke or a dorsal fin. Specifically ML is employed to weight sections of a fin or fluke that contain individually identifying information and to represent the curvature in a comparable format less subject to deformation from changes in the pose of the animal in the image.',
     url:
       'https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w41/Weideman_Integral_Curvature_Representation_ICCV_2017_paper.pdf',
   },
