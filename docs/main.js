@@ -2112,7 +2112,7 @@
               ge,
               { variant: 'black', n: 2 },
               i.a.createElement(aa, {
-                title: '10 years of code',
+                title: '10 years of development',
                 description:
                   'We love building software for the conservation research community. Every line of code is open source.',
                 ask: 'View code',

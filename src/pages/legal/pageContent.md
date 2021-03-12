@@ -9,4 +9,4 @@
 
 ## Copyrights
 
- - All content copyright Wild Me 2016 and may not be used without express permission.
+ - All content copyright Wild Me 2021 and may not be used without express permission.

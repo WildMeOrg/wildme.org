@@ -107,7 +107,7 @@ export default function Code() {
           docsHref="https://docs.wildme.org/docs/developers/houston"
         />
         <Entry
-          title="Nexgen frontend"
+          title="Codex frontend"
           languages="Javascript, React"
           description="In the distant future, Wildbook's JSP frontend will be replaced by a more modern user interface powered by Houston's API."
           repositoryHref="https://github.com/WildMeOrg/codex-frontend"
