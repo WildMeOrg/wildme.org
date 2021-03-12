@@ -19,16 +19,18 @@ export default function ImageCard({
       }}
       variant={variant}
     >
-      <img
-        src={imgSrc}
-        style={{
-          width: '100%',
-          minHeight: 280,
-          maxHeight: 320,
-          objectFit: 'cover',
-        }}
-        alt={title}
-      />
+      <Link noUnderline href={url}>
+        <img
+          src={imgSrc}
+          style={{
+            width: '100%',
+            minHeight: 280,
+            maxHeight: 320,
+            objectFit: 'cover',
+          }}
+          alt={title}
+        />
+      </Link>
       <div style={{ padding: '32px 32px 0 32px' }}>
         <Link noUnderline href={url}>
           <Typography variant="h5">{title}</Typography>

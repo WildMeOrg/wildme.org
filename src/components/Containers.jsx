@@ -1,5 +1,6 @@
 import React from 'react';
 import { get } from 'lodash-es';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
@@ -23,10 +24,16 @@ export function Page({
   titleStyles = {},
   ...rest
 }) {
+  const theme = useTheme();
+  const isSm = useMediaQuery(theme.breakpoints.down('sm'));
   useDocumentTitle(documentTitle);
   return (
     <div
-      style={{ marginTop: 64, marginBottom: 100, ...style }}
+      style={{
+        marginTop: isSm ? 56 : 64,
+        marginBottom: 100,
+        ...style,
+      }}
       {...rest}
     >
       {title && (
