@@ -143,6 +143,11 @@ const projectData = [
         alias: 'Dugong',
         url: 'https://en.wikipedia.org/wiki/Dugong',
       },
+	  {
+        name: 'Eschrichtius robustus',
+        alias: 'Gray whale',
+        url: 'https://en.wikipedia.org/wiki/Gray_whale',
+      },
       {
         name: 'Eubalaena australis',
         alias: 'Southern right whale',
@@ -600,6 +605,11 @@ const projectData = [
         name: 'Acinonyx Jubatus',
         alias: 'Cheetah',
         url: 'https://en.wikipedia.org/wiki/Cheetah',
+      },
+	  {
+        name: 'Crocuta crocuta',
+        alias: 'Hyena (spotted)',
+        url: 'https://en.wikipedia.org/wiki/Spotted_hyena',
       },
     ],
   },
