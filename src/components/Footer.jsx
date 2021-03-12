@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import Link from './Link';
 import { Box, SpaceAroundCard } from './Containers';
 import logo from '../assets/WildMe-Logo-Gradient.png';
@@ -15,6 +16,7 @@ const iconMap = {
   facebook: FacebookIcon,
   github: GitHubIcon,
   twitter: TwitterIcon,
+  instagram: InstagramIcon,
 };
 
 function SocialLink({ variant, href }) {
@@ -30,6 +32,37 @@ function SocialLink({ variant, href }) {
         />
       </IconButton>
     </a>
+  );
+}
+
+function NavList({ category }) {
+  return (
+    <div
+      key={category.categoryId}
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        margin: '32px 0',
+        paddingLeft: 16,
+        width: 240,
+      }}
+    >
+      <Typography variant="subtitle1" style={{ marginBottom: 20 }}>
+        {category.categoryLabelId}
+      </Typography>
+      {category.entries.map(entry => (
+        <Typography key={entry.labelId} style={{ marginTop: 4 }}>
+          <Link
+            // noUnderline
+            nav
+            href={entry.path}
+            external={Boolean(entry.external)}
+          >
+            <FormattedMessage id={entry.labelId} />
+          </Link>
+        </Typography>
+      ))}
+    </div>
   );
 }
 
@@ -58,44 +91,38 @@ export default function Footer() {
           variant="twitter"
           href="https://twitter.com/WildMeOrg"
         />
+        <SocialLink
+          variant="instagram"
+          href="https://www.instagram.com/wildmeorg/"
+        />
       </div>
       <SpaceAroundCard
         reverse
-        style={{ padding: '0 30px 20px 30px' }}
+        style={{
+          padding: '0 30px 20px 30px',
+          justifyContent: 'center',
+        }}
       >
-        {navigation.map(category => (
-          <div
-            key={category.categoryId}
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              margin: '32px 0',
-              width: 240,
-            }}
-          >
-            <Typography
-              variant="subtitle1"
-              style={{ marginBottom: 20 }}
-            >
-              {category.categoryLabelId}
-            </Typography>
-            {category.entries.map(entry => (
-              <Typography
-                key={entry.labelId}
-                style={{ marginTop: 4 }}
-              >
-                <Link
-                  // noUnderline
-                  nav
-                  href={entry.path}
-                  external={Boolean(entry.external)}
-                >
-                  <FormattedMessage id={entry.labelId} />
-                </Link>
-              </Typography>
-            ))}
-          </div>
-        ))}
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+          }}
+        >
+          <NavList category={navigation[0]} />
+          <NavList category={navigation[1]} />
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+          }}
+        >
+          <NavList category={navigation[2]} />
+          <NavList category={navigation[3]} />
+        </div>
       </SpaceAroundCard>
       <Link
         style={{
@@ -136,7 +163,7 @@ export default function Footer() {
         }}
       >
         <Typography variant="body2" style={{ marginRight: 12 }}>
-          Copyright © 2020 Wild Me. All rights reserved.
+          Copyright © 2021 Wild Me. All rights reserved.
         </Typography>
       </div>
     </Box>
@@ -161,14 +188,6 @@ export default function Footer() {
             >
               Español
             </Button>
-          </div>
-          <div>
-            <IconButton href="https://twitter.com/WildMeOrg">
-              <TwitterIcon />
-            </IconButton>
-            <IconButton href="https://www.facebook.com/wildmeorg/">
-              <FacebookIcon />
-            </IconButton>
           </div>
         </div> */
   );
