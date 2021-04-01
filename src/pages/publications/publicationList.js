@@ -27,6 +27,13 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.staff],
+    href:
+      'https://doi.org/10.15346/hc.v8i1.130',
+    citation:
+      'Shanley, L. A., Michelucci, P., Tsosie, K., Wyeth, G., Drapkin, J. K., Azelton, K., Cavalier, D., & Holmberg, J. (2021). Public Comment on Draft NOAA Citizen Science Strategy. Human Computation, 8, 25–42. doi: 10.15346/hc.v8i1.130',
+  },
+  {
     tags: [tags.whaleshark],
     href:
       'https://www.researchgate.net/publication/348305378_Seasonal_Occurrence_Horizontal_Movements_and_Habitat_Use_Patterns_of_Whale_Sharks_Rhincodon_typus_in_the_Gulf_of_Mexico#fullTextFileContent',
