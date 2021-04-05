@@ -669,7 +669,17 @@ const projectData = [
       {
         name: 'Acinonyx jubatus',
         alias: 'Asiatic cheetah',
-        url: 'hhttps://en.wikipedia.org/wiki/Asiatic_cheetah',
+        url: 'https://en.wikipedia.org/wiki/Asiatic_cheetah',
+      },
+	  {
+        name: 'Lynx lynx',
+        alias: 'Eurasian lynx',
+        url: 'https://en.wikipedia.org/wiki/Eurasian_lynx',
+      },
+	  {
+        name: 'Panthera pardus tulliana',
+        alias: 'Persian leopard',
+        url: 'https://en.wikipedia.org/wiki/Panthera_pardus_tulliana',
       },
     ],
   },
