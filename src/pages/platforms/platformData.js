@@ -297,7 +297,7 @@ const projectData = [
     descriptionId: 'WHALESHARK_DESCRIPTION',
     sightings: 75191,
     individuals: 12060,
-    algorithms: [algorithms.groth, algorithms.i3s],
+    algorithms: [algorithms.pie, algorithms.groth, algorithms.i3s],
     partners: [
       {
         name: 'Whale Shark and Oceanic Research Centre',
