@@ -495,6 +495,11 @@ const projectData = [
         alias: "Grevyi's zebra",
         url: 'https://en.wikipedia.org/wiki/Gr%C3%A9vy%27s_zebra',
       },
+	  {
+        name: 'Equus quagga quagga',
+        alias: 'Quagga',
+        url: 'https://en.wikipedia.org/wiki/Quagga',
+      },
     ],
   },
   {
