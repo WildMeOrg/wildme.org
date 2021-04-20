@@ -27,6 +27,13 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.mantamatcher],
+    href:
+      'https://mbr.biomedcentral.com/articles/10.1186/s41200-021-00204-w',
+    citation:
+      'Bucair, N., Venables, S.K., Balboni, A.P. et al. Sightings trends and behaviour of manta rays in Fernando de Noronha Archipelago, Brazil. Mar Biodivers Rec 14, 10 (2021). https://doi.org/10.1186/s41200-021-00204-w',
+  },
+  {
     tags: [tags.staff],
     href:
       'https://doi.org/10.15346/hc.v8i1.130',
