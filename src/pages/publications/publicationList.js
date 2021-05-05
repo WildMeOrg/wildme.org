@@ -28,8 +28,7 @@ export const tags = {
 const publications = [
   {
     tags: [tags.staff],
-    href:
-      'https://doi.org/10.15346/hc.v8i1.130',
+    href: 'https://doi.org/10.15346/hc.v8i1.130',
     citation:
       'Shanley, L. A., Michelucci, P., Tsosie, K., Wyeth, G., Drapkin, J. K., Azelton, K., Cavalier, D., & Holmberg, J. (2021). Public Comment on Draft NOAA Citizen Science Strategy. Human Computation, 8, 25–42. doi: 10.15346/hc.v8i1.130',
   },
@@ -46,7 +45,7 @@ const publications = [
       'https://www.sciencedirect.com/science/article/pii/B9780128210291000052?via%3Dihub',
     citation:
       '5 - Applications of Photo Identification in Sea Turtle Studies. Stephen G. Dunbar, Jillian Hudgins, Claire Jean. Applications of Photo Identification in Sea Turtle Studies, Pages 45-55, Editor(s): Brad Nahill, Jan 2021. doi: 10.1016/B978-0-12-821029-1.00005-2',
-  },  
+  },
   {
     tags: [tags.iot, tags.staff],
     href:

@@ -51,8 +51,7 @@ const projectData = [
     hosted: true,
     tagline:
       'Computer vision and deep learning to identify and track individual whales and dolphins.',
-    adminName: 'Drew Blount',
-    adminContact: 'drew@wildme.org',
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: flukebookBannerLarge,
     bannerSmall: flukebookBannerSmall,
     descriptionId: 'FLUKEBOOK_DESCRIPTION',
@@ -60,12 +59,12 @@ const projectData = [
     individuals: 42505,
     photos: 1200000,
     algorithms: [
-	  algorithms.pie,
+      algorithms.pie,
       algorithms.hotspotter,
       algorithms.curvrank,
       algorithms.deepsense,
       algorithms.dtw,
-      algorithms.kaggle
+      algorithms.kaggle,
     ],
     partners: [
       {
@@ -143,7 +142,7 @@ const projectData = [
         alias: 'Dugong',
         url: 'https://en.wikipedia.org/wiki/Dugong',
       },
-	  {
+      {
         name: 'Eschrichtius robustus',
         alias: 'Gray whale',
         url: 'https://en.wikipedia.org/wiki/Gray_whale',
@@ -290,8 +289,8 @@ const projectData = [
     inviteOnly: true,
     hosted: true,
     adoption: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: whalesharkBannerLarge,
     bannerSmall: whalesharkBannerSmall,
     descriptionId: 'WHALESHARK_DESCRIPTION',
@@ -328,8 +327,8 @@ const projectData = [
     inviteOnly: true,
     hosted: true,
     adoption: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: mantaBannerLarge,
     bannerSmall: mantaBannerSmall,
     descriptionId: 'MANTAMATCHER_DESCRIPTION',
@@ -380,7 +379,7 @@ const projectData = [
     inviteOnly: true,
     hosted: true,
     adminName: 'Jon Van Oast',
-    adminContact: 'jon@wildme.org',
+    adminContacts: ['jon@wildme.org'],
     bannerLarge: giraffeBannerLarge,
     bannerSmall: giraffeBannerSmall,
     descriptionId: 'GIRAFFESPOTTER_DESCRIPTION',
@@ -436,7 +435,7 @@ const projectData = [
     inviteOnly: true,
     hosted: true,
     adminName: 'Colin Kingen',
-    adminContact: 'colin@wildme.org',
+    adminContacts: ['colin@wildme.org'],
     bannerLarge: iotBannerLarge,
     bannerSmall: iotBannerSmall,
     descriptionId: 'IOT_DESCRIPTION',
@@ -475,8 +474,8 @@ const projectData = [
       'A.I for the conservation of zebras by automating individual identification.',
     inviteOnly: true,
     hosted: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: zebraBannerLarge,
     bannerSmall: zebraBannerSmall,
     descriptionId: 'ZEBRA_DESCRIPTION',
@@ -495,7 +494,7 @@ const projectData = [
         alias: "Grevyi's zebra",
         url: 'https://en.wikipedia.org/wiki/Gr%C3%A9vy%27s_zebra',
       },
-	  {
+      {
         name: 'Equus quagga quagga',
         alias: 'Quagga',
         url: 'https://en.wikipedia.org/wiki/Quagga',
@@ -510,8 +509,8 @@ const projectData = [
       'A.I for the conservation of lynx by automating individual identification.',
     inviteOnly: true,
     hosted: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: lynxBannerLarge,
     bannerSmall: lynxBannerSmall,
     descriptionId: 'LYNX_DESCRIPTION',
@@ -534,8 +533,8 @@ const projectData = [
     tagline:
       'A.I for the conservation of giant sea bass by automating individual identification.',
     inviteOnly: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: bassBannerLarge,
     bannerSmall: bassBannerSmall,
     descriptionId: 'BASS_DESCRIPTION',
@@ -560,8 +559,8 @@ const projectData = [
     inviteOnly: true,
     hosted: true,
     adoption: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: sandtigerBannerLarge,
     bannerSmall: sandtigerBannerSmall,
     descriptionId: 'SPOT_A_SHARK_DESCRIPTION',
@@ -586,8 +585,8 @@ const projectData = [
     inviteOnly: true,
     hosted: true,
     adoption: false,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: acwBannerLarge,
     bannerSmall: acwBannerSmall,
     descriptionId: 'ACW_DESCRIPTION',
@@ -611,7 +610,7 @@ const projectData = [
         alias: 'Cheetah',
         url: 'https://en.wikipedia.org/wiki/Cheetah',
       },
-	  {
+      {
         name: 'Crocuta crocuta',
         alias: 'Hyena (spotted)',
         url: 'https://en.wikipedia.org/wiki/Spotted_hyena',
@@ -626,8 +625,8 @@ const projectData = [
       'A.I for the conservation of sharks by automating individual identification.',
     inviteOnly: true,
     hosted: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: sharkUsaBannerLarge,
     bannerSmall: sharkUsaBannerSmall,
     descriptionId: 'SPOT_A_SHARK_USA_DESCRIPTION',
@@ -651,8 +650,8 @@ const projectData = [
       'A.I for the conservation of big cats by automating individual identification.',
     inviteOnly: true,
     hosted: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: jaguarBannerLarge,
     bannerSmall: jaguarBannerSmall,
     descriptionId: 'JAGUAR_DESCRIPTION',
@@ -676,12 +675,12 @@ const projectData = [
         alias: 'Asiatic cheetah',
         url: 'https://en.wikipedia.org/wiki/Asiatic_cheetah',
       },
-	  {
+      {
         name: 'Lynx lynx',
         alias: 'Eurasian lynx',
         url: 'https://en.wikipedia.org/wiki/Eurasian_lynx',
       },
-	  {
+      {
         name: 'Panthera pardus tulliana',
         alias: 'Persian leopard',
         url: 'https://en.wikipedia.org/wiki/Panthera_pardus_tulliana',
@@ -696,8 +695,8 @@ const projectData = [
       'A.I for the conservation of skunks by automating individual identification.',
     inviteOnly: true,
     hosted: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: skunkBannerLarge,
     bannerSmall: skunkBannerSmall,
     descriptionId: 'SKUNK_DESCRIPTION',
@@ -727,8 +726,8 @@ const projectData = [
       'A.I for the conservation of seadragons by automating individual identification.',
     inviteOnly: true,
     hosted: true,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: dragonsearchBannerLarge,
     bannerSmall: dragonsearchBannerSmall,
     descriptionId: 'DRAGONSEARCH_DESCRIPTION',
@@ -762,8 +761,8 @@ const projectData = [
       'A.I for the conservation of Saimaa seals by automating individual identification.',
     inviteOnly: true,
     hosted: false,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: saimaaBannerLarge,
     bannerSmall: saimaaBannerSmall,
     descriptionId: 'SAIMAA_SEAL_DESCRIPTION',
@@ -788,8 +787,8 @@ const projectData = [
     inviteOnly: true,
     hosted: true,
     adoption: false,
-    adminName: 'Jason Holmberg',
-    adminContact: 'jason@wildme.org',
+
+    invitationRequestContact: 'dev@wildme.org',
     bannerLarge: leopardSharkBanner,
     bannerSmall: leopardSharkBanner,
     descriptionId: 'LEOPARDSHARK_DESCRIPTION',
