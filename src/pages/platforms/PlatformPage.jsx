@@ -1,10 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import Typography from '@material-ui/core/Typography';
-import Dialog from '@material-ui/core/Dialog';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
 import Grid from '@material-ui/core/Grid';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import ResponsiveText from '../../components/ResponsiveText';
@@ -18,8 +14,6 @@ export default function PlatformPage({ data }) {
     name,
     tagline,
     href,
-    adminContact,
-    adminName,
     descriptionId,
     bannerLarge,
     sightings,
@@ -28,29 +22,8 @@ export default function PlatformPage({ data }) {
     species,
   } = data;
 
-  const [modalOpen, setModalOpen] = useState(false);
-
   return (
     <div>
-      <Dialog open={modalOpen} onClose={() => setModalOpen(false)}>
-        <DialogTitle>
-          <FormattedMessage id="REQUEST_AN_INVITATION" />
-        </DialogTitle>
-        <DialogContent>
-          <DialogContentText>
-            <FormattedMessage
-              id="REQUEST_INVITE_DESCRIPTION"
-              values={{ siteName: name }}
-            />
-          </DialogContentText>
-          <DialogContentText>
-            <FormattedMessage
-              id="REQUEST_INVITE_INSTRUCTIONS"
-              values={{ name: adminName, email: adminContact }}
-            />
-          </DialogContentText>
-        </DialogContent>
-      </Dialog>
       <img
         style={{
           width: '100%',
@@ -137,19 +110,18 @@ export default function PlatformPage({ data }) {
           <Typography>
             <FormattedMessage id={descriptionId} />
           </Typography>
+          <ButtonLink
+            display="primary"
+            style={{ marginTop: 20 }}
+            size="small"
+            external
+            href="https://us7.list-manage.com/contact-form?u=c5af097df0ca8712f52ea1768&form_id=335cfeba915bbb2a6058d6ba705598ce"
+          >
+            <FormattedMessage id="REQUEST_AN_ACCOUNT" />
+          </ButtonLink>
         </Box>
       </Row>
-      {/* <Chip
-        icon={inviteOnly ? <InvitationIcon /> : <PublicIcon />}
-        variant="outlined"
-        onClick={inviteOnly ? () => setModalOpen(true) : undefined}
-        label={
-          <FormattedMessage
-            id={inviteOnly ? 'INVITE_ONLY' : 'PUBLIC'}
-          />
-        }
-      />
-      {adoption && (
+      {/* {adoption && (
         <Chip
           icon={<AdoptionIcon />}
           variant="outlined"
