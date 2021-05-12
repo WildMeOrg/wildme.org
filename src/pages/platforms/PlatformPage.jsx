@@ -16,6 +16,7 @@ export default function PlatformPage({ data }) {
     href,
     descriptionId,
     bannerLarge,
+    bannerSmall,
     sightings,
     partners,
     algorithms,
@@ -89,7 +90,7 @@ export default function PlatformPage({ data }) {
               width: '85%',
               position: 'relative',
             }}
-            src={bannerLarge}
+            src={bannerSmall}
             width="100%"
             alt={`Banner for ${name}`}
           />
