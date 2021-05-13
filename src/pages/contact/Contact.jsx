@@ -1,147 +1,95 @@
-import React, { useState } from 'react';
-import { get } from 'lodash-es';
+import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
-import InputLabel from '@material-ui/core/InputLabel';
-import MenuItem from '@material-ui/core/MenuItem';
-
+import Divider from '@material-ui/core/Divider';
 import { Page } from '../../components/Containers';
 import ButtonLink from '../../components/ButtonLink';
-import contactUsBg from '../../assets/contact-us-bg.jpg';
 
 const helpItems = [
   {
-    id: 'wildbook-issues',
     title: 'Wildbook bugs and feature requests',
-    instructions: 'Create an issue on the Wildbook community forums.',
-    action: 'Visit the forums',
+    instructions:
+      'If you have an idea for a new feature or need to report a bug, write a post on the Wildbook community forums. Our staff monitors the forums closely.',
+    buttonText: 'Visit the forums',
     href: 'https://community.wildme.org/',
   },
   {
-    id: 'wildme-dot-org',
-    title: 'Problems with this website',
+    title: 'Request a Wildbook account',
+    href:
+      'https://us7.list-manage.com/contact-form?u=c5af097df0ca8712f52ea1768&form_id=335cfeba915bbb2a6058d6ba705598ce',
+    buttonText: 'Send Request',
     instructions:
-      'Send an email to ben@wildme.org and I will get it fixed. Thanks for pointing it out.',
+      'If you want to join one of our Wildbooks, use the form below to request an invitation. Platforms policies vary, but most Wildbooks are available to new researchers.',
   },
   {
-    id: 'volunteer',
     title: 'I want to volunteer',
+    email: 'dev@wildme.org',
+    buttonText: 'Email Us',
     instructions:
-      'Thanks for offering to help! Send an email to dev@wildme.org with some information about your interests and availability.',
+      'Thanks for offering to help! Send an email to dev@wildme.org with information about your interests and availability.',
   },
   {
-    id: 'start-a-wildbook',
     title: 'Start a Wildbook',
     instructions:
       'Refer to our documentation on how to start a Wildbook.',
-    action: 'See the docs',
+    buttonText: 'See the docs',
     href: 'https://docs.wildme.org/docs/researchers/overview',
   },
   {
-    id: 'partners',
-    title: 'Partnerships, sponsorships, and grants',
+    title: 'Problems with this website',
+    email: 'ben@wildme.org',
+    buttonText: 'Email Ben',
     instructions:
-      'Send an email to jason@wildme.org and we will be in touch as soon as possible.',
+      'Send an email to ben@wildme.org and he will get it fixed. Thanks for pointing it out.',
   },
   {
-    id: 'other',
+    title: 'Partnerships, sponsorships, and grants',
+    email: 'jason@wildme.org',
+    buttonText: 'Email Jason',
+    instructions:
+      'If you are interested in developing a partnership, sponsorship, or grant we would love to hear from you. Send an email to jason@wildme.org and he will be in touch as soon as possible.',
+  },
+  {
     title: 'Something else',
+    email: 'info@wildme.org',
+    buttonText: 'Email Us',
     instructions:
       'Send an email to info@wildme.org and we will get back to you soon!',
   },
 ];
 
 export default function Contact() {
-  const [selectedItem, setSelectedItem] = useState('');
-
-  console.log(selectedItem);
-
   return (
     <Page
-      style={{ marginTop: 136, marginBottom: 0 }}
+      style={{
+        maxWidth: 480,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+      }}
       documentTitle="Contact Us"
       title="Contact Us"
     >
-      <div
-        style={{
-          position: 'absolute',
-          zIndex: -1,
-          top: 40,
-          width: '100vw',
-          background: `url('${contactUsBg}')`,
-          filter: 'hue-rotate(300deg) brightness(1.5)',
-          minHeight: '100vh',
-          paddingBottom: 100,
-        }}
-      />
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-        }}
-      >
-        <FormControl
-          variant="outlined"
-          style={{
-            width: 'clamp(260px, 80vw, 800px)',
-            marginTop: '3rem',
-          }}
-        >
-          <InputLabel
-            style={{ color: 'black', fontSize: '1.3rem' }}
-            id="contact-us-selector-label"
-          >
-            How can we help you?
-          </InputLabel>
-          <Select
-            labelId="contact-us-selector-label"
-            id="contact-us-selector"
-            value={get(selectedItem, 'id', '')}
-            onChange={event => {
-              const selectedItemId = event.target.value;
-              setSelectedItem(
-                helpItems.find(item => item.id === selectedItemId),
-              );
-            }}
-            style={{ fontSize: '1.3rem' }}
-            label="How can we help you?"
-          >
-            {helpItems.map(item => (
-              <MenuItem value={item.id}>{item.title}</MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-        <Paper
-          style={{
-            width: 'clamp(260px, 80vw, 800px)',
-            backgroundColor: 'rgba(255, 255, 255, 0.4)',
-            marginTop: 60,
-            padding: 30,
-            boxSizing: 'border-box',
-          }}
-        >
-          <Typography variant="subtitle1">
-            {get(
-              selectedItem,
-              'instructions',
-              'Select an option above to get started.',
+      {helpItems.map((item, i) => {
+        const href = item.href || `mailto:${item.email}`;
+        return (
+          <>
+            {i === 0 ? null : (
+              <Divider style={{ margin: '30px 0' }} />
             )}
-          </Typography>
-          {get(selectedItem, 'action') && (
-            <ButtonLink
-              display="black"
-              style={{ marginTop: 32 }}
-              external
-              href={selectedItem.href}
-            >
-              {selectedItem.action}
-            </ButtonLink>
-          )}
-        </Paper>
-      </div>
+            <div style={{ padding: '0 20px' }} key={item.title}>
+              <Typography variant="h5">{item.title}</Typography>
+              <Typography
+                style={{ marginTop: 12, marginBottom: 12 }}
+                variant="body2"
+              >
+                {item.instructions}
+              </Typography>
+              <ButtonLink size="small" external href={href}>
+                {item.buttonText}
+              </ButtonLink>
+            </div>
+          </>
+        );
+      })}
     </Page>
   );
 }
