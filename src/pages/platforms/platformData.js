@@ -316,6 +316,11 @@ const projectData = [
         alias: 'Whale shark',
         url: 'https://en.wikipedia.org/wiki/Whale_shark',
       },
+	  {
+        name: 'Carcharodon carcharias',
+        alias: 'White shark',
+        url: 'https://en.wikipedia.org/wiki/Great_white_shark',
+      },
     ],
   },
   {
@@ -670,6 +675,11 @@ const projectData = [
         alias: 'Snow leopard',
         url: 'https://en.wikipedia.org/wiki/Snow_leopard',
       },
+	  {
+        name: 'Neofelis nebulosa',
+        alias: 'Clouded leopard',
+        url: 'https://en.wikipedia.org/wiki/Clouded_leopard',
+      },
       {
         name: 'Acinonyx jubatus',
         alias: 'Asiatic cheetah',
@@ -679,6 +689,11 @@ const projectData = [
         name: 'Lynx lynx',
         alias: 'Eurasian lynx',
         url: 'https://en.wikipedia.org/wiki/Eurasian_lynx',
+      },
+	  {
+        name: 'Lynx rufus',
+        alias: 'Bobcat',
+        url: 'https://en.wikipedia.org/wiki/Bobcat',
       },
       {
         name: 'Panthera pardus tulliana',
