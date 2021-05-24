@@ -29,6 +29,9 @@ const algorithms = {
   },
   finfindr: {
     name: 'finFindR',
+    description:
+      'finFindR is a machine learning-based approach to matching curvature or an “edge”, such as the leading and trailing edges of a dorsal fin. More specifically, machine learnign is employed to identify cetacean bodies and dorsal fins in an image, extract a fin edge, create a feature matrix representing that edge, and then compare that edge to others in the catalog.',
+    url: 'https://www.biorxiv.org/content/10.1101/825661v1',
   },
   kaggle: {
     name: 'Kaggle7',
