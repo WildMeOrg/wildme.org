@@ -65,6 +65,7 @@ const projectData = [
       algorithms.deepsense,
       algorithms.dtw,
       algorithms.kaggle,
+	  algorithms.finFindR
     ],
     partners: [
       {
@@ -296,7 +297,7 @@ const projectData = [
     descriptionId: 'WHALESHARK_DESCRIPTION',
     sightings: 75191,
     individuals: 12060,
-    algorithms: [algorithms.pie, algorithms.groth, algorithms.i3s],
+    algorithms: [algorithms.pie, algorithms.groth, algorithms.i3s,algorithms.curvrank,algorithms.finFindR],
     partners: [
       {
         name: 'Whale Shark and Oceanic Research Centre',
@@ -699,6 +700,11 @@ const projectData = [
         name: 'Panthera pardus tulliana',
         alias: 'Persian leopard',
         url: 'https://en.wikipedia.org/wiki/Panthera_pardus_tulliana',
+      },
+	  {
+        name: 'Leopardus pardalis',
+        alias: 'Ocelot',
+        url: 'https://en.wikipedia.org/wiki/Ocelot',
       },
     ],
   },
