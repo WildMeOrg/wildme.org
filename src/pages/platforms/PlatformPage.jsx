@@ -3,6 +3,8 @@ import { FormattedMessage } from 'react-intl';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
+
+import useDocumentTitle from '../../hooks/useDocumentTitle';
 import ResponsiveText from '../../components/ResponsiveText';
 import LogoSoup from '../../components/LogoSoup';
 import ButtonLink from '../../components/ButtonLink';
@@ -22,6 +24,8 @@ export default function PlatformPage({ data }) {
     algorithms,
     species,
   } = data;
+
+  useDocumentTitle(name);
 
   return (
     <div>
@@ -102,7 +106,10 @@ export default function PlatformPage({ data }) {
               backgroundColor: 'white',
             }}
           >
-            <Typography variant="h5" style={{ padding: 4 }}>
+            <Typography
+              variant="h5"
+              style={{ padding: '4px 4px 4px 8px' }}
+            >
               {`${sightings.toLocaleString()} sightings`}
             </Typography>
           </div>

@@ -65,7 +65,7 @@ const projectData = [
       algorithms.deepsense,
       algorithms.dtw,
       algorithms.kaggle,
-	  algorithms.finFindR
+      algorithms.finfindr,
     ],
     partners: [
       {
@@ -297,7 +297,13 @@ const projectData = [
     descriptionId: 'WHALESHARK_DESCRIPTION',
     sightings: 75191,
     individuals: 12060,
-    algorithms: [algorithms.pie, algorithms.groth, algorithms.i3s,algorithms.curvrank,algorithms.finFindR],
+    algorithms: [
+      algorithms.pie,
+      algorithms.groth,
+      algorithms.i3s,
+      algorithms.curvrank,
+      algorithms.finfindr,
+    ],
     partners: [
       {
         name: 'Whale Shark and Oceanic Research Centre',
@@ -317,7 +323,7 @@ const projectData = [
         alias: 'Whale shark',
         url: 'https://en.wikipedia.org/wiki/Whale_shark',
       },
-	  {
+      {
         name: 'Carcharodon carcharias',
         alias: 'White shark',
         url: 'https://en.wikipedia.org/wiki/Great_white_shark',
@@ -650,7 +656,7 @@ const projectData = [
   },
   {
     name: 'Whiskerbook',
-    path: '/jaguar',
+    path: '/whiskerbook',
     href: 'https://www.whiskerbook.org/',
     tagline:
       'A.I for the conservation of big cats by automating individual identification.',
@@ -676,7 +682,7 @@ const projectData = [
         alias: 'Snow leopard',
         url: 'https://en.wikipedia.org/wiki/Snow_leopard',
       },
-	  {
+      {
         name: 'Neofelis nebulosa',
         alias: 'Clouded leopard',
         url: 'https://en.wikipedia.org/wiki/Clouded_leopard',
@@ -691,7 +697,7 @@ const projectData = [
         alias: 'Eurasian lynx',
         url: 'https://en.wikipedia.org/wiki/Eurasian_lynx',
       },
-	  {
+      {
         name: 'Lynx rufus',
         alias: 'Bobcat',
         url: 'https://en.wikipedia.org/wiki/Bobcat',
@@ -701,7 +707,7 @@ const projectData = [
         alias: 'Persian leopard',
         url: 'https://en.wikipedia.org/wiki/Panthera_pardus_tulliana',
       },
-	  {
+      {
         name: 'Leopardus pardalis',
         alias: 'Ocelot',
         url: 'https://en.wikipedia.org/wiki/Ocelot',
