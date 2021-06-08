@@ -627,6 +627,11 @@ const projectData = [
         alias: 'Hyena (spotted)',
         url: 'https://en.wikipedia.org/wiki/Spotted_hyena',
       },
+	  {
+        name: 'Hyaena brunnea',
+        alias: 'Hyena (brown)',
+        url: 'https://en.wikipedia.org/wiki/Brown_hyena',
+      },
     ],
   },
   {
