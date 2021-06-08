@@ -21,6 +21,8 @@ import transloaditLogo from './assets/transloadit-logo.svg';
 import lokaliseLogo from './assets/lokalise-logo.svg';
 import flatfileLogo from './assets/flatfile-logo.svg';
 import algoliaLogo from './assets/algolia-logo.svg';
+import allenLogo from './assets/allenlogo.png';
+import allenLarge from './assets/allenlarge.jpeg';
 
 export const majorSupporters = [
   {
@@ -32,6 +34,16 @@ export const majorSupporters = [
     url: 'https://www.moore.org/',
     description:
       'The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements and preservation of the special character of the Bay Area. Visit Moore.org and follow @MooreFound.',
+  },
+  {
+    name: 'Paul G. Allen Family Foundation',
+    role: 'Featured partner',
+    youtubeUrl: null,
+    photoSrc: allenLarge,
+    logo: allenLogo,
+    url: 'https://pgafamilyfoundation.org/',
+    description:
+      'The Seattle-based Paul G. Allen Family Foundation, founded by philanthropists Jody Allen and the late Paul Allen, is pleased to partner with WildMe to improve wildlife survey accuracy and reliability. The foundation supports frontline partners around the world working to preserve ocean health, protect wildlife, combat climate change and strengthen communities.',
   },
   {
     name: 'H2O.ai',
