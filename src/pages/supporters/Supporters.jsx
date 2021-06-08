@@ -92,7 +92,7 @@ export default function Supporters() {
               />
             )}
           </Showcase>
-          <Line />
+          <Line style={{ margin: '40px auto' }} />
         </React.Fragment>
       ))}
       <div style={{ paddingTop: 40, margin: '0 auto' }}>
