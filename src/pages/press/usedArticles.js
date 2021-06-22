@@ -5,11 +5,22 @@ import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
 
 const articles = [
   {
+    name:
+      'Wild Me Uses Artificial Intelligence and Flatfile’s Data Importer to Fight Wildlife Extinction',
+    href:
+      'https://flatfile.com/blog/flatfile-grantee-wild-me-uses-artificial-intelligence-and-flatfiles-data-importer-to-fight-wildlife',
+    organization: 'Flatfile Blog',
+    date: '2021-06-09',
+    citation: 'Elizabeth Bukys (Flatfile)',
+    excerpt:
+      'Wild Me’s Wildbook platform serves more than 200 organizations and nearly a thousand researchers. They are tracking at least 88,000 individual animals across the globe with well north of 438,000 sightings in the database. They have also engaged in data collection with more than 10,000 public citizen scientists.',
+  },
+  {
     name: 'The Potential of Citizen Science',
     href:
       'https://www.washingtonpost.com/rolex-partnership-content/climate-solutions/the-potential-of-citizen-science/',
     organization: 'Washington Post',
-    date: '2020-02-25',
+    date: '2021-02-25',
     citation: 'Washington Post (Rolex Partnership Content)',
     excerpt:
       'According to Norman, a citizen scientist is just a regular person who’s helping to expand knowledge of the natural world; for his purposes, its anyone with a camera and the ability to upload their whale shark photos to the ever-growing database, now known as Wildbook for Whale Sharks and managed through Wild Me.',
@@ -20,7 +31,7 @@ const articles = [
     href:
       'https://www.forbes.com/sites/bernardmarr/2021/01/29/the-amazing-ways-wild-me-uses-artificial-intelligence-and-citizen-scientists-to-help-with-conservation',
     organization: 'Forbes',
-    date: '2020-01-29',
+    date: '2021-01-29',
     citation: 'Bernard Marr, Forbes',
     excerpt:
       'There’s no doubt Wild Me’s innovations have revolutionized animal identification. It’s a spectacular example of what can result when humans and machines combine efforts for the greater good.',
