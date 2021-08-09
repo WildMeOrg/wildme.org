@@ -90,6 +90,7 @@
     "@material-ui/lab": "^4.0.0-alpha.48",
     "@material-ui/pickers": "^3.2.10",
     "@svgr/webpack": "^4.3.3",
+    "axios": "^0.21.1",
     "clsx": "^1.1.0",
     "date-fns": "^2.11.1",
     "google-map-react": "^1.1.7",

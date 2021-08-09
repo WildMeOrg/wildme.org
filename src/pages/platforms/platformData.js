@@ -15,6 +15,10 @@ import zebraBannerLarge from '../../assets/zebra-banner-large.jpg';
 import zebraBannerSmall from '../../assets/zebra-banner-small.jpg';
 import lynxBannerLarge from '../../assets/lynx-banner-large.jpg';
 import lynxBannerSmall from '../../assets/lynx-banner-small.jpg';
+import salamanderLarge from '../../assets/salamander-large.jpeg';
+import salamanderSmall from '../../assets/salamander-small.jpeg';
+import grouperLarge from '../../assets/grouper-large.png';
+import grouperSmall from '../../assets/grouper-small.jpeg';
 import jaguarBannerLarge from '../../assets/jaguar-banner-large.jpg';
 import jaguarBannerSmall from '../../assets/jaguar-banner-small.jpg';
 import dragonsearchBannerLarge from '../../assets/seadragon-banner-large.jpg';
@@ -638,6 +642,31 @@ const projectData = [
     ],
   },
   {
+    name: 'Amphibians and Reptiles',
+    path: '/amphibians',
+    href: 'https://amphibian-reptile.wildbook.org/',
+    tagline:
+      'A.I for the conservation of ambhibians and reptiles by automating individual identification.',
+    inviteOnly: true,
+    hosted: true,
+
+    invitationRequestContact: 'dev@wildme.org',
+    bannerLarge: salamanderLarge,
+    bannerSmall: salamanderSmall,
+    descriptionId: 'AMPHIBIANS_DESCRIPTION',
+    sightings: 215,
+    individuals: null,
+    partners: [],
+    algorithms: [algorithms.hotspotter],
+    species: [
+      {
+        name: 'Salamandra salamandra',
+        alias: 'Fire salamander',
+        url: 'https://en.wikipedia.org/wiki/Fire_salamander',
+      },
+    ],
+  },
+  {
     name: 'Spot a Shark USA',
     path: '/spotasharkusa',
     href: 'https://spotasharkusa.com/',
@@ -719,6 +748,35 @@ const projectData = [
         name: 'Leopardus pardalis',
         alias: 'Ocelot',
         url: 'https://en.wikipedia.org/wiki/Ocelot',
+      },
+    ],
+  },
+  {
+    name: 'Grouper Spotter',
+    path: '/grouper-spotter',
+    href: 'https://www.grouperspotter.org/',
+    tagline:
+      'A.I for the conservation of grouper by automating individual identification.',
+    inviteOnly: true,
+    hosted: true,
+    invitationRequestContact: 'dev@wildme.org',
+    bannerLarge: grouperLarge,
+    bannerSmall: grouperSmall,
+    descriptionId: 'GROUPER_SPOTTER_DESCRIPTION',
+    sightings: 20622,
+    individuals: null,
+    partners: [],
+    algorithms: [algorithms.hotspotter],
+    species: [
+      {
+        name: 'Epinephelus striatus',
+        alias: 'Nassau grouper',
+        url: 'https://en.wikipedia.org/wiki/Nassau_grouper',
+      },
+      {
+        name: 'Epinephelus tukula',
+        alias: 'Potato grouper',
+        url: 'https://en.wikipedia.org/wiki/Potato_grouper',
       },
     ],
   },

@@ -199,7 +199,7 @@ export default function PlatformPage({ data }) {
               <Grid
                 key={currentSpecies.name}
                 item
-                style={{ width: 240 }}
+                style={{ width: 280 }}
               >
                 <Link href={currentSpecies.url} external>
                   <Typography variant="h6">
