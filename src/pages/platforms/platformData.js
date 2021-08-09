@@ -15,6 +15,10 @@ import zebraBannerLarge from '../../assets/zebra-banner-large.jpg';
 import zebraBannerSmall from '../../assets/zebra-banner-small.jpg';
 import lynxBannerLarge from '../../assets/lynx-banner-large.jpg';
 import lynxBannerSmall from '../../assets/lynx-banner-small.jpg';
+import salamanderLarge from '../../assets/salamander-large.jpeg';
+import salamanderSmall from '../../assets/salamander-small.jpeg';
+import grouperLarge from '../../assets/grouper-large.png';
+import grouperSmall from '../../assets/grouper-small.jpeg';
 import jaguarBannerLarge from '../../assets/jaguar-banner-large.jpg';
 import jaguarBannerSmall from '../../assets/jaguar-banner-small.jpg';
 import dragonsearchBannerLarge from '../../assets/seadragon-banner-large.jpg';
@@ -23,12 +27,15 @@ import saimaaBannerLarge from '../../assets/saimaa-banner-large.jpg';
 import saimaaBannerSmall from '../../assets/saimaa-banner-small.jpg';
 import sandtigerBannerLarge from '../../assets/sandtiger-banner-large.jpg';
 import sandtigerBannerSmall from '../../assets/sandtiger-banner-small.jpg';
+import sevengillBannerLarge from '../../assets/sevengill-banner-large.jpeg';
+import sevengillBannerSmall from '../../assets/sevengill-banner-small.jpeg';
 import bassBannerLarge from '../../assets/bass-banner-large.jpg';
 import bassBannerSmall from '../../assets/bass-banner-small.jpg';
 import skunkBannerLarge from '../../assets/skunk-banner-large.jpg';
 import skunkBannerSmall from '../../assets/skunk-banner-small.jpg';
 import sharkUsaBannerLarge from '../../assets/shark-usa-banner-large.jpg';
 import sharkUsaBannerSmall from '../../assets/shark-usa-banner-small.jpg';
+import oceanSanctuariesLogo from '../../assets/oceansanctuaries.png';
 import osuLogo from '../../assets/osu_logo.svg';
 import noaaLogo from '../../assets/noaa-logo.png';
 import dwspLogo from '../../assets/dswp-logo.png';
@@ -627,10 +634,35 @@ const projectData = [
         alias: 'Hyena (spotted)',
         url: 'https://en.wikipedia.org/wiki/Spotted_hyena',
       },
-	  {
+      {
         name: 'Hyaena brunnea',
         alias: 'Hyena (brown)',
         url: 'https://en.wikipedia.org/wiki/Brown_hyena',
+      },
+    ],
+  },
+  {
+    name: 'Amphibians and Reptiles',
+    path: '/amphibians',
+    href: 'https://amphibian-reptile.wildbook.org/',
+    tagline:
+      'A.I for the conservation of ambhibians and reptiles by automating individual identification.',
+    inviteOnly: true,
+    hosted: true,
+
+    invitationRequestContact: 'dev@wildme.org',
+    bannerLarge: salamanderLarge,
+    bannerSmall: salamanderSmall,
+    descriptionId: 'AMPHIBIANS_DESCRIPTION',
+    sightings: 215,
+    individuals: null,
+    partners: [],
+    algorithms: [algorithms.hotspotter],
+    species: [
+      {
+        name: 'Salamandra salamandra',
+        alias: 'Fire salamander',
+        url: 'https://en.wikipedia.org/wiki/Fire_salamander',
       },
     ],
   },
@@ -720,6 +752,35 @@ const projectData = [
     ],
   },
   {
+    name: 'Grouper Spotter',
+    path: '/grouper-spotter',
+    href: 'https://www.grouperspotter.org/',
+    tagline:
+      'A.I for the conservation of grouper by automating individual identification.',
+    inviteOnly: true,
+    hosted: true,
+    invitationRequestContact: 'dev@wildme.org',
+    bannerLarge: grouperLarge,
+    bannerSmall: grouperSmall,
+    descriptionId: 'GROUPER_SPOTTER_DESCRIPTION',
+    sightings: 20622,
+    individuals: null,
+    partners: [],
+    algorithms: [algorithms.hotspotter],
+    species: [
+      {
+        name: 'Epinephelus striatus',
+        alias: 'Nassau grouper',
+        url: 'https://en.wikipedia.org/wiki/Nassau_grouper',
+      },
+      {
+        name: 'Epinephelus tukula',
+        alias: 'Potato grouper',
+        url: 'https://en.wikipedia.org/wiki/Potato_grouper',
+      },
+    ],
+  },
+  {
     name: 'Skunk Wildbook',
     path: '/skunks',
     href: 'http://skunk.wildbook.org/',
@@ -782,6 +843,40 @@ const projectData = [
         name: 'Phyllopteryx dewysea',
         alias: 'Ruby seadragon',
         url: 'https://en.wikipedia.org/wiki/Ruby_seadragon',
+      },
+    ],
+  },
+  {
+    name: 'Sevengill Sharks',
+    path: '/sevengills',
+    href: 'https://sevengill.oceansanctuaries.org/',
+    tagline:
+      'Help us identify and protect sevengill shark populations!',
+    inviteOnly: true,
+    hosted: false,
+    adoption: false,
+
+    invitationRequestContact: 'dev@wildme.org',
+    bannerLarge: sevengillBannerLarge,
+    bannerSmall: sevengillBannerSmall,
+    descriptionId: 'SEVENGILLS_DESCRIPTION',
+    sightings: 312,
+    individuals: null,
+    partners: [
+      {
+        name: 'Ocean Sanctuaries',
+        imageSrc: oceanSanctuariesLogo,
+        invertLogo: false,
+        url: 'https://oceansanctuaries.org/',
+      },
+    ],
+    algorithms: [algorithms.hotspotter],
+    species: [
+      {
+        name: 'Notorynchus cepedianus',
+        alias: 'Sevengill Shark',
+        url:
+          'https://en.wikipedia.org/wiki/Broadnose_sevengill_shark',
       },
     ],
   },
