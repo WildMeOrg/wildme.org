@@ -27,6 +27,12 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.staff,tags.whaleshark],
+    href: 'https://www.routledge.com/Whale-Sharks-Biology-Ecology-and-Conservation/Dove-Pierce/p/book/9781138571297?gclid=CjwKCAjw092IBhAwEiwAxR1lRm6CESO2NTCfNm_RM-dW-5Vl1TkkXJjBZuXtvU7SEnCg865qeZZPRBoCdVAQAvD_BwE',
+    citation:
+      'Dove, Alistair D.M., and Simon J. Pierce, editors. Whale Sharks Biology, Ecology, and Conservation. CRC Press, 2021.',
+  },
+  {
     tags: [tags.mantamatcher],
     href:
       'https://mbr.biomedcentral.com/articles/10.1186/s41200-021-00204-w',
