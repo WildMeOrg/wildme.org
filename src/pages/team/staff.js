@@ -9,6 +9,7 @@ import ben from '../../assets/staff/ben.jpg';
 import jp from '../../assets/staff/jp.jpg';
 import tanya from '../../assets/staff/tanya.jpg';
 import jon from '../../assets/staff/jon.jpg';
+import howard from '../../assets/staff/howard.jpg';
 
 export default [
   {
@@ -207,6 +208,19 @@ export default [
           software for over twenty years. He has a strong interest in
           open source software/hardware, open data, citizen science,
           and conservation.
+        </span>
+      </Typography>
+    ),
+  },
+  {
+    img: howard,
+    name: 'Howard Windsor',
+    role: 'Software Engineer',
+    renderDescription: () => (
+      <Typography>
+        <span>
+          Howard has developed software for over 20 years. He has a
+          keen interest in biology, the environment and conservation.
         </span>
       </Typography>
     ),
