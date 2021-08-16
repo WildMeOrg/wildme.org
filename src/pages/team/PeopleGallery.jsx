@@ -63,9 +63,9 @@ export default function PeopleGallery({ people, titleId }) {
       <Row>
         {people.map(person => (
           <Box
-            n={4}
+            n={3}
             key={person.name}
-            style={{ cursor: 'pointer' }}
+            style={{ cursor: 'pointer', maxWidth: 'fit-content' }}
             onClick={() => setSelectedPerson(person)}
           >
             <img
