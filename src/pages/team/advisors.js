@@ -25,7 +25,8 @@ export default [
           vision algorithms for important applications in biology,
           ecology, and conservation. Stewart holds a BS in
           Mathematical Sciences from Williams College and MS and Ph.D.
-          degrees from the University of Wisconsin, Madison.
+          degrees in Computer Science from the University of
+          Wisconsin, Madison.
         </Typography>
       </div>
     ),
