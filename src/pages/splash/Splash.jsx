@@ -15,6 +15,7 @@ import speciesIcon from './assets/species-icon.svg';
 import algorithmsIcon from './assets/algorithms-icon.svg';
 import hero from '../../assets/hero2.jpg';
 import newsData from '../news/newsData';
+import publicationList from '../publications/publicationList';
 import ActionableMetric from './ActionableMetric';
 
 const visibleNews = take(newsData, 3);
@@ -102,7 +103,7 @@ export default function Splash() {
         </Box>
         <Box variant="black" n={2}>
           <ActionableMetric
-            title="81 publications"
+            title={`${publicationList.length} publications`}
             description="In peer-reviewed journals, coauthored by Wild Me staff and powered by Wild Me technologies."
             ask="See publications"
             href="/publications"
@@ -111,7 +112,7 @@ export default function Splash() {
         </Box>
         <Box variant="black" n={2}>
           <ActionableMetric
-            title="10 years of development"
+            title="11 years of development"
             description="We love building software for the conservation research community. Every line of code is open source."
             ask="View code"
             href="/code"
