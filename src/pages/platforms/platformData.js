@@ -1,7 +1,7 @@
 import flukebookBannerLarge from '../../assets/flukebook-banner-large.jpg';
 import flukebookBannerSmall from '../../assets/flukebook-banner-small.jpg';
-import whalesharkBannerLarge from '../../assets/whaleshark-banner-large.jpg';
-import whalesharkBannerSmall from '../../assets/whaleshark-banner-small.jpg';
+import sharkbookBannerLarge from '../../assets/whaleshark-banner-large.jpg';
+import sharkbookBannerSmall from '../../assets/whaleshark-banner-small.jpg';
 import mantaBannerLarge from '../../assets/mantamatcher-banner-large.jpg';
 import mantaBannerSmall from '../../assets/mantamatcher-banner-small.jpg';
 import giraffeBannerLarge from '../../assets/giraffespotter-banner-large.jpg';
@@ -44,7 +44,6 @@ import boemLogo from '../../assets/boem-logo.png';
 import aswnLogo from '../../assets/aswn-logo.png';
 import dmcrLogo from '../../assets/dmcr-logo.png';
 import mmfLogo from '../../assets/mmf-logo.png';
-import wsorcLogo from '../../assets/wsorc-logo.png';
 import gcfLogo from '../../assets/gcf_logo.png';
 import sdZooLogo from '../../assets/sdzoo_global.png';
 import algorithms from '../../constants/algorithms';
@@ -290,7 +289,7 @@ const projectData = [
   },
   {
     name: 'sharkbook.ai',
-    path: '/whaleshark',
+    path: '/sharkbook',
     href: 'https://www.sharkbook.ai/',
     tagline:
       'A.I for the conservation of sharks by automating individual identification.',
@@ -299,9 +298,9 @@ const projectData = [
     adoption: true,
 
     invitationRequestContact: 'dev@wildme.org',
-    bannerLarge: whalesharkBannerLarge,
-    bannerSmall: whalesharkBannerSmall,
-    descriptionId: 'WHALESHARK_DESCRIPTION',
+    bannerLarge: sharkbookBannerLarge,
+    bannerSmall: sharkbookBannerSmall,
+    descriptionId: 'SHARKBOOK_DESCRIPTION',
     sightings: 75191,
     individuals: 12060,
     algorithms: [
@@ -330,25 +329,26 @@ const projectData = [
         alias: 'White shark',
         url: 'https://en.wikipedia.org/wiki/Great_white_shark',
       },
-	  {
+      {
         name: 'Carcharias taurus',
         alias: 'Sand tiger shark',
         url: 'https://en.wikipedia.org/wiki/Sand_tiger_shark',
       },
-	  {
+      {
         name: 'Galeocerdo cuvier',
         alias: 'Tiger shark',
         url: 'https://en.wikipedia.org/wiki/Tiger_shark',
       },
-	  {
+      {
         name: 'Stegostoma tigrinum',
         alias: 'Leopard (or zebra) shark',
         url: 'https://en.wikipedia.org/wiki/Zebra_shark',
       },
-	  	  {
+      {
         name: 'Notorynchus cepedianus',
         alias: 'Broadnose Sevengill shark',
-        url: 'https://en.wikipedia.org/wiki/Broadnose_sevengill_shark',
+        url:
+          'https://en.wikipedia.org/wiki/Broadnose_sevengill_shark',
       },
     ],
   },
