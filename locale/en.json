@@ -70,7 +70,7 @@
   "FLUKEBOOK": "Flukebook",
   "CAREERS": "Careers",
   "CONTACT_US": "Contact Us",
-  "WHALESHARK_DOT_ORG": "whaleshark.org",
+  "SHARKBOOK_DOT_AI": "sharkbook.ai",
   "MANTAMATCHER": "MantaMatcher",
   "ALL_PROJECTS": "All projects",
   "PUBLICATIONS": "Publications",
@@ -108,7 +108,7 @@
   "ZEBRA_DESCRIPTION": "Wildbook for Zebras applies computer vision algorithms and deep learning to identify and track individual zebras across hundreds of thousands of photos. We help researchers collaborate with each other and citizen scientists contribute to the effort. A.I. scales and speeds research and conservation.",
   "IOT_DESCRIPTION": "The 'gold standard' for sea turtle population monitoring programs are long-term capture-mark-recapture (CMR) studies on nesting beaches as well as foraging areas for populations. Comprehensive CMR studies facilitate robust abundance assessments and diagnoses of population trends, which, in turn, inform effective conservation management efforts.",
   "GIRAFFESPOTTER_DESCRIPTION": "With less than 100,000 giraffe remaining in all of Africa and a decline of almost 40% over the last three decades, giraffe have moved from 'Least Concern' to 'Vulnerable' on The IUCN Red List of Threatened Species™. It is time to act now to save this iconic species from extinction!",
-  "WHALESHARK_DESCRIPTION": "The Sharkbook photo-identification library is an award-winning visual database of shark encounters and of individually catalogued sharks. The library is maintained and used by marine biologists to collect and analyze shark sighting data for multiple species to learn more about these amazing creatures.",
+  "SHARKBOOK_DESCRIPTION": "The Sharkbook photo-identification library is an award-winning visual database of shark encounters and of individually catalogued sharks. The library is maintained and used by marine biologists to collect and analyze shark sighting data for multiple species to learn more about these amazing creatures.",
   "MANTAMATCHER_DESCRIPTION": "Manta Matcher is the first global online manta ray database, managing manta ray sightings and identifications worldwide. Researchers and citizen scientists all collaborate through our Wildbook software.",
   "FLUKEBOOK_DESCRIPTION": "Flukebook is a free, online research platform that assists the conservation of whales and dolphins by automating individual identification and providing a common data model for collaboration, saving significant time and money in the research process. Flukebook uses artificial intelligence and computer vision to help researchers rapidly curate cetacean sightings and photo-identification data across their catalogs, and it provides a portal for citizen scientists to contribute to marine conservation and follow individual animals they have met. One platform. Many species. Many researchers.",
   "LOADING": "Loading"
