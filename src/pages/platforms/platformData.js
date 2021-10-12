@@ -289,11 +289,11 @@ const projectData = [
     ],
   },
   {
-    name: 'whaleshark.org',
+    name: 'sharkbook.ai',
     path: '/whaleshark',
-    href: 'https://whaleshark.org/',
+    href: 'https://www.sharkbook.ai/',
     tagline:
-      'A.I for the conservation of whale sharks by automating individual identification.',
+      'A.I for the conservation of sharks by automating individual identification.',
     inviteOnly: true,
     hosted: true,
     adoption: true,
@@ -313,11 +313,6 @@ const projectData = [
     ],
     partners: [
       {
-        name: 'Whale Shark and Oceanic Research Centre',
-        imageSrc: wsorcLogo,
-        url: 'https://wsorc.org/',
-      },
-      {
         name: 'Department of Marine and Coastal Resources, Thailand',
         imageSrc: dmcrLogo,
         url:
@@ -334,6 +329,26 @@ const projectData = [
         name: 'Carcharodon carcharias',
         alias: 'White shark',
         url: 'https://en.wikipedia.org/wiki/Great_white_shark',
+      },
+	  {
+        name: 'Carcharias taurus',
+        alias: 'Sand tiger shark',
+        url: 'https://en.wikipedia.org/wiki/Sand_tiger_shark',
+      },
+	  {
+        name: 'Galeocerdo cuvier',
+        alias: 'Tiger shark',
+        url: 'https://en.wikipedia.org/wiki/Tiger_shark',
+      },
+	  {
+        name: 'Stegostoma tigrinum',
+        alias: 'Leopard (or zebra) shark',
+        url: 'https://en.wikipedia.org/wiki/Zebra_shark',
+      },
+	  	  {
+        name: 'Notorynchus cepedianus',
+        alias: 'Broadnose Sevengill shark',
+        url: 'https://en.wikipedia.org/wiki/Broadnose_sevengill_shark',
       },
     ],
   },
