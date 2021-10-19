@@ -13,27 +13,32 @@ export default [
     renderDescription: () => (
       <div>
         <Typography>
-          Dr. Tanya Berger-Wolf is a Computational Ecologist,
-          designing computational methods to solve problems in
-          ecology, from genetics to social interactions, focusing
-          particularly on the algorithmic and data aspects of the
-          questions. Dr. Berger-Wolf is the co-founder and lead of the
-          Wildbook project. She is a Professor in the Department of
-          Computer Science at the University of Illinois at Chicago,
-          where she heads the Computational Population Biology Lab. As
-          a legitimate part of her research (and Wildbook) she gets to
-          fly in a super-light airplane over a nature preserve in
-          Kenya, taking a hyper-stereo video of zebra populations and
-          learning how to identify each one of them by the unique
-          stripe pattern.
+          Dr. Tanya Berger-Wolf is among the founders of the field of
+          computational ecology, leading research at the unique
+          intersection of computer science, wildlife biology, and
+          social sciences. Tanya is a Professor of Computer Science
+          and Engineering; Electrical and Computer Engineering; and
+          Evolution, Ecology, and Organismal Biology at the Ohio State
+          University, where she is also the Director of the
+          Translational Data Analytics Institute. She is also a
+          director and co-founder of the AI for conservation software
+          non-profit Wild Me, home of the Wildbook project, which
+          brings together computer vision, crowdsourcing, and
+          conservation. It has been featured in media, including
+          Forbes, The New York Times, CNN, National Geographic, and
+          The Economist.
         </Typography>
         <Typography style={{ marginTop: 16 }}>
-          Berger-Wolf holds a Ph.D. in Computer Science from the
-          University of Illinois at Urbana-Champaign. She has received
-          numerous awards for her research and mentoring, including
-          the US National Science Foundation CAREER Award, Association
-          for Women in Science Chicago Innovator Award, and the UIC
-          Mentor of the Year Award.
+          Tanya has given hundreds of talks about her work, including
+          at TEDx and UN/UNESCO AI for the Planet. She has received
+          numerous awards, including the National Science Foundation
+          CAREER award, University of Illinois Scholar, UIC
+          Distinguished Researcher of the Year, and Association for
+          Women in Science Chicago Innovator.
+        </Typography>
+        <Typography style={{ marginTop: 16, fontWeight: 'bold' }}>
+          To address our planet’s challenges we need a global AI-human
+          partnership.
         </Typography>
       </div>
     ),
