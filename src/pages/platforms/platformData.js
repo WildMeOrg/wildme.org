@@ -10,7 +10,6 @@ import iotBannerLarge from '../../assets/turtle-banner-large.jpg';
 import iotBannerSmall from '../../assets/turtle-banner-small.jpg';
 import acwBannerLarge from '../../assets/acw-banner-large.jpg';
 import acwBannerSmall from '../../assets/acw-banner-small.jpg';
-import leopardSharkBanner from '../../assets/leopardshark.jpg';
 import zebraBannerLarge from '../../assets/zebra-banner-large.jpg';
 import zebraBannerSmall from '../../assets/zebra-banner-small.jpg';
 import lynxBannerLarge from '../../assets/lynx-banner-large.jpg';
@@ -25,17 +24,12 @@ import dragonsearchBannerLarge from '../../assets/seadragon-banner-large.jpg';
 import dragonsearchBannerSmall from '../../assets/seadragon-banner-small.jpg';
 import saimaaBannerLarge from '../../assets/saimaa-banner-large.jpg';
 import saimaaBannerSmall from '../../assets/saimaa-banner-small.jpg';
-import sandtigerBannerLarge from '../../assets/sandtiger-banner-large.jpg';
-import sandtigerBannerSmall from '../../assets/sandtiger-banner-small.jpg';
-import sevengillBannerLarge from '../../assets/sevengill-banner-large.jpeg';
-import sevengillBannerSmall from '../../assets/sevengill-banner-small.jpeg';
 import bassBannerLarge from '../../assets/bass-banner-large.jpg';
 import bassBannerSmall from '../../assets/bass-banner-small.jpg';
 import skunkBannerLarge from '../../assets/skunk-banner-large.jpg';
 import skunkBannerSmall from '../../assets/skunk-banner-small.jpg';
 import sharkUsaBannerLarge from '../../assets/shark-usa-banner-large.jpg';
 import sharkUsaBannerSmall from '../../assets/shark-usa-banner-small.jpg';
-import oceanSanctuariesLogo from '../../assets/oceansanctuaries.png';
 import osuLogo from '../../assets/osu_logo.svg';
 import noaaLogo from '../../assets/noaa-logo.png';
 import dwspLogo from '../../assets/dswp-logo.png';
@@ -585,32 +579,6 @@ const projectData = [
     ],
   },
   {
-    name: 'Spot a Shark',
-    path: '/spotashark',
-    href: 'https://spotashark.com/',
-    tagline:
-      'A.I for the conservation of sharks by automating individual identification.',
-    inviteOnly: true,
-    hosted: true,
-    adoption: true,
-
-    invitationRequestContact: 'dev@wildme.org',
-    bannerLarge: sandtigerBannerLarge,
-    bannerSmall: sandtigerBannerSmall,
-    descriptionId: 'SPOT_A_SHARK_DESCRIPTION',
-    sightings: 7290,
-    individuals: null,
-    partners: [],
-    algorithms: [algorithms.groth, algorithms.i3s],
-    species: [
-      {
-        name: 'Carcharias taurus',
-        alias: 'Sand tiger shark',
-        url: 'https://en.wikipedia.org/wiki/Sand_tiger_shark',
-      },
-    ],
-  },
-  {
     name: 'African Carnivores',
     path: '/acw',
     href: 'https://africancarnivore.wildbook.org/',
@@ -862,40 +830,6 @@ const projectData = [
     ],
   },
   {
-    name: 'Sevengill Sharks',
-    path: '/sevengills',
-    href: 'https://sevengill.oceansanctuaries.org/',
-    tagline:
-      'Help us identify and protect sevengill shark populations!',
-    inviteOnly: true,
-    hosted: false,
-    adoption: false,
-
-    invitationRequestContact: 'dev@wildme.org',
-    bannerLarge: sevengillBannerLarge,
-    bannerSmall: sevengillBannerSmall,
-    descriptionId: 'SEVENGILLS_DESCRIPTION',
-    sightings: 312,
-    individuals: null,
-    partners: [
-      {
-        name: 'Ocean Sanctuaries',
-        imageSrc: oceanSanctuariesLogo,
-        invertLogo: false,
-        url: 'https://oceansanctuaries.org/',
-      },
-    ],
-    algorithms: [algorithms.hotspotter],
-    species: [
-      {
-        name: 'Notorynchus cepedianus',
-        alias: 'Sevengill Shark',
-        url:
-          'https://en.wikipedia.org/wiki/Broadnose_sevengill_shark',
-      },
-    ],
-  },
-  {
     name: 'Saimaa Seal',
     path: '/saimaaseal',
     href: 'https://norppagalleria.wwf.fi/',
@@ -917,32 +851,6 @@ const projectData = [
         name: 'Pusa hispida saimensis',
         alias: 'Saimaa ringed seal',
         url: 'https://en.wikipedia.org/wiki/Saimaa_ringed_seal',
-      },
-    ],
-  },
-  {
-    name: 'Leopard Sharks',
-    path: '/leopardsharks',
-    href: 'https://leopardshark.wildbook.org/',
-    tagline:
-      'A.I for the conservation of leopard sharks by automating individual identification.',
-    inviteOnly: true,
-    hosted: true,
-    adoption: false,
-
-    invitationRequestContact: 'dev@wildme.org',
-    bannerLarge: leopardSharkBanner,
-    bannerSmall: leopardSharkBanner,
-    descriptionId: 'LEOPARDSHARK_DESCRIPTION',
-    sightings: 196,
-    individuals: null,
-    partners: [],
-    algorithms: [algorithms.hotspotter],
-    species: [
-      {
-        name: 'Stegostoma Fasciatum',
-        alias: 'Leopard Shark',
-        url: 'https://en.wikipedia.org/wiki/Leopard_shark',
       },
     ],
   },
