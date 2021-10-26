@@ -585,32 +585,6 @@ const projectData = [
     ],
   },
   {
-    name: 'Spot a Shark',
-    path: '/spotashark',
-    href: 'https://spotashark.com/',
-    tagline:
-      'A.I for the conservation of sharks by automating individual identification.',
-    inviteOnly: true,
-    hosted: true,
-    adoption: true,
-
-    invitationRequestContact: 'dev@wildme.org',
-    bannerLarge: sandtigerBannerLarge,
-    bannerSmall: sandtigerBannerSmall,
-    descriptionId: 'SPOT_A_SHARK_DESCRIPTION',
-    sightings: 7290,
-    individuals: null,
-    partners: [],
-    algorithms: [algorithms.groth, algorithms.i3s],
-    species: [
-      {
-        name: 'Carcharias taurus',
-        alias: 'Sand tiger shark',
-        url: 'https://en.wikipedia.org/wiki/Sand_tiger_shark',
-      },
-    ],
-  },
-  {
     name: 'African Carnivores',
     path: '/acw',
     href: 'https://africancarnivore.wildbook.org/',
@@ -862,40 +836,6 @@ const projectData = [
     ],
   },
   {
-    name: 'Sevengill Sharks',
-    path: '/sevengills',
-    href: 'https://sevengill.oceansanctuaries.org/',
-    tagline:
-      'Help us identify and protect sevengill shark populations!',
-    inviteOnly: true,
-    hosted: false,
-    adoption: false,
-
-    invitationRequestContact: 'dev@wildme.org',
-    bannerLarge: sevengillBannerLarge,
-    bannerSmall: sevengillBannerSmall,
-    descriptionId: 'SEVENGILLS_DESCRIPTION',
-    sightings: 312,
-    individuals: null,
-    partners: [
-      {
-        name: 'Ocean Sanctuaries',
-        imageSrc: oceanSanctuariesLogo,
-        invertLogo: false,
-        url: 'https://oceansanctuaries.org/',
-      },
-    ],
-    algorithms: [algorithms.hotspotter],
-    species: [
-      {
-        name: 'Notorynchus cepedianus',
-        alias: 'Sevengill Shark',
-        url:
-          'https://en.wikipedia.org/wiki/Broadnose_sevengill_shark',
-      },
-    ],
-  },
-  {
     name: 'Saimaa Seal',
     path: '/saimaaseal',
     href: 'https://norppagalleria.wwf.fi/',
@@ -917,32 +857,6 @@ const projectData = [
         name: 'Pusa hispida saimensis',
         alias: 'Saimaa ringed seal',
         url: 'https://en.wikipedia.org/wiki/Saimaa_ringed_seal',
-      },
-    ],
-  },
-  {
-    name: 'Leopard Sharks',
-    path: '/leopardsharks',
-    href: 'https://leopardshark.wildbook.org/',
-    tagline:
-      'A.I for the conservation of leopard sharks by automating individual identification.',
-    inviteOnly: true,
-    hosted: true,
-    adoption: false,
-
-    invitationRequestContact: 'dev@wildme.org',
-    bannerLarge: leopardSharkBanner,
-    bannerSmall: leopardSharkBanner,
-    descriptionId: 'LEOPARDSHARK_DESCRIPTION',
-    sightings: 196,
-    individuals: null,
-    partners: [],
-    algorithms: [algorithms.hotspotter],
-    species: [
-      {
-        name: 'Stegostoma Fasciatum',
-        alias: 'Leopard Shark',
-        url: 'https://en.wikipedia.org/wiki/Leopard_shark',
       },
     ],
   },
