@@ -81,7 +81,6 @@ export default function Press() {
         Writing about us? Take a look at our{' '}
         <Link href="/media-resources">media resources</Link>.
       </Typography>
-
       <LogoSoup
         style={{
           width: 800,
