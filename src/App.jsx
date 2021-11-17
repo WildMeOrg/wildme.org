@@ -31,6 +31,7 @@ import Supporters from './pages/supporters/Supporters';
 import Volunteer from './pages/volunteer/Volunteer';
 import Careers from './pages/careers/Careers';
 import Contact from './pages/contact/Contact';
+import WhatWeDo from './pages/about/WhatWeDo';
 import Code from './pages/code/Code';
 import Wildbook from './pages/wildbook/Wildbook';
 import PlatformPage from './pages/platforms/PlatformPage';
@@ -158,6 +159,9 @@ export default function App() {
                 </Route>
                 <Route path="/code">
                   <Code />
+                </Route>
+                <Route path="/what-we-do">
+                  <WhatWeDo />
                 </Route>
                 <Route path="/" exact>
                   <Splash />
