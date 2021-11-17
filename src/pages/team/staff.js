@@ -100,43 +100,58 @@ export default [
   },
   {
     img: jp,
-    name: 'Jason Parham',
+    name: 'Dr. Jason Parham',
     role: 'Senior Computer Vision Research Engineer',
     renderDescription: () => (
-      <div>
-        <Typography>
-          <span>
-            Jason Parham received his B.S. in Computer Science /
-            Mathematics from Pepperdine University in Malibu, CA in
-            2008 and holds a 2015 M.S. in Computer Science from RPI in
-            Troy, NY. Jason is finishing his Ph.D. under the advising
-            of{' '}
-          </span>
-          <a href="https://www.cs.rpi.edu/~stewart/">
-            Dr. Charles Stewart in the Computer Vision research group
-            at RPI
-          </a>
-          <span>.</span>
-        </Typography>
-        <Typography style={{ marginTop: 16 }}>
-          Jason’s Masters thesis was on the design and implementation
-          of a citizen science-powered photographic censusing of the
-          zebra and giraffe in the Nairobi National Park. His current
-          doctoral research focuses on object detection and
-          classification, using deep learning on wildlife imagery, to
-          power photographic censusing. Jason is a co-developer of
-          Wildbook‘s Image Analysis components, which are used to
-          monitor animal populations in conservancies around Kenya and
-          which integrate with the Wildbook data management platform.
-          Previously, Jason worked three years for Kitware, Inc. in
-          Clifton Park on detecting vehicles and military aircraft in
-          overhead satellite imagery. His work at Kitware led to the
-          development of KWCNN, a customized Python module that
-          enables easy training of deep learning networks such as
-          Fully-Convolutional Neural Networks (FCNNs) and Generative
-          Autoencoder Networks (GANs).
-        </Typography>
-      </div>
+      <Typography>
+        <span>
+          Jason Parham is a senior research engineer at Wild Me and
+          works to apply the latest machine learning and computer
+          vision algorithms in wildlife applications. Jason holds a
+          B.S. in Computer Science / Mathematics from Pepperdine
+          University (2008), M.S. in Computer Science from RPI (2015),
+          and a Ph.D. in Computer Science from RPI (2021; advisor{' '}
+        </span>
+        <a href="https://www.cs.rpi.edu/~stewart/">
+          Dr. Charles Stewart
+        </a>
+        <span>).</span>
+        <span>{" Jason's doctoral research on "}</span>
+        <a href="https://scholar.google.com/citations?user=18vVhS8AAAAJ&hl=en&oi=ao">
+          {'"Animal Detection for Photographic Censusing"'}
+        </a>
+        <span>
+          {' '}
+          complements his applied work at Wild Me and offers a robust,
+          end-to-end system for building large animal ID databases for
+          conservation. Photographic censusing is designed as a
+          drop-in replacement for traditional, invasive counting
+          methods for large animal populations and was experimentally
+          validated in Kenya at scale with the Great Grevy's Rally.
+          The 2016 Great Grevy's Rally (GGR) was a two-day
+          photographic censusing rally that created an animal ID
+          database for the entire Grevy's zebra population in Kenya
+          (approximately 2,500 individuals), representing the most
+          comprehensive ecological snapshot for that endangered
+          species. Jason's work on the GGR was repeated in 2018 and in
+          2020 to build a continuous understanding of how Grevy's
+          zebras are thriving and how new advances in machine learning
+          algorithms can drastically automate the creation of
+          ecological insights. Jason is also the co-developer and
+          current maintainer of
+          {' '}
+        </span>
+        <a href="https://github.com/WildMeOrg/wildbook-ia">
+          Wildbook's Image Analysis (WBIA)
+        </a>
+        <span>
+          {' '}
+          Python toolkit. The machine learning algorithms available in
+          WBIA are used to detect, classify, ID, and catalog animal
+          populations worldwide and are available open-source on
+          GitHub, PyPI, and as a pre-configured Docker container.
+        </span>
+      </Typography>
     ),
   },
   {
