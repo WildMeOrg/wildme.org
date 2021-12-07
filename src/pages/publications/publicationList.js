@@ -27,6 +27,13 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.whaleshark],
+    href:
+      'https://onlinelibrary.wiley.com/doi/10.1002/aqc.3743',
+    citation:
+      'Diamant, Stella & Pierce, Simon & Rohner, Christoph & Graham, Rachel & D\'echon, Arthur & D\'echon, Tanguy & Sourisseau, Elina & Léonce, & Fidiarisandratra, Costika & Bakary, Gisèle & Trélanche, Sylvia & Andriananrisoa, Fanja & Kiszka, Jeremy. (2021). Population structure, residency, and abundance of whale sharks in the coastal waters off Nosy Be, north-western Madagascar. Aquatic Conservation Marine and Freshwater Ecosystems. 10.1002/aqc.3743.',
+  },
+  {
     tags: [tags.staff, tags.sharkbook],
     href:
       'https://www.routledge.com/Whale-Sharks-Biology-Ecology-and-Conservation/Dove-Pierce/p/book/9781138571297?gclid=CjwKCAjw092IBhAwEiwAxR1lRm6CESO2NTCfNm_RM-dW-5Vl1TkkXJjBZuXtvU7SEnCg865qeZZPRBoCdVAQAvD_BwE',
