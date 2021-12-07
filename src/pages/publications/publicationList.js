@@ -75,6 +75,13 @@ const publications = [
       'Franklin, T., W. Franklin, L. Brooks, P. Harrison, D. Burns, J. Holmberg, and J. Calambokidis. 2020. Photo-Identification of Individual Humpback Whales (Megaptera novaeangliae) Using All Available Natural Marks: Implications for Misidentification and Automated Algorithm Matching Technology. Journal of Cetacean Research and Management. 21:71-83.',
   },
   {
+    tags: [tags.flukebook, tags.staff],
+    href:
+      'https://openaccess.thecvf.com/content_WACV_2020/papers/Weideman_Extracting_identifying_contours_for_African_elephants_and_humpback_whales_using_WACV_2020_paper.pdf',
+    citation:
+      'Weideman H, Stewart CV, Parham J, Holmberg J, Flynn K, Calambokidis J, Paul, D. Barry, Bedetti A, Henley M, Pope F, Lepirei J (2020) .Extracting identifying contours for African elephants and humpback whales using a learned appearance model. Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2020, pp. 1276-1285',
+  },
+  {
     tags: [tags.sharkbook],
     href: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14254',
     citation:
