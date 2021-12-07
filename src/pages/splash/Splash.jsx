@@ -79,14 +79,14 @@ export default function Splash() {
               <FormattedMessage id="SPLASH_SUBTITLE" />
             </Typography>
             <ButtonLink
-              href="/platforms"
+              href="/what-we-do"
               display="primary"
               style={{
                 marginTop: 40,
                 marginBottom: 16,
               }}
             >
-              <FormattedMessage id="EXPLORE_PLATFORMS" />
+              <FormattedMessage id="WHAT_WE_DO" />
             </ButtonLink>
           </div>
         </Box>

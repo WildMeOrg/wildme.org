@@ -3,7 +3,6 @@ import lockupGradientBanner from './resources/lock-up-gradient-banner.png';
 import logoGradient from './resources/logo-gradient.png';
 import logo from './resources/logo.png';
 import logoBw from './resources/logo-bw.png';
-import whaleshark from './resources/whaleshark-dot-org.png';
 import flukebook from './resources/flukebook.png';
 import giraffespotter from './resources/giraffespotter.png';
 import mantamatcher from './resources/mantamatcher.png';
@@ -36,10 +35,6 @@ export default [
   {
     description: 'Black and white logo',
     src: logoBw,
-  },
-  {
-    description: 'whaleshark.org homepage',
-    src: whaleshark,
   },
   {
     description: 'flukebook.org homepage',
