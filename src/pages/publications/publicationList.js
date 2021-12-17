@@ -26,6 +26,13 @@ export const tags = {
 };
 
 const publications = [
+
+   {
+    tags: [tags.sharkbook],
+    href: 'https://www.sciencedirect.com/science/article/pii/S2351989421005114?via%3Dihub',
+    citation:
+      "Reynolds, Samantha & Franklin, Craig & Bach, Steffen & Comezzi, Francesco & Diamant, Stella & Jaidah, Mohammed & Pierce, Simon & Richardson, Anthony & Robinson, David & Rohner, Christoph & Dwyer, Ross. (2021). Regional variation in anthropogenic threats to Indian Ocean whale sharks. Global Ecology and Conservation. e01961. 10.1016/j.gecco.2021.e01961.",
+  },
   {
     tags: [tags.sharkbook],
     href: 'https://onlinelibrary.wiley.com/doi/10.1002/aqc.3743',
