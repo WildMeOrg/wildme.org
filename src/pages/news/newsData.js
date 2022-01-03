@@ -2,6 +2,8 @@ import turtlePub from './articles/turtle-pub.md';
 import multifeature from './articles/multifeature.md';
 import zebras from './articles/zebra-datasets.md';
 import seadragon from './articles/seadragon.md';
+import letter2021 from './articles/2021';
+import jasonHolmberg from '../../assets/staff/jh.jpg';
 import zebraTexture from '../../assets/zebra-texture.jpeg';
 import multiImage from '../../assets/multifeature.jpeg';
 import seadragons from '../../assets/seadragons.jpeg';
@@ -12,6 +14,14 @@ import assignerImage from './assets/assigner-blog-post/bpc-confusing.jpg';
 import assignerPost from './articles/assigner-blog-post';
 
 const newsData = [
+  {
+    title: 'Thank You For Supporting Wild Me in 2021',
+    image: jasonHolmberg,
+    markdown: letter2021,
+    dateString: 'January 1st, 2022',
+    path: '/thank-you-2021',
+    author: 'Jason Holmberg',
+  },
   {
     title: 'The Assigner: Building an ML Component Start to Finish',
     image: assignerImage,
