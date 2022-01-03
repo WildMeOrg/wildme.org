@@ -28,6 +28,12 @@ export const tags = {
 const publications = [
 
    {
+    tags: [tags.flukebook,tags.staff],
+    href: 'https://doi.org/10.1101/2021.12.22.473895',
+    citation:
+      "Blount A, Holmberg J, Parham J, Levenson J, Gero S. Comparison of Three Individual Identification Algorithms for Sperm Whales (Physeter macrocephalus) after Automated Detection. bioRxiv 2021.12.22.473895; doi: https://doi.org/10.1101/2021.12.22.473895",
+   },
+   {
     tags: [tags.sharkbook],
     href: 'https://www.sciencedirect.com/science/article/pii/S2351989421005114?via%3Dihub',
     citation:
