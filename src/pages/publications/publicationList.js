@@ -26,18 +26,18 @@ export const tags = {
 };
 
 const publications = [
-
-   {
-    tags: [tags.flukebook,tags.staff],
+  {
+    tags: [tags.flukebook, tags.staff],
     href: 'https://doi.org/10.1101/2021.12.22.473895',
     citation:
-      "Blount A, Holmberg J, Parham J, Levenson J, Gero S. Comparison of Three Individual Identification Algorithms for Sperm Whales (Physeter macrocephalus) after Automated Detection. bioRxiv 2021.12.22.473895; doi: https://doi.org/10.1101/2021.12.22.473895",
-   },
-   {
+      'Blount A, Holmberg J, Parham J, Levenson J, Gero S. Comparison of Three Individual Identification Algorithms for Sperm Whales (Physeter macrocephalus) after Automated Detection. bioRxiv 2021.12.22.473895; doi: https://doi.org/10.1101/2021.12.22.473895',
+  },
+  {
     tags: [tags.sharkbook],
-    href: 'https://www.sciencedirect.com/science/article/pii/S2351989421005114?via%3Dihub',
+    href:
+      'https://www.sciencedirect.com/science/article/pii/S2351989421005114?via%3Dihub',
     citation:
-      "Reynolds, Samantha & Franklin, Craig & Bach, Steffen & Comezzi, Francesco & Diamant, Stella & Jaidah, Mohammed & Pierce, Simon & Richardson, Anthony & Robinson, David & Rohner, Christoph & Dwyer, Ross. (2021). Regional variation in anthropogenic threats to Indian Ocean whale sharks. Global Ecology and Conservation. e01961. 10.1016/j.gecco.2021.e01961.",
+      'Reynolds, Samantha & Franklin, Craig & Bach, Steffen & Comezzi, Francesco & Diamant, Stella & Jaidah, Mohammed & Pierce, Simon & Richardson, Anthony & Robinson, David & Rohner, Christoph & Dwyer, Ross. (2021). Regional variation in anthropogenic threats to Indian Ocean whale sharks. Global Ecology and Conservation. e01961. 10.1016/j.gecco.2021.e01961.',
   },
   {
     tags: [tags.sharkbook],

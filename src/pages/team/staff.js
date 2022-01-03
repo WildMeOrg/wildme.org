@@ -138,8 +138,7 @@ export default [
           zebras are thriving and how new advances in machine learning
           algorithms can drastically automate the creation of
           ecological insights. Jason is also the co-developer and
-          current maintainer of
-          {' '}
+          current maintainer of{' '}
         </span>
         <a href="https://github.com/WildMeOrg/wildbook-ia">
           Wildbook's Image Analysis (WBIA)
