@@ -27,6 +27,12 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.staff],
+    href: 'https://doi.org/10.1038/s41467-022-27980-y',
+    citation:
+      'Tuia D, Kellenberger B, Beery S, Costelloe B, Zuffie S, Risse B, Mathis A, Langevelde F, Burghardt T, Kays R, Klinck H, Wikelski M, Couzin I, Van Horn G, Crofoot M, Stewart C, Berger-Wolf T. Perspectives in machine learning for wildlife conservation. Nat Commun 13, 792 (2022).',
+  },
+  {
     tags: [tags.flukebook, tags.staff],
     href: 'https://doi.org/10.1101/2021.12.22.473895',
     citation:

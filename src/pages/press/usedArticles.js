@@ -6,6 +6,17 @@ import newYorkTimesLogo from '../../assets/new-york-times-logo.svg';
 const articles = [
   {
     name:
+      'These new technologies could transform wildlife conservation',
+    href:
+      'https://thehill.com/changing-america/sustainability/environment/592820-these-new-technologies-could-transform-wildlife',
+    organization: 'The Hill',
+    date: '2022-02-04',
+    citation: 'Trang Chu Minh (The Hill)',
+    excerpt:
+      'Wildbook was started off to improve the tracking of whale sharks which was previously done by attaching plastic tags to the animals that had often never resurfaced. The platform has since grown into a vast database of various different species, including sea turtles, manta rays, sharks, whales, dolphins, big cats, giraffes and zebras.',
+  },
+  {
+    name:
       'Wild Me Uses Artificial Intelligence and Flatfile’s Data Importer to Fight Wildlife Extinction',
     href:
       'https://flatfile.com/blog/flatfile-grantee-wild-me-uses-artificial-intelligence-and-flatfiles-data-importer-to-fight-wildlife',
