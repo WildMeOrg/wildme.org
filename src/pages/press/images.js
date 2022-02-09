@@ -73,7 +73,8 @@ export default [
     src: rightWhaleMatch,
   },
   {
-    description: 'Scene labeling applied to a Madagascar landscape',
+    description:
+      'Scene labeling applied to a Northern Kenya landscape',
     src: madagascarScene,
   },
   {
