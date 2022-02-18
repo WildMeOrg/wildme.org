@@ -112,7 +112,7 @@ export default function Splash() {
         </Box>
         <Box variant="black" n={2}>
           <ActionableMetric
-            title="12 of development"
+            title="12 years of development"
             description="We love building software for the conservation research community. Every line of code is open source."
             ask="View code"
             href="/code"
