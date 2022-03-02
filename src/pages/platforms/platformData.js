@@ -647,6 +647,11 @@ const projectData = [
         alias: 'Fire salamander',
         url: 'https://en.wikipedia.org/wiki/Fire_salamander',
       },
+      {
+        name: 'Bombina variegata',
+        alias: 'Yellow-bellied toad',
+        url: 'https://en.wikipedia.org/wiki/Yellow-bellied_toad',
+      },
     ],
   },
   {
