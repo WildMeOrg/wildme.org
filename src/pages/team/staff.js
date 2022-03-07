@@ -118,7 +118,7 @@ export default [
         <span>).</span>
         <span>{" Jason's doctoral research on "}</span>
         <a href="https://scholar.google.com/citations?user=18vVhS8AAAAJ&hl=en&oi=ao">
-          {'"Animal Detection for Photographic Censusing"'}
+          &quot;Animal Detection for Photographic Censusing&quot;
         </a>
         <span>
           {' '}
@@ -127,21 +127,21 @@ export default [
           conservation. Photographic censusing is designed as a
           drop-in replacement for traditional, invasive counting
           methods for large animal populations and was experimentally
-          validated in Kenya at scale with the Great Grevy's Rally.
-          The 2016 Great Grevy's Rally (GGR) was a two-day
+          validated in Kenya at scale with the Great Grevy&apos;s
+          Rally. The 2016 Great Grevy&apos;s Rally (GGR) was a two-day
           photographic censusing rally that created an animal ID
-          database for the entire Grevy's zebra population in Kenya
-          (approximately 2,500 individuals), representing the most
-          comprehensive ecological snapshot for that endangered
-          species. Jason's work on the GGR was repeated in 2018 and in
-          2020 to build a continuous understanding of how Grevy's
-          zebras are thriving and how new advances in machine learning
-          algorithms can drastically automate the creation of
-          ecological insights. Jason is also the co-developer and
-          current maintainer of{' '}
+          database for the entire Grevy&apos;s zebra population in
+          Kenya (approximately 2,500 individuals), representing the
+          most comprehensive ecological snapshot for that endangered
+          species. Jason&apos;s work on the GGR was repeated in 2018
+          and in 2020 to build a continuous understanding of how
+          Grevy&apos;s zebras are thriving and how new advances in
+          machine learning algorithms can drastically automate the
+          creation of ecological insights. Jason is also the
+          co-developer and current maintainer of{' '}
         </span>
         <a href="https://github.com/WildMeOrg/wildbook-ia">
-          Wildbook's Image Analysis (WBIA)
+          Wildbook&apos;s Image Analysis (WBIA)
         </a>
         <span>
           {' '}
