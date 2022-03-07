@@ -10,6 +10,7 @@ import jp from '../../assets/staff/jp.jpg';
 import tanya from '../../assets/staff/tanya.jpg';
 import jon from '../../assets/staff/jon.jpg';
 import howard from '../../assets/staff/howard.jpg';
+import emily from '../../assets/staff/emily.jpg';
 
 export default [
   {
@@ -235,6 +236,21 @@ export default [
         <span>
           Howard has developed software for over 20 years. He has a
           keen interest in biology, the environment and conservation.
+        </span>
+      </Typography>
+    ),
+  },
+  {
+    img: emily,
+    name: 'Emily Kerr',
+    role: 'Frontend Software Engineer',
+    renderDescription: () => (
+      <Typography>
+        <span>
+          Emily is a software engineer who is gratified to be using
+          her web development experience to support the wildlife
+          conservation community. She is currently helping to build
+          the next generation of Wildbook.
         </span>
       </Typography>
     ),

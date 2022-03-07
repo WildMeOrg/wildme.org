@@ -9,7 +9,7 @@ export default function Careers() {
     <Page
       documentTitle="Careers"
       title="Nice to meet you!"
-      subtitle="We’re Wild Me, a non-profit organization sitting at the intersection of AI, open source software, and wildlife conservation. We’re a rare team of eight engineers and ML experts focused on combating extinction with good data and well supported science."
+      subtitle="We’re Wild Me, a non-profit organization sitting at the intersection of AI, open source software, and wildlife conservation. We’re a rare team of nine engineers and ML experts focused on combating extinction with good data and well supported science."
     >
       <Line />
       <div
