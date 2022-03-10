@@ -27,6 +27,12 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.staff, tags.sharkbook],
+    href: 'https://doi.org/10.1002/aqc.3806',
+    citation:
+      'Araujo G, Kwong K, Jones I, Holmberg J, Pierce S, Manjaji-Matsumoto M. Citizen science as a key tool in whale shark conservation. Aquatic Conserv Volume 32, Issue 3 (2022)',
+  },
+  {
     tags: [tags.staff],
     href: 'https://doi.org/10.1038/s41467-022-27980-y',
     citation:
