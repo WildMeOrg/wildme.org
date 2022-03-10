@@ -53,7 +53,6 @@ function NavList({ category }) {
       {category.entries.map(entry => (
         <Typography key={entry.labelId} style={{ marginTop: 4 }}>
           <Link
-            // noUnderline
             nav
             href={entry.path}
             external={Boolean(entry.external)}

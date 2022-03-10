@@ -2,15 +2,17 @@ import React, { useState } from 'react';
 
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
+
 import Link from './Link';
 import ButtonLink from './ButtonLink';
 import HeaderDrawer from './HeaderDrawer';
+import AppHeaderMenu from './AppHeaderMenu';
+import navigation from '../constants/navigation';
 import logo from '../assets/WildMe-Logo-Gradient.png';
 
 const linkMargin = 32;
@@ -88,24 +90,14 @@ export default function AppHeader() {
           </IconButton>
         )}
         {!isSm && (
-          <div style={{ color: theme.palette.common.white }}>
-            <Link nav href="/platforms">
-              Platforms
-            </Link>
-            <Link
-              nav
-              href="/wildbook"
-              style={{ marginLeft: linkMargin }}
-            >
-              Wildbook
-            </Link>
-            <Link
-              nav
-              href="/services"
-              style={{ marginLeft: linkMargin }}
-            >
-              Services
-            </Link>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            {navigation.map(navItem => (
+              <AppHeaderMenu
+                key={navItem.categoryLabelId}
+                titleId={navItem.categoryLabelId}
+                items={navItem.entries}
+              />
+            ))}
             <ButtonLink
               href="/donate"
               style={{ marginLeft: linkMargin }}
