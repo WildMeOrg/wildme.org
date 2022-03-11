@@ -41,6 +41,7 @@ import newsData from './pages/news/newsData';
 import materialTheme from './styles/materialTheme';
 import messagesEn from '../locale/en.json';
 import messagesEs from '../locale/es.json';
+import FAQ from './pages/faq/FAQ';
 
 // polyfill to enable formatting of a number using the unit prop
 if (typeof Intl.NumberFormat.__addLocaleData === 'function') {
@@ -162,6 +163,9 @@ export default function App() {
                 </Route>
                 <Route path="/what-we-do">
                   <WhatWeDo />
+                </Route>
+                <Route path="/faq">
+                  <FAQ />
                 </Route>
                 <Route path="/" exact>
                   <Splash />
