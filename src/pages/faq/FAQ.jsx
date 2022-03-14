@@ -6,9 +6,8 @@ import faqs from './faqs';
 import ResponsiveText from '../../components/ResponsiveText';
 import { Page, Row } from '../../components/Containers';
 
-const maxArticleWidth = 680;
-
 export default function FAQ() {
+  const maxArticleWidth = 680;
   const lastFaqIndex = faqs.length - 1;
   const theme = useTheme();
 

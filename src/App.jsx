@@ -38,10 +38,10 @@ import PlatformPage from './pages/platforms/PlatformPage';
 import platformData from './pages/platforms/platformData';
 import NewsArticle from './pages/news/NewsArticle';
 import newsData from './pages/news/newsData';
+import FAQ from './pages/faq/FAQ';
 import materialTheme from './styles/materialTheme';
 import messagesEn from '../locale/en.json';
 import messagesEs from '../locale/es.json';
-import FAQ from './pages/faq/FAQ';
 
 // polyfill to enable formatting of a number using the unit prop
 if (typeof Intl.NumberFormat.__addLocaleData === 'function') {
