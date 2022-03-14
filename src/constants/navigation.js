@@ -48,9 +48,8 @@ const navigation = [
     categoryLabelId: 'RESOURCES',
     entries: [
       {
-        labelId: 'START_A_WILDBOOK',
-        path: 'https://docs.wildme.org/docs/researchers/overview',
-        external: true,
+        labelId: 'FAQ',
+        path: '/faq',
       },
       {
         labelId: 'SUPPORT_&_FEEDBACK',

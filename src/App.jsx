@@ -38,6 +38,7 @@ import PlatformPage from './pages/platforms/PlatformPage';
 import platformData from './pages/platforms/platformData';
 import NewsArticle from './pages/news/NewsArticle';
 import newsData from './pages/news/newsData';
+import FAQ from './pages/faq/FAQ';
 import materialTheme from './styles/materialTheme';
 import messagesEn from '../locale/en.json';
 import messagesEs from '../locale/es.json';
@@ -162,6 +163,9 @@ export default function App() {
                 </Route>
                 <Route path="/what-we-do">
                   <WhatWeDo />
+                </Route>
+                <Route path="/faq">
+                  <FAQ />
                 </Route>
                 <Route path="/" exact>
                   <Splash />
