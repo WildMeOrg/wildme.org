@@ -27,6 +27,12 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.sharkbook],
+    href: 'http://dx.doi.org/10.3354/esr01177',
+    citation:
+      'Rohner CA, Venables SK, Cochran JEM, Prebble CEM, Kuguru BL, Berumen ML, Pierce SJ (2022) The need for long-term population monitoring of the worlds largest fish. Endang Species Res 47:231-248.',
+  },
+  {
     tags: [tags.staff, tags.sharkbook],
     href: 'https://doi.org/10.1002/aqc.3806',
     citation:
