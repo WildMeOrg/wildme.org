@@ -27,6 +27,12 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.flukebook],
+    href: 'https://doi.org/10.3389/fmars.2022.849813',
+    citation:
+      'Moore R, Urian K, Allen J, Cush C, Parham J, Blount D, Holmberg J, Thompson J, Wells J. Rise of the Machines: Best Practices and Experimental Evaluation of Computer-Assisted Dorsal Fin Image Matching Systems for Bottlenose Dolphins. Front. Mar. Sci. 07 April 2022.',
+  },
+  {
     tags: [tags.sharkbook],
     href: 'http://dx.doi.org/10.3354/esr01177',
     citation:
