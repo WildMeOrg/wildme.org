@@ -28,6 +28,12 @@ export const tags = {
 const publications = [
   {
     tags: [tags.flukebook],
+    href: 'https://link.springer.com/article/10.1007/s42991-021-00221-3',
+    citation:
+      'Blount, D., Gero, S., Van Oast, J. et al. Flukebook: an open-source AI platform for cetacean photo identification. Mamm Biol (2022).',
+  },
+  {
+    tags: [tags.flukebook],
     href: 'https://doi.org/10.3389/fmars.2022.849813',
     citation:
       'Moore R, Urian K, Allen J, Cush C, Parham J, Blount D, Holmberg J, Thompson J, Wells J. Rise of the Machines: Best Practices and Experimental Evaluation of Computer-Assisted Dorsal Fin Image Matching Systems for Bottlenose Dolphins. Front. Mar. Sci. 07 April 2022.',
@@ -145,10 +151,16 @@ const publications = [
       'Blount D, Minton G, Khan C, Levenson J, Dulau V, Gero S, Parham J, Holmberg J (2020) Flukebook – Continuing growth and technical advancement for cetacean photo identification and data archiving, including automated fin, fluke, and body matching. International Whale Commission, Cambridge, UK (virtual).  Report SC/68B/PH/06    ',
   },
   {
+    tags: [tags.mantamatcher],
+    href: 'https://doi.org/10.3389/fmars.2019.00215',
+    citation:
+      'Germanov ES, Bejder L, Chabanne DBH, Dharmadi D, Hendrawan IG, Marshall AD, Pierce SJ, van Keulen M and Loneragan NR (2019) Contrasting Habitat Use and Population Dynamics of Reef Manta Rays Within the Nusa Penida Marine Protected Area, Indonesia. Front. Mar. Sci. 6:215.',
+  },
+  {
     tags: [tags.sharkbook],
     href: 'https://www.nature.com/articles/s41598-019-53718-w',
     citation:
-      'Araujo, G., Agustines, A., Tracey, B. et al. (2019) Photo-ID and telemetry highlight a global whale shark hotspot in Palawan, Philippines. Sci Rep 9, 17209 (2019) doi:10.1038/s41598-019-53718-w    ',
+      'Araujo, G., Agustines, A., Tracey, B. et al. (2019) Photo-ID and telemetry highlight a global whale shark hotspot in Palawan, Philippines. Sci Rep 9, 17209 (2019) doi:10.1038/s41598-019-53718-w',
   },
   {
     tags: [tags.spotashark, tags.staff],
@@ -246,6 +258,12 @@ const publications = [
     href: 'https://www.publish.csiro.au/pc/PC15045',
     citation:
       'Norman B, Reynolds S and Morgan D. (2016) Does the whale shark aggregate along the Western Australian coastline beyond Ningaloo Reef? Pacific Conservation Biology 22(1) 72-80 Submitted. 1 April 2016',
+  },
+  {
+    tags: [tags.mantamatcher],
+    href: 'https://doi.org/10.1371/journal.pone.0110071',
+    citation:
+      'Germanov ES, Marshall AD (2014) Running the Gauntlet: Regional Movement Patterns of Manta alfredi through a Complex of Parks and Fisheries. PLoS ONE 9(10): e110071.',
   },
   {
     tags: [tags.sharkbook],
