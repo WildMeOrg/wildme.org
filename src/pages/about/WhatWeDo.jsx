@@ -39,12 +39,12 @@ export default function WhatWeDo() {
           url="https://www.youtube.com/watch?v=KN4bWnILzG0"
         />
         <Item
-          title="The Impact"
-          url="https://www.youtube.com/watch?v=Y_OcIYWeLco"
-        />
-        <Item
           title="The Solution"
           url="https://www.youtube.com/watch?v=rTcuC2QY_0Q"
+        />
+        <Item
+          title="The Impact"
+          url="https://www.youtube.com/watch?v=Y_OcIYWeLco"
         />
         <Grid item style={{ margin: '60px auto 0 auto' }}>
           <ButtonLink display="primary" href="/wildbook">
