@@ -109,7 +109,7 @@ export default function Code() {
         <Entry
           title="Codex frontend"
           languages="Javascript, React"
-          description="In the distant future, Wildbook's JSP frontend will be replaced by a more modern user interface powered by Houston's API."
+          description="A sleek, modern user interface for Codex, the next generation of collaboration in mark recapture. Works in partnership with Houston and Wildbook IA."
           repositoryHref="https://github.com/WildMeOrg/codex-frontend"
         />
       </Row>
