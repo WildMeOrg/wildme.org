@@ -28,7 +28,8 @@ export const tags = {
 const publications = [
   {
     tags: [tags.flukebook],
-    href: 'https://link.springer.com/article/10.1007/s42991-021-00221-3',
+    href:
+      'https://link.springer.com/article/10.1007/s42991-021-00221-3',
     citation:
       'Blount, D., Gero, S., Van Oast, J. et al. Flukebook: an open-source AI platform for cetacean photo identification. Mamm Biol (2022).',
   },
