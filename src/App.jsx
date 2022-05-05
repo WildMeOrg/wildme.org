@@ -24,6 +24,7 @@ import MediaResources from './pages/press/MediaResources';
 import Legal from './pages/legal/Legal';
 import Services from './pages/services/Services';
 import Donate from './pages/donate/Donate';
+import CodexPrivacy from './pages/codex/Privacy';
 import Publications from './pages/publications/Publications';
 import Platforms from './pages/platforms/Platforms';
 import Team from './pages/team/Team';
@@ -139,6 +140,9 @@ export default function App() {
                 </Route>
                 <Route path="/wildbook">
                   <Wildbook />
+                </Route>
+                <Route path="/codex/privacy">
+                  <CodexPrivacy />
                 </Route>
                 <Route path="/supporters">
                   <Supporters />

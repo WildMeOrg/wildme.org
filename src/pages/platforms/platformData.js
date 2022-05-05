@@ -396,7 +396,7 @@ const projectData = [
         alias: 'Honeycomb whipray',
         url: 'https://en.wikipedia.org/wiki/Reticulate_whipray',
       },
-	  {
+      {
         name: 'Aetobatus spp.',
         alias: 'Spotted eagle ray (multiple species)',
         url: 'https://en.wikipedia.org/wiki/Aetobatus',
@@ -627,7 +627,7 @@ const projectData = [
         alias: 'Hyena (brown)',
         url: 'https://en.wikipedia.org/wiki/Brown_hyena',
       },
-	  {
+      {
         name: 'Panthera leo',
         alias: 'Lion',
         url: 'https://en.wikipedia.org/wiki/Lion',
