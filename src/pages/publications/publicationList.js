@@ -27,6 +27,12 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.mantamatcher],
+    href: 'https://doi.org/10.7717/peerj.13302',
+    citation:
+      'Germanov ES, Pierce SJ, Marshall AD, Hendrawan IG, Kefi A, Bejder L, Loneragan N. 2022. Residency, movement patterns, behavior and demographics of reef manta rays in Komodo National Park. PeerJ 10:e13302',
+  },
+  {
     tags: [tags.flukebook],
     href:
       'https://link.springer.com/article/10.1007/s42991-021-00221-3',
