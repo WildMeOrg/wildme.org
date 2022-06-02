@@ -28,6 +28,18 @@ export const tags = {
 const publications = [
   {
     tags: [tags.flukebook],
+    href: 'https://doi.org/10.1098/rsos.211737',
+    citation:
+      'Vachon Felicia, Hersh Taylor A., Rendell Luke, Gero Shane and Whitehead Hal. 2022. Ocean nomads or island specialists? Culturally driven habitat partitioning contrasts in scale between geographically isolated sperm whale populations. R. Soc. open sci. 9: 211737. 211737.',
+  },
+  {
+    tags: [tags.mantamatcher],
+    href: 'https://doi.org/10.7717/peerj.13302',
+    citation:
+      'Germanov ES, Pierce SJ, Marshall AD, Hendrawan IG, Kefi A, Bejder L, Loneragan N. 2022. Residency, movement patterns, behavior and demographics of reef manta rays in Komodo National Park. PeerJ 10:e13302',
+  },
+  {
+    tags: [tags.flukebook],
     href:
       'https://link.springer.com/article/10.1007/s42991-021-00221-3',
     citation:
