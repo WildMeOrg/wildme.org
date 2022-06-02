@@ -30,7 +30,7 @@ const publications = [
     tags: [tags.flukebook],
     href: 'https://doi.org/10.1098/rsos.211737',
     citation:
-      'Vachon Felicia, Hersh Taylor A., Rendell Luke, Gero Shane and Whitehead Hal. 2022. Ocean nomads or island specialists? Culturally driven habitat partitioning contrasts in scale between geographically isolated sperm whale populationsR. Soc. open sci.9211737211737',
+      'Vachon Felicia, Hersh Taylor A., Rendell Luke, Gero Shane and Whitehead Hal. 2022. Ocean nomads or island specialists? Culturally driven habitat partitioning contrasts in scale between geographically isolated sperm whale populations. R. Soc. open sci. 9: 211737. 211737.',
   },
   {
     tags: [tags.mantamatcher],
