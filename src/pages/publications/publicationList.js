@@ -27,7 +27,7 @@ export const tags = {
 
 const publications = [
   {
-    tags: [tags.flukebook,tags.staff],
+    tags: [tags.flukebook, tags.staff],
     href: 'https://doi.org/10.1007/s42991-022-00253-3',
     citation:
       'Khan, C., Blount, D., Parham, J. et al. Artificial intelligence for right whale photo identification: from data science competition to worldwide collaboration. Mamm Biol (2022).',
@@ -45,7 +45,7 @@ const publications = [
       'Germanov ES, Pierce SJ, Marshall AD, Hendrawan IG, Kefi A, Bejder L, Loneragan N. 2022. Residency, movement patterns, behavior and demographics of reef manta rays in Komodo National Park. PeerJ 10:e13302',
   },
   {
-    tags: [tags.flukebook,tags.staff],
+    tags: [tags.flukebook, tags.staff],
     href:
       'https://link.springer.com/article/10.1007/s42991-021-00221-3',
     citation:
