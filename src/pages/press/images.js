@@ -6,7 +6,7 @@ import logoBw from './resources/logo-bw.png';
 import flukebook from './resources/flukebook.png';
 import giraffespotter from './resources/giraffespotter.png';
 import mantamatcher from './resources/mantamatcher.png';
-import zebraWildbook from './resources/zebra-wildbook.png';
+import zebraCodex from './resources/zebra-codex.png';
 import internetOfTurtles from './resources/internet-of-turtles.png';
 import curvRankMatches from './resources/curvrank-matches.png';
 import flukeHotspotter from './resources/fluke-hotspotter.jpg';
@@ -49,8 +49,8 @@ export default [
     src: mantamatcher,
   },
   {
-    description: 'zebra.wildbook.org homepage',
-    src: zebraWildbook,
+    description: 'zebra.wildme.org homepage',
+    src: zebraCodex,
   },
   {
     description: 'iot.wildbook.org homepage',

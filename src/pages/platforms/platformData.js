@@ -500,9 +500,9 @@ const projectData = [
     ],
   },
   {
-    name: 'Wildbook for Zebras',
+    name: 'Zebra Codex',
     path: '/zebra',
-    href: 'https://zebra.wildbook.org/',
+    href: 'https://zebra.wildme.org/',
     tagline:
       'A.I for the conservation of zebras by automating individual identification.',
     inviteOnly: true,
