@@ -26,6 +26,12 @@ export const tags = {
 };
 
 const publications = [
+ {
+    tags: [tags.sharkbook, tags.staff],
+    href: 'https://onlinelibrary.wiley.com/doi/10.1111/jfb.15121',
+    citation:
+      'Magson, K., Monacella, E., Scott, C., Buffat, N., Arunrugstichai, S., Chuangcharoendee, M., Pierce, S. J., Holmberg, J., & Araujo, G. (2022). Citizen science reveals the population structure and seasonal presence of whale sharks in the Gulf of Thailand. Journal of Fish Biology, 1– 10.',
+  },
   {
     tags: [tags.flukebook, tags.staff],
     href: 'https://doi.org/10.1007/s42991-022-00253-3',
