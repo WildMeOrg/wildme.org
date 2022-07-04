@@ -27,6 +27,12 @@ export const tags = {
 
 const publications = [
  {
+    tags: [tags.sharkbook],
+    href: 'https://doi.org/10.1002/ece3.8492',
+    citation:
+      'Hardenstine, R. S., He, S., Cochran, J. E. M., Braun, C. D., Cagua, E. F., Pierce, S. J., Prebble, C. E. M., Rohner, C. A., Saenz-Agudelo, P., Sinclair-Taylor, T. H., Skomal, G. B., Thorrold, S. R., Watts, A. M., Zakroff, C. J., & Berumen, M. L. (2022). Pieces in a global puzzle: Population genetics at two whale shark aggregations in the western Indian Ocean. Ecology and Evolution, 12, e8492.',
+  },
+ {
     tags: [tags.sharkbook, tags.staff],
     href: 'https://onlinelibrary.wiley.com/doi/10.1111/jfb.15121',
     citation:
