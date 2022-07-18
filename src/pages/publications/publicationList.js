@@ -188,6 +188,12 @@ const publications = [
       'Germanov ES, Bejder L, Chabanne DBH, Dharmadi D, Hendrawan IG, Marshall AD, Pierce SJ, van Keulen M and Loneragan NR (2019) Contrasting Habitat Use and Population Dynamics of Reef Manta Rays Within the Nusa Penida Marine Protected Area, Indonesia. Front. Mar. Sci. 6:215.',
   },
   {
+    tags: [tags.mantamatcher],
+    href: 'https://doi.org/10.1007/s00265-019-2720-x',
+    citation:
+      'Perryman, R.J.Y., Venables, S.K., Tapilatu, R.F. et al. Social preferences and network structure in a population of reef manta rays. Behav Ecol Sociobiol 73, 114 (2019).',
+  },
+  {
     tags: [tags.sharkbook],
     href: 'https://www.nature.com/articles/s41598-019-53718-w',
     citation:
