@@ -14,6 +14,6 @@ To support this mission, we offer a number of free and paid services, including:
 
 ## What comes next?
 
-To inquire about any of the services above, or to see about joining an existing platform, email us at services@wildme.org.
+To inquire about any of the services above, or to see about joining an existing platform, email us at info@wildme.org.
 
 Need help with an existing Wildbook? Have questions that don’t seem to fit with the list above? Reach out to us on the [Wild Me Community Forums](https://community.wildme.org/)! We will respond shortly, unless a member of the community gets there first.
