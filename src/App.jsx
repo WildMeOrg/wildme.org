@@ -30,6 +30,9 @@ import Platforms from './pages/platforms/Platforms';
 import Team from './pages/team/Team';
 import Supporters from './pages/supporters/Supporters';
 import Volunteer from './pages/volunteer/Volunteer';
+import DevOpsEngineer from './pages/careers/DevOpsEngineer';
+import EngineeringManager from './pages/careers/EngineeringManager';
+import MLEngineer from './pages/careers/MLEngineer';
 import Careers from './pages/careers/Careers';
 import Contact from './pages/contact/Contact';
 import WhatWeDo from './pages/about/WhatWeDo';
@@ -155,6 +158,15 @@ export default function App() {
                 </Route>
                 <Route path="/volunteer">
                   <Volunteer />
+                </Route>
+                <Route path="/careers/devops-engineer">
+                  <DevOpsEngineer />
+                </Route>
+                <Route path="/careers/engineering-manager">
+                  <EngineeringManager />
+                </Route>
+                <Route path="/careers/ml-engineer">
+                  <MLEngineer />
                 </Route>
                 <Route path="/careers">
                   <Careers />

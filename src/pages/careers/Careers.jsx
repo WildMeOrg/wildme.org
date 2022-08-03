@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 
 import { Page, Line } from '../../components/Containers';
 import ButtonLink from '../../components/ButtonLink';
+import Link from '../../components/Link';
 
 export default function Careers() {
   return (
@@ -20,7 +21,7 @@ export default function Careers() {
         }}
       >
         <Typography variant="h5" style={{ marginBottom: 40 }}>
-          We’re committed to inclusion and equal opportunity.
+          We are committed to inclusion and equal opportunity.
         </Typography>
         <Typography>
           Wild Me is an equal opportunity employer. Every qualified
@@ -33,10 +34,33 @@ export default function Careers() {
         <Typography variant="h5" style={{ margin: '40px 0' }}>
           Open positions
         </Typography>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <Link to="/careers/engineering-manager">
+            <Typography
+              style={{ fontSize: '1.3em', marginBottom: 12 }}
+            >
+              Engineering manager
+            </Typography>
+          </Link>
+          <Link to="/careers/devops-engineer">
+            <Typography
+              style={{ fontSize: '1.3em', marginBottom: 12 }}
+            >
+              DevOps engineer
+            </Typography>
+          </Link>
+          <Link to="/careers/ml-engineer">
+            <Typography
+              style={{ fontSize: '1.3em', marginBottom: 36 }}
+            >
+              Machine learning engineer
+            </Typography>
+          </Link>
+        </div>
         <Typography>
-          There are no open positions at the moment, but we love to
-          meet good people. Feel free to reach out about future
-          employment opportunities.
+          If none of our open positions look like a match for you,
+          that is ok. We still love to meet good people. Feel free to
+          reach out about future employment opportunities.
         </Typography>
         <ButtonLink
           display="primary"
