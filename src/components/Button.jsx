@@ -30,6 +30,7 @@ export default function CustomButton({
         size="small"
         startIcon={<BackIcon />}
         disabled={disabled}
+        style={style}
         {...rest}
       >
         {children}

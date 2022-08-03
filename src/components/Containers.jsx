@@ -4,8 +4,10 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
+
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import ResponsiveText from './ResponsiveText';
+import ButtonLink from './ButtonLink';
 
 const smallestDeviceWidth = 320;
 const minimumGutterWidth = 28;
@@ -22,11 +24,15 @@ export function Page({
   children,
   style = {},
   titleStyles = {},
+  backButtonText,
+  backButtonHref,
   ...rest
 }) {
   const theme = useTheme();
   const isSm = useMediaQuery(theme.breakpoints.down('sm'));
   useDocumentTitle(documentTitle);
+
+  const showBackButton = backButtonText && backButtonHref;
   return (
     <div
       style={{
@@ -36,6 +42,15 @@ export function Page({
       }}
       {...rest}
     >
+      {showBackButton && (
+        <ButtonLink
+          display="back"
+          href={backButtonHref}
+          style={{ margin: '24px 0 0 36px' }}
+        >
+          {backButtonText}
+        </ButtonLink>
+      )}
       {title && (
         <div style={{ paddingTop: 40 }}>
           <ResponsiveText
