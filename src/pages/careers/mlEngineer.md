@@ -33,4 +33,4 @@ As our Machine Learning (ML) Engineer, you will be responsible for assessing and
 #### Does this sound like a job for you?
 
 Experience in conservation is not required but enthusiasm is!
-Please send a CV or resume to careers@wildme.org. You must be a US citizen or already have a valid work visa.
+Please send a CV or resume to **<ins>careers@wildme.org</ins>**. You must be a US citizen or already have a valid work visa.
