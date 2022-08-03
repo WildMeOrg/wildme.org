@@ -27,6 +27,12 @@ export const tags = {
 
 const publications = [
   {
+    tags: [tags.sharkbook, tags.staff],
+    href: 'https://doi.org/10.3389/fmars.2022.775691',
+    citation:
+      'Araujo, G., Agustines, A., Bach, S., Cochran, J., Parra-Galván, E., Parra-Venegas, R., Diamant, S., Dove, A., Fox, S., Graham, R., Green, S., Green, J., Hardenstine, R., Hearn, A., Himawan, M., Hobbs, R., Holmberg, J., Shameel, I., Jaidah, M., Labaja, J., Leblond, S., Legaspi, C., Maguiño, R., Magson, K., Marcoux, S., Marcoux, T., Marley, S., Matalobos, M., Mendoza, A., Miranda, J., Norman, B., Perry, C., Pierce, S., Ponzo, A., Prebble, C., Ramírez-Macías, D., Rees, R., Reeve-Arnold, K., Reynolds, S., Robinson, D., Rohner, C., Rowat, D., Snow, S., Vázquez-Haikin, A., & Watts, A. (2022). Improving sightings-derived residency estimation for whale shark aggregations: A novel metric applied to a global data set. Frontiers in Marine Science, 9.',
+  },
+  {
     tags: [tags.sharkbook],
     href: 'https://doi.org/10.1002/ece3.8492',
     citation:
