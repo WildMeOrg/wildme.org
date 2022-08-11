@@ -35,20 +35,6 @@ export default function Careers() {
           Open positions
         </Typography>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <Link to="/careers/engineering-manager">
-            <Typography
-              style={{ fontSize: '1.3em', marginBottom: 12 }}
-            >
-              Engineering manager
-            </Typography>
-          </Link>
-          <Link to="/careers/devops-engineer">
-            <Typography
-              style={{ fontSize: '1.3em', marginBottom: 12 }}
-            >
-              DevOps engineer
-            </Typography>
-          </Link>
           <Link to="/careers/ml-engineer">
             <Typography
               style={{ fontSize: '1.3em', marginBottom: 36 }}
