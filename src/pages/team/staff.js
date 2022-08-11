@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
 import drew from '../../assets/staff/drew.jpg';
-import colin from '../../assets/staff/colin.jpg';
+import malcolm from '../../assets/staff/malcolm.jpg';
 import mark from '../../assets/staff/mark.jpg';
 import jh from '../../assets/staff/jh.jpg';
 import ben from '../../assets/staff/ben.jpg';
@@ -14,20 +14,13 @@ import emily from '../../assets/staff/emily.jpg';
 
 export default [
   {
-    img: colin,
-    name: 'Colin Kingen',
-    role: 'Software Engineer/Community Engagement',
+    img: malcolm,
+    name: 'Malcolm Diggs',
+    role: 'Engineering Manager',
     renderDescription: () => (
       <Typography>
         <span>
-          Colin Kingen is a Software Engineer and Technical Support
-          Lead in Portland, Oregon. He has a strong interest in
-          biology and environmental science. He is passionate about
-          using coding and technology to build tools and resources to
-          benefit the community and foster learning. His work on
-          Wildbook includes working with others to build an adoption
-          and donation system to help with funding and increase
-          interest and engagement for citizen science.
+          Malcolm has a track record of building great teams that build great software. He is always on the lookout for passionate developers, regardless of their experience, skillset, or location. If you're reading this and are wondering if there's a place for you at Wild Me, he definitely wants to talk to you. Email him directly to get the conversation started. You can reach him at malcolm at wildme dot org.
         </span>
       </Typography>
     ),
