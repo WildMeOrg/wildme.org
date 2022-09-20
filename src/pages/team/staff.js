@@ -5,7 +5,6 @@ import drew from '../../assets/staff/drew.jpg';
 import malcolm from '../../assets/staff/malcolm.jpg';
 import mark from '../../assets/staff/mark.jpg';
 import jh from '../../assets/staff/jh.jpg';
-import ben from '../../assets/staff/ben.jpg';
 import jp from '../../assets/staff/jp.jpg';
 import tanya from '../../assets/staff/tanya.jpg';
 import jon from '../../assets/staff/jon.jpg';
@@ -178,31 +177,6 @@ export default [
         scale. Combined with a love for conservation and
         sustainability, and she is a great fit here at Wild Me.
       </Typography>
-    ),
-  },
-  {
-    img: ben,
-    name: 'Ben Scheiner',
-    role: 'Senior engineer, H2O.ai Liason',
-    renderDescription: () => (
-      <div>
-        <Typography>
-          Ben is a frontend developer with a passion for building
-          friendly-yet-powerful user interfaces. He has extensive
-          experience developing web apps at scale, creating
-          interactive dashboards, and working with robotics. Ben is
-          currently designing and building the next generation of
-          Wildbook. He pays careful attention to feedback from users
-          and colleagues.
-        </Typography>
-        <Typography style={{ marginTop: 16 }}>
-          In 2019 Ben fostered two squirrels from infancy to
-          adolescence. His hobbies include Ultimate Frisbee, improv,
-          and spending time in Pacific Northwest forests. Ben’s
-          employment is made possible through Wild Me’s partnership
-          with H2O.ai.
-        </Typography>
-      </div>
     ),
   },
   {
