@@ -1,0 +1,1034 @@
+{
+ "Acinonyx_jubatus": {
+  "common": "Cheetah",
+  "url": "https://en.wikipedia.org/wiki/Cheetah"
+ },
+ "Aetobatus_laticeps": {
+  "common": "Pacific white-spotted eagle ray",
+  "url": "https://en.wikipedia.org/wiki/Aetobatus_laticeps"
+ },
+ "Aetobatus_narinari": {
+  "common": "Spotted eagle ray",
+  "url": "https://en.wikipedia.org/wiki/Spotted_eagle_ray"
+ },
+ "Aetomylaeus_bovinus": {
+  "common": "Bull ray",
+  "url": "https://en.wikipedia.org/wiki/Bull_ray"
+ },
+ "Aldabrachelys_gigantea": {
+  "common": "Aldabra giant tortoise",
+  "url": "https://en.wikipedia.org/wiki/Aldabra_giant_tortoise"
+ },
+ "Ambystoma_maculatum": {
+  "common": "Spotted salamander",
+  "url": "https://en.wikipedia.org/wiki/Spotted_salamander"
+ },
+ "Atelopus_zeteki": {
+  "common": "Panamanian golden frog",
+  "url": "https://en.wikipedia.org/wiki/Panamanian_golden_frog"
+ },
+ "Axis_axis": {
+  "common": "Chital",
+  "url": "https://en.wikipedia.org/wiki/Chital"
+ },
+ "Balaena_mysticetus": {
+  "common": "Bowhead whale",
+  "url": "https://en.wikipedia.org/wiki/Bowhead_whale"
+ },
+ "Balaenoptera_acutorostrata": {
+  "common": "Common minke whale",
+  "url": "https://en.wikipedia.org/wiki/Common_minke_whale"
+ },
+ "Balaenoptera_borealis": {
+  "common": "Sei whale",
+  "url": "https://en.wikipedia.org/wiki/Sei_whale"
+ },
+ "Balaenoptera_brydei": {
+  "common": "Bryde's whale",
+  "url": "https://en.wikipedia.org/wiki/Bryde's_whale"
+ },
+ "Balaenoptera_edeni": {
+  "common": "Eden's whale",
+  "url": "https://en.wikipedia.org/wiki/Bryde's_whale"
+ },
+ "Balaenoptera_musculus": {
+  "common": "Blue whale",
+  "url": "https://en.wikipedia.org/wiki/Blue_whale"
+ },
+ "Balaenoptera_physalus": {
+  "common": "Fin whale",
+  "url": "https://en.wikipedia.org/wiki/Fin_whale"
+ },
+ "Birgus_latro": {
+  "common": "Coconut crab",
+  "url": "https://en.wikipedia.org/wiki/Coconut_crab"
+ },
+ "Bombina_variegata": {
+  "common": "Yellow-bellied toad",
+  "url": "https://en.wikipedia.org/wiki/Yellow-bellied_toad"
+ },
+ "Caiman_crocodilus": {
+  "common": "Spectacled caiman",
+  "url": "https://en.wikipedia.org/wiki/Spectacled_caiman"
+ },
+ "Caracal_aurata": {
+  "common": "African golden cat",
+  "url": "https://en.wikipedia.org/wiki/African_golden_cat"
+ },
+ "Caracal_caracal": {
+  "common": "Caracal",
+  "url": "https://en.wikipedia.org/wiki/Caracal"
+ },
+ "Carcharhinus_longimanus": {
+  "common": "Oceanic whitetip shark",
+  "url": "https://en.wikipedia.org/wiki/Oceanic_whitetip_shark"
+ },
+ "Carcharhinus_melanopterus": {
+  "common": "Blacktip reef shark",
+  "url": "https://en.wikipedia.org/wiki/Blacktip_reef_shark"
+ },
+ "Carcharias_taurus": {
+  "common": "Sand tiger shark",
+  "url": "https://en.wikipedia.org/wiki/Sand_tiger_shark"
+ },
+ "Carcharodon_carcharias": {
+  "common": "Great white shark",
+  "url": "https://en.wikipedia.org/wiki/Great_white_shark"
+ },
+ "Caretta_caretta": {
+  "common": "Loggerhead sea turtle",
+  "url": "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle"
+ },
+ "Catopuma_badia": {
+  "common": "Bay cat",
+  "url": "https://en.wikipedia.org/wiki/Bay_cat"
+ },
+ "Catopuma_temminckii": {
+  "common": "Asian golden cat",
+  "url": "https://en.wikipedia.org/wiki/Asian_golden_cat"
+ },
+ "Cephalorhynchus_hectori": {
+  "common": "Hector's dolphin",
+  "url": "https://en.wikipedia.org/wiki/Hector's_dolphin"
+ },
+ "Cervus_nippon": {
+  "common": "Sika deer",
+  "url": "https://en.wikipedia.org/wiki/Sika_deer"
+ },
+ "Cetorhinus_maximus": {
+  "common": "Basking shark",
+  "url": "https://en.wikipedia.org/wiki/Basking_shark"
+ },
+ "Chelonia_mydas": {
+  "common": "Green sea turtle",
+  "url": "https://en.wikipedia.org/wiki/Green_sea_turtle"
+ },
+ "Connochaetes_taurinus": {
+  "common": "Blue wildebeest",
+  "url": "https://en.wikipedia.org/wiki/Blue_wildebeest"
+ },
+ "Coronella_austriaca": {
+  "common": "Smooth snake",
+  "url": "https://en.wikipedia.org/wiki/Smooth_snake"
+ },
+ "Crocuta_crocuta": {
+  "common": "Spotted hyena",
+  "url": "https://en.wikipedia.org/wiki/Spotted_hyena"
+ },
+ "Crotalus_molossus": {
+  "common": "Black-tailed rattlesnake",
+  "url": "https://en.wikipedia.org/wiki/Black-tailed_rattlesnake"
+ },
+ "Cuora_bourreti": {
+  "common": "Bourret's box turtle",
+  "url": "https://en.wikipedia.org/wiki/Bourret's_box_turtle"
+ },
+ "Cuora_picturata": {
+  "common": "Southern Vietnamese box turtle",
+  "url": "https://en.wikipedia.org/wiki/Southern_Vietnamese_box_turtle"
+ },
+ "Cyclura_rileyi": {
+  "common": "San Salvador rock iguana",
+  "url": "https://en.wikipedia.org/wiki/Cyclura_rileyi"
+ },
+ "Dama_dama": {
+  "common": "European fallow deer",
+  "url": "https://en.wikipedia.org/wiki/European_fallow_deer"
+ },
+ "Dasyurus_albopunctatus": {
+  "common": "New Guinean quoll",
+  "url": "https://en.wikipedia.org/wiki/New_Guinean_quoll"
+ },
+ "Dasyurus_geoffroii": {
+  "common": "Western quoll",
+  "url": "https://en.wikipedia.org/wiki/Western_quoll"
+ },
+ "Dasyurus_hallucatus": {
+  "common": "Northern quoll",
+  "url": "https://en.wikipedia.org/wiki/Northern_quoll"
+ },
+ "Dasyurus_maculatus": {
+  "common": "Tiger quoll",
+  "url": "https://en.wikipedia.org/wiki/Tiger_quoll"
+ },
+ "Dasyurus_spartacus": {
+  "common": "Bronze quoll",
+  "url": "https://en.wikipedia.org/wiki/Bronze_quoll"
+ },
+ "Dasyurus_viverrinus": {
+  "common": "Eastern quoll",
+  "url": "https://en.wikipedia.org/wiki/Eastern_quoll"
+ },
+ "Delphinapterus_leucas": {
+  "common": "Beluga whale",
+  "url": "https://en.wikipedia.org/wiki/Beluga_whale"
+ },
+ "Delphinus_capensis": {
+  "common": "Long-beaked common dolphin",
+  "url": "https://en.wikipedia.org/wiki/Long-beaked_common_dolphin"
+ },
+ "Delphinus_delphis": {
+  "common": "Short-beaked common dolphin",
+  "url": "https://en.wikipedia.org/wiki/Short-beaked_common_dolphin"
+ },
+ "Delphinus_tropicalis": {
+  "common": "Indo-Pacific common dolphin",
+  "url": "https://en.wikipedia.org/wiki/Common_dolphin"
+ },
+ "Dermochelys_coriacea": {
+  "common": "Leatherback sea turtle",
+  "url": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle"
+ },
+ "Discoglossus_sardus": {
+  "common": "Tyrrhenian painted frog",
+  "url": "https://en.wikipedia.org/wiki/Tyrrhenian_painted_frog"
+ },
+ "Dugong_dugon": {
+  "common": "Dugong",
+  "url": "https://en.wikipedia.org/wiki/Dugong"
+ },
+ "Elephas_maximus": {
+  "common": "Asian elephant",
+  "url": "https://en.wikipedia.org/wiki/Asian_elephant"
+ },
+ "Enchelycore_pardalis": {
+  "common": "Leopard moray eel",
+  "url": "https://en.wikipedia.org/wiki/Leopard_moray_eel"
+ },
+ "Epidalea_calamita": {
+  "common": "Natterjack toad",
+  "url": "https://en.wikipedia.org/wiki/Natterjack_toad"
+ },
+ "Epinephelus_fuscoguttatus": {
+  "common": "Brown-marbled grouper",
+  "url": "https://en.wikipedia.org/wiki/Brown-marbled_grouper"
+ },
+ "Epinephelus_itajara": {
+  "common": "Atlantic goliath grouper",
+  "url": "https://en.wikipedia.org/wiki/Atlantic_goliath_grouper"
+ },
+ "Epinephelus_marginatus": {
+  "common": "Dusky grouper",
+  "url": "https://en.wikipedia.org/wiki/Epinephelus_marginatus"
+ },
+ "Epinephelus_morio": {
+  "common": "Red grouper",
+  "url": "https://en.wikipedia.org/wiki/Red_grouper"
+ },
+ "Epinephelus_polyphekadion": {
+  "common": "Camouflage grouper",
+  "url": "https://en.wikipedia.org/wiki/Camouflage_grouper"
+ },
+ "Epinephelus_quinquefasciatus": {
+  "common": "Pacific goliath grouper",
+  "url": "https://en.wikipedia.org/wiki/Pacific_goliath_grouper"
+ },
+ "Epinephelus_striatus": {
+  "common": "Nassau grouper",
+  "url": "https://en.wikipedia.org/wiki/Nassau_grouper"
+ },
+ "Epinephelus_tukula": {
+  "common": "Potato grouper",
+  "url": "https://en.wikipedia.org/wiki/Potato_grouper"
+ },
+ "Eptesicus_fuscus": {
+  "common": "Big brown bat",
+  "url": "https://en.wikipedia.org/wiki/Big_brown_bat"
+ },
+ "Equus_grevyi": {
+  "common": "Grévy's zebra",
+  "url": "https://en.wikipedia.org/wiki/Gr%C3%A9vy's_zebra"
+ },
+ "Equus_quagga": {
+  "common": "Plains zebra",
+  "url": "https://en.wikipedia.org/wiki/Plains_zebra"
+ },
+ "Equus_quagga_quagga": {
+  "common": "Quagga",
+  "url": "https://en.wikipedia.org/wiki/Quagga"
+ },
+ "Equus_zebra_zebra": {
+  "common": "Cape mountain zebra",
+  "url": "https://en.wikipedia.org/wiki/Cape_mountain_zebra"
+ },
+ "Eretmochelys_imbricata": {
+  "common": "Hawksbill sea turtle",
+  "url": "https://en.wikipedia.org/wiki/Hawksbill_sea_turtle"
+ },
+ "Eschrichtius_robustus": {
+  "common": "Gray whale",
+  "url": "https://en.wikipedia.org/wiki/Gray_whale"
+ },
+ "Eubalaena_australis": {
+  "common": "Southern right whale",
+  "url": "https://en.wikipedia.org/wiki/Southern_right_whale"
+ },
+ "Eubalaena_glacialis": {
+  "common": "North Atlantic right whale",
+  "url": "https://en.wikipedia.org/wiki/North_Atlantic_right_whale"
+ },
+ "Eubalaena_japonica": {
+  "common": "North Pacific right whale",
+  "url": "https://en.wikipedia.org/wiki/North_Pacific_right_whale"
+ },
+ "Felis_bieti": {
+  "common": "Chinese mountain cat",
+  "url": "https://en.wikipedia.org/wiki/Chinese_mountain_cat"
+ },
+ "Felis_chaus": {
+  "common": "Jungle cat",
+  "url": "https://en.wikipedia.org/wiki/Jungle_cat"
+ },
+ "Felis_lybica": {
+  "common": "African wildcat",
+  "url": "https://en.wikipedia.org/wiki/African_wildcat"
+ },
+ "Felis_margarita": {
+  "common": "Sand cat",
+  "url": "https://en.wikipedia.org/wiki/Sand_cat"
+ },
+ "Felis_nigripes": {
+  "common": "Black-footed cat",
+  "url": "https://en.wikipedia.org/wiki/Black-footed_cat"
+ },
+ "Felis_silvestris": {
+  "common": "European wildcat",
+  "url": "https://en.wikipedia.org/wiki/European_wildcat"
+ },
+ "Feresa_attenuata": {
+  "common": "Pygmy killer whale",
+  "url": "https://en.wikipedia.org/wiki/Pygmy_killer_whale"
+ },
+ "Galeocerdo_cuvier": {
+  "common": "Tiger shark",
+  "url": "https://en.wikipedia.org/wiki/Tiger_shark"
+ },
+ "Genetta_genetta": {
+  "common": "Common genet",
+  "url": "https://en.wikipedia.org/wiki/Common_genet"
+ },
+ "Genetta_tigrina": {
+  "common": "Cape genet",
+  "url": "https://en.wikipedia.org/wiki/Cape_genet"
+ },
+ "Giraffa_camelopardalis": {
+  "common": "Northern giraffe",
+  "url": "https://en.wikipedia.org/wiki/Northern_giraffe"
+ },
+ "Giraffa_camelopardalis_antiquorum": {
+  "common": "Kordofan giraffe",
+  "url": "https://en.wikipedia.org/wiki/Kordofan_giraffe"
+ },
+ "Giraffa_camelopardalis_camelopardalis": {
+  "common": "Nubian giraffe",
+  "url": "https://en.wikipedia.org/wiki/Nubian_giraffe"
+ },
+ "Giraffa_camelopardalis_peralta": {
+  "common": "West African giraffe",
+  "url": "https://en.wikipedia.org/wiki/West_African_giraffe"
+ },
+ "Giraffa_giraffa": {
+  "common": "Southern giraffe",
+  "url": "https://en.wikipedia.org/wiki/Southern_giraffe"
+ },
+ "Giraffa_giraffa_angolensis": {
+  "common": "Angolan giraffe",
+  "url": "https://en.wikipedia.org/wiki/Angolan_giraffe"
+ },
+ "Giraffa_giraffa_giraffa": {
+  "common": "South African giraffe",
+  "url": "https://en.wikipedia.org/wiki/South_African_giraffe"
+ },
+ "Giraffa_reticulata": {
+  "common": "Reticulated giraffe",
+  "url": "https://en.wikipedia.org/wiki/Reticulated_giraffe"
+ },
+ "Giraffa_tippelskirchi": {
+  "common": "Masai giraffe",
+  "url": "https://en.wikipedia.org/wiki/Masai_giraffe"
+ },
+ "Giraffa_tippelskirchi_thornicrofti": {
+  "common": "Thornicroft's giraffe",
+  "url": "https://en.wikipedia.org/wiki/Thornicroft's_giraffe"
+ },
+ "Giraffa_tippelskirchi_tippelskirchi": {
+  "common": "Masai giraffe (nominate subspecies)",
+  "url": "https://en.wikipedia.org/wiki/Masai_giraffe"
+ },
+ "Globicephala_macrorhynchus": {
+  "common": "Short-finned pilot whale",
+  "url": "https://en.wikipedia.org/wiki/Short-finned_pilot_whale"
+ },
+ "Globicephala_melas": {
+  "common": "Long-finned pilot whale",
+  "url": "https://en.wikipedia.org/wiki/Long-finned_pilot_whale"
+ },
+ "Grampus_griseus": {
+  "common": "Risso's dolphin",
+  "url": "https://en.wikipedia.org/wiki/Risso's_dolphin"
+ },
+ "Gulo_gulo": {
+  "common": "Wolverine",
+  "url": "https://en.wikipedia.org/wiki/Wolverine"
+ },
+ "Gymnothorax_eurostus": {
+  "common": "Abbott's moray eel",
+  "url": "https://en.wikipedia.org/wiki/Abbott's_moray_eel"
+ },
+ "Gymnothorax_kidako": {
+  "common": "Kidako moray",
+  "url": "https://en.wikipedia.org/wiki/Kidako_moray"
+ },
+ "Halichoerus_grypus": {
+  "common": "Grey seal",
+  "url": "https://en.wikipedia.org/wiki/Grey_seal"
+ },
+ "Halichoerus_grypus_atlantica": {
+  "common": "Northwest Atlantic grey seal",
+  "url": "https://en.wikipedia.org/wiki/Grey_seal"
+ },
+ "Heloderma_suspectum": {
+  "common": "Gila monster",
+  "url": "https://en.wikipedia.org/wiki/Gila_monster"
+ },
+ "Hemiscyllium_michaeli": {
+  "common": "Leopard epaulette shark",
+  "url": "https://en.wikipedia.org/wiki/Leopard_epaulette_shark"
+ },
+ "Himantura_uarnak": {
+  "common": "Reticulate whipray",
+  "url": "https://en.wikipedia.org/wiki/Reticulate_whipray"
+ },
+ "Hippocampus_abdominalis": {
+  "common": "Big-belly seahorse",
+  "url": "https://en.wikipedia.org/wiki/Big-belly_seahorse"
+ },
+ "Hippocampus_breviceps": {
+  "common": "Knobby seahorse",
+  "url": "https://en.wikipedia.org/wiki/Knobby_seahorse"
+ },
+ "Hippocampus_guttulatus": {
+  "common": "Long-snouted seahorse",
+  "url": "https://en.wikipedia.org/wiki/Long-snouted_seahorse"
+ },
+ "Hippocampus_hippocampus": {
+  "common": "Short-snouted seahorse",
+  "url": "https://en.wikipedia.org/wiki/Short-snouted_seahorse"
+ },
+ "Hyaena_brunnea": {
+  "common": "Brown hyena",
+  "url": "https://en.wikipedia.org/wiki/Brown_hyena"
+ },
+ "Hyaena_hyaena": {
+  "common": "Striped hyena",
+  "url": "https://en.wikipedia.org/wiki/Striped_hyena"
+ },
+ "Hydrurga_leptonyx": {
+  "common": "Leopard seal",
+  "url": "https://en.wikipedia.org/wiki/Leopard_seal"
+ },
+ "Hyperoodon_ampullatus": {
+  "common": "Northern bottlenose whale",
+  "url": "https://en.wikipedia.org/wiki/Northern_bottlenose_whale"
+ },
+ "Indopacetus_pacificus": {
+  "common": "Tropical bottlenose whale",
+  "url": "https://en.wikipedia.org/wiki/Tropical_bottlenose_whale"
+ },
+ "Kogia_breviceps": {
+  "common": "Pygmy sperm whale",
+  "url": "https://en.wikipedia.org/wiki/Pygmy_sperm_whale"
+ },
+ "Kogia_sima": {
+  "common": "Dwarf sperm whale",
+  "url": "https://en.wikipedia.org/wiki/Dwarf_sperm_whale"
+ },
+ "Lacerta_agilis": {
+  "common": "Sand lizard",
+  "url": "https://en.wikipedia.org/wiki/Sand_lizard"
+ },
+ "Lagenodelphis_hosei": {
+  "common": "Fraser's dolphin",
+  "url": "https://en.wikipedia.org/wiki/Fraser's_dolphin"
+ },
+ "Lagenorhynchus_obliquidens": {
+  "common": "Pacific white-sided dolphin",
+  "url": "https://en.wikipedia.org/wiki/Pacific_white-sided_dolphin"
+ },
+ "Lagenorhynchus_obscurus": {
+  "common": "Dusky dolphin",
+  "url": "https://en.wikipedia.org/wiki/Dusky_dolphin"
+ },
+ "Lasionycteris_noctivagans": {
+  "common": "Silver-haired bat",
+  "url": "https://en.wikipedia.org/wiki/Silver-haired_bat"
+ },
+ "Lasiurus_borealis": {
+  "common": "Eastern red bat",
+  "url": "https://en.wikipedia.org/wiki/Eastern_red_bat"
+ },
+ "Leopardus_braccatus": {
+  "common": "Pantanal cat",
+  "url": "https://en.wikipedia.org/wiki/Pantanal_cat"
+ },
+ "Leopardus_colocola": {
+  "common": "Pampas cat",
+  "url": "https://en.wikipedia.org/wiki/Pampas_cat"
+ },
+ "Leopardus_geoffroyi": {
+  "common": "Geoffroy's cat",
+  "url": "https://en.wikipedia.org/wiki/Geoffroy's_cat"
+ },
+ "Leopardus_guigna": {
+  "common": "Kodkod",
+  "url": "https://en.wikipedia.org/wiki/Kodkod"
+ },
+ "Leopardus_guttulus": {
+  "common": "Southern tiger cat",
+  "url": "https://en.wikipedia.org/wiki/Leopardus_guttulus"
+ },
+ "Leopardus_jacobita": {
+  "common": "Andean mountain cat",
+  "url": "https://en.wikipedia.org/wiki/Andean_mountain_cat"
+ },
+ "Leopardus_pardalis": {
+  "common": "Ocelot",
+  "url": "https://en.wikipedia.org/wiki/Ocelot"
+ },
+ "Leopardus_tigrinus": {
+  "common": "Oncilla",
+  "url": "https://en.wikipedia.org/wiki/Oncilla"
+ },
+ "Leopardus_wiedii": {
+  "common": "Margay",
+  "url": "https://en.wikipedia.org/wiki/Margay"
+ },
+ "Lepidochelys_kempii": {
+  "common": "Kemp's ridley sea turtle",
+  "url": "https://en.wikipedia.org/wiki/Kemp's_ridley_sea_turtle"
+ },
+ "Lepidochelys_olivacea": {
+  "common": "Olive ridley sea turtle",
+  "url": "https://en.wikipedia.org/wiki/Olive_ridley_sea_turtle"
+ },
+ "Leptailurus_serval": {
+  "common": "Serval",
+  "url": "https://en.wikipedia.org/wiki/Serval"
+ },
+ "Leptonychotes_weddellii": {
+  "common": "Weddell seal",
+  "url": "https://en.wikipedia.org/wiki/Weddell_seal"
+ },
+ "Lithobates_pipiens": {
+  "common": "Northern leopard frog",
+  "url": "https://en.wikipedia.org/wiki/Northern_leopard_frog"
+ },
+ "Lobodon_carcinophaga": {
+  "common": "Crabeater seal",
+  "url": "https://en.wikipedia.org/wiki/Crabeater_seal"
+ },
+ "Loxodonta_africana": {
+  "common": "African bush elephant",
+  "url": "https://en.wikipedia.org/wiki/African_bush_elephant"
+ },
+ "Loxodonta_cyclotis": {
+  "common": "African forest elephant",
+  "url": "https://en.wikipedia.org/wiki/African_forest_elephant"
+ },
+ "Lycaon_pictus": {
+  "common": "African wild dog",
+  "url": "https://en.wikipedia.org/wiki/African_wild_dog"
+ },
+ "Lynx_canadensis": {
+  "common": "Canada lynx",
+  "url": "https://en.wikipedia.org/wiki/Canada_lynx"
+ },
+ "Lynx_lynx": {
+  "common": "Eurasian lynx",
+  "url": "https://en.wikipedia.org/wiki/Eurasian_lynx"
+ },
+ "Lynx_pardinus": {
+  "common": "Iberian lynx",
+  "url": "https://en.wikipedia.org/wiki/Iberian_lynx"
+ },
+ "Lynx_rufus": {
+  "common": "Bobcat",
+  "url": "https://en.wikipedia.org/wiki/Bobcat"
+ },
+ "Malaclemys_terrapin": {
+  "common": "Diamondback terrapin",
+  "url": "https://en.wikipedia.org/wiki/Diamondback_terrapin"
+ },
+ "Megaptera_novaeangliae": {
+  "common": "Humpback whale",
+  "url": "https://en.wikipedia.org/wiki/Humpback_whale"
+ },
+ "Mesoplodon_densirostris": {
+  "common": "Blainville's beaked whale",
+  "url": "https://en.wikipedia.org/wiki/Blainville's_beaked_whale"
+ },
+ "Mesoplodon_europaeus": {
+  "common": "Gervais's beaked whale",
+  "url": "https://en.wikipedia.org/wiki/Gervais's_beaked_whale"
+ },
+ "Mesoplodon_ginkgodens": {
+  "common": "Ginkgo-toothed beaked whale",
+  "url": "https://en.wikipedia.org/wiki/Ginkgo-toothed_beaked_whale"
+ },
+ "Mesoplodon_pacificus": {
+  "common": "Tropical bottlenose whale",
+  "url": "https://en.wikipedia.org/wiki/Tropical_bottlenose_whale"
+ },
+ "Mobula_alfredi": {
+  "common": "Reef manta ray",
+  "url": "https://en.wikipedia.org/wiki/Reef_manta_ray"
+ },
+ "Mobula_birostris": {
+  "common": "Giant oceanic manta ray",
+  "url": "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray"
+ },
+ "Mobula_yarae": {
+  "common": "Atlantic manta ray",
+  "url": "https://en.wikipedia.org/wiki/Atlantic_manta_ray"
+ },
+ "Monachus_monachus": {
+  "common": "Mediterranean monk seal",
+  "url": "https://en.wikipedia.org/wiki/Mediterranean_monk_seal"
+ },
+ "Mycteroperca_bonaci": {
+  "common": "Black grouper",
+  "url": "https://en.wikipedia.org/wiki/Mycteroperca_bonaci"
+ },
+ "Mycteroperca_jordani": {
+  "common": "Gulf grouper",
+  "url": "https://en.wikipedia.org/wiki/Gulf_grouper"
+ },
+ "Mycteroperca_tigris": {
+  "common": "Tiger grouper",
+  "url": "https://en.wikipedia.org/wiki/Tiger_grouper"
+ },
+ "Mycteroperca_venenosa": {
+  "common": "Yellowfin grouper",
+  "url": "https://en.wikipedia.org/wiki/Yellowfin_grouper"
+ },
+ "Natator_depressus": {
+  "common": "Flatback sea turtle",
+  "url": "https://en.wikipedia.org/wiki/Flatback_sea_turtle"
+ },
+ "Neofelis_nebulosa": {
+  "common": "Clouded leopard",
+  "url": "https://en.wikipedia.org/wiki/Clouded_leopard"
+ },
+ "Neomonachus_schauinslandi": {
+  "common": "Hawaiian monk seal",
+  "url": "https://en.wikipedia.org/wiki/Hawaiian_monk_seal"
+ },
+ "Notorynchus_cepedianus": {
+  "common": "Broadnose sevengill shark",
+  "url": "https://en.wikipedia.org/wiki/Broadnose_sevengill_shark"
+ },
+ "Nycticeius_humeralis": {
+  "common": "Evening bat",
+  "url": "https://en.wikipedia.org/wiki/Evening_bat"
+ },
+ "Odocoileus_virginianus": {
+  "common": "White-tailed deer",
+  "url": "https://en.wikipedia.org/wiki/White-tailed_deer"
+ },
+ "Oncorhynchus_masou": {
+  "common": "Masu salmon",
+  "url": "https://en.wikipedia.org/wiki/Oncorhynchus_masou"
+ },
+ "Oncorhynchus_mykiss": {
+  "common": "Rainbow trout",
+  "url": "https://en.wikipedia.org/wiki/Rainbow_trout"
+ },
+ "Orcaella_brevirostris": {
+  "common": "Irrawaddy dolphin",
+  "url": "https://en.wikipedia.org/wiki/Irrawaddy_dolphin"
+ },
+ "Orcinus_orca": {
+  "common": "Orca",
+  "url": "https://en.wikipedia.org/wiki/Orca"
+ },
+ "Orectolobus_halei": {
+  "common": "Gulf wobbegong",
+  "url": "https://en.wikipedia.org/wiki/Gulf_wobbegong"
+ },
+ "Orectolobus_maculatus": {
+  "common": "Spotted wobbegong",
+  "url": "https://en.wikipedia.org/wiki/Spotted_wobbegong"
+ },
+ "Orectolobus_ornatus": {
+  "common": "Ornate wobbegong",
+  "url": "https://en.wikipedia.org/wiki/Ornate_wobbegong"
+ },
+ "Otocolobus_manul": {
+  "common": "Pallas's cat",
+  "url": "https://en.wikipedia.org/wiki/Pallas's_cat"
+ },
+ "Paleosuchus_trigonatus": {
+  "common": "Smooth-fronted caiman",
+  "url": "https://en.wikipedia.org/wiki/Smooth-fronted_caiman"
+ },
+ "Panthera_leo": {
+  "common": "Lion",
+  "url": "https://en.wikipedia.org/wiki/Lion"
+ },
+ "Panthera_onca": {
+  "common": "Jaguar",
+  "url": "https://en.wikipedia.org/wiki/Jaguar"
+ },
+ "Panthera_pardus": {
+  "common": "Leopard",
+  "url": "https://en.wikipedia.org/wiki/Leopard"
+ },
+ "Panthera_tigris": {
+  "common": "Tiger",
+  "url": "https://en.wikipedia.org/wiki/Tiger"
+ },
+ "Panthera_uncia": {
+  "common": "Snow leopard",
+  "url": "https://en.wikipedia.org/wiki/Snow_leopard"
+ },
+ "Pardofelis_marmorata": {
+  "common": "Marbled cat",
+  "url": "https://en.wikipedia.org/wiki/Marbled_cat"
+ },
+ "Pelophryne_ingeri": {
+  "common": "",
+  "url": "https://en.wikipedia.org/wiki/Pelophryne_ingeri"
+ },
+ "Peponocephala_electra": {
+  "common": "Melon-headed whale",
+  "url": "https://en.wikipedia.org/wiki/Melon-headed_whale"
+ },
+ "Phelsuma_guimbeaui": {
+  "common": "Mauritius lowland forest day gecko",
+  "url": "https://en.wikipedia.org/wiki/Mauritius_lowland_forest_day_gecko"
+ },
+ "Phelsuma_rosagularis": {
+  "common": "Mauritius upland forest day gecko",
+  "url": "https://en.wikipedia.org/wiki/Mauritius_upland_forest_day_gecko"
+ },
+ "Phoca_largha": {
+  "common": "Spotted seal",
+  "url": "https://en.wikipedia.org/wiki/Spotted_seal"
+ },
+ "Phoca_vitulina": {
+  "common": "Harbor seal",
+  "url": "https://en.wikipedia.org/wiki/Harbor_seal"
+ },
+ "Phoca_vitulina_vitulina": {
+  "common": "Atlantic harbor seal",
+  "url": "https://en.wikipedia.org/wiki/Harbor_seal"
+ },
+ "Phocoena_phocoena": {
+  "common": "Harbour porpoise",
+  "url": "https://en.wikipedia.org/wiki/Harbour_porpoise"
+ },
+ "Phocoena_sinus": {
+  "common": "Vaquita",
+  "url": "https://en.wikipedia.org/wiki/Vaquita"
+ },
+ "Phycodurus_eques": {
+  "common": "Leafy seadragon",
+  "url": "https://en.wikipedia.org/wiki/Leafy_seadragon"
+ },
+ "Phyllopteryx_dewysea": {
+  "common": "Ruby seadragon",
+  "url": "https://en.wikipedia.org/wiki/Ruby_seadragon"
+ },
+ "Phyllopteryx_taeniolatus": {
+  "common": "Common seadragon",
+  "url": "https://en.wikipedia.org/wiki/Common_seadragon"
+ },
+ "Physeter_macrocephalus": {
+  "common": "Sperm whale",
+  "url": "https://en.wikipedia.org/wiki/Sperm_whale"
+ },
+ "Plethodon_wehrlei": {
+  "common": "Wehrle's salamander",
+  "url": "https://en.wikipedia.org/wiki/Wehrle's_salamander"
+ },
+ "Plethodon_welleri": {
+  "common": "Weller's salamander",
+  "url": "https://en.wikipedia.org/wiki/Weller's_salamander"
+ },
+ "Plethodon_yonahlossee": {
+  "common": "Yonahlossee salamander",
+  "url": "https://en.wikipedia.org/wiki/Yonahlossee_salamander"
+ },
+ "Prionailurus_bengalensis": {
+  "common": "Leopard cat",
+  "url": "https://en.wikipedia.org/wiki/Leopard_cat"
+ },
+ "Prionailurus_javanensis": {
+  "common": "Sunda leopard cat",
+  "url": "https://en.wikipedia.org/wiki/Sunda_leopard_cat"
+ },
+ "Prionailurus_planiceps": {
+  "common": "Flat-headed cat",
+  "url": "https://en.wikipedia.org/wiki/Flat-headed_cat"
+ },
+ "Prionailurus_rubiginosus": {
+  "common": "Rusty-spotted cat",
+  "url": "https://en.wikipedia.org/wiki/Rusty-spotted_cat"
+ },
+ "Prionailurus_viverrinus": {
+  "common": "Fishing cat",
+  "url": "https://en.wikipedia.org/wiki/Fishing_cat"
+ },
+ "Proteus_anguinus": {
+  "common": "Olm",
+  "url": "https://en.wikipedia.org/wiki/Olm"
+ },
+ "Pseudobatos_lentiginosus": {
+  "common": "Atlantic guitarfish",
+  "url": "https://en.wikipedia.org/wiki/Pseudobatos_lentiginosus"
+ },
+ "Pseudophryne_bibronii": {
+  "common": "Bibron's toadlet",
+  "url": "https://en.wikipedia.org/wiki/Bibron's_toadlet"
+ },
+ "Pseudophryne_corroboree": {
+  "common": "Southern corroboree frog",
+  "url": "https://en.wikipedia.org/wiki/Southern_corroboree_frog"
+ },
+ "Pseudophryne_pengilleyi": {
+  "common": "Northern corroboree frog",
+  "url": "https://en.wikipedia.org/wiki/Northern_corroboree_frog"
+ },
+ "Pseudorca_crassidens": {
+  "common": "False killer whale",
+  "url": "https://en.wikipedia.org/wiki/False_killer_whale"
+ },
+ "Pseudotriton_ruber": {
+  "common": "Red salamander",
+  "url": "https://en.wikipedia.org/wiki/Red_salamander"
+ },
+ "Puma_concolor": {
+  "common": "Cougar",
+  "url": "https://en.wikipedia.org/wiki/Cougar"
+ },
+ "Puma_yagouaroundi": {
+  "common": "Jaguarundi",
+  "url": "https://en.wikipedia.org/wiki/Jaguarundi"
+ },
+ "Pusa_hispida": {
+  "common": "Ringed seal",
+  "url": "https://en.wikipedia.org/wiki/Ringed_seal"
+ },
+ "Pusa_hispida_botnica": {
+  "common": "Baltic ringed seal",
+  "url": "https://en.wikipedia.org/wiki/Ringed_seal"
+ },
+ "Pusa_hispida_saimensis": {
+  "common": "Saimaa ringed seal",
+  "url": "https://en.wikipedia.org/wiki/Saimaa_ringed_seal"
+ },
+ "Python_bivittatus": {
+  "common": "Burmese python",
+  "url": "https://en.wikipedia.org/wiki/Burmese_python"
+ },
+ "Rana_boylii": {
+  "common": "Foothill yellow-legged frog",
+  "url": "https://en.wikipedia.org/wiki/Foothill_yellow-legged_frog"
+ },
+ "Rana_sierrae": {
+  "common": "Sierra Nevada yellow-legged frog",
+  "url": "https://en.wikipedia.org/wiki/Sierra_Nevada_yellow-legged_frog"
+ },
+ "Rhina_ancylostoma": {
+  "common": "Bowmouth guitarfish",
+  "url": "https://en.wikipedia.org/wiki/Rhina_ancylostoma"
+ },
+ "Rhincodon_typus": {
+  "common": "Whale shark",
+  "url": "https://en.wikipedia.org/wiki/Whale_shark"
+ },
+ "Rhynchobatus_australiae": {
+  "common": "Bottlenose wedgefish",
+  "url": "https://en.wikipedia.org/wiki/Rhynchobatus_australiae"
+ },
+ "Rhynchobatus_djiddensis": {
+  "common": "Whitespotted wedgefish",
+  "url": "https://en.wikipedia.org/wiki/Giant_guitarfish"
+ },
+ "Rucervus_eldii": {
+  "common": "Eld's deer",
+  "url": "https://en.wikipedia.org/wiki/Eld's_deer"
+ },
+ "Rulyrana_flavopunctata": {
+  "common": "Glass frog",
+  "url": "https://en.wikipedia.org/wiki/Rulyrana_flavopunctata"
+ },
+ "Rusa_alfredi": {
+  "common": "Visayan spotted deer",
+  "url": "https://en.wikipedia.org/wiki/Visayan_spotted_deer"
+ },
+ "Salamandra_infraimmaculata": {
+  "common": "Near Eastern fire salamander",
+  "url": "https://en.wikipedia.org/wiki/Near_Eastern_fire_salamander"
+ },
+ "Salamandra_salamandra": {
+  "common": "Fire salamander",
+  "url": "https://en.wikipedia.org/wiki/Fire_salamander"
+ },
+ "Salmo_trutta": {
+  "common": "Brown trout",
+  "url": "https://en.wikipedia.org/wiki/Brown_trout"
+ },
+ "Salvelinus_confluentus": {
+  "common": "Bull trout",
+  "url": "https://en.wikipedia.org/wiki/Bull_trout"
+ },
+ "Salvelinus_fontinalis": {
+  "common": "Brook trout",
+  "url": "https://en.wikipedia.org/wiki/Brook_trout"
+ },
+ "Scyliorhinus_canicula": {
+  "common": "Small-spotted catshark",
+  "url": "https://en.wikipedia.org/wiki/Small-spotted_catshark"
+ },
+ "Scyliorhinus_stellaris": {
+  "common": "Nursehound",
+  "url": "https://en.wikipedia.org/wiki/Nursehound"
+ },
+ "Sistrurus_tergeminus_edwardsii": {
+  "common": "Desert massasauga",
+  "url": "https://en.wikipedia.org/wiki/Sistrurus_tergeminus_edwardsii"
+ },
+ "Sotalia_guianensis": {
+  "common": "Guiana dolphin",
+  "url": "https://en.wikipedia.org/wiki/Guiana_dolphin"
+ },
+ "Sousa_chinensis": {
+  "common": "Indo-Pacific humpback dolphin",
+  "url": "https://en.wikipedia.org/wiki/Indo-Pacific_humpback_dolphin"
+ },
+ "Sousa_plumbea": {
+  "common": "Indian Ocean humpback dolphin",
+  "url": "https://en.wikipedia.org/wiki/Indian_Ocean_humpback_dolphin"
+ },
+ "Sousa_sahulensis": {
+  "common": "Australian humpback dolphin",
+  "url": "https://en.wikipedia.org/wiki/Australian_humpback_dolphin"
+ },
+ "Spilogale_gracilis": {
+  "common": "Western spotted skunk",
+  "url": "https://en.wikipedia.org/wiki/Western_spotted_skunk"
+ },
+ "Stegostoma_tigrinum": {
+  "common": "Zebra shark",
+  "url": "https://en.wikipedia.org/wiki/Zebra_shark"
+ },
+ "Stenella_attenuata": {
+  "common": "Pantropical spotted dolphin",
+  "url": "https://en.wikipedia.org/wiki/Pantropical_spotted_dolphin"
+ },
+ "Stenella_clymene": {
+  "common": "Clymene dolphin",
+  "url": "https://en.wikipedia.org/wiki/Clymene_dolphin"
+ },
+ "Stenella_coeruleoalba": {
+  "common": "Striped dolphin",
+  "url": "https://en.wikipedia.org/wiki/Striped_dolphin"
+ },
+ "Stenella_frontalis": {
+  "common": "Atlantic spotted dolphin",
+  "url": "https://en.wikipedia.org/wiki/Atlantic_spotted_dolphin"
+ },
+ "Stenella_longirostris": {
+  "common": "Spinner dolphin",
+  "url": "https://en.wikipedia.org/wiki/Spinner_dolphin"
+ },
+ "Steno_bredanensis": {
+  "common": "Rough-toothed dolphin",
+  "url": "https://en.wikipedia.org/wiki/Rough-toothed_dolphin"
+ },
+ "Stereolepis_gigas": {
+  "common": "Giant sea bass",
+  "url": "https://en.wikipedia.org/wiki/Giant_sea_bass"
+ },
+ "Tadarida_brasiliensis": {
+  "common": "Mexican free-tailed bat",
+  "url": "https://en.wikipedia.org/wiki/Mexican_free-tailed_bat"
+ },
+ "Terrapene_carolina": {
+  "common": "Common box turtle",
+  "url": "https://en.wikipedia.org/wiki/Common_box_turtle"
+ },
+ "Timon_lepidus": {
+  "common": "Ocellated lizard",
+  "url": "https://en.wikipedia.org/wiki/Ocellated_lizard"
+ },
+ "Tremarctos_ornatus": {
+  "common": "Spectacled bear",
+  "url": "https://en.wikipedia.org/wiki/Spectacled_bear"
+ },
+ "Triakis_semifasciata": {
+  "common": "Leopard shark",
+  "url": "https://en.wikipedia.org/wiki/Leopard_shark"
+ },
+ "Triturus_cristatus": {
+  "common": "Northern crested newt",
+  "url": "https://en.wikipedia.org/wiki/Northern_crested_newt"
+ },
+ "Tursiops_aduncus": {
+  "common": "Indo-Pacific bottlenose dolphin",
+  "url": "https://en.wikipedia.org/wiki/Indo-Pacific_bottlenose_dolphin"
+ },
+ "Tursiops_truncatus": {
+  "common": "Common bottlenose dolphin",
+  "url": "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin"
+ },
+ "Tursiops_truncatus_gephyreus": {
+  "common": "Lahille's bottlenose dolphin",
+  "url": "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin"
+ },
+ "Ursus_americanus": {
+  "common": "American black bear",
+  "url": "https://en.wikipedia.org/wiki/American_black_bear"
+ },
+ "Ursus_arctos": {
+  "common": "Brown bear",
+  "url": "https://en.wikipedia.org/wiki/Brown_bear"
+ },
+ "Varanus_niloticus": {
+  "common": "Nile monitor",
+  "url": "https://en.wikipedia.org/wiki/Nile_monitor"
+ },
+ "Varanus_salvator": {
+  "common": "Asian water monitor",
+  "url": "https://en.wikipedia.org/wiki/Asian_water_monitor"
+ },
+ "Vipera_berus": {
+  "common": "Adder",
+  "url": "https://en.wikipedia.org/wiki/Adder"
+ },
+ "Ziphius_cavirostris": {
+  "common": "Cuvier's beaked whale",
+  "url": "https://en.wikipedia.org/wiki/Cuvier's_beaked_whale"
+ }
+}
