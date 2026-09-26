@@ -12,7 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ORIG = os.path.join(ROOT, '_original')
 SITE = 'www.wildme.org'
 SKIP_PAGES = {'home-copy.html', 'scout-new.html',  # unpublished drafts
-              'addons.html'}  # removed from the new site
+              'addons.html', 'code.html'}  # removed from the new site (Code links to GitHub)
 TITLE_SUFFIX = ' - Wild Me by Conservation X Labs'
 
 def clean_name(p):
@@ -154,6 +154,7 @@ def clean_footer(f):
     f = re.sub(r'<script type="text/javascript" async=1>\s*// NOTE: keep the getElementsByTagName.*?</script>', '', f, flags=re.S)  # Weebly tracking
     f = re.sub(r'<div id="customer-accounts-app"></div>\s*', '', f)
     f = re.sub(r'<script src="/assets/weebly/js/site/main-customer-accounts-site.js"></script>\s*', '', f)
+    f = re.sub(r'Conservation X Labs&nbsp;20\d\d\.', "Conservation X Labs&nbsp;{{ site.time | date: '%Y' }}.", f)  # year set at build time
     return re.sub(r'\s*</body>\s*</html>\s*$', '', f)
 
 def main():
@@ -226,7 +227,8 @@ def main():
     os.makedirs(os.path.join(ROOT, '_includes'), exist_ok=True)
     for fname, text in [('weebly-head.html', head), ('weebly-header.html', header), ('weebly-footer.html', footer)]:
         with open(os.path.join(ROOT, '_includes', fname), 'w', encoding='utf-8') as f:
-            f.write(raw_if_needed(text.strip() + '\n'))
+            # the head has Weebly mustache templates; the footer's only Liquid is the copyright year
+            f.write(raw_if_needed(text.strip() + '\n') if fname == 'weebly-head.html' else text.strip() + '\n')
     print('pages written:', len(parsed))
     for r, n in missing_remote.most_common():
         print('  still remote:', r, n)
