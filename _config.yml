@@ -1,0 +1,9 @@
+title: Wild Me by Conservation X Labs
+url: https://www.wildme.org
+exclude:
+  - _original
+  - tools
+  - README.md
+  - .playwright-mcp
+  - Gemfile
+  - Gemfile.lock

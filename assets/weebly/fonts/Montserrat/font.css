@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/weebly/fonts/Montserrat/regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Montserrat/regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Montserrat/regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Montserrat/regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Montserrat/regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/weebly/fonts/Montserrat/bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Montserrat/bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Montserrat/bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Montserrat/bold.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Montserrat/bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}

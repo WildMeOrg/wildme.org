@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/assets/weebly/fonts/Raleway/ultralight.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Raleway/ultralight.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Raleway/ultralight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/ultralight.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/ultralight.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/assets/weebly/fonts/Raleway/light.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Raleway/light.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Raleway/light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/light.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/weebly/fonts/Raleway/regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Raleway/regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Raleway/regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/weebly/fonts/Raleway/medium.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Raleway/medium.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Raleway/medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/medium.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/weebly/fonts/Raleway/semibold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Raleway/semibold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Raleway/semibold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/semibold.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/semibold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/weebly/fonts/Raleway/bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Raleway/bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Raleway/bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/bold.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Raleway/bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}

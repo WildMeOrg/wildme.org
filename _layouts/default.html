@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{ page.title }}</title>
+<meta property="og:site_name" content="Wild Me by Conservation X Labs" />
+<meta property="og:title" content="{{ page.og_title | default: page.title }}" />
+{% if page.description %}<meta property="og:description" content="{{ page.description }}" />
+<meta name="description" content="{{ page.description }}" />{% endif %}
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
+<meta property="og:url" content="https://www.wildme.org{{ page.url | replace: 'index.html', '' }}" />
+<link rel="canonical" href="https://www.wildme.org{{ page.url | replace: 'index.html', '' }}" />
+{% include weebly-head.html %}
+</head>
+<body class="{{ page.body_class }}">
+{% include weebly-header.html %}
+{{ content }}
+{% include weebly-footer.html %}
+<script>
+  // Highlight the current page in the nav (Weebly baked this into each page).
+  (function () {
+    var here = location.pathname.replace(/\/$/, '/index.html');
+    document.querySelectorAll('.wsite-menu-default a[href], .wsite-menu a[href]').forEach(function (a) {
+      if (a.getAttribute('href') === here) {
+        var li = a.closest('li');
+        if (li && li.classList.contains('wsite-menu-subitem-wrap')) li.classList.add('wsite-nav-current');
+        else if (li) li.id = 'active';
+      }
+    });
+  })();
+</script>
+</body>
+</html>

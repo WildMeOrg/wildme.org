@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/weebly/fonts/Cabin/regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Cabin/regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Cabin/regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Cabin/regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Cabin/regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/weebly/fonts/Cabin/bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Cabin/bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Cabin/bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Cabin/bold.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Cabin/bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/assets/weebly/fonts/Cabin/italic.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Cabin/italic.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Cabin/italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Cabin/italic.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Cabin/italic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/assets/weebly/fonts/Cabin/bolditalic.eot'); /* IE9 Compat Modes */
+  src: url('/assets/weebly/fonts/Cabin/bolditalic.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/weebly/fonts/Cabin/bolditalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/weebly/fonts/Cabin/bolditalic.woff') format('woff'), /* Modern Browsers */
+       url('/assets/weebly/fonts/Cabin/bolditalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
