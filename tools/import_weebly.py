@@ -11,7 +11,8 @@ from urllib.parse import unquote
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ORIG = os.path.join(ROOT, '_original')
 SITE = 'www.wildme.org'
-SKIP_PAGES = {'home-copy.html', 'scout-new.html'}  # unpublished drafts
+SKIP_PAGES = {'home-copy.html', 'scout-new.html',  # unpublished drafts
+              'addons.html'}  # removed from the new site
 TITLE_SUFFIX = ' - Wild Me by Conservation X Labs'
 
 def clean_name(p):
