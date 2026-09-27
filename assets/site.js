@@ -70,7 +70,13 @@
     return Array.prototype.filter.call(wrap.querySelectorAll('a'), function (a) { return a.offsetParent !== null; });
   }
   function setExpanded(li, open) { var a = topLink(li); if (a && wrapOf(li)) a.setAttribute('aria-expanded', open ? 'true' : 'false'); }
-  function hideNested(wrap) { wrap.querySelectorAll('.wsite-menu-wrap').forEach(function (w) { w.style.display = 'none'; }); }
+  function hideNested(wrap) {
+    wrap.querySelectorAll('.wsite-menu-wrap').forEach(function (w) {
+      w.style.display = 'none';
+      var a = topLink(w.parentElement);
+      if (a && a.hasAttribute('aria-expanded')) a.setAttribute('aria-expanded', 'false');
+    });
+  }
   function position() {
     if (!current) return;
     var h = header.getBoundingClientRect(), r = current.li.getBoundingClientRect(), wrap = current.wrap;
@@ -106,7 +112,8 @@
     if (!current) return;
     current.wrap.querySelectorAll('.wsite-menu-wrap').forEach(function (w) {
       var parentLi = w.parentElement;
-      if (parentLi.contains(target)) {
+      var open = parentLi.contains(target);
+      if (open) {
         w.style.position = 'absolute';
         w.style.top = '0px';
         w.style.display = 'block';
@@ -115,6 +122,8 @@
       } else {
         w.style.display = 'none';
       }
+      var a = topLink(parentLi);
+      if (a && a.hasAttribute('aria-expanded')) a.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
   }
   function topItemFor(target) {
@@ -173,13 +182,21 @@
   function makeTrigger(li) {
     var a = topLink(li);
     if (!a || !childWrap(li)) return;
-    a.setAttribute('aria-haspopup', 'true');
     a.setAttribute('aria-expanded', 'false');
     if (!a.hasAttribute('href')) { a.setAttribute('tabindex', '0'); a.setAttribute('role', 'button'); }
     a.addEventListener('keydown', function (e) {
       if ((e.key === 'Enter' || e.key === ' ') && (!a.hasAttribute('href') || a.getAttribute('href') === '#')) {
         e.preventDefault();
-        if (current && current.li === li) closeMenu(); else { openMenu(li); var l = menuLinks(current.wrap); if (l.length) l[0].focus(); }
+        if (!isTopItem(li)) {            // item moved into "more...": open it as a nested flyout and enter it
+          var w = childWrap(li);
+          syncNested(li);
+          var first = w && menuLinks(w)[0];
+          if (first) first.focus();
+          return;
+        }
+        openMenu(li);                    // focus may already have opened it; Enter moves into it (Escape closes)
+        var l = current ? menuLinks(current.wrap) : [];
+        if (l.length) l[0].focus();
       }
     });
   }
@@ -237,7 +254,8 @@
   }
   function layout() {
     var focused = document.activeElement;
-    var focusedItem = focused && (nav.contains(focused) || host.contains(focused) || moreList.contains(focused))
+    var focusedMore = more.contains(focused) || (current && current.li === more && current.wrap.contains(focused));
+    var focusedItem = !focusedMore && focused && (nav.contains(focused) || host.contains(focused) || moreList.contains(focused))
       ? items.filter(function (li) { return li.contains(focused) || (current && current.li === li && current.wrap.contains(focused)); })[0]
       : null;
     closeMenu();
@@ -247,9 +265,11 @@
       nav.appendChild(more);
       for (var i = items.length - 1; i > 0 && !fits(); i--) { asSubitem(items[i], true); moreList.insertBefore(items[i], moreList.firstChild); }
     }
-    // keep keyboard focus on a visible control after items move
-    if (focusedItem) {
-      var target = moreList.contains(focusedItem) ? more.querySelector('a') : topLink(focusedItem);
+    // keep keyboard focus on a visible control after items move (skip if the desktop bar is hidden)
+    if ((focusedItem || focusedMore) && nav.offsetParent) {
+      var target;
+      if (focusedMore) target = more.parentElement ? more.querySelector('a') : topLink(items[items.length - 1]);
+      else target = moreList.contains(focusedItem) ? more.querySelector('a') : topLink(focusedItem);
       if (target) focusQuietly(target);
     }
   }
