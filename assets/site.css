@@ -41,3 +41,8 @@
 .sequoia-banner { background-color: #6b6b6b !important; background-blend-mode: multiply; }  /* darken banner photo for legible text */
 
 .license-note { padding: 14px 18px; margin: 6px 0 22px; background: #fff4d6; border-radius: 8px; color: #3d3100; }
+
+/* Banner titles are <h1> for SEO; match the theme's .banner-wrap h2 styling */
+.banner-wrap h1 { color: inherit; font-weight: 700; line-height: 1.15; margin: 15px auto; text-shadow: 1px 1px #212121; }
+@media screen and (max-width: 992px) { .banner-wrap .container h1 { font-size: 50px; } }
+@media screen and (max-width: 767px) { .banner-wrap .banner h1 { font-size: 2.5em; } }

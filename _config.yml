@@ -7,3 +7,5 @@ exclude:
   - .playwright-mcp
   - Gemfile
   - Gemfile.lock
+plugins:
+  - jekyll-sitemap
