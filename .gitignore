@@ -4,3 +4,5 @@ _site/
 .sass-cache/
 _original/
 .playwright-mcp/
+__pycache__/
+*.pyc
