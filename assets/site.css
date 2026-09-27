@@ -18,7 +18,8 @@
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
 }
 .hero-credit a { color: inherit; text-decoration: underline; }
-.hero-slideshow .banner div.paragraph {           /* tagline: theme default is weight 100 at 17px */
+.hero-slideshow .banner div.paragraph,
+.sequoia-banner .banner div.paragraph {           /* tagline: theme default is weight 100 at 17px */
   font-weight: 700;
   font-size: 21px !important;                     /* theme inline CSS forces 18px !important */
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
@@ -26,3 +27,15 @@
 @media (max-width: 600px) {                      /* keep the credit clear of the floating Support Us button */
   .hero-credit { right: 190px; }
 }
+
+/* AI for Giant Sequoias page: headline stats */
+.sequoia-stat-row { display: flex; flex-wrap: wrap; gap: 16px; margin: 10px 0 30px; }
+.sequoia-stat {
+  flex: 1 1 180px; padding: 18px 12px; text-align: center;
+  border-top: 3px solid #97bc62; background: rgba(255, 255, 255, 0.06); border-radius: 6px;
+}
+.sequoia-stat .num { display: block; font-family: 'montserrat', sans-serif; font-weight: 700; font-size: 44px; line-height: 1.1; color: #c9e4a5; }
+.sequoia-stat .label { display: block; margin-top: 6px; font-size: 14px; color: #ffffff; }
+.sequoia-stats .paragraph a { color: #c9e4a5; }
+
+.sequoia-banner { background-color: #6b6b6b !important; background-blend-mode: multiply; }  /* darken banner photo for legible text */
