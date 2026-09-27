@@ -18,3 +18,8 @@
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
 }
 .hero-credit a { color: inherit; text-decoration: underline; }
+.hero-slideshow .banner div.paragraph {           /* tagline: theme default is weight 100 at 17px */
+  font-weight: 700;
+  font-size: 21px !important;                     /* theme inline CSS forces 18px !important */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
