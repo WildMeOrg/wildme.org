@@ -23,3 +23,6 @@
   font-size: 21px !important;                     /* theme inline CSS forces 18px !important */
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
 }
+@media (max-width: 600px) {                      /* keep the credit clear of the floating Support Us button */
+  .hero-credit { right: 190px; }
+}
