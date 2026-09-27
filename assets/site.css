@@ -46,3 +46,6 @@
 .banner-wrap h1 { color: inherit; font-weight: 700; line-height: 1.15; margin: 15px auto; text-shadow: 1px 1px #212121; }
 @media screen and (max-width: 992px) { .banner-wrap .container h1 { font-size: 50px; } }
 @media screen and (max-width: 767px) { .banner-wrap .banner h1 { font-size: 2.5em; } }
+
+/* Floating "Support Us" button (this rule came with the removed Flipcause code) */
+.floating_button { display: block; width: auto; height: auto; position: fixed; z-index: 999999; overflow: auto; }
