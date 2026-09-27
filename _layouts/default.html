@@ -74,6 +74,7 @@
       if (a.getAttribute('href') === here) {
         var li = a.closest('li');
         if (li && li.classList.contains('wsite-menu-subitem-wrap')) li.classList.add('wsite-nav-current');
+        else if (li && li.closest('.mobile-nav')) li.classList.add('is-active');   // one #active per page (desktop)
         else if (li) li.id = 'active';
       }
     });

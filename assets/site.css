@@ -49,3 +49,7 @@
 
 /* Floating "Support Us" button (this rule came with the removed Flipcause code) */
 .floating_button { display: block; width: auto; height: auto; position: fixed; z-index: 999999; overflow: auto; }
+
+/* Current section in the mobile menu (the desktop menu uses the theme's #active) */
+.nav li.is-active > .wsite-menu-item { border-color: inherit; }
+.mobile-nav li.wsite-menu-item-wrap.is-active > a.wsite-menu-item { background: rgba(0,0,0,0.05); border: none; }

@@ -59,17 +59,32 @@
   var host = document.createElement('div');
   host.id = 'wsite-menus';
   header.appendChild(host);
-  var current = null;   // { li, wrap } of the open top-level menu
+  var current = null;          // { li, wrap } of the open top-level menu
   var closeTimer = null;
+  var restoringFocus = false;  // true while we move focus ourselves (Escape), so focusin doesn't reopen
 
   function isTopItem(li) { return li && li.parentElement === nav; }
+  function topLink(li) { var a = li.querySelector('a'); return a && a.parentElement === li ? a : null; }
+  function wrapOf(li) { return current && current.li === li ? current.wrap : childWrap(li); }
+  function menuLinks(wrap) {   // links the keyboard can reach: top level of the flyout plus any open nested flyout
+    return Array.prototype.filter.call(wrap.querySelectorAll('a'), function (a) { return a.offsetParent !== null; });
+  }
+  function setExpanded(li, open) { var a = topLink(li); if (a && wrapOf(li)) a.setAttribute('aria-expanded', open ? 'true' : 'false'); }
   function hideNested(wrap) { wrap.querySelectorAll('.wsite-menu-wrap').forEach(function (w) { w.style.display = 'none'; }); }
+  function position() {
+    if (!current) return;
+    var h = header.getBoundingClientRect(), r = current.li.getBoundingClientRect(), wrap = current.wrap;
+    wrap.style.top = (r.bottom - h.top) + 'px';
+    var left = r.left - h.left, maxLeft = document.documentElement.clientWidth - h.left - wrap.offsetWidth - 8;
+    wrap.style.left = Math.max(0, Math.min(left, maxLeft)) + 'px';
+  }
   function closeMenu() {
     clearTimeout(closeTimer);
     if (!current) return;
     hideNested(current.wrap);
     current.wrap.style.display = 'none';
     current.li.appendChild(current.wrap);
+    setExpanded(current.li, false);
     current = null;
   }
   function closeSoon() { clearTimeout(closeTimer); closeTimer = setTimeout(closeMenu, 150); }
@@ -80,13 +95,11 @@
     var wrap = childWrap(li);
     if (!wrap) return;
     host.appendChild(wrap);
-    var h = header.getBoundingClientRect(), r = li.getBoundingClientRect();
     wrap.style.position = 'absolute';
-    wrap.style.top = (r.bottom - h.top) + 'px';
     wrap.style.display = 'block';
-    var left = r.left - h.left, maxLeft = document.documentElement.clientWidth - h.left - wrap.offsetWidth - 8;
-    wrap.style.left = Math.max(0, Math.min(left, maxLeft)) + 'px';
     current = { li: li, wrap: wrap };
+    position();
+    setExpanded(li, true);
   }
   // Inside an open menu, show exactly the nested submenus along the path to the target.
   function syncNested(target) {
@@ -104,49 +117,109 @@
       }
     });
   }
-  function track(target) {
+  function topItemFor(target) {
     var li = target.closest ? target.closest('li') : null;
     while (li && !isTopItem(li) && nav.contains(li)) li = li.parentElement.closest('li');
-    if (li && isTopItem(li)) { openMenu(li); return; }
+    return li && isTopItem(li) ? li : null;
+  }
+  function track(target) {
+    var li = topItemFor(target);
+    if (li) { openMenu(li); return; }
     if (host.contains(target)) { clearTimeout(closeTimer); syncNested(target); return; }
     if (current) closeSoon();
   }
   document.addEventListener('mouseover', function (e) { track(e.target); });
   document.addEventListener('focusin', function (e) {
-    track(e.target);
-    if (current && !current.li.contains(e.target) && !host.contains(e.target)) closeMenu();
-  });
-  document.addEventListener('keydown', function (e) {
-    if (e.key !== 'Escape' || !current) return;
-    var link = current.li.querySelector('a');
+    if (restoringFocus) return;
+    var li = topItemFor(e.target);
+    if (li) { openMenu(li); return; }
+    if (current && host.contains(e.target)) { clearTimeout(closeTimer); syncNested(e.target); return; }
     closeMenu();
-    if (link) link.focus();
   });
+
+  // Keyboard: Tab / Down enter the open menu, Up/Down move within it, Shift+Tab from the first
+  // item returns to its menu button, Tab from the last item moves on to the next top-level item.
+  function focusQuietly(el) { restoringFocus = true; el.focus(); restoringFocus = false; }
+  document.addEventListener('keydown', function (e) {
+    if (!current) return;
+    var li = current.li, trigger = topLink(li), links = menuLinks(current.wrap);
+    var inMenu = current.wrap.contains(document.activeElement);
+    var onTrigger = document.activeElement === trigger;
+    if (e.key === 'Escape') {
+      closeMenu();
+      if ((inMenu || onTrigger) && trigger) focusQuietly(trigger);
+      return;
+    }
+    if (!links.length) return;
+    var idx = links.indexOf(document.activeElement);
+    if (onTrigger && ((e.key === 'Tab' && !e.shiftKey) || e.key === 'ArrowDown')) {
+      e.preventDefault(); links[0].focus();
+    } else if (inMenu && e.key === 'ArrowDown') {
+      e.preventDefault(); links[Math.min(idx + 1, links.length - 1)].focus();
+    } else if (inMenu && e.key === 'ArrowUp') {
+      e.preventDefault(); if (idx <= 0) trigger.focus(); else links[idx - 1].focus();
+    } else if (inMenu && e.key === 'Tab' && e.shiftKey && idx === 0) {
+      e.preventDefault(); trigger.focus();
+    } else if (inMenu && e.key === 'Tab' && !e.shiftKey && idx === links.length - 1) {
+      var next = li.nextElementSibling && topLink(li.nextElementSibling);
+      e.preventDefault();
+      closeMenu();
+      if (next) next.focus();
+      else focusQuietly(trigger);
+    }
+  });
+
+  // Menu items without their own page (Connect, Resources, About, "more...") act as buttons.
+  function makeTrigger(li) {
+    var a = topLink(li);
+    if (!a || !childWrap(li)) return;
+    a.setAttribute('aria-haspopup', 'true');
+    a.setAttribute('aria-expanded', 'false');
+    if (!a.hasAttribute('href')) { a.setAttribute('tabindex', '0'); a.setAttribute('role', 'button'); }
+    a.addEventListener('keydown', function (e) {
+      if ((e.key === 'Enter' || e.key === ' ') && (!a.hasAttribute('href') || a.getAttribute('href') === '#')) {
+        e.preventDefault();
+        if (current && current.li === li) closeMenu(); else { openMenu(li); var l = menuLinks(current.wrap); if (l.length) l[0].focus(); }
+      }
+    });
+  }
+  Array.prototype.forEach.call(nav.children, makeTrigger);
+
+  // The header shrinks when it turns sticky; keep an open menu attached to its item.
+  window.addEventListener('scroll', function () { if (current) position(); }, { passive: true });
+  header.addEventListener('transitionend', function () { if (current) position(); });
 
   // "more..." menu: when the top bar would wrap (or squeeze the site title onto two lines),
   // trailing items move into a "more..." dropdown, as Weebly's navigation did.
   var items = Array.prototype.slice.call(nav.children);
   var more = document.createElement('li');
   more.className = 'wsite-menu-item-wrap wsite-nav-more';
-  more.innerHTML = '<a class="wsite-menu-item" href="#" aria-haspopup="true">more...</a>' +
+  more.innerHTML = '<a class="wsite-menu-item" href="#">more...</a>' +
                    '<div class="wsite-menu-wrap" style="display:none"><ul class="wsite-menu"></ul></div>';
   var moreList = more.querySelector('ul');
   more.querySelector('a').addEventListener('click', function (e) { e.preventDefault(); openMenu(more); });
+  makeTrigger(more);
   var title = document.getElementById('wsite-title');
 
+  function titleLines() {
+    if (!title) return 1;
+    var range = document.createRange();
+    range.selectNodeContents(title);
+    var tops = {};
+    Array.prototype.forEach.call(range.getClientRects(), function (r) { if (r.width > 0) tops[Math.round(r.top)] = 1; });
+    return Object.keys(tops).length || 1;
+  }
   function fits() {
     var visible = Array.prototype.filter.call(nav.children, function (li) { return li.offsetParent; });
     if (!visible.length) return true;
     var top = visible[0].offsetTop;
-    var oneRow = visible.every(function (li) { return li.offsetTop === top; });
-    var titleOneLine = !title || title.getClientRects().length <= 1;
-    return oneRow && titleOneLine;
+    return visible.every(function (li) { return li.offsetTop === top; }) && titleLines() <= 1;
   }
   function asSubitem(li, on) {
-    var a = li.querySelector('a');
+    var a = topLink(li);
     li.classList.toggle('wsite-menu-item-wrap', !on);
     li.classList.toggle('wsite-menu-subitem-wrap', on);
-    if (!a || a.parentElement !== li) return;
+    if (!a) return;
     a.classList.toggle('wsite-menu-item', !on);
     a.classList.toggle('wsite-menu-subitem', on);
     // dropdown items wrap their text in span.wsite-menu-title, which the theme pads
@@ -163,12 +236,22 @@
     }
   }
   function layout() {
+    var focused = document.activeElement;
+    var focusedItem = focused && (nav.contains(focused) || host.contains(focused) || moreList.contains(focused))
+      ? items.filter(function (li) { return li.contains(focused) || (current && current.li === li && current.wrap.contains(focused)); })[0]
+      : null;
     closeMenu();
     items.forEach(function (li) { asSubitem(li, false); nav.appendChild(li); });   // restore original order
     if (more.parentElement) more.parentElement.removeChild(more);
-    if (!nav.offsetParent || fits()) return;                 // desktop nav hidden (mobile) or everything fits
-    nav.appendChild(more);
-    for (var i = items.length - 1; i > 0 && !fits(); i--) { asSubitem(items[i], true); moreList.insertBefore(items[i], moreList.firstChild); }
+    if (nav.offsetParent && !fits()) {
+      nav.appendChild(more);
+      for (var i = items.length - 1; i > 0 && !fits(); i--) { asSubitem(items[i], true); moreList.insertBefore(items[i], moreList.firstChild); }
+    }
+    // keep keyboard focus on a visible control after items move
+    if (focusedItem) {
+      var target = moreList.contains(focusedItem) ? more.querySelector('a') : topLink(focusedItem);
+      if (target) focusQuietly(target);
+    }
   }
   layout();
   var resizeTimer = null;
