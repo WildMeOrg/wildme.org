@@ -5,14 +5,60 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{{ page.title }}</title>
 <meta property="og:site_name" content="Wild Me by Conservation X Labs" />
-<meta property="og:title" content="{{ page.og_title | default: page.title }}" />
+<meta property="og:title" content="{{ page.title }}" />
 {% if page.description %}<meta property="og:description" content="{{ page.description }}" />
 <meta name="description" content="{{ page.description }}" />{% endif %}
-{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
 <meta property="og:url" content="https://www.wildme.org{{ page.url | replace: 'index.html', '' }}" />
 <link rel="icon" type="image/png" href="/assets/favicon.png" />
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 <link rel="canonical" href="https://www.wildme.org{{ page.url | replace: 'index.html', '' }}" />
+{% assign share_image = page.og_image | default: '/assets/social-card.jpg' %}
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.wildme.org{{ share_image }}" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="A whale shark with its unique spot pattern matched by AI in Wildbook" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@WildMeOrg" />
+<meta name="twitter:title" content="{{ page.title }}" />
+{% if page.description %}<meta name="twitter:description" content="{{ page.description }}" />{% endif %}
+<meta name="twitter:image" content="https://www.wildme.org{{ share_image }}" />
+{% if page.url == '/' or page.url == '/index.html' %}<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.wildme.org/#organization",
+      "name": "Wild Me Lab",
+      "alternateName": "Wild Me",
+      "url": "https://www.wildme.org/",
+      "logo": "https://www.wildme.org/assets/wildme-logo.png",
+      "email": "wildme@conservationxlabs.org",
+      "sameAs": [
+        "https://www.facebook.com/wildmeorg/",
+        "https://twitter.com/WildMeOrg",
+        "https://www.instagram.com/wildmeorg/",
+        "https://github.com/WildMeOrg"
+      ],
+      "parentOrganization": {
+        "@type": "NGO",
+        "@id": "https://www.conservationxlabs.com/#organization",
+        "name": "Conservation X Labs",
+        "url": "https://www.conservationxlabs.com/"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.wildme.org/#website",
+      "url": "https://www.wildme.org/",
+      "name": "Wild Me Lab",
+      "publisher": { "@id": "https://www.wildme.org/#organization" }
+    }
+  ]
+}
+</script>{% endif %}
 {% include weebly-head.html %}
 <link rel="stylesheet" href="/assets/site.css" />
 </head>
