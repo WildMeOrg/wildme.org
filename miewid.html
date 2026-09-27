@@ -1,0 +1,252 @@
+---
+layout: default
+title: "MiewID: Multispecies AI for Animal Re-identification - Wild Me Lab"
+og_title: "MiewID"
+description: "MiewID is Wild Me Lab's AI model for identifying individual animals from photos across species. It powers matching in Wildbook for nearly 300 species."
+body_class: "header-page wsite-page-miewid full-width-body-off header-overlay-on alt-nav-on wsite-theme-light"
+---
+<div class="banner-wrap">
+      <div class="wsite-elements wsite-not-footer wsite-header-elements">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-header-section wsite-section-bg-image sequoia-banner" style="background-image: url('/uploads/miewid/banner-cheetah.jpg'); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;">
+		<div class="wsite-section-content">
+          <div class="container">
+            <div class="banner">
+				<div class="wsite-section-elements">
+					<h2 class="wsite-content-title">MiewID</h2>
+<div class="paragraph" style="text-align:center;">Multispecies AI for identifying individual animals</div>
+<div style="text-align:center;"><div style="height: 10px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="/platforms.html">
+<span class="wsite-button-inner">Browse Wildbooks</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+				</div>
+			</div>
+          </div>
+		</div>
+	</div>
+</div>
+</div>
+    </div>
+<div class="main-wrap">
+      <div id="wsite-content" class="wsite-elements wsite-not-footer">
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section">
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div class="wsite-spacer" style="height:40px;"></div>
+<h2 class="wsite-content-title">What Is MiewID?</h2>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:55.0000%; padding:0 20px;">
+<div class="paragraph">MiewID is Wild Me Lab&rsquo;s state-of-the-art AI model for visual mark-recapture: identifying individual animals from photographs across marine and terrestrial species. It is the primary matching algorithm in <a href="/wildbook.html">Wildbook</a>.<br /><br />MiewID learns what makes images of the same animal similar, and images of different animals different. It turns each photo into an embedding, a compact numerical fingerprint of that animal&rsquo;s unique markings. New photos are matched by comparing their embeddings with those already in a catalog, so new individuals can be added without retraining the model. MiewID can also show the features behind a match, so researchers can check its suggestions.<br /><br />MiewID improves through community collaboration: it is trained on data pooled from public and private mark-recapture catalogs across the Wildbook community.</div>
+				</td>				<td class="wsite-multicol-col" style="width:45.0000%; padding:0 20px;">
+<div><div class="wsite-image wsite-image-border-none" style="padding-top:5px;padding-bottom:10px;text-align:center">
+<img src="/uploads/miewid/lion-faces.jpg" alt="Two lion faces shown with heatmaps highlighting the facial features used for matching" style="width:auto;max-width:100%" loading="lazy" />
+<div style="display:block;font-size:90%">Heatmaps highlight the features MiewID uses to match two photos of the same lion</div>
+</div></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+				<div class="wsite-spacer" style="height:30px;"></div>
+			</div>
+		</div>
+      </div>
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section" style="background-color:#1d3b3b;">
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div class="wsite-spacer" style="height:40px;"></div>
+<h2 class="wsite-content-title" style="color:#ffffff;">MiewID by the Numbers</h2>
+<div class="stat-row">
+  <div class="stat"><span class="num">~90</span><span class="label">species and 110 feature classes in the v4 training data</span></div>
+  <div class="stat"><span class="num">78%</span><span class="label">average top-1 accuracy on withheld validation data (v4)</span></div>
+  <div class="stat"><span class="num">89%</span><span class="label">average top-10 accuracy (v4)</span></div>
+  <div class="stat"><span class="num">1.28M+</span><span class="label">MiewID matching jobs run in Wildbook</span></div>
+</div>
+				<div class="wsite-spacer" style="height:30px;"></div>
+			</div>
+		</div>
+      </div>
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section" style="background-color:#f4f4f4;">
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div class="wsite-spacer" style="height:40px;"></div>
+<h2 class="wsite-content-title">MiewID v4</h2>
+<div class="paragraph">MiewID v4 is a big leap in training data, species coverage, and performance. Compared with v3, it was trained on 40% more data, covering about 90 species and 110 feature classes such as heads, flanks, fins, flukes, and faces. New species and catalogs in the v4 training data include African and Asian elephants, chital and sika deer, tiger sharks, sand tiger sharks, southern right whales, bowhead whales, fire salamanders, yellow-bellied toads, leafy and weedy seadragons, and northern and southern giraffes.<br /><br />Averaged across all species, v4 reached 78% top-1, 87% top-5, and 89% top-10 accuracy on withheld validation data, improvements of 2, 3, and 4 points over v3. Because it has learned from so many body shapes and patterns, MiewID can also match some species it has never seen. That &ldquo;zero-shot&rdquo; ability helped extend Wildbook support to 25 species of small, understudied wild cats in <a href="/whiskerbook.html">Whiskerbook</a>. The current release, v4.1, covers 93 species.</div>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:25.0000%; padding:0 20px;">
+<div><div class="wsite-image wsite-image-border-none" style="padding-top:5px;padding-bottom:10px;text-align:center">
+<img src="/uploads/miewid/hyenas.jpg" alt="Spotted hyena photos with heatmaps over their spot patterns" style="width:auto;max-width:100%" loading="lazy" />
+<div style="display:block;font-size:90%">Spotted hyenas</div>
+</div></div>
+				</td>				<td class="wsite-multicol-col" style="width:25.0000%; padding:0 20px;">
+<div><div class="wsite-image wsite-image-border-none" style="padding-top:5px;padding-bottom:10px;text-align:center">
+<img src="/uploads/miewid/humpback-flukes.jpg" alt="Two humpback whale flukes with matching regions highlighted" style="width:auto;max-width:100%" loading="lazy" />
+<div style="display:block;font-size:90%">Humpback whale flukes</div>
+</div></div>
+				</td>				<td class="wsite-multicol-col" style="width:25.0000%; padding:0 20px;">
+<div><div class="wsite-image wsite-image-border-none" style="padding-top:5px;padding-bottom:10px;text-align:center">
+<img src="/uploads/miewid/gray-whales-aerial.jpg" alt="Aerial photos of gray whales with heatmaps over their heads" style="width:auto;max-width:100%" loading="lazy" />
+<div style="display:block;font-size:90%">Gray whales, from the air</div>
+</div></div>
+				</td>				<td class="wsite-multicol-col" style="width:25.0000%; padding:0 20px;">
+<div><div class="wsite-image wsite-image-border-none" style="padding-top:5px;padding-bottom:10px;text-align:center">
+<img src="/uploads/miewid/belugas.jpg" alt="Aerial photos of belugas with heatmaps over their backs" style="width:auto;max-width:100%" loading="lazy" />
+<div style="display:block;font-size:90%">Belugas</div>
+</div></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+				<div class="wsite-spacer" style="height:30px;"></div>
+			</div>
+		</div>
+      </div>
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section">
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div class="wsite-spacer" style="height:40px;"></div>
+<h2 class="wsite-content-title">MiewID In-depth</h2>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:55.0000%; padding:0 20px;">
+<div class="paragraph">MiewID In-depth is a hybrid algorithm that looks at both coarse and fine features. First, MiewID v4.1 makes a fast pass to predict an animal&rsquo;s identity. Then the LightGlue feature-matching algorithm re-ranks MiewID&rsquo;s top 50 candidates by fine-grained texture and position, similar to how HotSpotter works. The balance between the two can be tuned for each species.<br /><br />In testing, 69 of the 93 species in the MiewID v4.1 training data improved. Some of the biggest top-1 gains were juvenile fire salamanders (+31%, to 94%), trout (+19%), Iberian lynx (+16%), chital deer (+15%), ocelots (+13%), and spotted hyenas (+11%). MiewID v4.1 remains the primary algorithm; In-depth is an optional &ldquo;look again&rdquo; second pass.</div>
+				</td>				<td class="wsite-multicol-col" style="width:45.0000%; padding:0 20px;">
+<div><div class="wsite-image wsite-image-border-none" style="padding-top:5px;padding-bottom:10px;text-align:center">
+<img src="/uploads/newsletter/2026-03-miewid-in-depth.png" alt="Chart comparing top-1 accuracy of MiewID In-depth and MiewID v4.1 across species" style="width:auto;max-width:100%" loading="lazy" />
+<div style="display:block;font-size:90%">Top-1 accuracy by species: MiewID In-depth (orange) vs. MiewID v4.1 (blue)</div>
+</div></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+				<div class="wsite-spacer" style="height:30px;"></div>
+			</div>
+		</div>
+      </div>
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section" style="background-color:#f4f4f4;">
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div class="wsite-spacer" style="height:40px;"></div>
+<h2 class="wsite-content-title">Matches in Seconds, With Explanations</h2>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:55.0000%; padding:0 20px;">
+<div class="paragraph">Wildbook 10.11 rebuilt how MiewID matching works by adding a fast vector database directly into Wildbook. Matching against large catalogs now takes seconds. A single Wildbook that used to handle 3,000&ndash;4,000 matching jobs a day can now handle hundreds of thousands.<br /><br />AI matching tools are often poor at explaining their predictions. Wildbook 10.11 adds <strong>PairX</strong>, a visualizer developed with the <a href="https://beerylab.csail.mit.edu/" target="_blank">Beery Lab at MIT</a>. It uses matching colors and positions on the two images to show why the AI thinks they are the same animal, so you can check a suggested match quickly. <a href="https://arxiv.org/abs/2503.22881" target="_blank">Read the PairX paper</a>.</div>
+				</td>				<td class="wsite-multicol-col" style="width:45.0000%; padding:0 20px;">
+<div><div class="wsite-image wsite-image-border-none" style="padding-top:5px;padding-bottom:10px;text-align:center">
+<img src="/uploads/miewid/pairx-elephants.jpg" alt="PairX visualization of two elephant photos with corresponding regions colored to explain a match" style="width:auto;max-width:100%" loading="lazy" />
+<div style="display:block;font-size:90%">PairX showing why two elephant photos match</div>
+</div></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+				<div class="wsite-spacer" style="height:30px;"></div>
+			</div>
+		</div>
+      </div>
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section">
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div class="wsite-spacer" style="height:40px;"></div>
+<h2 class="wsite-content-title">Models, Code, and Research</h2>
+<div class="paragraph license-note"><strong>MiewID models are only licensed for use in Conservation X Labs-hosted applications.</strong></div>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50.0000%; padding:0 20px;">
+<div class="paragraph"><strong>Models</strong><br />&bull; <a href="https://huggingface.co/conservationxlabs/miewid-msv3" target="_blank">MiewID msv3 on Hugging Face</a><br />&bull; <a href="https://huggingface.co/conservationxlabs/miewid-msv2" target="_blank">MiewID msv2 on Hugging Face</a><br /><br /><strong>Code</strong><br />&bull; <a href="https://github.com/WildMeOrg/wbia-plugin-miew-id" target="_blank">wbia-plugin-miew-id on GitHub</a><br />&bull; <a href="https://github.com/wildmeorg" target="_blank">All Wild Me code</a></div>
+
+				</td>				<td class="wsite-multicol-col" style="width:50.0000%; padding:0 20px;">
+<div class="paragraph"><strong>Research</strong><br />&bull; Otarashvili, L., Subramanian, T., Holmberg, J., Levenson, J. J., &amp; Stewart, C. V. (2024). <a href="https://arxiv.org/abs/2412.05602" target="_blank">Multispecies animal re-ID using a large community-curated dataset</a>. arXiv.<br />&bull; <a href="/publications.html">More publications using Wild Me technologies</a><br /><br /><strong>Documentation</strong><br />&bull; <a href="https://docs.wildme.org/product-docs/en/wildbook/introduction/image-analysis-pipeline/#matching-and-interpreting-embeddings-for-wildlife-id-miew-id-or-id" target="_blank">How MiewID matching works in Wildbook</a></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+				<div class="wsite-spacer" style="height:30px;"></div>
+			</div>
+		</div>
+      </div>
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section" style="background-color:#f4f4f4;">
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div class="wsite-spacer" style="height:40px;"></div>
+<h2 class="wsite-content-title">Use MiewID</h2>
+<div class="paragraph">MiewID runs inside Conservation X Labs&ndash;hosted Wildbook platforms. Find the Wildbook for your species, or contact us about starting a new one.</div>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:33.3333%; padding:0 20px;">
+<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="/platforms.html">
+<span class="wsite-button-inner">Browse Wildbooks</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+				</td>				<td class="wsite-multicol-col" style="width:33.3333%; padding:0 20px;">
+<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="https://wildbook.docs.wildme.org/getting-started-with-wildbook.html" target="_blank">
+<span class="wsite-button-inner">Start a Wildbook</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+				</td>				<td class="wsite-multicol-col" style="width:33.3333%; padding:0 20px;">
+<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="/contact-us.html">
+<span class="wsite-button-inner">Contact Us</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+				<div class="wsite-spacer" style="height:30px;"></div>
+			</div>
+		</div>
+      </div>
+	</div>
+</div>
+      </div>
+    </div>

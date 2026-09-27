@@ -39,3 +39,5 @@
 .sequoia-stats .paragraph a { color: #c9e4a5; }
 
 .sequoia-banner { background-color: #6b6b6b !important; background-blend-mode: multiply; }  /* darken banner photo for legible text */
+
+.license-note { padding: 14px 18px; margin: 6px 0 22px; background: #fff4d6; border-radius: 8px; color: #3d3100; }
