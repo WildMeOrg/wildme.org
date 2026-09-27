@@ -1,0 +1,20 @@
+/* Site-wide additions on top of the Weebly Birdseye theme. */
+
+/* Homepage hero: crossfading photo slideshow (see assets/hero.js) */
+.hero-slideshow { position: relative; overflow: hidden; background: #1b1b1b; }
+.hero-slides { position: absolute; inset: 0; z-index: 0; }
+.hero-slide {
+  position: absolute; inset: 0;
+  background-size: cover; background-repeat: no-repeat;
+  opacity: 0; transition: opacity 1.6s ease-in-out;
+}
+.hero-slide.is-active { opacity: 1; }
+.hero-slides::after { content: ''; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.35); }
+.hero-slideshow:before { z-index: 1; }          /* theme's top gradient behind the nav */
+.hero-slideshow .wsite-section-content { position: relative; z-index: 2; }
+.hero-credit {
+  position: absolute; left: 14px; bottom: 10px; z-index: 3;
+  font-size: 11px; line-height: 1.3; color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+.hero-credit a { color: inherit; text-decoration: underline; }
